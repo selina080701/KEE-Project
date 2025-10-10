@@ -1,0 +1,21 @@
+# exclude py-cache files and Byte-compiled, optimized or DLL files
+__pycache__/
+*.py[cod]
+
+# excluce .idea folder
+.idea/
+.idea*
+
+# exclude virtual environment (venv) files
+.venv/
+.venv*
+
+# exclude PyCharm project files
+*.iml
+
+# exclude SQLite database
+*.sqlite3
+
+# exclude OS junk files (macOS, Windows)
+Thumbs.db
+.DS_Store
