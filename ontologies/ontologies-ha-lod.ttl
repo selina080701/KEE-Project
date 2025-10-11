@@ -1,0 +1,18 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?actor ?label ?country ?country_label ?bdate
+WHERE {
+  wd:Q494985  wdt:P161   ?actor .
+  ?actor      wdt:P21    wd:Q6581072 .
+  ?actor      wdt:P27    ?country
+  OPTIONAL {
+    ?actor     rdfs:label   ?label .
+    ?country   rdfs:label   ?country_label .
+    ?actor     wdt:P569     ?bdate
+    FILTER(LANG(?label) = "en") .
+    FILTER(LANG(?country_label) = "en") .
+           }
+}
+ORDER BY ?label
