@@ -65,8 +65,10 @@ def get_filmography_wikidata(actor_label: str):
     actor_uri = uri_results["results"]["bindings"][0]["actor"]["value"]
 
     # find filmography of the actor
+    #SELECT distinct ?film ?filmLabel ?releaseDate ?directorLabel
+
     query = f"""
-    SELECT ?film ?filmLabel ?releaseDate ?directorLabel
+    SELECT distinct ?film ?filmLabel ?releaseDate ?directorLabel
     WHERE {{
       ?film wdt:P31 wd:Q11424;          # Film
             wdt:P161 <{actor_uri}>.     # Schauspieler
@@ -84,7 +86,7 @@ def get_filmography_wikidata(actor_label: str):
     # prepare result set
     data = []
     for r in results["results"]["bindings"]:
-        title = r.get("title", {}).get("value")
+        title = r.get("filmLabel", {}).get("value")
         # take only entries with a title
         if not title:  # None oder leere Strings überspringen
             continue
@@ -95,10 +97,10 @@ def get_filmography_wikidata(actor_label: str):
             "director": r.get("directorLabel", {}).get("value")
         })
 
-    # if no films are found, give back a None
+    # if no films are found, give back an empty dataframe
     if not data:
         print("no films found.")
-        return None
+        return pd.DataFrame()
 
     return pd.DataFrame(data)
 
