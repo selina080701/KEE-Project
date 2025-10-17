@@ -106,20 +106,19 @@ def get_filmography_wikidata(actor_label: str):
 
 # main handler
 if __name__ == "__main__":
-    if __name__ == "__main__":
-        # set a film title
-        title = "The Longest Day"
-        print(f'get actors of the film {title} using wikidata')
-        df = get_wikidata_film_info(title)
-        df = df['actor']
-        for actor in df:
-            if actor is not None:
-                print(f'{actor}')
-                films_actor = get_filmography_wikidata(actor)
-                if not films_actor.empty:
-                    for film in films_actor['title']:
-                        print(f'\t{film}')
-                else:
-                    print(f'\t no film found')
+    # set a film title
+    title = "The Longest Day"
+    print(f'get actors of the film {title} using wikidata')
+    df = get_wikidata_film_info(title)
+    df = df['actor']
+    for actor in df:
+        if actor is not None:
+            print(f'{actor}')
+            films_actor = get_filmography_wikidata(actor)
+            if not films_actor.empty:
+                for film in films_actor['title']:
+                    print(f'\t{film}')
             else:
-                print(f'not valid actor')
+                print(f'\t no film found')
+        else:
+            print(f'not valid actor')
