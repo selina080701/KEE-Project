@@ -19,3 +19,6 @@ __pycache__/
 # exclude OS junk files (macOS, Windows)
 Thumbs.db
 .DS_Store
+
+# exclude large data files
+datasets/movie_conversations_complete.csv
