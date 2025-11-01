@@ -1,0 +1,145 @@
+@prefix ex: <http://example.org/movie/> .
+@prefix mo: <http://example.org/movieontology/> .
+@prefix person: <http://example.org/person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:movie_1 a mo:Movie ;
+    ex:budget 25000000 ;
+    ex:datePublished "1994"^^xsd:gYear ;
+    ex:genre "Drama" ;
+    ex:name "The Shawshank Redemption" ;
+    ex:rating 9.3 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q172241> ;
+    mo:director person:Frank_Darabont .
+
+ex:movie_10 a mo:Movie ;
+    ex:budget 1200000 ;
+    ex:datePublished "1966"^^xsd:gYear ;
+    ex:genre "Adventure",
+        "Western" ;
+    ex:name "The Good, the Bad and the Ugly" ;
+    ex:rating 8.8 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q41483> ;
+    mo:director person:Sergio_Leone .
+
+ex:movie_11 a mo:Movie ;
+    ex:budget 55000000 ;
+    ex:datePublished "1994"^^xsd:gYear ;
+    ex:genre "Drama",
+        "Romance" ;
+    ex:name "Forrest Gump" ;
+    ex:rating 8.8 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q134773> ;
+    mo:director person:Robert_Zemeckis .
+
+ex:movie_2 a mo:Movie ;
+    ex:budget 6000000 ;
+    ex:datePublished "1972"^^xsd:gYear ;
+    ex:genre "Crime",
+        "Drama" ;
+    ex:name "The Godfather" ;
+    ex:rating 9.2 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q47703> ;
+    mo:director person:Francis_Ford_Coppola .
+
+ex:movie_3 a mo:Movie ;
+    ex:budget 185000000 ;
+    ex:datePublished "2008"^^xsd:gYear ;
+    ex:genre "Action",
+        "Crime",
+        "Drama" ;
+    ex:name "The Dark Knight" ;
+    ex:rating 9.0 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q163872> ;
+    mo:director person:Christopher_Nolan .
+
+ex:movie_4 a mo:Movie ;
+    ex:budget 13000000 ;
+    ex:datePublished "1974"^^xsd:gYear ;
+    ex:genre "Crime",
+        "Drama" ;
+    ex:name "The Godfather Part II" ;
+    ex:rating 9.0 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q184768> ;
+    mo:director person:Francis_Ford_Coppola .
+
+ex:movie_5 a mo:Movie ;
+    ex:budget 350000 ;
+    ex:datePublished "1957"^^xsd:gYear ;
+    ex:genre "Crime",
+        "Drama" ;
+    ex:name "12 Angry Men" ;
+    ex:rating 9.0 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q2345> ;
+    mo:director person:Sidney_Lumet .
+
+ex:movie_6 a mo:Movie ;
+    ex:budget 22000000 ;
+    ex:datePublished "1993"^^xsd:gYear ;
+    ex:genre "Biography",
+        "Drama",
+        "History" ;
+    ex:name "Schindler's List" ;
+    ex:rating 9.0 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q483941> ;
+    mo:director person:Steven_Spielberg .
+
+ex:movie_7 a mo:Movie ;
+    ex:budget 94000000 ;
+    ex:datePublished "2003"^^xsd:gYear ;
+    ex:genre "Action",
+        "Adventure",
+        "Drama" ;
+    ex:name "The Lord of the Rings: The Return of the King" ;
+    ex:rating 9.0 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q131074> ;
+    mo:director person:Peter_Jackson .
+
+ex:movie_8 a mo:Movie ;
+    ex:budget 8000000 ;
+    ex:datePublished "1994"^^xsd:gYear ;
+    ex:genre "Crime",
+        "Drama" ;
+    ex:name "Pulp Fiction" ;
+    ex:rating 8.9 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q104123> ;
+    mo:director person:Quentin_Tarantino .
+
+ex:movie_9 a mo:Movie ;
+    ex:budget 93000000 ;
+    ex:datePublished "2001"^^xsd:gYear ;
+    ex:genre "Action",
+        "Adventure",
+        "Drama" ;
+    ex:name "The Lord of the Rings: The Fellowship of the Ring" ;
+    ex:rating 8.8 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q127367> ;
+    mo:director person:Peter_Jackson .
+
+person:Christopher_Nolan a mo:Director ;
+    ex:name "Christopher Nolan" .
+
+person:Frank_Darabont a mo:Director ;
+    ex:name "Frank Darabont" .
+
+person:Quentin_Tarantino a mo:Director ;
+    ex:name "Quentin Tarantino" .
+
+person:Robert_Zemeckis a mo:Director ;
+    ex:name "Robert Zemeckis" .
+
+person:Sergio_Leone a mo:Director ;
+    ex:name "Sergio Leone" .
+
+person:Sidney_Lumet a mo:Director ;
+    ex:name "Sidney Lumet" .
+
+person:Steven_Spielberg a mo:Director ;
+    ex:name "Steven Spielberg" .
+
+person:Francis_Ford_Coppola a mo:Director ;
+    ex:name "Francis Ford Coppola" .
+
+person:Peter_Jackson a mo:Director ;
+    ex:name "Peter Jackson" .
+
