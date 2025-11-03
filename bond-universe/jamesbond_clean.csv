@@ -1,0 +1,25 @@
+Year;Movie;Bond;Director;Budget_Adj;Film_Length;Avg_User_IMDB;Avg_User_Rtn_Tom
+1962;Dr. No;Sean Connery;Terence Young;7688;110;7.3;7.7
+1963;From Russia with Love;Sean Connery;Terence Young;15174;115;7.5;8.0
+1964;Goldfinger;Sean Connery;Guy Hamilton;22468;110;7.8;8.4
+1965;Thunderball;Sean Connery;Terence Young;66333;130;7.0;6.8
+1967;You Only Live Twice;Sean Connery;Lewis Gilbert;66035;117;6.9;6.3
+1969;On Her Majesty's Secret Service;George Lazenby;Peter R. Hunt;50608;142;6.8;6.7
+1971;Diamonds Are Forever;Sean Connery;Guy Hamilton;41274;120;6.7;6.3
+1973;Live and Let Die;Roger Moore;Guy Hamilton;36603;121;6.8;5.9
+1974;The Man with the Golden Gun;Roger Moore;Guy Hamilton;32965;125;6.7;5.1
+1977;The Spy Who Loved Me;Roger Moore;Lewis Gilbert;53636;125;7.1;6.8
+1979;Moonraker;Roger Moore;Lewis Gilbert;99134;126;6.2;5.7
+1981;For Your Eyes Only;Roger Moore;John Glen;71514;127;6.8;6.3
+1983;Octopussy;Roger Moore;John Glen;64102;131;6.5;5.3
+1985;A View to a Kill;Roger Moore;John Glen;64730;131;6.2;4.7
+1987;The Living Daylights;Timothy Dalton;John Glen;81749;130;6.7;6.3
+1989;License to Kill;Timothy Dalton;John Glen;78637;133;6.5;6.0
+1995;GoldenEye;Pierce Brosnan;Martin Campbell;91404;130;7.2;6.9
+1997;Tomorrow Never Dies;Pierce Brosnan;Roger Spottiswoode;159117;119;6.4;6.0
+1999;The World Is Not Enough;Pierce Brosnan;Michael Apted;188130;128;6.3;5.7
+2002;Die Another Day;Pierce Brosnan;Lee Tamahori;183255;133;6.0;6.1
+2006;Casino Royale;Daniel Craig;Martin Campbell;117465;144;7.9;7.8
+2008;Quantum of Solace;Daniel Craig;Marc Forster;248014;106;6.7;6.1
+2012;Skyfall;Daniel Craig;Sam Mendes;202240;143;7.8;8.2
+2015;Spectre;Daniel Craig;Sam Mendes;240803;148;6.8;6.4
