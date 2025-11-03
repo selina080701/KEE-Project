@@ -31,13 +31,17 @@ Eigene Ontologie `fi:` (Film Ontology) mit bestehenden Vokabularen:
 
 ```
 :CasinoRoyale a                 fi:JamesBondMovie ;
+            fi:hasID            :Q151904 ;
             fi:releaseYear      "2006" ;
+            fi:hasBudget        "117465" ;
+            fi:hasIMDBRating    "7.9" ;
+            fi:hasRtnTomRating  "7.8" ;
             fi:hasActor         :DanielCraig ;
             fi:hasAntagonist    :LeChiffre ;
             fi:hasLoveInterest  :VesperLynd ;
-            fi:hasLocation      :Venice ;
+            fi:hasLocation      :Venice, :London, :Miami ;
             fi:hasCar           :AstonMartinDBS ;
-            fi:hasSong          :YouKnowMyName .
+            fi:hasTitleSong     :YouKnowMyName .
 ```
 
 ## Knowledge Extraction Workflow
