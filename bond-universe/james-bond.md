@@ -30,7 +30,7 @@ Eigene Ontologie `fi:` (Film Ontology) mit bestehenden Vokabularen:
 **Beispiel-Relationen**
 
 ```
-:CasinoRoyale a                 fi:Film ;
+:CasinoRoyale a                 fi:JamesBondMovie ;
             fi:releaseYear      "2006" ;
             fi:hasActor         :DanielCraig ;
             fi:hasAntagonist    :LeChiffre ;
