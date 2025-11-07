@@ -1,0 +1,326 @@
+@prefix ex: <http://example.org/jamesbond/> .
+@prefix mo: <http://example.org/movieontology/> .
+@prefix person: <http://example.org/person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:movie_A_View_to_a_Kill a mo:Movie ;
+    ex:budgetAdjusted 64730 ;
+    ex:filmLength 131 ;
+    ex:imdbRating 6.2 ;
+    ex:rottenTomatoesRating 4.7 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q332368> ;
+    ex:starring person:Roger_Moore ;
+    ex:title "A View to a Kill" ;
+    ex:year "1985"^^xsd:gYear ;
+    mo:director person:John_Glen .
+
+ex:movie_Casino_Royale a mo:Movie ;
+    ex:budgetAdjusted 117465 ;
+    ex:filmLength 144 ;
+    ex:imdbRating 7.9 ;
+    ex:rottenTomatoesRating 7.8 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q151904> ;
+    ex:starring person:Daniel_Craig ;
+    ex:title "Casino Royale" ;
+    ex:year "2006"^^xsd:gYear ;
+    mo:director person:Martin_Campbell .
+
+ex:movie_Diamonds_Are_Forever a mo:Movie ;
+    ex:budgetAdjusted 41274 ;
+    ex:filmLength 120 ;
+    ex:imdbRating 6.7 ;
+    ex:rottenTomatoesRating 6.3 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q107914> ;
+    ex:starring person:Sean_Connery ;
+    ex:title "Diamonds Are Forever" ;
+    ex:year "1971"^^xsd:gYear ;
+    mo:director person:Guy_Hamilton .
+
+ex:movie_Die_Another_Day a mo:Movie ;
+    ex:budgetAdjusted 183255 ;
+    ex:filmLength 133 ;
+    ex:imdbRating 6.0 ;
+    ex:rottenTomatoesRating 6.1 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q30931> ;
+    ex:starring person:Pierce_Brosnan ;
+    ex:title "Die Another Day" ;
+    ex:year "2002"^^xsd:gYear ;
+    mo:director person:Lee_Tamahori .
+
+ex:movie_Dr_No a mo:Movie ;
+    ex:budgetAdjusted 7688 ;
+    ex:filmLength 110 ;
+    ex:imdbRating 7.3 ;
+    ex:rottenTomatoesRating 7.7 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q102754> ;
+    ex:starring person:Sean_Connery ;
+    ex:title "Dr. No" ;
+    ex:year "1962"^^xsd:gYear ;
+    mo:director person:Terence_Young .
+
+ex:movie_For_Your_Eyes_Only a mo:Movie ;
+    ex:budgetAdjusted 71514 ;
+    ex:filmLength 127 ;
+    ex:imdbRating 6.8 ;
+    ex:rottenTomatoesRating 6.3 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q332330> ;
+    ex:starring person:Roger_Moore ;
+    ex:title "For Your Eyes Only" ;
+    ex:year "1981"^^xsd:gYear ;
+    mo:director person:John_Glen .
+
+ex:movie_From_Russia_with_Love a mo:Movie ;
+    ex:budgetAdjusted 15174 ;
+    ex:filmLength 115 ;
+    ex:imdbRating 7.5 ;
+    ex:rottenTomatoesRating 8.0 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q106571> ;
+    ex:starring person:Sean_Connery ;
+    ex:title "From Russia with Love" ;
+    ex:year "1963"^^xsd:gYear ;
+    mo:director person:Terence_Young .
+
+ex:movie_GoldenEye a mo:Movie ;
+    ex:budgetAdjusted 91404 ;
+    ex:filmLength 130 ;
+    ex:imdbRating 7.2 ;
+    ex:rottenTomatoesRating 6.9 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q19089> ;
+    ex:starring person:Pierce_Brosnan ;
+    ex:title "GoldenEye" ;
+    ex:year "1995"^^xsd:gYear ;
+    mo:director person:Martin_Campbell .
+
+ex:movie_Goldfinger a mo:Movie ;
+    ex:budgetAdjusted 22468 ;
+    ex:filmLength 110 ;
+    ex:imdbRating 7.8 ;
+    ex:rottenTomatoesRating 8.4 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q106440> ;
+    ex:starring person:Sean_Connery ;
+    ex:title "Goldfinger" ;
+    ex:year "1964"^^xsd:gYear ;
+    mo:director person:Guy_Hamilton .
+
+ex:movie_License_to_Kill a mo:Movie ;
+    ex:budgetAdjusted 78637 ;
+    ex:filmLength 133 ;
+    ex:imdbRating 6.5 ;
+    ex:rottenTomatoesRating 6.0 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q309086> ;
+    ex:starring person:Timothy_Dalton ;
+    ex:title "License to Kill" ;
+    ex:year "1989"^^xsd:gYear ;
+    mo:director person:John_Glen .
+
+ex:movie_Live_and_Let_Die a mo:Movie ;
+    ex:budgetAdjusted 36603 ;
+    ex:filmLength 121 ;
+    ex:imdbRating 6.8 ;
+    ex:rottenTomatoesRating 5.9 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q27204> ;
+    ex:starring person:Roger_Moore ;
+    ex:title "Live and Let Die" ;
+    ex:year "1973"^^xsd:gYear ;
+    mo:director person:Guy_Hamilton .
+
+ex:movie_Moonraker a mo:Movie ;
+    ex:budgetAdjusted 99134 ;
+    ex:filmLength 126 ;
+    ex:imdbRating 6.2 ;
+    ex:rottenTomatoesRating 5.7 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q334780> ;
+    ex:starring person:Roger_Moore ;
+    ex:title "Moonraker" ;
+    ex:year "1979"^^xsd:gYear ;
+    mo:director person:Lewis_Gilbert .
+
+ex:movie_Octopussy a mo:Movie ;
+    ex:budgetAdjusted 64102 ;
+    ex:filmLength 131 ;
+    ex:imdbRating 6.5 ;
+    ex:rottenTomatoesRating 5.3 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q204398> ;
+    ex:starring person:Roger_Moore ;
+    ex:title "Octopussy" ;
+    ex:year "1983"^^xsd:gYear ;
+    mo:director person:John_Glen .
+
+<http://example.org/jamesbond/movie_On_Her_Majesty's_Secret_Service> a mo:Movie ;
+    ex:budgetAdjusted 50608 ;
+    ex:filmLength 142 ;
+    ex:imdbRating 6.8 ;
+    ex:rottenTomatoesRating 6.7 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q107894> ;
+    ex:starring person:George_Lazenby ;
+    ex:title "On Her Majesty's Secret Service" ;
+    ex:year "1969"^^xsd:gYear ;
+    mo:director person:Peter_R._Hunt .
+
+ex:movie_Quantum_of_Solace a mo:Movie ;
+    ex:budgetAdjusted 248014 ;
+    ex:filmLength 106 ;
+    ex:imdbRating 6.7 ;
+    ex:rottenTomatoesRating 6.1 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q181540> ;
+    ex:starring person:Daniel_Craig ;
+    ex:title "Quantum of Solace" ;
+    ex:year "2008"^^xsd:gYear ;
+    mo:director person:Marc_Forster .
+
+ex:movie_Skyfall a mo:Movie ;
+    ex:budgetAdjusted 202240 ;
+    ex:filmLength 143 ;
+    ex:imdbRating 7.8 ;
+    ex:rottenTomatoesRating 8.2 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q4941> ;
+    ex:starring person:Daniel_Craig ;
+    ex:title "Skyfall" ;
+    ex:year "2012"^^xsd:gYear ;
+    mo:director person:Sam_Mendes .
+
+ex:movie_Spectre a mo:Movie ;
+    ex:budgetAdjusted 240803 ;
+    ex:filmLength 148 ;
+    ex:imdbRating 6.8 ;
+    ex:rottenTomatoesRating 6.4 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q18602670> ;
+    ex:starring person:Daniel_Craig ;
+    ex:title "Spectre" ;
+    ex:year "2015"^^xsd:gYear ;
+    mo:director person:Sam_Mendes .
+
+ex:movie_The_Living_Daylights a mo:Movie ;
+    ex:budgetAdjusted 81749 ;
+    ex:filmLength 130 ;
+    ex:imdbRating 6.7 ;
+    ex:rottenTomatoesRating 6.3 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q272064> ;
+    ex:starring person:Timothy_Dalton ;
+    ex:title "The Living Daylights" ;
+    ex:year "1987"^^xsd:gYear ;
+    mo:director person:John_Glen .
+
+ex:movie_The_Man_with_the_Golden_Gun a mo:Movie ;
+    ex:budgetAdjusted 32965 ;
+    ex:filmLength 125 ;
+    ex:imdbRating 6.7 ;
+    ex:rottenTomatoesRating 5.1 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q309289> ;
+    ex:starring person:Roger_Moore ;
+    ex:title "The Man with the Golden Gun" ;
+    ex:year "1974"^^xsd:gYear ;
+    mo:director person:Guy_Hamilton .
+
+ex:movie_The_Spy_Who_Loved_Me a mo:Movie ;
+    ex:budgetAdjusted 53636 ;
+    ex:filmLength 125 ;
+    ex:imdbRating 7.1 ;
+    ex:rottenTomatoesRating 6.8 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q320423> ;
+    ex:starring person:Roger_Moore ;
+    ex:title "The Spy Who Loved Me" ;
+    ex:year "1977"^^xsd:gYear ;
+    mo:director person:Lewis_Gilbert .
+
+ex:movie_The_World_Is_Not_Enough a mo:Movie ;
+    ex:budgetAdjusted 188130 ;
+    ex:filmLength 128 ;
+    ex:imdbRating 6.3 ;
+    ex:rottenTomatoesRating 5.7 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q212145> ;
+    ex:starring person:Pierce_Brosnan ;
+    ex:title "The World Is Not Enough" ;
+    ex:year "1999"^^xsd:gYear ;
+    mo:director person:Michael_Apted .
+
+ex:movie_Thunderball a mo:Movie ;
+    ex:budgetAdjusted 66333 ;
+    ex:filmLength 130 ;
+    ex:imdbRating 7.0 ;
+    ex:rottenTomatoesRating 6.8 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q107724> ;
+    ex:starring person:Sean_Connery ;
+    ex:title "Thunderball" ;
+    ex:year "1965"^^xsd:gYear ;
+    mo:director person:Terence_Young .
+
+ex:movie_Tomorrow_Never_Dies a mo:Movie ;
+    ex:budgetAdjusted 159117 ;
+    ex:filmLength 119 ;
+    ex:imdbRating 6.4 ;
+    ex:rottenTomatoesRating 6.0 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q207916> ;
+    ex:starring person:Pierce_Brosnan ;
+    ex:title "Tomorrow Never Dies" ;
+    ex:year "1997"^^xsd:gYear ;
+    mo:director person:Roger_Spottiswoode .
+
+ex:movie_You_Only_Live_Twice a mo:Movie ;
+    ex:budgetAdjusted 66035 ;
+    ex:filmLength 117 ;
+    ex:imdbRating 6.9 ;
+    ex:rottenTomatoesRating 6.3 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q107761> ;
+    ex:starring person:Sean_Connery ;
+    ex:title "You Only Live Twice" ;
+    ex:year "1967"^^xsd:gYear ;
+    mo:director person:Lewis_Gilbert .
+
+person:George_Lazenby a mo:Actor ;
+    ex:name "George Lazenby" ;
+    ex:playsCharacter "James Bond" .
+
+person:Lee_Tamahori a mo:Director ;
+    ex:name "Lee Tamahori" .
+
+person:Marc_Forster a mo:Director ;
+    ex:name "Marc Forster" .
+
+person:Michael_Apted a mo:Director ;
+    ex:name "Michael Apted" .
+
+person:Peter_R._Hunt a mo:Director ;
+    ex:name "Peter R. Hunt" .
+
+person:Roger_Spottiswoode a mo:Director ;
+    ex:name "Roger Spottiswoode" .
+
+person:Martin_Campbell a mo:Director ;
+    ex:name "Martin Campbell" .
+
+person:Sam_Mendes a mo:Director ;
+    ex:name "Sam Mendes" .
+
+person:Timothy_Dalton a mo:Actor ;
+    ex:name "Timothy Dalton" ;
+    ex:playsCharacter "James Bond" .
+
+person:Lewis_Gilbert a mo:Director ;
+    ex:name "Lewis Gilbert" .
+
+person:Terence_Young a mo:Director ;
+    ex:name "Terence Young" .
+
+person:Daniel_Craig a mo:Actor ;
+    ex:name "Daniel Craig" ;
+    ex:playsCharacter "James Bond" .
+
+person:Guy_Hamilton a mo:Director ;
+    ex:name "Guy Hamilton" .
+
+person:Pierce_Brosnan a mo:Actor ;
+    ex:name "Pierce Brosnan" ;
+    ex:playsCharacter "James Bond" .
+
+person:John_Glen a mo:Director ;
+    ex:name "John Glen" .
+
+person:Sean_Connery a mo:Actor ;
+    ex:name "Sean Connery" ;
+    ex:playsCharacter "James Bond" .
+
+person:Roger_Moore a mo:Actor ;
+    ex:name "Roger Moore" ;
+    ex:playsCharacter "James Bond" .
+

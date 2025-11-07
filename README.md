@@ -1,4 +1,4 @@
-# Filmdatenbank
+# James Bond Universe
 Knowledge Engineering and Extraction | MSc-DV | HS25 
 
 **Teilnehmer:** Selina Steiner, Tamara Nyffeler
@@ -6,10 +6,11 @@ Knowledge Engineering and Extraction | MSc-DV | HS25
 ---
 
 ## Ausgangslage und Aufgabenstellung
-Informationen zu Filmen, Schauspielern, Regisseuren und Filmmusik sind über zahlreiche Plattformen verstreut, was die strukturierte Analyse komplexer Zusammenhänge erschwert. Das Projekt zielt darauf ab, eine Ontologie zu entwickeln, die Filme, Mitwirkende und musikalische Elemente systematisch modelliert.
+Semantische Modellierung und Wissensextraktion im James Bond Universum.
+Wie sind Charakter (zb. Bösewichte, Liebhaberinnen), Orte, Fahrzeuge und musikalische Elemente im James-Bond-Universum miteinander verknüpft und wie haben sich diese über die Zeit entwickelt?
 
 ## Kerndatensatz
-Der Kerndatensatz (CSV) umfasst rund 600 Filmtitel, extrahiert aus dem [cornell_movie_dialog](https://huggingface.co/datasets/cornell-movie-dialog/cornell_movie_dialog)-Datensatz. Enthalten sind die Attribute ID, Titel, Jahr, Rating, Votes und Genre.
+[James Bond Movie Dataset](https://www.kaggle.com/datasets/dreb87/jamesbond?resource=download): CSV mit allen James-Bond-Filmen (ohne James Bond 007: No Time to Die)
 
 ## Knowledge Extraction
 Auf Basis des Kerndatensatzes werden weitere Daten aus externen APIs und Triple Stores extrahiert und anschliessend folgende Entitäten modelliert:
@@ -21,16 +22,48 @@ Auf Basis des Kerndatensatzes werden weitere Daten aus externen APIs und Triple 
 
 Diese Entitäten werden durch semantische Beziehungen miteinander verknüpft (z.B. „hat Schauspieler“, „wurde inszeniert von“, „enthält Soundtrack von“).
 
+**Beispiel-Relationen**
+
+```
+:CasinoRoyale a                 fi:JamesBondMovie ;
+            fi:hasID            :Q151904 ;
+            fi:releaseYear      "2006" ;
+            fi:hasBudget        "117465" ;
+            fi:hasIMDBRating    "7.9" ;
+            fi:hasRtnTomRating  "7.8" ;
+            fi:hasActor         :DanielCraig ;
+            fi:hasAntagonist    :LeChiffre ;
+            fi:hasLoveInterest  :VesperLynd ;
+            fi:hasLocation      :Venice, :London, :Miami ;
+            fi:hasCar           :AstonMartinDBS ;
+            fi:hasTitleSong     :YouKnowMyName .
+```
+
 ## Datenquellen
-* **Wikidata** und **DBpedia**: Triple Store für Metadaten und biografische Informationen 
-* **IMDb**: API zu Filmen, Schauspielern, Regisseuren, Soundtracks (https://www.imdb.com/interfaces/)
-* **TMDb**: API für Film- und Personendaten (https://developer.themoviedb.org/docs/getting-started)
-* **MusicBrainz:** API für Musikmetadaten (https://musicbrainz.org/doc/MusicBrainz_API)
+**Strukturierte Quellen**
+* **Wikidata**: Triple Store für Metadaten und biografische Informationen
+
+**Unstrukturierte Quelle**
+* Fandom Wiki, Rotten Tomatoes etc. (zb. Trivia)
+* Extraktion mittels NLP (Named Entity Recognition + Regex) von: Orten, Antagonisten, Liebhaberinnen, Fahrzeugen / Gadgets
 
 ## Ontologie
-* Music Ontology: `mo` (http://purl.org/ontology/mo/)
-* Personen und Bands: `foaf` (http://xmlns.com/foaf/spec/)
-* eigene Ontolgoy: `fi` (Film Ontology) für film-spezifische Beziehungen
+Eigene Ontologie `fi:` (Film Ontology) mit bestehenden Vokabularen:
+
+| Namespace | 	Beschreibung                                        |
+|-----------|------------------------------------------------------|
+| `fi:`     | 	eigene Film Ontology (Film-spezifische Beziehungen) |
+| `foaf:`   | 	Personen & Organisationen (Darsteller, Bands)       |
+| `mo:`     | 	Music Ontology (Titelsongs, Musiker)                |
+
+## Beispielhafte Reasoning-Regeln
+
+* Wenn ein Ort in mehreren Filmen vorkommt → inferiere `fi:recurringLocation`.
+* Wenn ein Auto mehrfach genutzt wird → inferiere `fi:iconicVehicle`.
+* Wenn ein Musiker mehr als einen Song beigesteuert hat → inferiere `fi:bondComposer`.
 
 ## Mehrwert
-Mögliche Fragestellungen sind im Dokument `fragestellungen.md` aufgeführt.
+Eine übersichtliche Visualisierung mit Streamlit schaffen.
+* **Interaktive Karte:** Drehorte weltweit, Filter (Bond-Darsteller, Jahrzehnt, Film)
+* **Netzwerkgraph:** Beziehungen zwischen Bond, Antagonisten, Liebhaberinnen, Fahrzeugen und Songs
+* **Zeitstrahl:** Ratings
