@@ -20,7 +20,7 @@ BOND_FILMS = [
     "The World Is Not Enough (film)",
     "Die Another Day (film)",
     "Casino Royale (film)",
-    "Quantum of Solace",
+    "Quantum of Solace (film)",
     "Skyfall (film)",
     "Spectre (film)",
     "No Time to Die (film)"

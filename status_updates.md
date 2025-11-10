@@ -3,10 +3,11 @@
 - Code-Struktur für Streamlit-App aufgebaut
 - Titelseite mit Kerndatensatz und Suchfunktion erstellt
 - Movie-Pages von Fandom geparst und als JSON gespeichert
-- Poster URLs extrahiert 
+- Poster URLs extrahiert und in Übersichtstabelle eingebettet (Thumbnail-View oder Poster-Ansicht umschaltbar)
 
 **Obstacles**:
-- Problem beim Einbetten der Poster noch nicht gelöst, URL funktioniert aber Bild-Thumbnail wird nicht angezeigt.
+- [fixed] Problem beim Einbetten der Poster-URL. URL funktioniert aber Bild-Thumbnail wurde nicht angezeigt.
+   - Lösung: '/revision/latest' aus der URL entfernt.
 
 **Whats Next**:
 - Wikidata-Triples extrahieren -> Schauspieler Metadaten

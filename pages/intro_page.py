@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 from utils.data_loader import load_data, load_poster_urls
-from utils.overview import get_movie_overview, display_movie_overview
+from utils.overview import get_movie_overview, display_movie_overview_large, display_movie_overview_thumbnails
 
 def show_intro():
     st.markdown(
@@ -37,7 +37,11 @@ def show_intro():
     # Display count of shown (filtered) movies
     st.caption(f"Showing {len(filtered)} of {len(movie_overview)} movies")
 
-    # Display movie overview as cards
-    display_movie_overview(filtered)
+    # ---- Display mode switch ----
+    view_mode = st.toggle("Switch between Poster-View and Table-View", value=False)
 
-
+    st.write("---")
+    if view_mode:
+        display_movie_overview_thumbnails(filtered) # activate table view
+    else:
+        display_movie_overview_large(filtered)  # activate card view

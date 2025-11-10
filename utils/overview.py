@@ -35,17 +35,15 @@ def get_movie_overview(df, df_posters):
 
 
 # ---- Display Movie Overview as Cards (medium-sized) ----
-def display_movie_overview(overview_df):
+def display_movie_overview_large(overview_df):
     for idx, row in overview_df.iterrows():
         col1, col2 = st.columns([1, 3])
         
         with col1:
             if pd.notna(row['Poster']) and row['Poster'] and str(row['Poster']).strip():
                 try:
-                    st.caption(f"URL: {row['Poster'][:200]}...")  # Show part of the URL as caption
                     st.image(row['Poster'],
-                             width=150,
-                             use_container_width=False,)
+                             width='content')
                 except Exception as e:
                     st.error(f"Error loading image: {e}")
                     st.write("No poster")
@@ -61,13 +59,13 @@ def display_movie_overview(overview_df):
 
 
 # ---- Alternative: Display DataFrame with image thumbnails ----
-def display_movie_overview_with_posters(overview_df):
+def display_movie_overview_thumbnails(overview_df):
     st.dataframe(
         overview_df,
         column_config={
             "Poster": st.column_config.ImageColumn(
                 "Poster",
-                help="Movie poster",
+                help="double-click to enlarge",
                 width="small"  # Options: "small", "medium", "large"
             ),
             "Year": st.column_config.NumberColumn(

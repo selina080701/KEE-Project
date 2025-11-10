@@ -27,6 +27,12 @@ def load_ttl():
 def load_poster_urls():
     try:
         df_posters = pd.read_csv('extract_knowledge/movie_posters/movie_poster_url.csv')
+        
+        # Remove '/revision/latest' parameter from URLs (it may cause issues with image loading)
+        df_posters['poster_url'] = df_posters['poster_url'].apply(
+            lambda x: x.split('/revision/latest')[0] if pd.notna(x) and '/revision/latest' in str(x) else x
+        )
+        
         return df_posters
     except FileNotFoundError:
         st.warning("Poster-Datei nicht gefunden.")
