@@ -37,3 +37,14 @@ def load_poster_urls():
     except FileNotFoundError:
         st.warning("Poster-Datei nicht gefunden.")
         return pd.DataFrame(columns=['title', 'poster_url'])
+
+
+# ---- Load geocoded locations with caching ----
+@st.cache_data
+def load_geo_locations():
+    try:
+        df_locations = pd.read_csv('extract_knowledge/geocoded_locations/geocoded_locations.csv', sep=',', encoding='utf-8')
+        return df_locations
+    except FileNotFoundError:
+        st.warning("Geocoded Locations-Datei nicht gefunden.")
+        return pd.DataFrame(columns=['name', 'lat', 'lon'])
