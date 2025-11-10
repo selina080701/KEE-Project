@@ -1,3 +1,24 @@
+# 2. Statusupdate - Fr, 14.11.2025
+**Done**:
+- Code-Struktur für Streamlit-App aufgebaut
+- Titelseite mit Kerndatensatz und Suchfunktion erstellt
+- Movie-Pages von Fandom geparst und als JSON gespeichert
+- Poster URLs extrahiert 
+
+**Obstacles**:
+- Problem beim Einbetten der Poster noch nicht gelöst, URL funktioniert aber Bild-Thumbnail wird nicht angezeigt.
+
+**Whats Next**:
+- Wikidata-Triples extrahieren -> Schauspieler Metadaten
+- NLP-Analyse der Fandom-Seiten durchführen -> Schauplätze, Autos, Antagonisten extrahieren
+- Ontologie und Reasoning mit Restrictions
+
+**Tips & Inputs**:
+- ...
+
+----
+
+
 # 1. Statusupdate - Fr, 07.11.2025
 **Done**:
 - Kerndatensatz mit Wikidata-IDs erweitert (über Sparql)
@@ -23,10 +44,10 @@
 1. [x] Hintergrundwissen formalisieren, das für die Wissensgewinnung verwendet wird:
    - [x] Kerndatensatz als Ausgangslage: Raw-Datensatz auf relevante Eigenschaften reduzieren.
 
-2. [] James Bond 007: No Time to Die im Kerndatensatz hinzufügen (händisch).
+2. [x] James Bond 007: No Time to Die im Kerndatensatz hinzufügen (händisch).
 
 3. [] RDF-Domänenmodell bereitstellen:
-   - [] RDF-Graph Skizze in Excalidraw
+   - [x] RDF-Graph Skizze in Excalidraw (Beispiel Casino Royale)
    - [x] RDF-Graph serialisieren (ttl-Format)
    - [x] RDF-Graph visualisieren (streamlit)
    - [] RDF-Graph neu generieren: Wenn neue Triples vorhanden sind (zb. „hat Ort“, „hat Auto“, „hat Antagonisten“)
@@ -42,7 +63,7 @@
 2. [] Externe strukturierte Daten abrufen (Wikidata SPARQL)
 
 3. [] Unstrukturierte Texte extrahieren (Fandom):
-   - [] Filmseiten auf Fandom über `wikitextparser` parsen
+   - [x] Filmseiten auf Fandom über `wikitextparser` parsen und als JSON speichern
    - [] Benötigte Elemente aus dem Text extrahieren
    - [] NLP-Analyse:
      - Named Entity Recognition (zb. mit spaCy)
@@ -54,13 +75,16 @@
 1. [x]Framework der Streamlit-App erstellen
 
 2. [] Titelpage:
-   - [] Übersicht / Intro gestalten
-     
+   - [x] Übersicht / Intro gestalten
+   - [x] Kerndatensatz-Tabelle einfügen
+   - [x] Suchfunktion für Filme     
+   - [x] Filmposter einfügen
+
 3. [] RDF-Graph
 
 4. [] Timeline
 
 5. [] Interactive Map 
 
-6. [] Trailer und Filmposter einbetten
+6. [] Trailer einbetten
 
