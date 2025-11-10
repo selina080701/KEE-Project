@@ -1,36 +1,10 @@
+# fandom_request_single_movie.py
+
 import requests
 import wikitextparser as wtp
 import json
 from pathlib import Path
 
-# List of all James Bond films
-BOND_FILMS = [
-    "Dr. No (film)",
-    "From Russia with Love (film)",
-    "Goldfinger (film)",
-    "Thunderball (film)",
-    "You Only Live Twice (film)",
-    "On Her Majesty's Secret Service (film)",
-    "Diamonds Are Forever (film)",
-    "Live and Let Die (film)",
-    "The Man with the Golden Gun (film)",
-    "The Spy Who Loved Me (film)",
-    "Moonraker (film)",
-    "For Your Eyes Only (film)",
-    "Octopussy",
-    "A View to a Kill",
-    "The Living Daylights",
-    "Licence to Kill",
-    "GoldenEye",
-    "Tomorrow Never Dies",
-    "The World Is Not Enough",
-    "Die Another Day",
-    "Casino Royale (2006 film)",
-    "Quantum of Solace",
-    "Skyfall (film)",
-    "Spectre (film)",
-    "No Time to Die"
-]
 
 def get_fandom_page_text(movie_title):
     """Retrieve Wikitext and parse Sections and Infoboxes"""
@@ -61,7 +35,7 @@ def get_fandom_page_text(movie_title):
         infobox = {}
         templates = parsed.templates
         for template in templates:
-            if 'infobox' in template.name.strip().lower():
+            if 'Infobox' in template.name.strip():
                 for arg in template.arguments:
                     key = arg.name.strip()
                     value = arg.value.strip()
@@ -77,7 +51,7 @@ def get_fandom_page_text(movie_title):
 
 def save_data_to_json(data, filename):
     """Save extracted movie-data to a JSON file"""
-    output_dir = Path("fandom_pages")
+    output_dir = Path("./extract_knowledge/fandom_wiki_pages")
     output_dir.mkdir(exist_ok=True)
 
     filepath = output_dir / filename
@@ -86,21 +60,11 @@ def save_data_to_json(data, filename):
     print(f"Data saved to {filepath}")
 
 
+
 if __name__ == "__main__":
-    successful = 0
-    failed = 0
+    movie_title = "A View to a Kill (film)"
+    data = get_fandom_page_text(movie_title)
+    if data:
+        filename = movie_title.replace(" ", "_").replace("(", "").replace(")", "") + ".json"
+        save_data_to_json(data, filename)
     
-    for i, film in enumerate(BOND_FILMS, start=1):
-        print(f"Processing ({i}/{len(BOND_FILMS)}): {film}")
-
-        movie_data = get_fandom_page_text(film)
-
-        if movie_data:
-            filename = film.replace(" ", "_").replace("(", "").replace(")", "") + ".json"
-            save_data_to_json(movie_data, filename)
-            successful += 1
-        else:
-            failed += 1
-
-    print(f"Successfully processed: {successful}")
-    print(f"Failed to process: {failed}")
