@@ -1,8 +1,10 @@
+# app.py
+
 import streamlit as st
-from pages.intro import show_intro
-from pages.rdf_graph import show_rdf_graph
-from pages.timeline import show_timeline
-from pages.map import show_interactive_map
+from pages.intro_page import show_intro
+from pages.rdf_page import show_rdf_graph
+from pages.timeline_page import show_timeline
+from pages.map_page import show_interactive_map
 
 # ---- Page Configuration ----
 st.set_page_config(page_title="James Bond Visualizations", layout="wide")
