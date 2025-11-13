@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-def show_timeline():
-    st.header("Timeline (Platzhalter)")
-    st.write("Hier folgt ein Zeitstrahl zur Entwicklung der James Bond Film-Chronologie.")
-    st.sidebar.info("This is the timeline page.")
+def show_timeline_page():
+    st.sidebar.info("You are on the timeline page.")
+    st.header("James Bond Film Chronology Timeline")
+    st.write("Platzhalter ... Hier folgt ein Zeitstrahl zur Entwicklung der James Bond Film-Chronologie.")

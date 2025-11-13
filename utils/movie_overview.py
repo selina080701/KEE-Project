@@ -1,11 +1,10 @@
-# overview.py
+# movie_overview.py
 
 import pandas as pd
 import streamlit as st
-from pathlib import Path
 
 """
-The below functions are displayed in the intro page.
+The below functions are displayed in the movie page.
 """
 
 # ---- Get an overview of the James Bond Movies ----
@@ -35,6 +34,7 @@ def get_movie_overview(df, df_posters):
 
 
 # ---- Display Movie Overview as Cards (medium-sized) ----
+@st.cache_data
 def display_movie_overview_large(overview_df):
     for idx, row in overview_df.iterrows():
         col1, col2 = st.columns([1, 3])
@@ -58,7 +58,8 @@ def display_movie_overview_large(overview_df):
         st.divider()
 
 
-# ---- Alternative: Display DataFrame with image thumbnails ----
+# ---- Display DataFrame with image thumbnails ----
+@st.cache_data
 def display_movie_overview_thumbnails(overview_df):
     st.dataframe(
         overview_df,

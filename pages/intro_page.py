@@ -1,47 +1,46 @@
-# intro_page.py
-
 import streamlit as st
-import pandas as pd
-from pathlib import Path
-from utils.data_loader import load_data, load_poster_urls
-from utils.overview import get_movie_overview, display_movie_overview_large, display_movie_overview_thumbnails
 
-def show_intro():
-    st.markdown(
-        """
-        This application visualizes data about James Bond movies, directors, and actors.
-        Please choose a visualization from the dropdown menu.
-        """
-    )
-    st.sidebar.info("This is the introduction page.")
+def show_intro_page():
+    st.sidebar.info("You are on the introduction page.")
     
-    # Load data
-    df = load_data()
-    df_posters = load_poster_urls()
+    # ---- James Bond Banner ----
+    st.image("utils/banner.png", width=300)
 
-    # Create Movie Overview with Posters
-    movie_overview = get_movie_overview(df, df_posters)
+    # ---- Title ----
+    st.title("Welcome to the James Bond Universe")
+    st.subheader("Dive into the world of 007 - Explore Movies, Directors & Actors")
+    
+    # ---- Description on Main Page ----
+    st.markdown("""  
+    This application visualizes data about James Bond movies, directors and actors.
 
-    # Header
-    st.write("### Movie Collection Overview")
-    st.metric("Total Movies", len(movie_overview))
+    - From an overview of a **full movie collection**,
+    - to a **knowledge graph of relationships** and
+    - a **timeline of films**,  
+    - right up to a **global map of filming locations**.  
 
-    # Search functionality
-    search = st.text_input("Search movies:", placeholder="Type to filter...")
-  
-    if search:
-        filtered = movie_overview[movie_overview['Movie'].str.contains(search, case=False, na=False)]
-    else:
-        filtered = movie_overview
+    Use the dropdown menu in the sidebar or the buttons below to select your preferred visualization.
+    """)
+    
 
-    # Display count of shown (filtered) movies
-    st.caption(f"Showing {len(filtered)} of {len(movie_overview)} movies")
+"""
+--> under construction:
 
-    # ---- Display mode switch ----
-    view_mode = st.toggle("Switch between Poster-View and Table-View", value=False)
+    # ---- Call to Action Buttons ----
+    st.markdown("#### Start Exploring:")
+    col1, col2, col3, col4 = st.columns(4)
 
-    st.write("---")
-    if view_mode:
-        display_movie_overview_thumbnails(filtered) # activate table view
-    else:
-        display_movie_overview_large(filtered)  # activate card view
+    with col1:
+        if st.button("Go to Movie Collection"):
+            st.session_state["page_select"] = "Movie Collection"
+    with col2:
+        if st.button("Go to RDF-Graph"):
+            st.session_state["page_select"] = "RDF-Graph"
+    with col3:
+        if st.button("Go to Movie Chronology"):
+            st.session_state["page_select"] = "Movie Chronology"
+    with col4:
+        if st.button("Go to Film Locations"):
+            st.session_state["page_select"] = "Film Locations"
+
+"""

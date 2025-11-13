@@ -1,31 +1,34 @@
 # app.py
 
 import streamlit as st
-from pages.intro_page import show_intro
-from pages.rdf_page import show_rdf_graph
-from pages.timeline_page import show_timeline
-from pages.map_page import show_interactive_map
+from pages.intro_page import show_intro_page
+from pages.movie_page import show_movie_page
+from pages.rdf_page import show_rdf_page
+from pages.timeline_page import show_timeline_page
+from pages.map_page import show_map_page
 
-# ---- Page Configuration ----
-st.set_page_config(page_title="James Bond Visualizations", layout="wide")
-
-# ---- Header ----
-st.title("Welcome to the James Bond Universe")
+# ---- Page Configuration and Sidebar Logo ----
+st.set_page_config(page_title="James Bond Visualizations", layout="wide", initial_sidebar_state="expanded")
+st.markdown("<style>[data-testid='stSidebarNav'] {display: none;}</style>", unsafe_allow_html=True)
+st.logo("utils/logo.png", size="large")
 
 # ---- Sidebar with Dropdown ----
-st.sidebar.title("Visualizations")
+st.sidebar.title("Page Navigation")
 
-page = st.sidebar.selectbox(
+pages = ["Introduction", "Movie Collection", "RDF-Graph", "Movie Chronology", "Film Locations"]
+
+page_select = st.sidebar.selectbox(
     "What would you like to explore?",
-    ("Intro", "RDF-Graph", "Timeline", "Interactive Map")
-)
+    pages)
 
 # ---- Page routing ----
-if page == "Intro":
-    show_intro()
-elif page == "RDF-Graph":
-    show_rdf_graph()
-elif page == "Timeline":
-    show_timeline()
-elif page == "Interactive Map":
-    show_interactive_map()
+if page_select == "Introduction":
+    show_intro_page()
+elif page_select == "Movie Collection":
+    show_movie_page()
+elif page_select == "RDF-Graph":
+    show_rdf_page()
+elif page_select == "Movie Chronology":
+    show_timeline_page()
+elif page_select == "Film Locations":
+    show_map_page()
