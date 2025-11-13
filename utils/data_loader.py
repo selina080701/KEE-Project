@@ -43,7 +43,7 @@ def load_poster_urls():
 @st.cache_data
 def load_geo_locations():
     try:
-        df_locations = pd.read_csv('extract_knowledge/geocoded_locations/geocoded_locations.csv', sep=',', encoding='utf-8')
+        df_locations = pd.read_csv('extract_knowledge/geocoded_locations/all_movies_geocoded.csv', sep=',', encoding='utf-8')
         return df_locations
     except FileNotFoundError:
         st.warning("Geocoded Locations-Datei nicht gefunden.")

@@ -51,7 +51,7 @@ def get_fandom_page_text(movie_title):
 
 def save_data_to_json(data, filename):
     """Save extracted movie-data to a JSON file"""
-    output_dir = Path("./extract_knowledge/fandom_wiki_pages")
+    output_dir = Path("fandom_wiki_pages")
     output_dir.mkdir(exist_ok=True)
 
     filepath = output_dir / filename
@@ -62,7 +62,7 @@ def save_data_to_json(data, filename):
 
 
 if __name__ == "__main__":
-    movie_title = "A View to a Kill (film)"
+    movie_title = "Quantum of Solace (film)"
     data = get_fandom_page_text(movie_title)
     if data:
         filename = movie_title.replace(" ", "_").replace("(", "").replace(")", "") + ".json"

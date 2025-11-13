@@ -4,6 +4,7 @@
 - Titelseite mit Kerndatensatz und Suchfunktion erstellt
 - Movie-Pages von Fandom geparst und als JSON gespeichert
 - Poster URLs extrahiert und in Übersichtstabelle eingebettet (Thumbnail-View oder Poster-Ansicht umschaltbar)
+- Erster Versuch mit NER auf Fandom-Texten gestartet (spaCy) -> Locations extrahiert und in Map visualisiert
 
 **Obstacles**:
 - [fixed] Problem beim Einbetten der Poster-URL. URL funktioniert aber Bild-Thumbnail wurde nicht angezeigt.
