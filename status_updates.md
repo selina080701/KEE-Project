@@ -9,10 +9,11 @@
 **Obstacles**:
 - [fixed] Problem beim Einbetten der Poster-URL. URL funktioniert aber Bild-Thumbnail wurde nicht angezeigt.
    - Lösung: '/revision/latest' aus der URL entfernt.
+- [Frage] Abschlussbericht in Overleaf - gibt es eine Vorlage?
 
 **Whats Next**:
-- Wikidata-Triples extrahieren -> Schauspieler Metadaten
-- NLP-Analyse der Fandom-Seiten durchführen -> Schauplätze, Autos, Antagonisten extrahieren
+- Wikidata-Triples extrahieren -> deutsche Filmtitel, Schauspieler Metadaten
+- NLP-Analyse der Fandom-Seiten durchführen -> Autos, Antagonisten, Bondgirls extrahieren
 - Ontologie und Reasoning mit Restrictions
 
 **Tips & Inputs**:
