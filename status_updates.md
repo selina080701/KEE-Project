@@ -1,3 +1,13 @@
+# 3. Statusupdate - Fr, 21.11.2025
+**Done**:
+
+**Obstacles**:
+
+
+**Whats Next**:
+
+----
+
 # 2. Statusupdate - Fr, 14.11.2025
 **Done**:
 - Code-Struktur für Streamlit-App aufgebaut
@@ -15,9 +25,6 @@
 - Wikidata-Triples extrahieren -> deutsche Filmtitel, Schauspieler Metadaten
 - NLP-Analyse der Fandom-Seiten durchführen -> Autos, Antagonisten, Bondgirls extrahieren
 - Ontologie und Reasoning mit Restrictions
-
-**Tips & Inputs**:
-- ...
 
 ----
 
