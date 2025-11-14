@@ -50,11 +50,14 @@ Diese Entitäten werden durch semantische Beziehungen miteinander verknüpft (z.
 ## Ontologie
 Eigene Ontologie `fi:` (Film Ontology) mit bestehenden Vokabularen:
 
-| Namespace | 	Beschreibung                                        |
-|-----------|------------------------------------------------------|
-| `fi:`     | 	eigene Film Ontology (Film-spezifische Beziehungen) |
-| `foaf:`   | 	Personen & Organisationen (Darsteller, Bands)       |
-| `mo:`     | 	Music Ontology (Titelsongs, Musiker)                |
+| Namespace    | 	Beschreibung                                        |
+|--------------|------------------------------------------------------|
+| `fi:`        | 	eigene Film Ontology (Film-spezifische Beziehungen) |
+| `foaf:`      | 	Personen & Organisationen (Darsteller, Bands)       |
+| `mo:`        | 	Music Ontology (Titelsongs, Musiker)                |
+| `linkedMDB:` | Linked Internet Movie Database                       |
+
+Das `LinkedMDB` Vokabular (Schema, Tripels etc.) ist in der [TriblyDB](https://triplydb.com/AradhyaTripathi/linkedmdb) dokumentiert.
 
 ## Beispielhafte Reasoning-Regeln
 
