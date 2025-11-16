@@ -22,6 +22,13 @@ def load_ttl():
         ttl_data = file.read()
     return ttl_data
 
+# ---- Load Characters and Actors TTL-dataset with caching ----
+@st.cache_data
+def load_characters_ttl():
+    with open('rdf/jamesbond_characters_rdf.ttl', 'r', encoding='utf-8') as file:
+        ttl_data = file.read()
+    return ttl_data
+
 # ---- Load poster URLs with caching ----
 @st.cache_data
 def load_poster_urls():
@@ -48,3 +55,14 @@ def load_geo_locations():
     except FileNotFoundError:
         st.warning("Geocoded Locations-Datei nicht gefunden.")
         return pd.DataFrame(columns=['name', 'lat', 'lon'])
+    
+# ---- Load character-actor pairs with caching ----
+@st.cache_data
+def load_character_actor_data():
+    try:
+        df_characters = pd.read_csv('extract_knowledge/characters/all_movie_characters.csv', sep=';', encoding='utf-8')
+        return df_characters
+    except FileNotFoundError:
+        st.warning("Character-Actor Datei nicht gefunden.")
+        return pd.DataFrame(columns=['character', 'actor', 'movie'])
+    

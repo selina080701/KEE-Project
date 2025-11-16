@@ -9,7 +9,7 @@ The below functions are displayed in the rdf page.
 """
 
 @st.cache_data
-def create_rdf_graph(df_ttl):
+def create_rdf_graph_general(df_ttl):
     # ---- Define Namespaces ----
     EX = Namespace('http://example.org/jamesbond/')
     MO = Namespace('http://example.org/movieontology/')
@@ -89,4 +89,67 @@ def create_rdf_graph(df_ttl):
         "actors": actors,
         "directed_by": directed_by,
         "starring": starring
+    }
+
+@st.cache_data
+def create_rdf_graph_characters(df_ttl):
+    from rdflib.namespace import RDF, RDFS
+    
+    # ---- Define Namespaces ----
+    MOVIE = Namespace("https://triplydb.com/Triply/linkedmdb/vocab/")
+
+    # ---- Load RDF-graph ----
+    g = Graph()
+    g.parse(data=df_ttl, format='ttl')
+
+    # ---- Characters ----
+    character_query = '''
+        PREFIX movie: <https://triplydb.com/Triply/linkedmdb/vocab/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT DISTINCT ?character ?label
+        WHERE {
+            ?character a movie:FilmCharacter .
+            ?character rdfs:label ?label .
+        }
+    '''
+    characters = [
+        Node(id=str(row[0]),
+             label=str(row[1]),
+             color='#FF6B6B',
+             shape='box',
+             size=25)
+        for row in g.query(character_query)
+    ]
+
+    # ---- Actors ----
+    actor_query = '''
+        PREFIX movie: <https://triplydb.com/Triply/linkedmdb/vocab/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT DISTINCT ?actor ?label
+        WHERE {
+            ?actor a movie:Actor .
+            ?actor rdfs:label ?label .
+        }
+    '''
+    actors = [
+        Node(id=str(row[0]),
+             label=str(row[1]),
+             color='#4ECDC4',
+             shape='dot',
+             size=20)
+        for row in g.query(actor_query)
+    ]
+
+    # ---- Edges: Actor -> Character ----
+    portrayed_by = [
+        Edge(source=str(actor),
+             label='plays',
+             target=str(character))
+        for actor, _, character in g.triples((None, MOVIE.playsCharacter, None))
+    ]
+
+    return {
+        "characters": characters,
+        "actors": actors,
+        "portrayed_by": portrayed_by
     }
