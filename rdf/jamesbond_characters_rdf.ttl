@@ -1,0 +1,3467 @@
+@prefix movie: <https://triplydb.com/Triply/linkedmdb/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Adam_Barker> a movie:Actor ;
+    rdfs:label "Adam Barker" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Petty_Officer_Wood> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ade> a movie:Actor ;
+    rdfs:label "Ade" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Infante> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Adel_Bencherif> a movie:Actor ;
+    rdfs:label "Adel Bencherif" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Abrika> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Akiko_Wakabayashi> a movie:Actor ;
+    rdfs:label "Akiko Wakabayashi" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Aki> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Alan_Cumming> a movie:Actor ;
+    rdfs:label "Alan Cumming" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Boris_Grishenko> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Albert_Finney> a movie:Actor ;
+    rdfs:label "Albert Finney" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kincade> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Albert_Moses> a movie:Actor ;
+    rdfs:label "Albert Moses" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sadruddin> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Alejandro_Bracho> a movie:Actor ;
+    rdfs:label "Alejandro Bracho" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Perez> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Alessandro_Cremona> a movie:Actor ;
+    rdfs:label "Alessandro Cremona" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marco_Sciarra> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Aleta_Morrison> a movie:Actor ;
+    rdfs:label "Aleta Morrison" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Denise> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Alf_Joint> a movie:Actor ;
+    rdfs:label "Alf Joint" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Capungo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Alison_Doody> a movie:Actor ;
+    rdfs:label "Alison Doody" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jenny_Flex> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Aliza_Gur> a movie:Actor ;
+    rdfs:label "Aliza Gur" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vida> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ana_de_Armas> a movie:Actor ;
+    rdfs:label "Ana de Armas" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Paloma> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Anatole_Taubman> a movie:Actor ;
+    rdfs:label "Anatole Taubman" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Elvis> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Andreas_Wisniewski> a movie:Actor ;
+    rdfs:label "Andreas Wisniewski" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Necros> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Andrew_Hawkins> a movie:Actor ;
+    rdfs:label "Andrew Hawkins" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_Commander_Hume> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Andrew_Scott> a movie:Actor ;
+    rdfs:label "Andrew Scott" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Max_Denbigh> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Andy_Bradford> a movie:Actor ;
+    rdfs:label "Andy Bradford" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/009> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Angela_Scoular> a movie:Actor ;
+    rdfs:label "Angela Scoular" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ruby_Bartlett> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Anne_Lonnberg> a movie:Actor ;
+    rdfs:label "Anne Lonnberg" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Museum_Guide> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Anthony_Dawson> a movie:Actor ;
+    rdfs:label "Anthony Dawson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/R_J_Dent> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Anthony_Meyer> a movie:Actor ;
+    rdfs:label "Anthony Meyer" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Grischka> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Anthony_Starke> a movie:Actor ;
+    rdfs:label "Anthony Starke" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Truman-Lodge> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Anthony_Zerbe> a movie:Actor ;
+    rdfs:label "Anthony Zerbe" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Milton_Krest> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Antonio_Gil> a movie:Actor ;
+    rdfs:label "Antonio Gil" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marchetti_Pilot> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Art_Malik> a movie:Actor ;
+    rdfs:label "Art Malik" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kamran_Shah> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Atik_Mohamed> a movie:Actor ;
+    rdfs:label "Atik Mohamed" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Achmed> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Austin_Willis> a movie:Actor ;
+    rdfs:label "Austin Willis" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Simmons> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Barbara_Bach> a movie:Actor ;
+    rdfs:label "Barbara Bach" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Anya_Amasova> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ben_Cooke> a movie:Actor ;
+    rdfs:label "Ben Cooke" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Williams> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ben_Whishaw> a movie:Actor ;
+    rdfs:label "Ben Whishaw" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Q> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Benicio_del_Toro> a movie:Actor ;
+    rdfs:label "Benicio del Toro" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dario> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Benito_Sagredo> a movie:Actor ;
+    rdfs:label "Benito Sagredo" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Guerra> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Berenice_Marlohe> a movie:Actor ;
+    rdfs:label "Berenice Marlohe" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Svrine> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bernard_Horsfall> a movie:Actor ;
+    rdfs:label "Bernard Horsfall" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Shaun_Campbell> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bernard_Lee> a movie:Actor ;
+    rdfs:label "Bernard Lee" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/M> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bill_Buckhurst> a movie:Actor ;
+    rdfs:label "Bill Buckhurst" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ronson> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bill_Cummings> a movie:Actor ;
+    rdfs:label "Bill Cummings" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Quist> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bill_Nagy> a movie:Actor ;
+    rdfs:label "Bill Nagy" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jed_Midgnight> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bill_Weston> a movie:Actor ;
+    rdfs:label "Bill Weston" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Green_Four> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Billy_J_Mitchell> a movie:Actor ;
+    rdfs:label "Billy J. Mitchell" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Admiral_Chuck_Farrel> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Billy_Magnussen> a movie:Actor ;
+    rdfs:label "Billy Magnussen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Logan_Ash> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Blanche_Ravalec> a movie:Actor ;
+    rdfs:label "Blanche Ravalec" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dolly> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bob_Simmons> a movie:Actor ;
+    rdfs:label "Bob Simmons" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jacques_Bouvar> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bogdan_Kominowski> a movie:Actor ;
+    rdfs:label "Bogdan Kominowski" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Klotkoff> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Brigitte_Millar> a movie:Actor ;
+    rdfs:label "Brigitte Millar" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Vogel> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Britt_Ekland> a movie:Actor ;
+    rdfs:label "Britt Ekland" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mary_Goodnight> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bruce_Alexander> a movie:Actor ;
+    rdfs:label "Bruce Alexander" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Captain>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Firing_Officer> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bruce_Boa> a movie:Actor ;
+    rdfs:label "Bruce Boa" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_General_Peterson> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bruce_Cabot> a movie:Actor ;
+    rdfs:label "Bruce Cabot" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bert_Saxby> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bruce_Glover> a movie:Actor ;
+    rdfs:label "Bruce Glover" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Wint> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Bryan_Marshall> a movie:Actor ;
+    rdfs:label "Bryan Marshall" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Commander_Talbot> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Burt_Kwouk> a movie:Actor ;
+    rdfs:label "Burt Kwouk" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Ling>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Spectre_3> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Carey_Lowell> a movie:Actor ;
+    rdfs:label "Carey Lowell" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pam_Bouvier> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Carl_Rigg> a movie:Actor ;
+    rdfs:label "Carl Rigg" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Imposter_00> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Carl_von_Malais> a movie:Actor ;
+    rdfs:label "Carl von Malaisé" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Greenes_Driver> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Carole_Ashby> a movie:Actor ;
+    rdfs:label "Carole Ashby" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dominique> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Carole_Bouquet> a movie:Actor ;
+    rdfs:label "Carole Bouquet" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Melina_Havelock> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Caroline_Bliss> a movie:Actor ;
+    rdfs:label "Caroline Bliss" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Miss_Moneypenny> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Caroline_Munro> a movie:Actor ;
+    rdfs:label "Caroline Munro" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Naomi> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Cary-Hiroyuki_Tagawa> a movie:Actor ;
+    rdfs:label "Cary-Hiroyuki Tagawa" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kwang> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Cassandra_Harris> a movie:Actor ;
+    rdfs:label "Cassandra Harris" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lisl_von_Schlaf> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Caterina_Murino> a movie:Actor ;
+    rdfs:label "Caterina Murino" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Solange_Dimitrios> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Catherine_Rabett> a movie:Actor ;
+    rdfs:label "Catherine Rabett" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Liz> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Catherine_Von_Schell> a movie:Actor ;
+    rdfs:label "Catherine Von Schell" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Nancy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Cec_Linder> a movie:Actor ;
+    rdfs:label "Cec Linder" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felix_Leiter> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Cecilie_Thomsen> a movie:Actor ;
+    rdfs:label "Cecilie Thomsen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Inga_Bergstrom> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Chaim_Topol> a movie:Actor ;
+    rdfs:label "Chaim Topol" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Milos_Columbo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Chan_Yiu_Lam> a movie:Actor ;
+    rdfs:label "Chan Yiu Lam" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Chula> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Charles_Dance> a movie:Actor ;
+    rdfs:label "Charles Dance" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Claus> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Charles_Gray> a movie:Actor ;
+    rdfs:label "Charles Gray" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dikko_Henderson>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ernst_Stavro_Blofeld> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Charlie_Levy_Leroy> a movie:Actor ;
+    rdfs:label "Charlie Levy Leroy" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gallardo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Christina_Cole> a movie:Actor ;
+    rdfs:label "Christina Cole" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ocean_Club_receptionist> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Christoph_Waltz> a movie:Actor ;
+    rdfs:label "Christoph Waltz" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ernst_Stavro_Blofeld> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Christopher_Bowen> a movie:Actor ;
+    rdfs:label "Christopher Bowen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Commander_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Christopher_Lee> a movie:Actor ;
+    rdfs:label "Christopher Lee" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Francisco_Scaramanga> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Christopher_Neame> a movie:Actor ;
+    rdfs:label "Christopher Neame" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Fallon> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Christopher_Walken> a movie:Actor ;
+    rdfs:label "Christopher Walken" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Max_Zorin> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Claude-Oliver_Rudolph> a movie:Actor ;
+    rdfs:label "Claude-Oliver Rudolph" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Akakievich> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Claudine_Auger> a movie:Actor ;
+    rdfs:label "Claudine Auger" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Domino_Derval> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Claudio_Brook> a movie:Actor ;
+    rdfs:label "Claudio Brook" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Montelongo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Claudio_Santamaria> a movie:Actor ;
+    rdfs:label "Claudio Santamaria" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Carlos_Nikolic> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Clemens_Schick> a movie:Actor ;
+    rdfs:label "Clemens Schick" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kratt> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Clifton_James> a movie:Actor ;
+    rdfs:label "Clifton James" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sheriff_JW_Pepper> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Clive_Curtis> a movie:Actor ;
+    rdfs:label "Clive Curtis" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gonzales_henchman> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Colin_Salmon> a movie:Actor ;
+    rdfs:label "Colin Salmon" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Charles_Robinson> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Colin_Stinton> a movie:Actor ;
+    rdfs:label "Colin Stinton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dave_Greenwalt> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Con_ONeill> a movie:Actor ;
+    rdfs:label "Con O'Neill" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Bliss> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Corinne_Clry> a movie:Actor ;
+    rdfs:label "Corinne Cléry" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Corinne_Dufour> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Curt_Jurgens> a movie:Actor ;
+    rdfs:label "Curt Jurgens" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Karl_Stromberg> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Cynthia_Fallon> a movie:Actor ;
+    rdfs:label "Cynthia Fallon" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Consuelo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Cyril_Shaps> a movie:Actor ;
+    rdfs:label "Cyril Shaps" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Bechmann> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Dali_Benssalah> a movie:Actor ;
+    rdfs:label "Dali Benssalah" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Primo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Daniel_Benzali> a movie:Actor ;
+    rdfs:label "Daniel Benzali" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/WG_Howe> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Daniel_Craig> a movie:Actor ;
+    rdfs:label "Daniel Craig" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/James_Bond> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Darwin_Shaw> a movie:Actor ;
+    rdfs:label "Darwin Shaw" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Fisher> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/David_Bauer> a movie:Actor ;
+    rdfs:label "David Bauer" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Morton_Slumber> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/David_Bautista> a movie:Actor ;
+    rdfs:label "David Bautista" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Hinx> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/David_Dencik> a movie:Actor ;
+    rdfs:label "David Dencik" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valdo_Obruchev> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/David_Harbour> a movie:Actor ;
+    rdfs:label "David Harbour" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gregg_Beam> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/David_Hedison> a movie:Actor ;
+    rdfs:label "David Hedison" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felix_Leiter> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/David_Meyer> a movie:Actor ;
+    rdfs:label "David Meyer" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mischka> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/David_Yip> a movie:Actor ;
+    rdfs:label "David Yip" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Chuck_Lee> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Denise_Richards> a movie:Actor ;
+    rdfs:label "Denise Richards" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Christmas_Jones> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Derek_Hoxby> a movie:Actor ;
+    rdfs:label "Derek Hoxby" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sergeant_Stagg> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Derek_Lea> a movie:Actor ;
+    rdfs:label "Derek Lea" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Haines_Bodyguard> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Dermot_Crowley> a movie:Actor ;
+    rdfs:label "Dermot Crowley" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Senior_Lieutenant_Kamp> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Desmond_Llewelyn> a movie:Actor ;
+    rdfs:label "Desmond Llewelyn" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Q> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Diana_Lee-Hsu> a movie:Actor ;
+    rdfs:label "Diana Lee-Hsu" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Loti> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Diana_Rigg> a movie:Actor ;
+    rdfs:label "Diana Rigg" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tracy_Bond> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Domenico_Fortunato> a movie:Actor ;
+    rdfs:label "Domenico Fortunato" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gallo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Dominic_Shaun> a movie:Actor ;
+    rdfs:label "Dominic Shaun" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_Commander> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Don_Stroud> a movie:Actor ;
+    rdfs:label "Don Stroud" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Heller> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Donald_Pleasence> a movie:Actor ;
+    rdfs:label "Donald Pleasence" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ernst_Stavro_Blofeld> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Douglas_Wilmer> a movie:Actor ;
+    rdfs:label "Douglas Wilmer" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jim_Fanning> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Dulice_Liecier> a movie:Actor ;
+    rdfs:label "Dulice Liecier" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ava> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Earl_Cameron> a movie:Actor ;
+    rdfs:label "Earl Cameron" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pinder> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Earl_Jolly_Brown> a movie:Actor ;
+    rdfs:label "Earl Jolly Brown" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Whisper> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Eddie_Edenfield> a movie:Actor ;
+    rdfs:label "Eddie Edenfield" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Clive> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Edward_de_Souza> a movie:Actor ;
+    rdfs:label "Edward de Souza" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sheikh_Hosein> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Elize_du_Toit> a movie:Actor ;
+    rdfs:label "Elize du Toit" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vanessa> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Emilio_Echevarra> a movie:Actor ;
+    rdfs:label "Emilio Echevarría" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Raoul> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Emily_Bolton> a movie:Actor ;
+    rdfs:label "Emily Bolton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Manuela> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Emmanuel_Avena> a movie:Actor ;
+    rdfs:label "Emmanuel Avena" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Leo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Enrique_Novi> a movie:Actor ;
+    rdfs:label "Enrique Novi" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rasmussen> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Erick_Hayden> a movie:Actor ;
+    rdfs:label "Erick Hayden" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marshall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Erosi_Margiani> a movie:Actor ;
+    rdfs:label "Erosi Margiani" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Moishe_Soref> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Eunice_Gayson> a movie:Actor ;
+    rdfs:label "Eunice Gayson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sylvia_Trench> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Eva_Green> a movie:Actor ;
+    rdfs:label "Eva Green" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vesper_Lynd> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Eva_Rueber-Staier> a movie:Actor ;
+    rdfs:label "Eva Rueber-Staier" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rubelvitch>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rublevitch> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Everett_McGill> a movie:Actor ;
+    rdfs:label "Everett McGill" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ed_Killifer> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Famke_Janssen> a movie:Actor ;
+    rdfs:label "Famke Janssen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Xenia_Onatopp> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Fernando_Guillen_Cuervo> a movie:Actor ;
+    rdfs:label "Fernando Guillen Cuervo" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Carlos> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Fiona_Fullerton> a movie:Actor ;
+    rdfs:label "Fiona Fullerton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pola_Ivanova> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Francesco_Arca> a movie:Actor ;
+    rdfs:label "Francesco Arca" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Francesco> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Francis_de_Wolff> a movie:Actor ;
+    rdfs:label "Francis de Wolff" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vavra> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Frank_McRae> a movie:Actor ;
+    rdfs:label "Frank McRae" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sharkey> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Frederick_Warder> a movie:Actor ;
+    rdfs:label "Frederick Warder" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/004> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Gabriele_Ferzetti> a movie:Actor ;
+    rdfs:label "Gabriele Ferzetti" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marc-Ange_Draco> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Gediminas_Adomaitis> a movie:Actor ;
+    rdfs:label "Gediminas Adomaitis" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Blofelds_Right-Hand_Man> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Gemma_Arterton> a movie:Actor ;
+    rdfs:label "Gemma Arterton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Strawberry_Fields> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Geoffrey_Holder> a movie:Actor ;
+    rdfs:label "Geoffrey Holder" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Baron_Samedi> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Geoffrey_Keen> a movie:Actor ;
+    rdfs:label "Geoffrey Keen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Fredrick_Gray> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Geoffrey_Palmer> a movie:Actor ;
+    rdfs:label "Geoffrey Palmer" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Admiral_Roebuck> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/George_Baker> a movie:Actor ;
+    rdfs:label "George Baker" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Captain_Benson>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Hilary_Bray> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/George_Lazenby> a movie:Actor ;
+    rdfs:label "George Lazenby" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/James_Bond> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/George_Pravda> a movie:Actor ;
+    rdfs:label "George Pravda" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ladislav_Kutze> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Gerard_Butler> a movie:Actor ;
+    rdfs:label "Gerard Butler" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Leading_Seaman> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Gerardo_Albarrn> a movie:Actor ;
+    rdfs:label "Gerardo Albarrán" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Alvarez> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Gerry_Duggan> a movie:Actor ;
+    rdfs:label "Gerry Duggan" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hawker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Giancarlo_Giannini> a movie:Actor ;
+    rdfs:label "Giancarlo Giannini" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ren_Mathis> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Glenn_Foster> a movie:Actor ;
+    rdfs:label "Glenn Foster" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Craig_Mitchell> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Gloria_Hendry> a movie:Actor ;
+    rdfs:label "Gloria Hendry" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rosie_Carver> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Glyn_Baker> a movie:Actor ;
+    rdfs:label "Glyn Baker" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/002> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Goldie> a movie:Actor ;
+    rdfs:label "Goldie" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mister_Bullion> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Gottfried_John> a movie:Actor ;
+    rdfs:label "Gottfried John" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Ourumov> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Grace_Jones> a movie:Actor ;
+    rdfs:label "Grace Jones" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/May_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Graham_Crowden> a movie:Actor ;
+    rdfs:label "Graham Crowden" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/First_Sea_Lord> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Grand_L_Bush> a movie:Actor ;
+    rdfs:label "Grand L. Bush" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hawkins> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Gtz_Otto> a movie:Actor ;
+    rdfs:label "Götz Otto" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Stamper> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Guy_De_Saint_Cyr> a movie:Actor ;
+    rdfs:label "Guy De Saint Cyr" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Braun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Guy_Doleman> a movie:Actor ;
+    rdfs:label "Guy Doleman" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Count_Lippe> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Hal_Galili> a movie:Actor ;
+    rdfs:label "Hal Galili" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jack_Strap> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Halle_Berry> a movie:Actor ;
+    rdfs:label "Halle Berry" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jinx> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Harold_Sakata> a movie:Actor ;
+    rdfs:label "Harold Sakata" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Oddjob> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Helen_McCrory> a movie:Actor ;
+    rdfs:label "Helen McCrory" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Clair_Dowar> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Henry_Rowland> a movie:Actor ;
+    rdfs:label "Henry Rowland" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Tynan> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Herv_Villechaize> a movie:Actor ;
+    rdfs:label "Hervé Villechaize" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Nick_Nack> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ho_Yi> a movie:Actor ;
+    rdfs:label "Ho Yi" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Chang> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Honor_Blackman> a movie:Actor ;
+    rdfs:label "Honor Blackman" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pussy_Galore> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Honorato_Magaloni> a movie:Actor ;
+    rdfs:label "Honorato Magaloni" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Honorato> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Hugh_Bonneville> a movie:Actor ;
+    rdfs:label "Hugh Bonneville" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Air_Warfare_Officer> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Hugo_Napier> a movie:Actor ;
+    rdfs:label "Hugo Napier" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jeff_Hobbs> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ilse_Steppat> a movie:Actor ;
+    rdfs:label "Ilse Steppat" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Irma_Bunt> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Irka_Bochenko> a movie:Actor ;
+    rdfs:label "Irka Bochenko" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Blonde_Beauty> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Isaach_De_Bankol> a movie:Actor ;
+    rdfs:label "Isaach De Bankolé" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Steven_Obanno> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ivana_Milievi> a movie:Actor ;
+    rdfs:label "Ivana Miličević" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valenka> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Izabella_Scorupco> a movie:Actor ;
+    rdfs:label "Izabella Scorupco" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Natalya_Simonova> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jack_Hedley> a movie:Actor ;
+    rdfs:label "Jack Hedley" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Timothy_Havelock> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jack_Lord> a movie:Actor ;
+    rdfs:label "Jack Lord" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felix_Leiter> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/James_Cossins> a movie:Actor ;
+    rdfs:label "James Cossins" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colthorpe> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/James_Villiers> a movie:Actor ;
+    rdfs:label "James Villiers" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bill_Tanner> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jane_Seymour> a movie:Actor ;
+    rdfs:label "Jane Seymour" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Solitaire> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jason_Watkins> a movie:Actor ;
+    rdfs:label "Jason Watkins" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Principal_Warfare_Officer> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Javier_Bardem> a movie:Actor ;
+    rdfs:label "Javier Bardem" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Raoul_Silva> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jean-Pierre_Castaldi> a movie:Actor ;
+    rdfs:label "Jean-Pierre Castaldi" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Apollo_pilot> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jean_Rougerie> a movie:Actor ;
+    rdfs:label "Jean Rougerie" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Achille_Aubergine> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jeff_Moldovan> a movie:Actor ;
+    rdfs:label "Jeff Moldovan" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jeffrey_Wright> a movie:Actor ;
+    rdfs:label "Jeffrey Wright" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felix_Leiter> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jeremy_Bulloch> a movie:Actor ;
+    rdfs:label "Jeremy Bulloch" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Smithers> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jeroen_Krabb> a movie:Actor ;
+    rdfs:label "Jeroen Krabbé" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Georgi_Koskov> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jesper_Christensen> a movie:Actor ;
+    rdfs:label "Jesper Christensen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_White> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jess_Ochoa> a movie:Actor ;
+    rdfs:label "Jesús Ochoa" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_Orso> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jill_Bennett> a movie:Actor ;
+    rdfs:label "Jill Bennett" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jacoba_Brink> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jill_St_John> a movie:Actor ;
+    rdfs:label "Jill St. John" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tiffany_Case> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jimmy_Dean> a movie:Actor ;
+    rdfs:label "Jimmy Dean" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Willard_Whyte> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Joaquin_Cosio> a movie:Actor ;
+    rdfs:label "Joaquin Cosio" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Medrano> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Joe_Don_Baker> a movie:Actor ;
+    rdfs:label "Joe Don Baker" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Brad_Whitaker>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jack_Wade> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Joe_Flood> a movie:Actor ;
+    rdfs:label "Joe Flood" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/SFPD_Captain> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Joe_Robinson> a movie:Actor ;
+    rdfs:label "Joe Robinson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Peter_Franks> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/John_Bowe> a movie:Actor ;
+    rdfs:label "John Bowe" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Feyador> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/John_Cleese> a movie:Actor ;
+    rdfs:label "John Cleese" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Q>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/R> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/John_Kitzmiller> a movie:Actor ;
+    rdfs:label "John Kitzmiller" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Quarrel> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/John_Rhys-Davies> a movie:Actor ;
+    rdfs:label "John Rhys-Davies" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Leonid_Pushkin> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/John_Seru> a movie:Actor ;
+    rdfs:label "John Seru" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gabor> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/John_Terry> a movie:Actor ;
+    rdfs:label "John Terry" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felix_Leiter> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Jonathan_Pryce> a movie:Actor ;
+    rdfs:label "Jonathan Pryce" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Elliot_Carver> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Joseph_Frst> a movie:Actor ;
+    rdfs:label "Joseph Fürst" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Professor_Dr_Metz> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Joseph_Millson> a movie:Actor ;
+    rdfs:label "Joseph Millson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Carter> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Joseph_Wiseman> a movie:Actor ;
+    rdfs:label "Joseph Wiseman" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Julius_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Judi_Dench> a movie:Actor ;
+    rdfs:label "Judi Dench" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/M> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Julian_Fellowes> a movie:Actor ;
+    rdfs:label "Julian Fellowes" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Minister_of_Defence> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Julian_Glover> a movie:Actor ;
+    rdfs:label "Julian Glover" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Aris_Kristatos> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Julian_Rhind-Tutt> a movie:Actor ;
+    rdfs:label "Julian Rhind-Tutt" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Chief_Petty_Officer_Tutt> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Julie_T_Wallace> a movie:Actor ;
+    rdfs:label "Julie T. Wallace" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rosika_Miklos> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Julius_Harris> a movie:Actor ;
+    rdfs:label "Julius Harris" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tee_Hee> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Kabir_Bedi> a movie:Actor ;
+    rdfs:label "Kabir Bedi" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gobinda> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Kamil_Krejc> a movie:Actor ;
+    rdfs:label "Kamil Krejcí" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gregor_Karakov> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Karin_Dor> a movie:Actor ;
+    rdfs:label "Karin Dor" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Helga_Brandt> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Kell_Tyler> a movie:Actor ;
+    rdfs:label "Kell Tyler" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Linda> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ken_Norris> a movie:Actor ;
+    rdfs:label "Ken Norris" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Luis_Toro> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Kenneth_Tsang> a movie:Actor ;
+    rdfs:label "Kenneth Tsang" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Moon> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Khan_Bonfils> a movie:Actor ;
+    rdfs:label "Khan Bonfils" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Satoshi_Isagura> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Kristina_Wayborn> a movie:Actor ;
+    rdfs:label "Kristina Wayborn" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Magda> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/La_Seydoux> a movie:Actor ;
+    rdfs:label "Léa Seydoux" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Madeleine_Swann>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Madeleine_Swann> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lana_Wood> a movie:Actor ;
+    rdfs:label "Lana Wood" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Plenty_OToole> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lashana_Lynch> a movie:Actor ;
+    rdfs:label "Lashana Lynch" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Nomi> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Laurence_Naismith> a movie:Actor ;
+    rdfs:label "Laurence Naismith" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Donald_Munger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lawrence_Makoare> a movie:Actor ;
+    rdfs:label "Lawrence Makoare" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Kil> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lazar_Ristovski> a movie:Actor ;
+    rdfs:label "Lazar Ristovski" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kaminofsky> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Leila> a movie:Actor ;
+    rdfs:label "Leila" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Leila> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Leila_Shenna> a movie:Actor ;
+    rdfs:label "Leila Shenna" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Apollo_air_hostess> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Leo_Stransky> a movie:Actor ;
+    rdfs:label "Leo Stransky" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tall_Man> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Leonard_Barr> a movie:Actor ;
+    rdfs:label "Leonard Barr" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Shady_Tree> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Liza_Ross> a movie:Actor ;
+    rdfs:label "Liza Ross" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mary_Golson> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lois_Chiles> a movie:Actor ;
+    rdfs:label "Lois Chiles" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Holly_Goodhead> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lois_Maxwell> a movie:Actor ;
+    rdfs:label "Lois Maxwell" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Miss_Moneypenny> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lola_Larson> a movie:Actor ;
+    rdfs:label "Lola Larson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bambi> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lon_Satton> a movie:Actor ;
+    rdfs:label "Lon Satton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Harold_Strutter> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lotte_Lenya> a movie:Actor ;
+    rdfs:label "Lotte Lenya" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Rosa_Klebb> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Louis_Blaazer> a movie:Actor ;
+    rdfs:label "Louis Blaazer" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pleydell_Smith> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Louis_Jourdan> a movie:Actor ;
+    rdfs:label "Louis Jourdan" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kamal_Khan> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Luciana_Paluzzi> a movie:Actor ;
+    rdfs:label "Luciana Paluzzi" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Fiona_Volpe> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lucrezia_Lante_della_Rovere> a movie:Actor ;
+    rdfs:label "Lucrezia Lante della Rovere" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gemma> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ludger_Pistor> a movie:Actor ;
+    rdfs:label "Ludger Pistor" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mendel> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Lynn-Holly_Johnson> a movie:Actor ;
+    rdfs:label "Lynn-Holly Johnson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bibi_Dahl> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Madonna> a movie:Actor ;
+    rdfs:label "Madonna" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Verity> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Mads_Mikkelsen> a movie:Actor ;
+    rdfs:label "Mads Mikkelsen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Le_Chiffre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Mai_Ling> a movie:Actor ;
+    rdfs:label "Mai Ling" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mei-Lei> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Malcolm_Sinclair> a movie:Actor ;
+    rdfs:label "Malcolm Sinclair" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dryden> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Manning_Redwood> a movie:Actor ;
+    rdfs:label "Manning Redwood" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bob_Conley> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Marc_Lawrence> a movie:Actor ;
+    rdfs:label "Marc Lawrence" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rodney> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Marc_Zinga> a movie:Actor ;
+    rdfs:label "Marc Zinga" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Moreau> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Margaret_Lacey> a movie:Actor ;
+    rdfs:label "Margaret Lacey" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mrs_Whistler> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Margaret_Nolan> a movie:Actor ;
+    rdfs:label "Margaret Nolan" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dink> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Marguerite_LeWars> a movie:Actor ;
+    rdfs:label "Marguerite LeWars" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Annabel_Chung> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Maria_Grazia_Cucinotta> a movie:Actor ;
+    rdfs:label "Maria Grazia Cucinotta" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Cigar_Girl> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Mark_Spalding> a movie:Actor ;
+    rdfs:label "Mark Spalding" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Captain_Scott> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Mark_Wakeling> a movie:Actor ;
+    rdfs:label "Mark Wakeling" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ms_bodyguard> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Marne_Maitland> a movie:Actor ;
+    rdfs:label "Marne Maitland" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lazar> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Martin_Benson> a movie:Actor ;
+    rdfs:label "Martin Benson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Solo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Martine_Beswick> a movie:Actor ;
+    rdfs:label "Martine Beswick" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Paula_Caplan>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Zora> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Mary_Stvin> a movie:Actor ;
+    rdfs:label "Mary Stävin" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kimberley_Jones> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Maryam_dAbo> a movie:Actor ;
+    rdfs:label "Maryam d'Abo" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kara_Milovy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Mathieu_Amalric> a movie:Actor ;
+    rdfs:label "Mathieu Amalric" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dominic_Greene> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Matteo_Taranto> a movie:Actor ;
+    rdfs:label "Matteo Taranto" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marco> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Maud_Adams> a movie:Actor ;
+    rdfs:label "Maud Adams" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Andrea_Anders>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michael_Billington> a movie:Actor ;
+    rdfs:label "Michael Billington" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sergei_Barsov> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michael_Byrne> a movie:Actor ;
+    rdfs:label "Michael Byrne" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Admiral_Kelly> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michael_G_Wilson> a movie:Actor ;
+    rdfs:label "Michael G. Wilson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tom_Wallace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michael_Gothard> a movie:Actor ;
+    rdfs:label "Michael Gothard" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Emile_Leopold_Locque> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michael_Kitchen> a movie:Actor ;
+    rdfs:label "Michael Kitchen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bill_Tanner> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michael_Lonsdale> a movie:Actor ;
+    rdfs:label "Michael Lonsdale" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hugo_Drax> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michael_Madsen> a movie:Actor ;
+    rdfs:label "Michael Madsen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Damian_Falco> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michael_Mellinger> a movie:Actor ;
+    rdfs:label "Michael Mellinger" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kisch> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michaela_Clavell> a movie:Actor ;
+    rdfs:label "Michaela Clavell" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Penelope_Smallbone> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michel_Mok> a movie:Actor ;
+    rdfs:label "Michel Mok" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sister_Rose> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michelle_Arthur> a movie:Actor ;
+    rdfs:label "Michelle Arthur" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Anna_J_Nishkov> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Michelle_Yeoh> a movie:Actor ;
+    rdfs:label "Michelle Yeoh" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Wai_Lin> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Mie_Hama> a movie:Actor ;
+    rdfs:label "Mie Hama" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kissy_Suzuki> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Mike_Marshall> a movie:Actor ;
+    rdfs:label "Mike Marshall" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Scott> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Mikhail_Gorevoy> a movie:Actor ;
+    rdfs:label "Mikhail Gorevoy" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vlad> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Milo_Sperber> a movie:Actor ;
+    rdfs:label "Milo Sperber" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Professor_Markovitz> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Milorad_Kapor> a movie:Actor ;
+    rdfs:label "Milorad Kapor" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Boat_Captain> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Milton_Reid> a movie:Actor ;
+    rdfs:label "Milton Reid" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sandor> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Minnie_Driver> a movie:Actor ;
+    rdfs:label "Minnie Driver" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Irina> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Molly_Peters> a movie:Actor ;
+    rdfs:label "Molly Peters" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Patricia_Fearing> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Monica_Bellucci> a movie:Actor ;
+    rdfs:label "Monica Bellucci" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lucia_Sciarra> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Nadia_Cameron-Blakey> a movie:Actor ;
+    rdfs:label "Nadia Cameron-Blakey" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Beth_Davidson> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Nadim_Sawalha> a movie:Actor ;
+    rdfs:label "Nadim Sawalha" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Aziz_Fekkesh> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Nadja_Regin> a movie:Actor ;
+    rdfs:label "Nadja Regin" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bonita> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Naomie_Harris> a movie:Actor ;
+    rdfs:label "Naomie Harris" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Eve_Moneypenny> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Neil_Jackson> a movie:Actor ;
+    rdfs:label "Neil Jackson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Edmund_Slate> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Nicholas_Woodeson> a movie:Actor ;
+    rdfs:label "Nicholas Woodeson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Doctor_Hall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Nina_Young> a movie:Actor ;
+    rdfs:label "Nina Young" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tamara_Steel> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Norman_Burton> a movie:Actor ;
+    rdfs:label "Norman Burton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felix_Leiter> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ola_Rapace> a movie:Actor ;
+    rdfs:label "Ola Rapace" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Patrice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Oleg_Mirochnikov> a movie:Actor ;
+    rdfs:label "Oleg Mirochnikov" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valerian> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Olga_Bisera> a movie:Actor ;
+    rdfs:label "Olga Bisera" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felicca> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Olga_Kurylenko> a movie:Actor ;
+    rdfs:label "Olga Kurylenko" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Camille_Montes> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Osami_Kawawo> a movie:Actor ;
+    rdfs:label "Osami Kawawo" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tan> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Papillon_Soo_Soo> a movie:Actor ;
+    rdfs:label "Papillon Soo Soo" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pan_Ho> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Patrick_Bauchau> a movie:Actor ;
+    rdfs:label "Patrick Bauchau" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Scarpine> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Patrick_Macnee> a movie:Actor ;
+    rdfs:label "Patrick Macnee" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Godfrey_Tibbett> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Paul_Davis> a movie:Actor ;
+    rdfs:label "Paul Davis" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Steve_Benelisha> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Paul_Hardwick> a movie:Actor ;
+    rdfs:label "Paul Hardwick" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Leonid_Brezhnev> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Paul_Ritter> a movie:Actor ;
+    rdfs:label "Paul Ritter" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Guy_Haines> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Paul_Stassino> a movie:Actor ;
+    rdfs:label "Paul Stassino",
+        "Paul Stassino)" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Angelo_Palazzi>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Franois_Derval> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Pedro_Armendariz> a movie:Actor ;
+    rdfs:label "Pedro Armendariz" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ali_Kerim_Bey> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Pedro_Armendriz_Jr> a movie:Actor ;
+    rdfs:label "Pedro Armendáriz Jr." ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hector_Lopez> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Peppe_Lanzetta> a movie:Actor ;
+    rdfs:label "Peppe Lanzetta" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lorenzo> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Peter_Burton> a movie:Actor ;
+    rdfs:label "Peter Burton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Q> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Peter_Majer> a movie:Actor ;
+    rdfs:label "Peter Majer" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valentins_Bodyguard> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Peter_Porteous> a movie:Actor ;
+    rdfs:label "Peter Porteous" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lenkin> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Philip_Kwok> a movie:Actor ;
+    rdfs:label "Philip Kwok" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Chang> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Philip_Locke> a movie:Actor ;
+    rdfs:label "Philip Locke" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vargas> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Pierce_Brosnan> a movie:Actor ;
+    rdfs:label "Pierce Brosnan" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/James_Bond> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Pip_Torrens> a movie:Actor ;
+    rdfs:label "Pip Torrens" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Captain> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Priscilla_Barnes> a movie:Actor ;
+    rdfs:label "Priscilla Barnes" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Della_Churchill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Putter_Smith> a movie:Actor ;
+    rdfs:label "Putter Smith" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Kidd> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Rafer_Johnson> a movie:Actor ;
+    rdfs:label "Rafer Johnson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mullens> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ralph_Fiennes> a movie:Actor ;
+    rdfs:label "Ralph Fiennes" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gareth_Mallory>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/M> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Rami_Malek> a movie:Actor ;
+    rdfs:label "Rami Malek" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lyutsifer_Safin> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ray_Baker> a movie:Actor ;
+    rdfs:label "Ray Baker" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Joe> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Reginald_Carter> a movie:Actor ;
+    rdfs:label "Reginald Carter" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Jones> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Richard_Kiel> a movie:Actor ;
+    rdfs:label "Richard Kiel" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jaws> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Richard_Loo> a movie:Actor ;
+    rdfs:label "Richard Loo" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hai_Fat> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Richard_Sammel> a movie:Actor ;
+    rdfs:label "Richard Sammel" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Adolph_Gettler> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Richard_Vernon> a movie:Actor ;
+    rdfs:label "Richard Vernon" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Smithers> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Rick_Yune> a movie:Actor ;
+    rdfs:label "Rick Yune" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Zao> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ricky_Jay> a movie:Actor ;
+    rdfs:label "Ricky Jay" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Henry_Gupta> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Rik_Van_Nutter> a movie:Actor ;
+    rdfs:label "Rik Van Nutter" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felix_Leiter> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Robbie_Coltrane> a movie:Actor ;
+    rdfs:label "Robbie Coltrane" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valentin_Zukovsky> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Robert_Brown> a movie:Actor ;
+    rdfs:label "Robert Brown" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/M> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Robert_Carlyle> a movie:Actor ;
+    rdfs:label "Robert Carlyle" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Renard> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Robert_Davi> a movie:Actor ;
+    rdfs:label "Robert Davi" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Franz_Sanchez> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Robert_MacLeod> a movie:Actor ;
+    rdfs:label "Robert MacLeod" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Atomic_Specialist> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Robert_Shaw> a movie:Actor ;
+    rdfs:label "Robert Shaw" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Red_Grant> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Roger_Moore> a movie:Actor ;
+    rdfs:label "Roger Moore" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/James_Bond> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Rolf_Saxon> a movie:Actor ;
+    rdfs:label "Rolf Saxon" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Philip_Jones> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ron_Tarr> a movie:Actor ;
+    rdfs:label "Ron Tarr" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Zorins_guard> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ronald_Rich> a movie:Actor ;
+    rdfs:label "Ronald Rich" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hans> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Rory_Kinnear> a movie:Actor ;
+    rdfs:label "Rory Kinnear" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bill_Tanner> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Rosamund_Pike> a movie:Actor ;
+    rdfs:label "Rosamund Pike" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Miranda_Frost> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Roy_Stewart> a movie:Actor ;
+    rdfs:label "Roy Stewart" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Quarrel_Jr> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ruth_Kempf> a movie:Actor ;
+    rdfs:label "Ruth Kempf" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mrs_Bell> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Samantha_Bond> a movie:Actor ;
+    rdfs:label "Samantha Bond" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Miss_Moneypenny> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Sbastian_Foucan> a movie:Actor ;
+    rdfs:label "Sébastian Foucan" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mollaka_Danso> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Sean_Bean> a movie:Actor ;
+    rdfs:label "Sean Bean" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Alec_Trevelyan> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Sean_Connery> a movie:Actor ;
+    rdfs:label "Sean Connery" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/James_Bond> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Serena_Gordon> a movie:Actor ;
+    rdfs:label "Serena Gordon" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Caroline> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Serena_Scott_Thomas> a movie:Actor ;
+    rdfs:label "Serena Scott Thomas" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Molly_Warmflash> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Shane_Rimmer> a movie:Actor ;
+    rdfs:label "Shane Rimmer" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Commander_Carter>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tom> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Shirley_Eaton> a movie:Actor ;
+    rdfs:label "Shirley Eaton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jill_Masterson> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Simn_Andreu> a movie:Actor ;
+    rdfs:label "Simón Andreu" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Alvarez> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Simon_Abkarian> a movie:Actor ;
+    rdfs:label "Simon Abkarian" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Alex_Dimitrios> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Simon_Crane> a movie:Actor ;
+    rdfs:label "Simon Crane" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lt_Franois_Brouse_-_Tiger_Helicopter_Pilot> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Simon_Kassianides> a movie:Actor ;
+    rdfs:label "Simon Kassianides" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Yusef_Kabira> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Soon-Tek_Oh> a movie:Actor ;
+    rdfs:label "Soon-Tek Oh" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_Hip> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Sophie_Marceau> a movie:Actor ;
+    rdfs:label "Sophie Marceau" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Elektra_King> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Stana_Katic> a movie:Actor ;
+    rdfs:label "Stana Katic" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Corinne_Veneau> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Stephanie_Sigman> a movie:Actor ;
+    rdfs:label "Stephanie Sigman" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Estrella> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Steven_Berkoff> a movie:Actor ;
+    rdfs:label "Steven Berkoff" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Orlov> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Stuart_Saunders> a movie:Actor ;
+    rdfs:label "Stuart Saunders" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Major_Clive> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Sue_Vanner> a movie:Actor ;
+    rdfs:label "Sue Vanner" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Martine_Blanchaud> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Sydney_Tafler> a movie:Actor ;
+    rdfs:label "Sydney Tafler" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Liparus_captain> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Talisa_Soto> a movie:Actor ;
+    rdfs:label "Talisa Soto" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lupe_Lamora> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Tania_Mallet> a movie:Actor ;
+    rdfs:label "Tania Mallet" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tilly_Masterson> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Tanya_Roberts> a movie:Actor ;
+    rdfs:label "Tanya Roberts" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Stacey_Sutton> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Tchky_Karyo> a movie:Actor ;
+    rdfs:label "Tchéky Karyo" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dmitri_Mishkin> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Telly_Savalas> a movie:Actor ;
+    rdfs:label "Telly Savalas" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ernst_Stavro_Blofeld> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Terence_Rigby> a movie:Actor ;
+    rdfs:label "Terence Rigby" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Major_General_Bukharin> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Teri_Hatcher> a movie:Actor ;
+    rdfs:label "Teri Hatcher" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Paris_Carver> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Teru_Shimada> a movie:Actor ;
+    rdfs:label "Teru Shimada" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Osato> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Theo_Kypri> a movie:Actor ;
+    rdfs:label "Theo Kypri" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Terrorist_pilot> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Thomas_Wheatley> a movie:Actor ;
+    rdfs:label "Thomas Wheatley" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Saunders> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Timothy_Dalton> a movie:Actor ;
+    rdfs:label "Timothy Dalton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/James_Bond> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Tina_Hudson> a movie:Actor ;
+    rdfs:label "Tina Hudson" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bianca> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Tobias_Menzies> a movie:Actor ;
+    rdfs:label "Tobias Menzies" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Villiers> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Toby_Stephens> a movie:Actor ;
+    rdfs:label "Toby Stephens" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gustav_Graves> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Tom_So> a movie:Actor ;
+    rdfs:label "Tom So" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Fukutu> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Tommy_Lane> a movie:Actor ;
+    rdfs:label "Tommy Lane" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Adam> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Tonia_Sotiropoulou> a movie:Actor ;
+    rdfs:label "Tonia Sotiropoulou" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bonds_Lover> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Toshir_Suga> a movie:Actor ;
+    rdfs:label "Toshirô Suga" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Chang> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Trevor_Byfield> a movie:Actor ;
+    rdfs:label "Trevor Byfield" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Train_Driver> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Trina_Parks> a movie:Actor ;
+    rdfs:label "Trina Parks" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Thumper> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Tsai_Chin> a movie:Actor ;
+    rdfs:label "Tsai Chin" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ling>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Madam_Wu> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Ulrich_Thomsen> a movie:Actor ;
+    rdfs:label "Ulrich Thomsen" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sasha_Davidov> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Unknown_actor> a movie:Actor ;
+    rdfs:label "Unknown actor" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Terrorist_Co-Pilot> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Urbano_Barberini> a movie:Actor ;
+    rdfs:label "Urbano Barberini" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tomelli> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Vernon_Dobtcheff> a movie:Actor ;
+    rdfs:label "Vernon Dobtcheff" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Max_Kalba> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Veruschka_von_Lehndorff> a movie:Actor ;
+    rdfs:label "Veruschka von Lehndorff" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Grfin_von_Wallenstein> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Vijay_Amritraj> a movie:Actor ;
+    rdfs:label "Vijay Amritraj" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vijay> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Vincent_Schiavelli> a movie:Actor ;
+    rdfs:label "Vincent Schiavelli" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Kaufman> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Virginia_Hey> a movie:Actor ;
+    rdfs:label "Virginia Hey" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rubavitch> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Virginia_North> a movie:Actor ;
+    rdfs:label "Virginia North" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Olympe> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Vladek_Sheybal> a movie:Actor ;
+    rdfs:label "Vladek Sheybal" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kronsteen> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Walter_Gotell> a movie:Actor ;
+    rdfs:label "Walter Gotell" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Anatol_Gogol>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Gogol>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Morzeny> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Wayne_Michaels> a movie:Actor ;
+    rdfs:label "Wayne Michaels" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Capt_Bernard_Jaubert_-_Tiger_Helicopter_Pilot> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Wayne_Newton> a movie:Actor ;
+    rdfs:label "Wayne Newton" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Joe_Butcher> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Will_Yun_Lee> a movie:Actor ;
+    rdfs:label "Will Yun Lee" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Moon> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/William_Derrick> a movie:Actor ;
+    rdfs:label "William Derrick" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Yo-yo_thug> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/William_Foster-Davis> a movie:Actor ;
+    rdfs:label "William Foster-Davis" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Superintendent_Duff> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Willoughby_Gray> a movie:Actor ;
+    rdfs:label "Willoughby Gray" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Mortner> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Yaphet_Kotto> a movie:Actor ;
+    rdfs:label "Yaphet Kotto" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Kananga_Mr_Big> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Yuri_Borienko> a movie:Actor ;
+    rdfs:label "Yuri Borienko" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Grunther> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Yvonne_Shima> a movie:Actor ;
+    rdfs:label "Yvonne Shima" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sister_Lily> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/Zena_Marshall> a movie:Actor ;
+    rdfs:label "Zena Marshall" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Miss_Taro> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Actor/wikipedia_Dolph_Lundgren_Dolph_Lundgren> a movie:Actor ;
+    rdfs:label "wikipedia:Dolph Lundgren|Dolph Lundgren" ;
+    movie:playsCharacter <https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Venz> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/002> a movie:FilmCharacter ;
+    rdfs:label "002" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/004> a movie:FilmCharacter ;
+    rdfs:label "004" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/009> a movie:FilmCharacter ;
+    rdfs:label "009" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Abrika> a movie:FilmCharacter ;
+    rdfs:label "Abrika" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Achille_Aubergine> a movie:FilmCharacter ;
+    rdfs:label "Achille Aubergine" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Achmed> a movie:FilmCharacter ;
+    rdfs:label "Achmed" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Adam> a movie:FilmCharacter ;
+    rdfs:label "Adam" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Admiral_Chuck_Farrel> a movie:FilmCharacter ;
+    rdfs:label "Admiral Chuck Farrel" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Admiral_Kelly> a movie:FilmCharacter ;
+    rdfs:label "Admiral Kelly" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Admiral_Roebuck> a movie:FilmCharacter ;
+    rdfs:label "Admiral Roebuck" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Adolph_Gettler> a movie:FilmCharacter ;
+    rdfs:label "Adolph Gettler" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Air_Warfare_Officer> a movie:FilmCharacter ;
+    rdfs:label "Air Warfare Officer" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Aki> a movie:FilmCharacter ;
+    rdfs:label "Aki" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Alec_Trevelyan> a movie:FilmCharacter ;
+    rdfs:label "Alec Trevelyan" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Alex_Dimitrios> a movie:FilmCharacter ;
+    rdfs:label "Alex Dimitrios" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ali_Kerim_Bey> a movie:FilmCharacter ;
+    rdfs:label "Ali Kerim Bey" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Alvarez> a movie:FilmCharacter ;
+    rdfs:label "Alvarez" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Andrea_Anders> a movie:FilmCharacter ;
+    rdfs:label "Andrea Anders" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Angelo_Palazzi> a movie:FilmCharacter ;
+    rdfs:label "Angelo Palazzi" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Anna_J_Nishkov> a movie:FilmCharacter ;
+    rdfs:label "Anna J. Nishkov" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Annabel_Chung> a movie:FilmCharacter ;
+    rdfs:label "Annabel Chung" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Anya_Amasova> a movie:FilmCharacter ;
+    rdfs:label "Anya Amasova" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Apollo_air_hostess> a movie:FilmCharacter ;
+    rdfs:label "Apollo air hostess" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Apollo_pilot> a movie:FilmCharacter ;
+    rdfs:label "Apollo pilot" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Aris_Kristatos> a movie:FilmCharacter ;
+    rdfs:label "Aris Kristatos" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Atomic_Specialist> a movie:FilmCharacter ;
+    rdfs:label "Atomic Specialist" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ava> a movie:FilmCharacter ;
+    rdfs:label "Ava" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Aziz_Fekkesh> a movie:FilmCharacter ;
+    rdfs:label "Aziz Fekkesh" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bambi> a movie:FilmCharacter ;
+    rdfs:label "Bambi" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Baron_Samedi> a movie:FilmCharacter ;
+    rdfs:label "Baron Samedi" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bert_Saxby> a movie:FilmCharacter ;
+    rdfs:label "Bert Saxby" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Beth_Davidson> a movie:FilmCharacter ;
+    rdfs:label "Beth Davidson" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bianca> a movie:FilmCharacter ;
+    rdfs:label "Bianca" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bibi_Dahl> a movie:FilmCharacter ;
+    rdfs:label "Bibi Dahl" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bill> a movie:FilmCharacter ;
+    rdfs:label "Bill" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Blofelds_Right-Hand_Man> a movie:FilmCharacter ;
+    rdfs:label "Blofeld's Right-Hand Man" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Blonde_Beauty> a movie:FilmCharacter ;
+    rdfs:label "Blonde Beauty" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Boat_Captain> a movie:FilmCharacter ;
+    rdfs:label "Boat Captain" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bob_Conley> a movie:FilmCharacter ;
+    rdfs:label "Bob Conley" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bonds_Lover> a movie:FilmCharacter ;
+    rdfs:label "Bond’s Lover" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bonita> a movie:FilmCharacter ;
+    rdfs:label "Bonita" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Boris_Grishenko> a movie:FilmCharacter ;
+    rdfs:label "Boris Grishenko" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Brad_Whitaker> a movie:FilmCharacter ;
+    rdfs:label "Brad Whitaker" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Braun> a movie:FilmCharacter ;
+    rdfs:label "Braun" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Camille_Montes> a movie:FilmCharacter ;
+    rdfs:label "Camille Montes" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Capt_Bernard_Jaubert_-_Tiger_Helicopter_Pilot> a movie:FilmCharacter ;
+    rdfs:label "Capt. Bernard Jaubert - Tiger Helicopter Pilot" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Captain_Benson> a movie:FilmCharacter ;
+    rdfs:label "Captain Benson" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Captain_Scott> a movie:FilmCharacter ;
+    rdfs:label "Captain Scott" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Capungo> a movie:FilmCharacter ;
+    rdfs:label "Capungo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Carlos_Nikolic> a movie:FilmCharacter ;
+    rdfs:label "Carlos Nikolic" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Caroline> a movie:FilmCharacter ;
+    rdfs:label "Caroline" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Carter> a movie:FilmCharacter ;
+    rdfs:label "Carter" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Chang> a movie:FilmCharacter ;
+    rdfs:label "Chang" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Charles_Robinson> a movie:FilmCharacter ;
+    rdfs:label "Charles Robinson" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Chief_Petty_Officer_Tutt> a movie:FilmCharacter ;
+    rdfs:label "Chief Petty Officer Tutt" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Chuck_Lee> a movie:FilmCharacter ;
+    rdfs:label "Chuck Lee" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Chula> a movie:FilmCharacter ;
+    rdfs:label "Chula" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Cigar_Girl> a movie:FilmCharacter ;
+    rdfs:label "Cigar Girl" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Clair_Dowar> a movie:FilmCharacter ;
+    rdfs:label "Clair Dowar" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Claus> a movie:FilmCharacter ;
+    rdfs:label "Claus" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Clive> a movie:FilmCharacter ;
+    rdfs:label "Clive" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Akakievich> a movie:FilmCharacter ;
+    rdfs:label "Colonel Akakievich" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Carlos> a movie:FilmCharacter ;
+    rdfs:label "Colonel Carlos" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Feyador> a movie:FilmCharacter ;
+    rdfs:label "Colonel Feyador" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Heller> a movie:FilmCharacter ;
+    rdfs:label "Colonel Heller" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Luis_Toro> a movie:FilmCharacter ;
+    rdfs:label "Colonel Luis Toro" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Moon> a movie:FilmCharacter ;
+    rdfs:label "Colonel Moon" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Rosa_Klebb> a movie:FilmCharacter ;
+    rdfs:label "Colonel Rosa Klebb" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Scott> a movie:FilmCharacter ;
+    rdfs:label "Colonel Scott" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colonel_Smithers> a movie:FilmCharacter ;
+    rdfs:label "Colonel Smithers" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Colthorpe> a movie:FilmCharacter ;
+    rdfs:label "Colthorpe" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Commander_Carter> a movie:FilmCharacter ;
+    rdfs:label "Commander Carter" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Commander_Day> a movie:FilmCharacter ;
+    rdfs:label "Commander Day" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Commander_Talbot> a movie:FilmCharacter ;
+    rdfs:label "Commander Talbot" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Consuelo> a movie:FilmCharacter ;
+    rdfs:label "Consuelo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Corinne_Dufour> a movie:FilmCharacter ;
+    rdfs:label "Corinne Dufour" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Corinne_Veneau> a movie:FilmCharacter ;
+    rdfs:label "Corinne Veneau" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Count_Lippe> a movie:FilmCharacter ;
+    rdfs:label "Count Lippe" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Craig_Mitchell> a movie:FilmCharacter ;
+    rdfs:label "Craig Mitchell" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Damian_Falco> a movie:FilmCharacter ;
+    rdfs:label "Damian Falco" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dario> a movie:FilmCharacter ;
+    rdfs:label "Dario" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dave_Greenwalt> a movie:FilmCharacter ;
+    rdfs:label "Dave Greenwalt" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Della_Churchill> a movie:FilmCharacter ;
+    rdfs:label "Della Churchill" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Denise> a movie:FilmCharacter ;
+    rdfs:label "Denise" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dikko_Henderson> a movie:FilmCharacter ;
+    rdfs:label "Dikko Henderson" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dink> a movie:FilmCharacter ;
+    rdfs:label "Dink" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dmitri_Mishkin> a movie:FilmCharacter ;
+    rdfs:label "Dmitri Mishkin" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Doctor_Hall> a movie:FilmCharacter ;
+    rdfs:label "Doctor Hall" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dolly> a movie:FilmCharacter ;
+    rdfs:label "Dolly" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dominic_Greene> a movie:FilmCharacter ;
+    rdfs:label "Dominic Greene" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dominique> a movie:FilmCharacter ;
+    rdfs:label "Dominique" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Domino_Derval> a movie:FilmCharacter ;
+    rdfs:label "Domino Derval" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Alvarez> a movie:FilmCharacter ;
+    rdfs:label "Dr. Alvarez" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Bechmann> a movie:FilmCharacter ;
+    rdfs:label "Dr. Bechmann" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Christmas_Jones> a movie:FilmCharacter ;
+    rdfs:label "Dr. Christmas Jones" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Julius_No> a movie:FilmCharacter ;
+    rdfs:label "Dr. Julius No" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Kananga_Mr_Big> a movie:FilmCharacter ;
+    rdfs:label "Dr. Kananga/Mr. Big" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Kaufman> a movie:FilmCharacter ;
+    rdfs:label "Dr. Kaufman" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Madeleine_Swann> a movie:FilmCharacter ;
+    rdfs:label "Dr. Madeleine Swann" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Mortner> a movie:FilmCharacter ;
+    rdfs:label "Dr. Mortner" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Tynan> a movie:FilmCharacter ;
+    rdfs:label "Dr. Tynan" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dr_Vogel> a movie:FilmCharacter ;
+    rdfs:label "Dr. Vogel" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Dryden> a movie:FilmCharacter ;
+    rdfs:label "Dryden" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ed_Killifer> a movie:FilmCharacter ;
+    rdfs:label "Ed Killifer" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Edmund_Slate> a movie:FilmCharacter ;
+    rdfs:label "Edmund Slate" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Elektra_King> a movie:FilmCharacter ;
+    rdfs:label "Elektra King" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Elliot_Carver> a movie:FilmCharacter ;
+    rdfs:label "Elliot Carver" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Elvis> a movie:FilmCharacter ;
+    rdfs:label "Elvis" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Emile_Leopold_Locque> a movie:FilmCharacter ;
+    rdfs:label "Emile Leopold Locque" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Estrella> a movie:FilmCharacter ;
+    rdfs:label "Estrella" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Eve_Moneypenny> a movie:FilmCharacter ;
+    rdfs:label "Eve Moneypenny" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Fallon> a movie:FilmCharacter ;
+    rdfs:label "Fallon" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felicca> a movie:FilmCharacter ;
+    rdfs:label "Felicca" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Fiona_Volpe> a movie:FilmCharacter ;
+    rdfs:label "Fiona Volpe" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Firing_Officer> a movie:FilmCharacter ;
+    rdfs:label "Firing Officer" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/First_Sea_Lord> a movie:FilmCharacter ;
+    rdfs:label "First Sea Lord" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Fisher> a movie:FilmCharacter ;
+    rdfs:label "Fisher" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Francesco> a movie:FilmCharacter ;
+    rdfs:label "Francesco" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Francisco_Scaramanga> a movie:FilmCharacter ;
+    rdfs:label "Francisco Scaramanga" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Franois_Derval> a movie:FilmCharacter ;
+    rdfs:label "François Derval" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Franz_Sanchez> a movie:FilmCharacter ;
+    rdfs:label "Franz Sanchez" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Fukutu> a movie:FilmCharacter ;
+    rdfs:label "Fukutu" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gabor> a movie:FilmCharacter ;
+    rdfs:label "Gabor" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gallardo> a movie:FilmCharacter ;
+    rdfs:label "Gallardo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gallo> a movie:FilmCharacter ;
+    rdfs:label "Gallo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gareth_Mallory> a movie:FilmCharacter ;
+    rdfs:label "Gareth Mallory" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gemma> a movie:FilmCharacter ;
+    rdfs:label "Gemma" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Anatol_Gogol> a movie:FilmCharacter ;
+    rdfs:label "General Anatol Gogol" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Chang> a movie:FilmCharacter ;
+    rdfs:label "General Chang" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Georgi_Koskov> a movie:FilmCharacter ;
+    rdfs:label "General Georgi Koskov" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Gogol> a movie:FilmCharacter ;
+    rdfs:label "General Gogol" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Leonid_Pushkin> a movie:FilmCharacter ;
+    rdfs:label "General Leonid Pushkin" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Medrano> a movie:FilmCharacter ;
+    rdfs:label "General Medrano" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Moon> a movie:FilmCharacter ;
+    rdfs:label "General Moon" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Orlov> a movie:FilmCharacter ;
+    rdfs:label "General Orlov" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/General_Ourumov> a movie:FilmCharacter ;
+    rdfs:label "General Ourumov" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gobinda> a movie:FilmCharacter ;
+    rdfs:label "Gobinda" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gonzales_henchman> a movie:FilmCharacter ;
+    rdfs:label "Gonzales' henchman" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Green_Four> a movie:FilmCharacter ;
+    rdfs:label "Green Four" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Greenes_Driver> a movie:FilmCharacter ;
+    rdfs:label "Greene's Driver" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gregg_Beam> a movie:FilmCharacter ;
+    rdfs:label "Gregg Beam" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gregor_Karakov> a movie:FilmCharacter ;
+    rdfs:label "Gregor Karakov" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Grfin_von_Wallenstein> a movie:FilmCharacter ;
+    rdfs:label "Gräfin von Wallenstein" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Grischka> a movie:FilmCharacter ;
+    rdfs:label "Grischka" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Grunther> a movie:FilmCharacter ;
+    rdfs:label "Grunther" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Guerra> a movie:FilmCharacter ;
+    rdfs:label "Guerra" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Gustav_Graves> a movie:FilmCharacter ;
+    rdfs:label "Gustav Graves" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Guy_Haines> a movie:FilmCharacter ;
+    rdfs:label "Guy Haines" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hai_Fat> a movie:FilmCharacter ;
+    rdfs:label "Hai Fat" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Haines_Bodyguard> a movie:FilmCharacter ;
+    rdfs:label "Haines' Bodyguard" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hans> a movie:FilmCharacter ;
+    rdfs:label "Hans" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Harold_Strutter> a movie:FilmCharacter ;
+    rdfs:label "Harold Strutter" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hawker> a movie:FilmCharacter ;
+    rdfs:label "Hawker" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hawkins> a movie:FilmCharacter ;
+    rdfs:label "Hawkins" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hector_Lopez> a movie:FilmCharacter ;
+    rdfs:label "Hector Lopez" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Helga_Brandt> a movie:FilmCharacter ;
+    rdfs:label "Helga Brandt" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Henry_Gupta> a movie:FilmCharacter ;
+    rdfs:label "Henry Gupta" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Holly_Goodhead> a movie:FilmCharacter ;
+    rdfs:label "Holly Goodhead" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Honorato> a movie:FilmCharacter ;
+    rdfs:label "Honorato" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Hugo_Drax> a movie:FilmCharacter ;
+    rdfs:label "Hugo Drax" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Imposter_00> a movie:FilmCharacter ;
+    rdfs:label "Imposter 00" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Infante> a movie:FilmCharacter ;
+    rdfs:label "Infante" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Inga_Bergstrom> a movie:FilmCharacter ;
+    rdfs:label "Inga Bergstrom" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Irina> a movie:FilmCharacter ;
+    rdfs:label "Irina" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Irma_Bunt> a movie:FilmCharacter ;
+    rdfs:label "Irma Bunt" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jack_Strap> a movie:FilmCharacter ;
+    rdfs:label "Jack Strap" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jack_Wade> a movie:FilmCharacter ;
+    rdfs:label "Jack Wade" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jacoba_Brink> a movie:FilmCharacter ;
+    rdfs:label "Jacoba Brink" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jacques_Bouvar> a movie:FilmCharacter ;
+    rdfs:label "Jacques Bouvar" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jaws> a movie:FilmCharacter ;
+    rdfs:label "Jaws" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jed_Midgnight> a movie:FilmCharacter ;
+    rdfs:label "Jed Midgnight" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jeff_Hobbs> a movie:FilmCharacter ;
+    rdfs:label "Jeff Hobbs" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jenny_Flex> a movie:FilmCharacter ;
+    rdfs:label "Jenny Flex" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jill_Masterson> a movie:FilmCharacter ;
+    rdfs:label "Jill Masterson" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jim_Fanning> a movie:FilmCharacter ;
+    rdfs:label "Jim Fanning" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Jinx> a movie:FilmCharacter ;
+    rdfs:label "Jinx" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Joe> a movie:FilmCharacter ;
+    rdfs:label "Joe" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Joe_Butcher> a movie:FilmCharacter ;
+    rdfs:label "Joe Butcher" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kamal_Khan> a movie:FilmCharacter ;
+    rdfs:label "Kamal Khan" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kaminofsky> a movie:FilmCharacter ;
+    rdfs:label "Kaminofsky" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kamran_Shah> a movie:FilmCharacter ;
+    rdfs:label "Kamran Shah" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kara_Milovy> a movie:FilmCharacter ;
+    rdfs:label "Kara Milovy" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Karl_Stromberg> a movie:FilmCharacter ;
+    rdfs:label "Karl Stromberg" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kimberley_Jones> a movie:FilmCharacter ;
+    rdfs:label "Kimberley Jones" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kincade> a movie:FilmCharacter ;
+    rdfs:label "Kincade" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kisch> a movie:FilmCharacter ;
+    rdfs:label "Kisch" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kissy_Suzuki> a movie:FilmCharacter ;
+    rdfs:label "Kissy Suzuki" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Klotkoff> a movie:FilmCharacter ;
+    rdfs:label "Klotkoff" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kratt> a movie:FilmCharacter ;
+    rdfs:label "Kratt" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kronsteen> a movie:FilmCharacter ;
+    rdfs:label "Kronsteen" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Kwang> a movie:FilmCharacter ;
+    rdfs:label "Kwang" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ladislav_Kutze> a movie:FilmCharacter ;
+    rdfs:label "Ladislav Kutze" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lazar> a movie:FilmCharacter ;
+    rdfs:label "Lazar" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Le_Chiffre> a movie:FilmCharacter ;
+    rdfs:label "Le Chiffre" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Leading_Seaman> a movie:FilmCharacter ;
+    rdfs:label "Leading Seaman" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Leila> a movie:FilmCharacter ;
+    rdfs:label "Leila" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lenkin> a movie:FilmCharacter ;
+    rdfs:label "Lenkin" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Leo> a movie:FilmCharacter ;
+    rdfs:label "Leo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Leonid_Brezhnev> a movie:FilmCharacter ;
+    rdfs:label "Leonid Brezhnev" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_Commander> a movie:FilmCharacter ;
+    rdfs:label "Lieutenant Commander" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_Commander_Hume> a movie:FilmCharacter ;
+    rdfs:label "Lieutenant Commander Hume" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_General_Peterson> a movie:FilmCharacter ;
+    rdfs:label "Lieutenant General Peterson" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_Hip> a movie:FilmCharacter ;
+    rdfs:label "Lieutenant Hip" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lieutenant_Orso> a movie:FilmCharacter ;
+    rdfs:label "Lieutenant Orso" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Linda> a movie:FilmCharacter ;
+    rdfs:label "Linda" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ling> a movie:FilmCharacter ;
+    rdfs:label "Ling" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Liparus_captain> a movie:FilmCharacter ;
+    rdfs:label "Liparus captain" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lisl_von_Schlaf> a movie:FilmCharacter ;
+    rdfs:label "Lisl von Schlaf" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Liz> a movie:FilmCharacter ;
+    rdfs:label "Liz" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Logan_Ash> a movie:FilmCharacter ;
+    rdfs:label "Logan Ash" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lorenzo> a movie:FilmCharacter ;
+    rdfs:label "Lorenzo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Loti> a movie:FilmCharacter ;
+    rdfs:label "Loti" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lt_Franois_Brouse_-_Tiger_Helicopter_Pilot> a movie:FilmCharacter ;
+    rdfs:label "Lt. François Brouse - Tiger Helicopter Pilot" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lucia_Sciarra> a movie:FilmCharacter ;
+    rdfs:label "Lucia Sciarra" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lupe_Lamora> a movie:FilmCharacter ;
+    rdfs:label "Lupe Lamora" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Lyutsifer_Safin> a movie:FilmCharacter ;
+    rdfs:label "Lyutsifer Safin" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Madam_Wu> a movie:FilmCharacter ;
+    rdfs:label "Madam Wu" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Madeleine_Swann> a movie:FilmCharacter ;
+    rdfs:label "Madeleine Swann" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Magda> a movie:FilmCharacter ;
+    rdfs:label "Magda" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Major_Clive> a movie:FilmCharacter ;
+    rdfs:label "Major Clive" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Major_General_Bukharin> a movie:FilmCharacter ;
+    rdfs:label "Major General Bukharin" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Manuela> a movie:FilmCharacter ;
+    rdfs:label "Manuela" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marc-Ange_Draco> a movie:FilmCharacter ;
+    rdfs:label "Marc-Ange Draco" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marchetti_Pilot> a movie:FilmCharacter ;
+    rdfs:label "Marchetti Pilot" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marco> a movie:FilmCharacter ;
+    rdfs:label "Marco" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marco_Sciarra> a movie:FilmCharacter ;
+    rdfs:label "Marco Sciarra" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Marshall> a movie:FilmCharacter ;
+    rdfs:label "Marshall" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Martine_Blanchaud> a movie:FilmCharacter ;
+    rdfs:label "Martine Blanchaud" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mary_Golson> a movie:FilmCharacter ;
+    rdfs:label "Mary Golson" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mary_Goodnight> a movie:FilmCharacter ;
+    rdfs:label "Mary Goodnight" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Max_Denbigh> a movie:FilmCharacter ;
+    rdfs:label "Max Denbigh" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Max_Kalba> a movie:FilmCharacter ;
+    rdfs:label "Max Kalba" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Max_Zorin> a movie:FilmCharacter ;
+    rdfs:label "Max Zorin" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/May_Day> a movie:FilmCharacter ;
+    rdfs:label "May Day" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mei-Lei> a movie:FilmCharacter ;
+    rdfs:label "Mei-Lei" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Melina_Havelock> a movie:FilmCharacter ;
+    rdfs:label "Melina Havelock" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mendel> a movie:FilmCharacter ;
+    rdfs:label "Mendel" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Milos_Columbo> a movie:FilmCharacter ;
+    rdfs:label "Milos Columbo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Milton_Krest> a movie:FilmCharacter ;
+    rdfs:label "Milton Krest" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Minister_of_Defence> a movie:FilmCharacter ;
+    rdfs:label "Minister of Defence" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Miranda_Frost> a movie:FilmCharacter ;
+    rdfs:label "Miranda Frost" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mischka> a movie:FilmCharacter ;
+    rdfs:label "Mischka" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Miss_Taro> a movie:FilmCharacter ;
+    rdfs:label "Miss Taro" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mister_Bullion> a movie:FilmCharacter ;
+    rdfs:label "Mister Bullion" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Moishe_Soref> a movie:FilmCharacter ;
+    rdfs:label "Moishe Soref" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mollaka_Danso> a movie:FilmCharacter ;
+    rdfs:label "Mollaka Danso" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Molly_Warmflash> a movie:FilmCharacter ;
+    rdfs:label "Molly Warmflash" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Montelongo> a movie:FilmCharacter ;
+    rdfs:label "Montelongo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Moreau> a movie:FilmCharacter ;
+    rdfs:label "Moreau" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Morton_Slumber> a movie:FilmCharacter ;
+    rdfs:label "Morton Slumber" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Morzeny> a movie:FilmCharacter ;
+    rdfs:label "Morzeny" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Bliss> a movie:FilmCharacter ;
+    rdfs:label "Mr. Bliss" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Chang> a movie:FilmCharacter ;
+    rdfs:label "Mr. Chang" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Hinx> a movie:FilmCharacter ;
+    rdfs:label "Mr. Hinx" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Jones> a movie:FilmCharacter ;
+    rdfs:label "Mr. Jones" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Kidd> a movie:FilmCharacter ;
+    rdfs:label "Mr. Kidd" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Kil> a movie:FilmCharacter ;
+    rdfs:label "Mr. Kil" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Ling> a movie:FilmCharacter ;
+    rdfs:label "Mr. Ling" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Osato> a movie:FilmCharacter ;
+    rdfs:label "Mr. Osato" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Solo> a movie:FilmCharacter ;
+    rdfs:label "Mr. Solo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_White> a movie:FilmCharacter ;
+    rdfs:label "Mr. White" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mr_Wint> a movie:FilmCharacter ;
+    rdfs:label "Mr. Wint" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mrs_Bell> a movie:FilmCharacter ;
+    rdfs:label "Mrs. Bell" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mrs_Whistler> a movie:FilmCharacter ;
+    rdfs:label "Mrs. Whistler" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ms_bodyguard> a movie:FilmCharacter ;
+    rdfs:label "M's bodyguard" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Mullens> a movie:FilmCharacter ;
+    rdfs:label "Mullens" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Museum_Guide> a movie:FilmCharacter ;
+    rdfs:label "Museum Guide" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Nancy> a movie:FilmCharacter ;
+    rdfs:label "Nancy" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Naomi> a movie:FilmCharacter ;
+    rdfs:label "Naomi" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Natalya_Simonova> a movie:FilmCharacter ;
+    rdfs:label "Natalya Simonova" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Necros> a movie:FilmCharacter ;
+    rdfs:label "Necros" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Nick_Nack> a movie:FilmCharacter ;
+    rdfs:label "Nick Nack" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Nomi> a movie:FilmCharacter ;
+    rdfs:label "Nomi" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ocean_Club_receptionist> a movie:FilmCharacter ;
+    rdfs:label "Ocean Club receptionist" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Octopussy> a movie:FilmCharacter ;
+    rdfs:label "Octopussy" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Oddjob> a movie:FilmCharacter ;
+    rdfs:label "Oddjob" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Olympe> a movie:FilmCharacter ;
+    rdfs:label "Olympe" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Paloma> a movie:FilmCharacter ;
+    rdfs:label "Paloma" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pam_Bouvier> a movie:FilmCharacter ;
+    rdfs:label "Pam Bouvier" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pan_Ho> a movie:FilmCharacter ;
+    rdfs:label "Pan Ho" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Paris_Carver> a movie:FilmCharacter ;
+    rdfs:label "Paris Carver" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Patrice> a movie:FilmCharacter ;
+    rdfs:label "Patrice" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Patricia_Fearing> a movie:FilmCharacter ;
+    rdfs:label "Patricia Fearing" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Paula_Caplan> a movie:FilmCharacter ;
+    rdfs:label "Paula Caplan" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Penelope_Smallbone> a movie:FilmCharacter ;
+    rdfs:label "Penelope Smallbone" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Perez> a movie:FilmCharacter ;
+    rdfs:label "Perez" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Peter_Franks> a movie:FilmCharacter ;
+    rdfs:label "Peter Franks" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Petty_Officer_Wood> a movie:FilmCharacter ;
+    rdfs:label "Petty Officer Wood" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Philip_Jones> a movie:FilmCharacter ;
+    rdfs:label "Philip Jones" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pinder> a movie:FilmCharacter ;
+    rdfs:label "Pinder" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Plenty_OToole> a movie:FilmCharacter ;
+    rdfs:label "Plenty O'Toole" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pleydell_Smith> a movie:FilmCharacter ;
+    rdfs:label "Pleydell Smith" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pola_Ivanova> a movie:FilmCharacter ;
+    rdfs:label "Pola Ivanova" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Primo> a movie:FilmCharacter ;
+    rdfs:label "Primo" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Principal_Warfare_Officer> a movie:FilmCharacter ;
+    rdfs:label "Principal Warfare Officer" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Professor_Dr_Metz> a movie:FilmCharacter ;
+    rdfs:label "Professor Dr. Metz" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Professor_Markovitz> a movie:FilmCharacter ;
+    rdfs:label "Professor Markovitz" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Pussy_Galore> a movie:FilmCharacter ;
+    rdfs:label "Pussy Galore" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Quarrel> a movie:FilmCharacter ;
+    rdfs:label "Quarrel" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Quarrel_Jr> a movie:FilmCharacter ;
+    rdfs:label "Quarrel Jr." ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Quist> a movie:FilmCharacter ;
+    rdfs:label "Quist" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/R> a movie:FilmCharacter ;
+    rdfs:label "R" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/R_J_Dent> a movie:FilmCharacter ;
+    rdfs:label "R. J. Dent" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Raoul> a movie:FilmCharacter ;
+    rdfs:label "Raoul" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Raoul_Silva> a movie:FilmCharacter ;
+    rdfs:label "Raoul Silva" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rasmussen> a movie:FilmCharacter ;
+    rdfs:label "Rasmussen" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Red_Grant> a movie:FilmCharacter ;
+    rdfs:label "Red Grant" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ren_Mathis> a movie:FilmCharacter ;
+    rdfs:label "René Mathis" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Renard> a movie:FilmCharacter ;
+    rdfs:label "Renard" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rodney> a movie:FilmCharacter ;
+    rdfs:label "Rodney" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ronson> a movie:FilmCharacter ;
+    rdfs:label "Ronson" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rosie_Carver> a movie:FilmCharacter ;
+    rdfs:label "Rosie Carver" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rosika_Miklos> a movie:FilmCharacter ;
+    rdfs:label "Rosika Miklos" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rubavitch> a movie:FilmCharacter ;
+    rdfs:label "Rubavitch" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rubelvitch> a movie:FilmCharacter ;
+    rdfs:label "Rubelvitch" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Rublevitch> a movie:FilmCharacter ;
+    rdfs:label "Rublevitch" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ruby_Bartlett> a movie:FilmCharacter ;
+    rdfs:label "Ruby Bartlett" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/SFPD_Captain> a movie:FilmCharacter ;
+    rdfs:label "SFPD Captain" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sadruddin> a movie:FilmCharacter ;
+    rdfs:label "Sadruddin" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sandor> a movie:FilmCharacter ;
+    rdfs:label "Sandor" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sasha_Davidov> a movie:FilmCharacter ;
+    rdfs:label "Sasha Davidov" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Satoshi_Isagura> a movie:FilmCharacter ;
+    rdfs:label "Satoshi Isagura" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Saunders> a movie:FilmCharacter ;
+    rdfs:label "Saunders" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Scarpine> a movie:FilmCharacter ;
+    rdfs:label "Scarpine" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Senior_Lieutenant_Kamp> a movie:FilmCharacter ;
+    rdfs:label "Senior Lieutenant Kamp" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sergeant_Stagg> a movie:FilmCharacter ;
+    rdfs:label "Sergeant Stagg" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sergei_Barsov> a movie:FilmCharacter ;
+    rdfs:label "Sergei Barsov" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Shady_Tree> a movie:FilmCharacter ;
+    rdfs:label "Shady Tree" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sharkey> a movie:FilmCharacter ;
+    rdfs:label "Sharkey" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Shaun_Campbell> a movie:FilmCharacter ;
+    rdfs:label "Shaun Campbell" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sheikh_Hosein> a movie:FilmCharacter ;
+    rdfs:label "Sheikh Hosein" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sheriff_JW_Pepper> a movie:FilmCharacter ;
+    rdfs:label "Sheriff J.W. Pepper" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Simmons> a movie:FilmCharacter ;
+    rdfs:label "Simmons" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Donald_Munger> a movie:FilmCharacter ;
+    rdfs:label "Sir Donald Munger" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Fredrick_Gray> a movie:FilmCharacter ;
+    rdfs:label "Sir Fredrick Gray" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Godfrey_Tibbett> a movie:FilmCharacter ;
+    rdfs:label "Sir Godfrey Tibbett" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Hilary_Bray> a movie:FilmCharacter ;
+    rdfs:label "Sir Hilary Bray" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sir_Timothy_Havelock> a movie:FilmCharacter ;
+    rdfs:label "Sir Timothy Havelock" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sister_Lily> a movie:FilmCharacter ;
+    rdfs:label "Sister Lily" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sister_Rose> a movie:FilmCharacter ;
+    rdfs:label "Sister Rose" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Smithers> a movie:FilmCharacter ;
+    rdfs:label "Smithers" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Solange_Dimitrios> a movie:FilmCharacter ;
+    rdfs:label "Solange Dimitrios" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Solitaire> a movie:FilmCharacter ;
+    rdfs:label "Solitaire" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Spectre_3> a movie:FilmCharacter ;
+    rdfs:label "Spectre 3" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Stacey_Sutton> a movie:FilmCharacter ;
+    rdfs:label "Stacey Sutton" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Stamper> a movie:FilmCharacter ;
+    rdfs:label "Stamper" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Steve_Benelisha> a movie:FilmCharacter ;
+    rdfs:label "Steve Benelisha" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Steven_Obanno> a movie:FilmCharacter ;
+    rdfs:label "Steven Obanno" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Strawberry_Fields> a movie:FilmCharacter ;
+    rdfs:label "Strawberry Fields" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Superintendent_Duff> a movie:FilmCharacter ;
+    rdfs:label "Superintendent Duff" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Svrine> a movie:FilmCharacter ;
+    rdfs:label "Sévérine" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Sylvia_Trench> a movie:FilmCharacter ;
+    rdfs:label "Sylvia Trench" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tall_Man> a movie:FilmCharacter ;
+    rdfs:label "Tall Man" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tamara_Steel> a movie:FilmCharacter ;
+    rdfs:label "Tamara Steel" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tan> a movie:FilmCharacter ;
+    rdfs:label "Tan" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tee_Hee> a movie:FilmCharacter ;
+    rdfs:label "Tee Hee" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Terrorist_Co-Pilot> a movie:FilmCharacter ;
+    rdfs:label "Terrorist Co-Pilot" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Terrorist_pilot> a movie:FilmCharacter ;
+    rdfs:label "Terrorist pilot" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Thumper> a movie:FilmCharacter ;
+    rdfs:label "Thumper" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tiffany_Case> a movie:FilmCharacter ;
+    rdfs:label "Tiffany Case" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tilly_Masterson> a movie:FilmCharacter ;
+    rdfs:label "Tilly Masterson" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tom> a movie:FilmCharacter ;
+    rdfs:label "Tom" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tom_Wallace> a movie:FilmCharacter ;
+    rdfs:label "Tom Wallace" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tomelli> a movie:FilmCharacter ;
+    rdfs:label "Tomelli" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Tracy_Bond> a movie:FilmCharacter ;
+    rdfs:label "Tracy Bond" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Train_Driver> a movie:FilmCharacter ;
+    rdfs:label "Train Driver" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Truman-Lodge> a movie:FilmCharacter ;
+    rdfs:label "Truman-Lodge" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valdo_Obruchev> a movie:FilmCharacter ;
+    rdfs:label "Valdo Obruchev" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valenka> a movie:FilmCharacter ;
+    rdfs:label "Valenka" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valentin_Zukovsky> a movie:FilmCharacter ;
+    rdfs:label "Valentin Zukovsky" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valentins_Bodyguard> a movie:FilmCharacter ;
+    rdfs:label "Valentin's Bodyguard" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Valerian> a movie:FilmCharacter ;
+    rdfs:label "Valerian" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vanessa> a movie:FilmCharacter ;
+    rdfs:label "Vanessa" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vargas> a movie:FilmCharacter ;
+    rdfs:label "Vargas" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vavra> a movie:FilmCharacter ;
+    rdfs:label "Vavra" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Venz> a movie:FilmCharacter ;
+    rdfs:label "Venz" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Verity> a movie:FilmCharacter ;
+    rdfs:label "Verity" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vesper_Lynd> a movie:FilmCharacter ;
+    rdfs:label "Vesper Lynd" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vida> a movie:FilmCharacter ;
+    rdfs:label "Vida" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vijay> a movie:FilmCharacter ;
+    rdfs:label "Vijay" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Villiers> a movie:FilmCharacter ;
+    rdfs:label "Villiers" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Vlad> a movie:FilmCharacter ;
+    rdfs:label "Vlad" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/WG_Howe> a movie:FilmCharacter ;
+    rdfs:label "W.G. Howe" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Wai_Lin> a movie:FilmCharacter ;
+    rdfs:label "Wai Lin" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Whisper> a movie:FilmCharacter ;
+    rdfs:label "Whisper" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Willard_Whyte> a movie:FilmCharacter ;
+    rdfs:label "Willard Whyte" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Williams> a movie:FilmCharacter ;
+    rdfs:label "Williams" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Xenia_Onatopp> a movie:FilmCharacter ;
+    rdfs:label "Xenia Onatopp" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Yo-yo_thug> a movie:FilmCharacter ;
+    rdfs:label "Yo-yo thug" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Yusef_Kabira> a movie:FilmCharacter ;
+    rdfs:label "Yusef Kabira" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Zao> a movie:FilmCharacter ;
+    rdfs:label "Zao" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Zora> a movie:FilmCharacter ;
+    rdfs:label "Zora" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Zorins_guard> a movie:FilmCharacter ;
+    rdfs:label "Zorin's guard" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Captain> a movie:FilmCharacter ;
+    rdfs:label "Captain" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Bill_Tanner> a movie:FilmCharacter ;
+    rdfs:label "Bill Tanner" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Miss_Moneypenny> a movie:FilmCharacter ;
+    rdfs:label "Miss Moneypenny" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Ernst_Stavro_Blofeld> a movie:FilmCharacter ;
+    rdfs:label "Ernst Stavro Blofeld" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/M> a movie:FilmCharacter ;
+    rdfs:label "M" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Q> a movie:FilmCharacter ;
+    rdfs:label "Q" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/James_Bond> a movie:FilmCharacter ;
+    rdfs:label "James Bond" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/FilmCharacter/Felix_Leiter> a movie:FilmCharacter ;
+    rdfs:label "Felix Leiter" ;
+    movie:appearsIn <https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights>,
+        <https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/You_Only_Live_Twice> a movie:Film ;
+    rdfs:label "You Only Live Twice" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/From_Russia_with_Love> a movie:Film ;
+    rdfs:label "From Russia with Love" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/No_Time_to_Die> a movie:Film ;
+    rdfs:label "No Time to Die" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/On_Her_Majestys_Secret_Service> a movie:Film ;
+    rdfs:label "On Her Majesty's Secret Service" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Live_and_Let_Die> a movie:Film ;
+    rdfs:label "Live and Let Die" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Man_with_the_Golden_Gun> a movie:Film ;
+    rdfs:label "The Man with the Golden Gun" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Dr_No> a movie:Film ;
+    rdfs:label "Dr. No" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Skyfall> a movie:Film ;
+    rdfs:label "Skyfall" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/The_World_Is_Not_Enough> a movie:Film ;
+    rdfs:label "The World Is Not Enough" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Thunderball> a movie:Film ;
+    rdfs:label "Thunderball" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Die_Another_Day> a movie:Film ;
+    rdfs:label "Die Another Day" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/For_Your_Eyes_Only> a movie:Film ;
+    rdfs:label "For Your Eyes Only" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Moonraker> a movie:Film ;
+    rdfs:label "Moonraker" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/GoldenEye> a movie:Film ;
+    rdfs:label "GoldenEye" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Diamonds_Are_Forever> a movie:Film ;
+    rdfs:label "Diamonds Are Forever" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Goldfinger> a movie:Film ;
+    rdfs:label "Goldfinger" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Spectre> a movie:Film ;
+    rdfs:label "Spectre" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Spy_Who_Loved_Me> a movie:Film ;
+    rdfs:label "The Spy Who Loved Me" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/A_View_to_a_Kill> a movie:Film ;
+    rdfs:label "A View to a Kill" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Quantum_of_Solace> a movie:Film ;
+    rdfs:label "Quantum of Solace" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/The_Living_Daylights> a movie:Film ;
+    rdfs:label "The Living Daylights" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Octopussy> a movie:Film ;
+    rdfs:label "Octopussy" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Casino_Royale> a movie:Film ;
+    rdfs:label "Casino Royale" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Licence_to_Kill> a movie:Film ;
+    rdfs:label "Licence to Kill" .
+
+<https://triplydb.com/Triply/linkedmdb/vocab/Film/Tomorrow_Never_Dies> a movie:Film ;
+    rdfs:label "Tomorrow Never Dies" .
+
