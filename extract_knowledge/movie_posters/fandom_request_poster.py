@@ -4,10 +4,9 @@ import requests
 from pathlib import Path
 import sys
 
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root))
+root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(root))
 from utils.bond_films import BOND_FILMS
-
 
 def get_movie_poster_url(movie_title):
     """Retrieve James Bond movie poster URL from Fandom API"""
@@ -65,7 +64,7 @@ def save_poster_url(movie_list):
         })
 
         # save to CSV
-        output_dir = Path("./extract_knowledge/movie_posters")
+        output_dir = root / "extract_knowledge/movie_posters"
         output_dir.mkdir(exist_ok=True)
         output_file = output_dir / "movie_poster_url.csv"
 

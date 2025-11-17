@@ -89,12 +89,12 @@ def delete_specific_names(input_file, output_file, names_to_delete):
 
 
 if __name__ == "__main__":
-    raw_places = extract_places(input_text="fandom_wiki_pages/Quantum_of_Solace_film.json",
-                                output_csv="geocoded_locations/extracted_locations.csv")
+    raw_places = extract_places(input_text="extract_knowledge/fandom_wiki_pages/Quantum_of_Solace_film.json",
+                                output_csv="extract_knowledge/geocoded_locations/extracted_locations.csv")
     
     
     geo_locations = geocode_locations(locations=raw_places,
-                                      output_file="geocoded_locations/geocoded_locations.csv")
+                                      output_file="extract_knowledge/geocoded_locations/geocoded_locations.csv")
 
 
 """

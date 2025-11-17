@@ -1,12 +1,11 @@
-# extract_characters_all_movies.py
+# extract_characters_single_movie.py
 
 import json
 import re
 import pandas as pd
-from pathlib import Path
 
 # ------------ Extraction ------------
-def extract_characters(input_text, movie_title):
+def extract_characters(input_text, output_csv):
     with open(input_text, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -64,8 +63,7 @@ def extract_characters(input_text, movie_title):
             if character and actor:
                 cast_data.append({
                     "character": character,
-                    "actor": actor,
-                    "movie": movie_title
+                    "actor": actor
                 })
         
         # Fallback for entries without actor
@@ -81,67 +79,26 @@ def extract_characters(input_text, movie_title):
             if character:
                 cast_data.append({
                     "character": character,
-                    "actor": "Unknown",
-                    "movie": movie_title
+                    "actor": "Unknown"
                 })
-        
-    print(f"Extracted {len(cast_data)} character-actor pairs.")
+    
+    # Save as CSV
+    df = pd.DataFrame(cast_data)
+    
+    # Remove duplicates
+    df = df.drop_duplicates(subset=['character', 'actor'])
+    
+    df.to_csv(output_csv, index=False, encoding="utf-8", sep=';')
+    
+    print(f"Extracted {len(df)} character-actor pairs.")
     return cast_data
 
 
 # # ------------ Main Execution ------------
 if __name__ == "__main__":
-    # Create output directory if it doesn't exist
-    output_dir = Path("characters")
-    output_dir.mkdir(exist_ok=True)
+    movie_title = "A_View_to_a_Kill"  # Change this to the desired movie title
+    characters = extract_characters(f"extract_knowledge/fandom_wiki_pages/{movie_title}_film.json", f"extract_knowledge/characters/{movie_title}_film.csv")
     
-    # Get all JSON files from fandom_wiki_pages directory
-    input_dir = Path("fandom_wiki_pages")
-    json_files = list(input_dir.glob("*_film.json"))
-    
-    if not json_files:
-        print("No JSON files found in 'fandom_wiki_pages' directory.")
-    else:
-        print(f"Found {len(json_files)} JSON files to process.\n")
-
-        # Collect all character data
-        all_characters = []
-        
-        # Process each file
-        for json_file in json_files:
-            # Remove "_film" suffix and replace underscores with spaces for readable movie title
-            movie_title = json_file.stem.replace("_film", "").replace("_", " ")
-            
-            print(f"Processing: {json_file.name} (Movie: {movie_title})")
-            try:
-                characters = extract_characters(str(json_file), movie_title)
-                
-                if characters:
-                    all_characters.extend(characters)
-                    print(f"First 5 entries:")
-                    for entry in characters[:5]:
-                        print(f"{entry['character']} → {entry['actor']}")
-                else:
-                    print(f"No characters extracted")
-                    
-            except Exception as e:
-                print(f"Error processing {json_file.name}: {e}")
-                  
-        # Save all data to a single CSV
-        if all_characters:
-            df = pd.DataFrame(all_characters)
-            
-            # Remove duplicates (same character, actor, and movie)
-            df = df.drop_duplicates(subset=['character', 'actor', 'movie'])
-            
-            # Save to CSV
-            output_file = "all_movie_characters.csv"
-            df.to_csv(output_file, index=False, encoding="utf-8", sep=';')
-
-            print(f"\nProcessing complete")
-            print(f"Total entries: {len(df)}")
-            print(f"Saved to: {output_file}")
-            print(f"\nFirst 10 entries:")
-            print(df.head(10).to_string(index=False))
-        else:
-            print("\nNo characters were extracted from any files.")
+    print("\nExtracted Cast:")
+    for entry in characters[:15]:  # Show the first 15
+        print(f"  {entry['character']} → {entry['actor']}")

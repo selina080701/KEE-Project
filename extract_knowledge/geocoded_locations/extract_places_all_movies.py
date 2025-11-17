@@ -81,9 +81,9 @@ def delete_specific_names(input_file, output_file, names_to_delete):
 
 
 if __name__ == "__main__":
-    json_folder = Path("fandom_wiki_pages")
+    json_folder = Path("extract_knowledge/fandom_wiki_pages")
 
-    output_folder = Path("geocoded_locations")
+    output_folder = Path("extract_knowledge/geocoded_locations")
     output_folder.mkdir(exist_ok=True)
     
     all_geocoded = []
