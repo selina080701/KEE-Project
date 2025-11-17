@@ -14,6 +14,19 @@ def load_data():
                      sep=';', encoding='utf-8')
     return df
 
+# ---- Load german movie title ----
+@st.cache_data
+def load_german_titles():
+    """
+    Load German movie titles and align column names with the main dataset.
+    """
+    df_titles = pd.read_csv('extract_knowledge/movie_title_german/movie_title_en_de.csv', encoding='utf-8')
+    # Assuming columns: title_en, title_de
+    df_titles = df_titles.rename(columns={
+        "title_en": "Movie",
+        "title_de": "Movie_de"
+    })
+    return df_titles
 
 # ---- Load main TTL-dataset with caching ----
 @st.cache_data
@@ -44,7 +57,6 @@ def load_poster_urls():
     except FileNotFoundError:
         st.warning("Poster-Datei nicht gefunden.")
         return pd.DataFrame(columns=['title', 'poster_url'])
-
 
 # ---- Load geocoded locations with caching ----
 @st.cache_data

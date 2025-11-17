@@ -1,7 +1,7 @@
 # intro_page.py
 
 import streamlit as st
-from utils.data_loader import load_data, load_poster_urls
+from utils.data_loader import load_data, load_german_titles, load_poster_urls
 from utils.movie_overview import get_movie_overview, display_movie_overview_large, display_movie_overview_thumbnails
 
 def show_movie_page():
@@ -9,10 +9,11 @@ def show_movie_page():
     
     # ---- Load data and create overview ----
     df = load_data()
+    df_german_titles = load_german_titles()
     df_posters = load_poster_urls()
 
     # Create Movie Overview with Posters
-    movie_overview = get_movie_overview(df, df_posters)
+    movie_overview = get_movie_overview(df, df_posters, df_german_titles)
 
     # Header
     st.write("### Movie Collection Overview")

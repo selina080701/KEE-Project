@@ -9,10 +9,17 @@ The below functions are displayed in the movie page.
 
 # ---- Get an overview of the James Bond Movies ----
 @st.cache_data
-def get_movie_overview(df, df_posters):
+def get_movie_overview(df, df_posters, df_german_titles):
     overview = df[['Year', 'Movie', 'Bond', 'Director', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom']].copy()
     df_posters = df_posters.copy()
     df_posters['title'] = df_posters['title'].str.replace(' (film)', '', regex=False)
+
+    # Merge German titles based on the English movie title
+    overview = overview.merge(
+        df_german_titles[['Movie', 'Movie_de']],
+        on='Movie',
+        how='left'
+    )
 
     # Merge poster URLs based on movie title
     overview = overview.merge(
@@ -26,7 +33,7 @@ def get_movie_overview(df, df_posters):
     overview = overview.drop(columns=['title'])
 
     # Reorder columns to have poster_url first, then sort by Year and rename Poster column
-    cols = ['poster_url', 'Year', 'Movie', 'Bond', 'Director', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom']
+    cols = ['poster_url', 'Year', 'Movie', 'Movie_de', 'Bond', 'Director', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom']
     overview = overview[cols].sort_values(by='Year').reset_index(drop=True)
     overview = overview.rename(columns={'poster_url': 'Poster'})
 
@@ -52,6 +59,7 @@ def display_movie_overview_large(overview_df):
         
         with col2:
             st.subheader(f"{row['Movie']} ({row['Year']})")
+            st.write(f"**Movie:** {row['Movie_de']}")
             st.write(f"**Bond:** {row['Bond']}")
             st.write(f"**Director:** {row['Director']}")
             st.write(f"**IMDB:** {row['Avg_User_IMDB']:.1f} ⭐ | **RT:** {row['Avg_User_Rtn_Tom']:.1f} 🍅")
@@ -72,6 +80,9 @@ def display_movie_overview_thumbnails(overview_df):
             "Year": st.column_config.NumberColumn(
                 "Year",
                 format="%d"
+            ),
+            "Movie_de": st.column_config.TextColumn(
+                "Movie (DE)"
             ),
             "Avg_User_IMDB": st.column_config.NumberColumn(
                 "IMDB Rating",
