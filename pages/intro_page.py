@@ -1,3 +1,5 @@
+# intro_page.py
+
 import streamlit as st
 
 def show_intro_page():
@@ -16,7 +18,7 @@ def show_intro_page():
 
     - From an overview of a **full movie collection**,
     - to a **knowledge graph of relationships** and
-    - a **timeline of films**,  
+    - a **recurring characters analysis**,  
     - right up to a **global map of filming locations**.  
 
     Use the dropdown menu in the sidebar or the buttons below to select your preferred visualization.
