@@ -35,13 +35,6 @@ def load_ttl():
         ttl_data = file.read()
     return ttl_data
 
-# ---- Load Characters and Actors TTL-dataset with caching ----
-@st.cache_data
-def load_characters_ttl():
-    with open('rdf/jamesbond_characters_rdf.ttl', 'r', encoding='utf-8') as file:
-        ttl_data = file.read()
-    return ttl_data
-
 # ---- Load poster URLs with caching ----
 @st.cache_data
 def load_poster_urls():
@@ -55,7 +48,7 @@ def load_poster_urls():
         
         return df_posters
     except FileNotFoundError:
-        st.warning("Poster-Datei nicht gefunden.")
+        st.warning("Poster File not found.")
         return pd.DataFrame(columns=['title', 'poster_url'])
 
 # ---- Load geocoded locations with caching ----
@@ -65,16 +58,16 @@ def load_geo_locations():
         df_locations = pd.read_csv('extract_knowledge/geocoded_locations/all_movies_geocoded.csv', sep=',', encoding='utf-8')
         return df_locations
     except FileNotFoundError:
-        st.warning("Geocoded Locations-Datei nicht gefunden.")
+        st.warning("Geocoded Locations File not found.")
         return pd.DataFrame(columns=['name', 'lat', 'lon'])
     
 # ---- Load character-actor pairs with caching ----
 @st.cache_data
 def load_character_actor_data():
     try:
-        df_characters = pd.read_csv('extract_knowledge/characters/all_movie_characters.csv', sep=';', encoding='utf-8')
+        df_characters = pd.read_csv('extract_knowledge/characters/all_movie_characters_with_image.csv', sep=';', encoding='utf-8')
         return df_characters
     except FileNotFoundError:
-        st.warning("Character-Actor Datei nicht gefunden.")
-        return pd.DataFrame(columns=['character', 'actor', 'movie'])
+        st.warning("Character-Actor File not found.")
+        return pd.DataFrame(columns=['character', 'actor', 'movie', 'image_url', 'search_title'])
     

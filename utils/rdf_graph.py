@@ -9,7 +9,7 @@ The below functions are displayed in the rdf page.
 """
 
 @st.cache_data
-def create_rdf_graph_general(df_ttl):
+def create_rdf_graph(df_ttl):
     # ---- Define Namespaces ----
     EX = Namespace('http://example.org/jamesbond/')
     MO = Namespace('http://example.org/movieontology/')
