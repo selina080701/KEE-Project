@@ -59,7 +59,10 @@ def display_movie_overview_large(overview_df):
         
         with col2:
             st.subheader(f"{row['Movie']} ({row['Year']})")
-            st.write(f"**Movie:** {row['Movie_de']}")
+            st.markdown(
+                f"<span style='font-size:18px; font-weight:bold;'>{row['Movie_de']}</span>",
+                unsafe_allow_html=True
+            )
             st.write(f"**Bond:** {row['Bond']}")
             st.write(f"**Director:** {row['Director']}")
             st.write(f"**IMDB:** {row['Avg_User_IMDB']:.1f} ⭐ | **RT:** {row['Avg_User_Rtn_Tom']:.1f} 🍅")
