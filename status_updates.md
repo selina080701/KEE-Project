@@ -71,6 +71,8 @@
 1. [x] Filmliste erstellen: Kerndatensatz mit Wikidata-ID erweitern.
 
 2. [] Externe strukturierte Daten abrufen (Wikidata SPARQL)
+   - [x] Deutsche Film-Titel hinzufügen
+   - [] Schauspieler Info: dob, dod, country origin, etc.
 
 3. [] Unstrukturierte Texte extrahieren (Fandom):
    - [x] Filmseiten auf Fandom über `wikitextparser` parsen und als JSON speichern
@@ -82,11 +84,12 @@
 ----
 
 # Visualization
-1. [x]Framework der Streamlit-App erstellen
+1. [x] Framework der Streamlit-App erstellen
 
 2. [] Titelpage:
    - [x] Übersicht / Intro gestalten
    - [x] Kerndatensatz-Tabelle einfügen
+   - [x] deutsche Titel ergänzen
    - [x] Suchfunktion für Filme     
    - [x] Filmposter einfügen
 
