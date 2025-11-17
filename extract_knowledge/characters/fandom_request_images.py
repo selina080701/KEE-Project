@@ -97,7 +97,7 @@ def save_character_images(csv_file):
     # Save to CSV
     output_dir = Path("extract_knowledge/characters")
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / "all_movie_characters_with_image_1.csv"
+    output_file = output_dir / "all_movie_characters_with_image.csv"
     
     results_df = pd.DataFrame(results)
     results_df = results_df[['character', 'actor', 'movie', 'image_url', 'search_title']]
