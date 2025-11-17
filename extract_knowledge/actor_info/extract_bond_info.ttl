@@ -1,0 +1,18 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?gender ?label ?country ?country_label ?dob ?dod
+WHERE {
+  wd:Q4573      wdt:P21    ?gender .
+  wd:Q4573      wdt:P27    ?country
+  OPTIONAL {
+    wd:Q4573     rdfs:label   ?label .
+    ?country   rdfs:label   ?country_label .
+    wd:Q4573     wdt:P569     ?dob .
+    wd:Q4573     wdt:P570     ?dod .
+    FILTER(LANG(?label) = "en") .
+    FILTER(LANG(?country_label) = "en") .
+           }
+}
+ORDER BY ?label
