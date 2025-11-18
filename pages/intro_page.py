@@ -10,17 +10,17 @@ def show_intro_page():
 
     # ---- Title ----
     st.title("Welcome to the James Bond Universe")
-    st.subheader("Dive into the world of 007 - Explore Movies, Directors & Actors")
+    st.subheader("Dive into the world of 007 - Explore Movies, Actors & More")
     
     # ---- Description on Main Page ----
     st.markdown("""  
     This application visualizes data about James Bond movies:
 
-    - From an overview of a **full movie collection**,
-    - to a **knowledge graph of relationships**,
-    - a **recurring characters analysis** and
-    - a **image gallery** of vehicles, bond-girls & villains,
-    - right up to a **global map of filming locations**.  
+    - :clapper: From an overview of a **full movie collection**,
+    - :link: to a **knowledge graph of relationships**,
+    - :busts_in_silhouette: a **recurring characters analysis** and
+    - :camera: an **image gallery** of vehicles, bond-girls & villains,
+    - :earth_africa: right up to a **global map of filming locations**.  
 
 
     Start your journey by navigating through the sidebar – We wish you lots of fun!
