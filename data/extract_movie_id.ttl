@@ -1,0 +1,27 @@
+PREFIX wd:   <http://www.wikidata.org/entity/>
+PREFIX wdt:  <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?film
+WHERE {
+  ?film wdt:P179 wd:Q2484680 .
+
+  OPTIONAL {
+    ?film rdfs:label ?label .
+    FILTER(LANG(?label) = "en")
+  }
+
+  OPTIONAL {
+    ?film skos:altLabel ?altLabel .
+    FILTER(LANG(?altLabel) = "en")
+  }
+
+  FILTER(
+    LCASE(STR(?label)) = LCASE("Casino Royale") ||
+    LCASE(STR(?altLabel)) = LCASE("Casino Royale") ||
+    CONTAINS(LCASE(?label), LCASE("Casino Royale")) ||
+    CONTAINS(LCASE(?altLabel), LCASE("Casino Royale"))
+  )
+}
+LIMIT 1
