@@ -1,10 +1,18 @@
 # 3. Statusupdate - Fr, 21.11.2025
 **Done**:
+- Wikidata-Triples extrahiert: deutsche Filmtitel, Bond-Schauspieler Metadaten
+- Bild-URLs und Charaktere aus Wiki-Fandom extrahiert
+- Seite für Wiederkehrende Charakteren eingebaut
+- Übersichtseite für Autos, Bond Girls und Villains mit Bildern erstellt
+- Template für den Bericht in Overleaf erstellt
 
 **Obstacles**:
 
 
 **Whats Next**:
+- Ontologie in Protegé erstellen
+- RDF-Graph vervollständigen
+- Dokumentation der Ergebnisse
 
 ----
 
@@ -70,14 +78,14 @@
 # Knowledge Extraction Workflow
 1. [x] Filmliste erstellen: Kerndatensatz mit Wikidata-ID erweitern.
 
-2. [] Externe strukturierte Daten abrufen (Wikidata SPARQL)
+2. [x] Externe strukturierte Daten abrufen (Wikidata SPARQL)
    - [x] Deutsche Film-Titel hinzufügen
-   - [] Schauspieler Info: dob, dod, country origin, etc.
+   - [x] Schauspieler Info: dob, dod, country origin, etc.
 
 3. [] Unstrukturierte Texte extrahieren (Fandom):
    - [x] Filmseiten auf Fandom über `wikitextparser` parsen und als JSON speichern
-   - [] Benötigte Elemente aus dem Text extrahieren
-   - [] NLP-Analyse:
+   - [x] Benötigte Elemente aus dem Text extrahieren
+   - [x] NLP-Analyse:
      - Named Entity Recognition (zb. mit spaCy)
      - Erkennung und Klassifikation von Entitäten (Ort, Person, Objekt)
 
@@ -94,10 +102,17 @@
    - [x] Filmposter einfügen
 
 3. [] RDF-Graph
+   - [x] RDF-Graph visualisieren (streamlit)
+   - [] RDF-Graph mit neuen Triples aktualisieren
 
-4. [] Timeline
+4. [x] Recurring Characters Page
 
-5. [] Interactive Map 
+5. [] Image Galleries:
+   - [x] Autos Übersichtseite
+   - [x] Bond Girls Übersichtseite
+   - [] Villains Übersichtseite
 
-6. [] Trailer einbetten
+5. [x] Interactive Map 
+
+
 
