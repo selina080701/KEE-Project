@@ -4,7 +4,7 @@ import json
 import re
 import pandas as pd
 
-# ------------ Extraction ------------
+# ------------ Vehicle Extraction ------------
 def extract_vehicles(input_text, output_csv):
     with open(input_text, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -87,9 +87,9 @@ def extract_vehicles(input_text, output_csv):
     return vehicle_data
 
 
-# ------------ Main Execution ------------
+
 if __name__ == "__main__":
-    movie_title = "Diamonds_Are_Forever"  # Change this to the desired movie title
+    movie_title = "Diamonds_Are_Forever"  # Change movie title here
     vehicles = extract_vehicles(f"extract_knowledge/fandom_wiki_pages/{movie_title}_film.json", f"extract_knowledge/vehicles/{movie_title}_film.csv")
     
     print("\nExtracted Vehicles (first 10):")

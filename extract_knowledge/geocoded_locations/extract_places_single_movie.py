@@ -8,7 +8,7 @@ import pandas as pd
 nlp = spacy.load("en_core_web_lg")
 PLACE_LABELS = {"GPE", "LOC", "FAC"}
 
-# ------------ Extraction ------------
+# ------------ Places Extraction ------------
 def extract_places(input_text, output_csv):
     with open(input_text, "r", encoding="utf-8") as f:
         data = json.load(f)

@@ -100,7 +100,6 @@ def extract_vehicles(input_text, movie_title):
     return vehicle_data
 
 
-# ------------ Main Execution ------------
 if __name__ == "__main__":
     # Create output directory if it doesn't exist
     output_dir = Path("extract_knowledge/vehicles")

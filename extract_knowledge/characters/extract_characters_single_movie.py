@@ -4,7 +4,7 @@ import json
 import re
 import pandas as pd
 
-# ------------ Extraction ------------
+# ------------ Character Extraction ------------
 def extract_characters(input_text, output_csv):
     with open(input_text, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -94,9 +94,8 @@ def extract_characters(input_text, output_csv):
     return cast_data
 
 
-# # ------------ Main Execution ------------
 if __name__ == "__main__":
-    movie_title = "A_View_to_a_Kill"  # Change this to the desired movie title
+    movie_title = "A_View_to_a_Kill"  # Change movie title here
     characters = extract_characters(f"extract_knowledge/fandom_wiki_pages/{movie_title}_film.json", f"extract_knowledge/characters/{movie_title}_film.csv")
     
     print("\nExtracted Cast:")

@@ -5,7 +5,7 @@ import re
 import pandas as pd
 from pathlib import Path
 
-# ------------ Extraction ------------
+# ------------ Character Extraction ------------
 def extract_characters(input_text, movie_title):
     with open(input_text, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -89,7 +89,6 @@ def extract_characters(input_text, movie_title):
     return cast_data
 
 
-# # ------------ Main Execution ------------
 if __name__ == "__main__":  
     # Get all JSON files from fandom_wiki_pages directory
     input_dir = Path("extract_knowledge/fandom_wiki_pages")

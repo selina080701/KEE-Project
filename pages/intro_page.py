@@ -14,35 +14,21 @@ def show_intro_page():
     
     # ---- Description on Main Page ----
     st.markdown("""  
-    This application visualizes data about James Bond movies, directors and actors.
+    This application visualizes data about James Bond movies:
 
     - From an overview of a **full movie collection**,
     - to a **knowledge graph of relationships** and
     - a **recurring characters analysis**,  
     - right up to a **global map of filming locations**.  
 
-    Use the dropdown menu in the sidebar or the buttons below to select your preferred visualization.
+
+    Start your journey by navigating through the sidebar – We wish you lots of fun!
+                
+    Selina Steiner & Tamara Nyffeler
+                
+    :copyright: 2025  
+
+    ---       
+    *Created for the \"Knowledge Engineering and Extraction\" module at FHGR (MSc in Data Visualization)*
     """)
     
-
-"""
---> under construction:
-
-    # ---- Call to Action Buttons ----
-    st.markdown("#### Start Exploring:")
-    col1, col2, col3, col4 = st.columns(4)
-
-    with col1:
-        if st.button("Go to Movie Collection"):
-            st.session_state["page_select"] = "Movie Collection"
-    with col2:
-        if st.button("Go to RDF-Graph"):
-            st.session_state["page_select"] = "RDF-Graph"
-    with col3:
-        if st.button("Go to Movie Chronology"):
-            st.session_state["page_select"] = "Movie Chronology"
-    with col4:
-        if st.button("Go to Film Locations"):
-            st.session_state["page_select"] = "Film Locations"
-
-"""

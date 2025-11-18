@@ -9,7 +9,7 @@ from pathlib import Path
 nlp = spacy.load("en_core_web_lg")
 PLACE_LABELS = {"GPE", "LOC", "FAC"}
 
-# ------------ Extraction ------------
+# ------------ Places Extraction ------------
 def extract_places(input_text, movie_name):
     with open(input_text, "r", encoding="utf-8") as f:
         data = json.load(f)

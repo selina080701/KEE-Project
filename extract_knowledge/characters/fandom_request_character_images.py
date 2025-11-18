@@ -1,12 +1,12 @@
-# fandom_request_character.py
+# fandom_request_character_images.py
 
 import requests
 import pandas as pd
 from pathlib import Path
 
+# ---- Retrieve character image URL from Fandom API ----
 def get_character_image_url(character_name, movie_name, actor_name):
-    """Retrieve James Bond character image URL from Fandom API
-    
+    """    
     Tries to find character-specific image for a movie, with actor info as fallback
     """
     url = "https://jamesbond.fandom.com/api.php"
