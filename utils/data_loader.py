@@ -71,3 +71,12 @@ def load_character_actor_data():
         st.warning("Character-Actor File not found.")
         return pd.DataFrame(columns=['character', 'actor', 'movie', 'image_url', 'search_title'])
     
+# ---- Load vehicle data with caching ----
+@st.cache_data
+def load_vehicle_data():
+    try:
+        df_vehicles = pd.read_csv('extract_knowledge/vehicles/all_movie_vehicles_with_image.csv', sep=';', encoding='utf-8')
+        return df_vehicles
+    except FileNotFoundError:
+        st.warning("Vehicle File not found.")
+        return pd.DataFrame(columns=['vehicle', 'sequence', 'movie', 'image_url'])

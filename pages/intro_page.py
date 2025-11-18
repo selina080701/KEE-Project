@@ -17,8 +17,9 @@ def show_intro_page():
     This application visualizes data about James Bond movies:
 
     - From an overview of a **full movie collection**,
-    - to a **knowledge graph of relationships** and
-    - a **recurring characters analysis**,  
+    - to a **knowledge graph of relationships**,
+    - a **recurring characters analysis** and
+    - a **image gallery** of vehicles, bond-girls & villains,
     - right up to a **global map of filming locations**.  
 
 
