@@ -1,9 +1,11 @@
-PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wd:   <http://www.wikidata.org/entity/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-
-SELECT ?label
+SELECT ?item ?title_de
 WHERE {
-  wd:Q102754	rdfs:label	?label.
-  FILTER(LANG(?label) = "de") .
+  # fix film = wd:Q102754 (Dr. No)
+  VALUES ?item { wd:Q102754 }
+
+  ?item rdfs:label ?title_de .
+  FILTER(LANG(?title_de) = "de")
 }
