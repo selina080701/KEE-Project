@@ -1,18 +1,30 @@
-PREFIX wd: <http://www.wikidata.org/entity/>
-PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd:   <http://www.wikidata.org/entity/>
+PREFIX wdt:  <http://www.wikidata.org/prop/direct/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?gender ?label ?country ?country_label ?dob ?dod
+SELECT ?actor ?actor_label ?gender_label ?country_label ?dob ?dod
 WHERE {
-  wd:Q4573      wdt:P21    ?gender .
-  wd:Q4573      wdt:P27    ?country
+  # fix actor = wd:Q4573 (Sean Connery)
+  BIND(wd:Q4573 AS ?actor)
+
   OPTIONAL {
-    wd:Q4573     rdfs:label   ?label .
-    ?country   rdfs:label   ?country_label .
-    wd:Q4573     wdt:P569     ?dob .
-    wd:Q4573     wdt:P570     ?dod .
-    FILTER(LANG(?label) = "en") .
-    FILTER(LANG(?country_label) = "en") .
-           }
+    ?actor rdfs:label ?actor_label .
+    FILTER(LANG(?actor_label) = "en")
+  }
+
+  OPTIONAL {
+    ?actor wdt:P21 ?gender .
+    ?gender rdfs:label ?gender_label .
+    FILTER(LANG(?gender_label) = "en")
+  }
+
+  OPTIONAL {
+    ?actor wdt:P27 ?country .
+    ?country rdfs:label ?country_label .
+    FILTER(LANG(?country_label) = "en")
+  }
+
+  OPTIONAL { ?actor wdt:P569 ?dob . }
+  OPTIONAL { ?actor wdt:P570 ?dod . }
 }
-ORDER BY ?label
+ORDER BY ?actor_label ?country_label

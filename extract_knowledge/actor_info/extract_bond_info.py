@@ -1,43 +1,24 @@
-# extract_bond_actors_rdf_simple.py
-
-import csv
+import pandas as pd
 import requests
 from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, XSD
 
-INPUT_CSV = "../../data/jamesbond_with_id.csv"
-OUTPUT_TTL = "bond_info.ttl"
+
+INPUT_CSV = "bond_with_ids.csv"
+OUTPUT_TTL = "bond_actor_info.ttl"
 
 
-def load_unique_bond_actors(csv_path: str):
+def load_actor_qids(csv_path: str):
     """
-    Load James Bond dataset and return a list
-    of unique Bond actor names from the 'Bond' column.
+    Read Q-IDs from the 'wikidata_id' column.
     """
-    actors = set()
-    with open(csv_path, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f, delimiter=";")
-        for row in reader:
-            name = row.get("Bond")
-            if name and name.strip():
-                actors.add(name.strip())
-    return sorted(actors)
+    df = pd.read_csv(csv_path, sep=";")
+    return df["wikidata_id"].dropna().tolist()
 
 
-def build_sparql_query(actor_names):
-    """
-    Build SPARQL SELECT query.
-    """
-    if not actor_names:
-        raise ValueError("Actor list is empty.")
-
-    # VALUES block with English labels
-    values_lines = []
-    for name in actor_names:
-        safe_name = name.replace('"', '\\"')
-        values_lines.append(f'    "{safe_name}"@en')
-
-    values_block = "  VALUES ?actor_name_en {\n" + "\n".join(values_lines) + "\n  }"
+def build_sparql_query(qids):
+    values_lines = [f"    wd:{qid}" for qid in qids]
+    values_block = "  VALUES ?actor {\n" + "\n".join(values_lines) + "\n  }"
 
     query = f"""
 PREFIX wd:   <http://www.wikidata.org/entity/>
@@ -48,23 +29,23 @@ SELECT ?actor ?actor_label ?gender_label ?country_label ?dob ?dod
 WHERE {{
 {values_block}
 
-  ?actor rdfs:label ?actor_name_en .
-  FILTER(LANG(?actor_name_en) = "en")
-
   OPTIONAL {{
     ?actor rdfs:label ?actor_label .
     FILTER(LANG(?actor_label) = "en")
   }}
+
   OPTIONAL {{
     ?actor wdt:P21 ?gender .
     ?gender rdfs:label ?gender_label .
     FILTER(LANG(?gender_label) = "en")
   }}
+
   OPTIONAL {{
     ?actor wdt:P27 ?country .
     ?country rdfs:label ?country_label .
     FILTER(LANG(?country_label) = "en")
   }}
+
   OPTIONAL {{ ?actor wdt:P569 ?dob . }}
   OPTIONAL {{ ?actor wdt:P570 ?dod . }}
 }}
@@ -73,62 +54,14 @@ ORDER BY ?actor_label ?country_label
     return query
 
 
-def fetch_actor_bindings(query):
-    """
-    Send the SPARQL query to Wikidata and return the list of bindings.
-    """
+def fetch_bindings(query: str):
     url = "https://query.wikidata.org/sparql"
-    response = requests.get(url, params={"query": query, "format": "json"}, timeout=30)
-    response.raise_for_status()
-    data = response.json()
-    return data["results"]["bindings"]
+    r = requests.get(url, params={"query": query, "format": "json"}, timeout=30)
+    r.raise_for_status()
+    return r.json()["results"]["bindings"]
 
 
-def build_actor_info(bindings):
-    """
-    Convert SPARQL bindings into a simple dictionary.
-    """
-    actors = {}
-
-    for b in bindings:
-        # Use actor_label as key; if missing, skip row
-        if "actor_label" not in b:
-            continue
-
-        label = b["actor_label"]["value"]
-        actor_entry = actors.setdefault(
-            label,
-            {
-                "wikidata_uri": b["actor"]["value"],
-                "gender": None,
-                "countries": set(),
-                "dob": None,
-                "dod": None,
-            },
-        )
-
-        if "gender_label" in b:
-            actor_entry["gender"] = b["gender_label"]["value"]
-
-        if "country_label" in b:
-            actor_entry["countries"].add(b["country_label"]["value"])
-
-        if "dob" in b:
-            dob_val = b["dob"]["value"].split("T")[0]
-            actor_entry["dob"] = dob_val
-
-        if "dod" in b:
-            dod_val = b["dod"]["value"].split("T")[0]
-            actor_entry["dod"] = dod_val
-
-    return actors
-
-
-def serialize_actors_to_rdf(actor_info, output_file):
-    """
-    Serialize actor info into a Turtle RDF graph using a style
-    similar to your existing movie and character RDF.
-    """
+def serialize_bindings_to_rdf(bindings, output_file: str):
     EX = Namespace("http://example.org/jamesbond/")
     PE = Namespace("http://example.org/person/")
     MOVIE = Namespace("https://triplydb.com/Triply/linkedmdb/vocab/")
@@ -138,60 +71,42 @@ def serialize_actors_to_rdf(actor_info, output_file):
     g.bind("person", PE)
     g.bind("movie", MOVIE)
 
-    for actor_label, info in actor_info.items():
-        # Create a local URI for the actor (similar pattern as your colleague)
-        actor_uri_local = PE[actor_label.replace(" ", "_")]
+    for b in bindings:
+        actor_uri = b["actor"]["value"]
+        qid = actor_uri.rsplit("/", 1)[-1]
 
-        # Type: movie:Actor
-        g.add((actor_uri_local, RDF.type, MOVIE.Actor))
+        actor_local = PE[qid]
 
-        # Human-readable name
-        g.add((actor_uri_local, EX.name, Literal(actor_label)))
+        g.add((actor_local, RDF.type, MOVIE.Actor))
 
-        # Link to Wikidata entity
-        wikidata_uri = info.get("wikidata_uri")
-        if wikidata_uri:
-            g.add((actor_uri_local, EX.sameAs, URIRef(wikidata_uri)))
+        if "actor_label" in b:
+            g.add((actor_local, EX.name, Literal(b["actor_label"]["value"])))
 
-        # Gender (as plain text)
-        gender = info.get("gender")
-        if gender:
-            g.add((actor_uri_local, EX.gender, Literal(gender)))
+        g.add((actor_local, EX.sameAs, URIRef(actor_uri)))
 
-        # Citizenship(s)
-        for country in sorted(info.get("countries", [])):
-            g.add((actor_uri_local, EX.citizenship, Literal(country)))
+        if "gender_label" in b:
+            g.add((actor_local, EX.gender, Literal(b["gender_label"]["value"])))
 
-        # Date of birth
-        dob = info.get("dob")
-        if dob:
-            g.add((actor_uri_local, EX.dateOfBirth, Literal(dob, datatype=XSD.date)))
+        if "country_label" in b:
+            g.add((actor_local, EX.citizenship, Literal(b["country_label"]["value"])))
 
-        # Date of death
-        dod = info.get("dod")
-        if dod:
-            g.add((actor_uri_local, EX.dateOfDeath, Literal(dod, datatype=XSD.date)))
+        if "dob" in b:
+            dob = b["dob"]["value"].split("T")[0]
+            g.add((actor_local, EX.dateOfBirth, Literal(dob, datatype=XSD.date)))
 
-    turtle_output = g.serialize(format="turtle")
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write(turtle_output)
+        if "dod" in b:
+            dod = b["dod"]["value"].split("T")[0]
+            g.add((actor_local, EX.dateOfDeath, Literal(dod, datatype=XSD.date)))
 
+    g.serialize(destination=output_file, format="turtle")
     print(f"{len(g)} triples saved in {output_file}")
 
 
 if __name__ == "__main__":
-    # load actors from csv
-    actor_names = load_unique_bond_actors(INPUT_CSV)
-    print("Actors:", actor_names)
+    qids = load_actor_qids(INPUT_CSV)
+    print("Actor Q-IDs:", qids)
 
-    # get actors info
-    sparql_query = build_sparql_query(actor_names)
-    bindings = fetch_actor_bindings(sparql_query)
+    query = build_sparql_query(qids)
+    bindings = fetch_bindings(query)
 
-    print("Building actor info dictionary...")
-    actor_info = build_actor_info(bindings)
-
-    print("Serializing actors to RDF (Turtle)...")
-    serialize_actors_to_rdf(actor_info, OUTPUT_TTL)
-
-    print("Done.")
+    serialize_bindings_to_rdf(bindings, OUTPUT_TTL)
