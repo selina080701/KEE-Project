@@ -80,3 +80,13 @@ def load_vehicle_data():
     except FileNotFoundError:
         st.warning("Vehicle File not found.")
         return pd.DataFrame(columns=['vehicle', 'sequence', 'movie', 'image_url'])
+    
+# ---- Load bond girls data with caching ----
+@st.cache_data
+def load_bond_girls_data():
+    try:
+        df_bond_girls = pd.read_csv('extract_knowledge/bond_girls/bond_girls_with_images.csv', sep=';', encoding='utf-8')
+        return df_bond_girls
+    except FileNotFoundError:
+        st.warning("Bond Girls File not found.")
+        return pd.DataFrame(columns=['bond_girl', 'actress', 'movie', 'image_url', 'search_title'])
