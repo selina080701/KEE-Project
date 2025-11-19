@@ -100,3 +100,13 @@ def load_bond_girls_data():
     except FileNotFoundError:
         st.warning("Bond Girls File not found.")
         return pd.DataFrame(columns=['bond_girl', 'actress', 'movie', 'image_url', 'search_title'])
+    
+# ---- Load song data with caching ----
+@st.cache_data
+def load_song_data():
+    try:
+        df_songs = pd.read_csv('extract_knowledge/songs/all_movie_songs.csv', sep=';', encoding='utf-8')
+        return df_songs
+    except FileNotFoundError:
+        st.warning("Song File not found.")
+        return pd.DataFrame(columns=['movie', 'song', 'performer', 'composer'])

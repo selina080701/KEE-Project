@@ -9,7 +9,7 @@ The below functions are displayed in the movie page.
 
 # ---- Get an overview of the James Bond Movies ----
 @st.cache_data
-def get_movie_overview(df, df_posters, df_german_titles):
+def get_movie_overview(df, df_posters, df_german_titles, df_songs):
     overview = df[['Year', 'Movie', 'Bond', 'Director', 'Producer', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom']].copy()
     df_posters = df_posters.copy()
     df_posters['title'] = df_posters['title'].str.replace(' (film)', '', regex=False)
@@ -29,11 +29,22 @@ def get_movie_overview(df, df_posters, df_german_titles):
         how='left'
     )
 
+    # Merge theme song data based on movie title
+    overview = overview.merge(
+        df_songs[['movie', 'song', 'performer', 'composer']],
+        left_on='Movie',
+        right_on='movie',
+        how='left'
+    )
+
     # Drop the duplicate title column
     overview = overview.drop(columns=['title'])
 
+    # Add combined song and performer column
+    overview['Theme Song'] = overview['song'] + " by " + overview['performer']
+
     # Reorder columns to have poster_url first, then sort by Year and rename Poster column
-    cols = ['poster_url', 'Year', 'Movie', 'Movie_de', 'Bond', 'Director', 'Producer', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom']
+    cols = ['poster_url', 'Year', 'Movie', 'Movie_de', 'Bond', 'Director', 'Producer', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom', 'Theme Song']
     overview = overview[cols].sort_values(by='Year').reset_index(drop=True)
     overview = overview.rename(columns={'poster_url': 'Poster'})
 
@@ -67,6 +78,7 @@ def display_movie_overview_large(overview_df):
             st.write(f"**Director:** {row['Director']}")
             st.write(f"**Producer:** {row['Producer']}")
             st.write(f"**IMDB:** {row['Avg_User_IMDB']:.1f} ⭐ | **RT:** {row['Avg_User_Rtn_Tom']:.1f} 🍅")
+            st.write(f"**Theme Song:** {row['Theme Song']}")
         st.divider()
 
 
@@ -74,12 +86,12 @@ def display_movie_overview_large(overview_df):
 @st.cache_data
 def display_movie_overview_thumbnails(overview_df):
     st.dataframe(
-        overview_df[["Poster", "Year", "Movie_de", "Avg_User_IMDB", "Avg_User_Rtn_Tom"]],
+        overview_df[["Poster", "Year", "Movie_de", "Theme Song", "Avg_User_IMDB", "Avg_User_Rtn_Tom"]],
         column_config={
             "Poster": st.column_config.ImageColumn(
                 "Poster",
                 help="double-click to enlarge",
-                width="medium"  # Options: "small", "medium", "large"
+                width="small"  # Options: "small", "medium", "large"
             ),
             "Year": st.column_config.NumberColumn(
                 "Year",
@@ -87,6 +99,9 @@ def display_movie_overview_thumbnails(overview_df):
             ),
             "Movie_de": st.column_config.TextColumn(
                 "Movie (DE)"
+            ),
+            "Theme Song": st.column_config.TextColumn(
+                "Theme Song"
             ),
             "Avg_User_IMDB": st.column_config.NumberColumn(
                 "IMDB Rating",

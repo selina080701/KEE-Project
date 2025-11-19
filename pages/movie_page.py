@@ -1,7 +1,7 @@
 # intro_page.py
 
 import streamlit as st
-from utils.data_loader import load_data, load_german_titles, load_poster_urls
+from utils.data_loader import load_data, load_german_titles, load_poster_urls, load_song_data
 from utils.movie_overview import get_movie_overview, display_movie_overview_large, display_movie_overview_thumbnails
 
 def show_movie_page():
@@ -11,9 +11,10 @@ def show_movie_page():
     df = load_data()
     df_german_titles = load_german_titles()
     df_posters = load_poster_urls()
+    df_songs = load_song_data()
 
     # Create Movie Overview with Posters
-    movie_overview = get_movie_overview(df, df_posters, df_german_titles)
+    movie_overview = get_movie_overview(df, df_posters, df_german_titles, df_songs)
     
     # add new column for Movie + movie_de for better searchability
     movie_overview['Movie_Combined'] = movie_overview['Movie'] + " - " + movie_overview['Movie_de']
