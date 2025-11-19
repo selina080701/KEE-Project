@@ -10,7 +10,7 @@ The below functions are displayed in the movie page.
 # ---- Get an overview of the James Bond Movies ----
 @st.cache_data
 def get_movie_overview(df, df_posters, df_german_titles):
-    overview = df[['Year', 'Movie', 'Bond', 'Director', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom']].copy()
+    overview = df[['Year', 'Movie', 'Bond', 'Director', 'Producer', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom']].copy()
     df_posters = df_posters.copy()
     df_posters['title'] = df_posters['title'].str.replace(' (film)', '', regex=False)
 
@@ -33,7 +33,7 @@ def get_movie_overview(df, df_posters, df_german_titles):
     overview = overview.drop(columns=['title'])
 
     # Reorder columns to have poster_url first, then sort by Year and rename Poster column
-    cols = ['poster_url', 'Year', 'Movie', 'Movie_de', 'Bond', 'Director', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom']
+    cols = ['poster_url', 'Year', 'Movie', 'Movie_de', 'Bond', 'Director', 'Producer', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom']
     overview = overview[cols].sort_values(by='Year').reset_index(drop=True)
     overview = overview.rename(columns={'poster_url': 'Poster'})
 
@@ -65,6 +65,7 @@ def display_movie_overview_large(overview_df):
             )
             st.write(f"**Bond:** {row['Bond']}")
             st.write(f"**Director:** {row['Director']}")
+            st.write(f"**Producer:** {row['Producer']}")
             st.write(f"**IMDB:** {row['Avg_User_IMDB']:.1f} ⭐ | **RT:** {row['Avg_User_Rtn_Tom']:.1f} 🍅")
         st.divider()
 
@@ -73,7 +74,7 @@ def display_movie_overview_large(overview_df):
 @st.cache_data
 def display_movie_overview_thumbnails(overview_df):
     st.dataframe(
-        overview_df,
+        overview_df[["Poster", "Year", "Movie_de", "Avg_User_IMDB", "Avg_User_Rtn_Tom"]],
         column_config={
             "Poster": st.column_config.ImageColumn(
                 "Poster",
@@ -97,5 +98,5 @@ def display_movie_overview_thumbnails(overview_df):
             )
         },
         hide_index=True,
-        use_container_width=True
+        width="stretch"
     )

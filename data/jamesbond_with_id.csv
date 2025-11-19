@@ -1,26 +1,26 @@
-Year;Movie;Bond;Director;Budget_Adj;Film_Length;Avg_User_IMDB;Avg_User_Rtn_Tom;wikidata_id
-1962;Dr. No;Sean Connery;Terence Young;7688;110;7.3;7.7;http://www.wikidata.org/entity/Q102754
-1963;From Russia with Love;Sean Connery;Terence Young;15174;115;7.5;8.0;http://www.wikidata.org/entity/Q106571
-1964;Goldfinger;Sean Connery;Guy Hamilton;22468;110;7.8;8.4;http://www.wikidata.org/entity/Q106440
-1965;Thunderball;Sean Connery;Terence Young;66333;130;7.0;6.8;http://www.wikidata.org/entity/Q107724
-1967;You Only Live Twice;Sean Connery;Lewis Gilbert;66035;117;6.9;6.3;http://www.wikidata.org/entity/Q107761
-1969;On Her Majesty's Secret Service;George Lazenby;Peter R. Hunt;50608;142;6.8;6.7;http://www.wikidata.org/entity/Q107894
-1971;Diamonds Are Forever;Sean Connery;Guy Hamilton;41274;120;6.7;6.3;http://www.wikidata.org/entity/Q107914
-1973;Live and Let Die;Roger Moore;Guy Hamilton;36603;121;6.8;5.9;http://www.wikidata.org/entity/Q27204
-1974;The Man with the Golden Gun;Roger Moore;Guy Hamilton;32965;125;6.7;5.1;http://www.wikidata.org/entity/Q309289
-1977;The Spy Who Loved Me;Roger Moore;Lewis Gilbert;53636;125;7.1;6.8;http://www.wikidata.org/entity/Q320423
-1979;Moonraker;Roger Moore;Lewis Gilbert;99134;126;6.2;5.7;http://www.wikidata.org/entity/Q334780
-1981;For Your Eyes Only;Roger Moore;John Glen;71514;127;6.8;6.3;http://www.wikidata.org/entity/Q332330
-1983;Octopussy;Roger Moore;John Glen;64102;131;6.5;5.3;http://www.wikidata.org/entity/Q204398
-1985;A View to a Kill;Roger Moore;John Glen;64730;131;6.2;4.7;http://www.wikidata.org/entity/Q332368
-1987;The Living Daylights;Timothy Dalton;John Glen;81749;130;6.7;6.3;http://www.wikidata.org/entity/Q272064
-1989;Licence to Kill;Timothy Dalton;John Glen;78637;133;6.5;6.0;http://www.wikidata.org/entity/Q309086
-1995;GoldenEye;Pierce Brosnan;Martin Campbell;91404;130;7.2;6.9;http://www.wikidata.org/entity/Q19089
-1997;Tomorrow Never Dies;Pierce Brosnan;Roger Spottiswoode;159117;119;6.4;6.0;http://www.wikidata.org/entity/Q207916
-1999;The World Is Not Enough;Pierce Brosnan;Michael Apted;188130;128;6.3;5.7;http://www.wikidata.org/entity/Q212145
-2002;Die Another Day;Pierce Brosnan;Lee Tamahori;183255;133;6.0;6.1;http://www.wikidata.org/entity/Q30931
-2006;Casino Royale;Daniel Craig;Martin Campbell;117465;144;7.9;7.8;http://www.wikidata.org/entity/Q151904
-2008;Quantum of Solace;Daniel Craig;Marc Forster;248014;106;6.7;6.1;http://www.wikidata.org/entity/Q181540
-2012;Skyfall;Daniel Craig;Sam Mendes;202240;143;7.8;8.2;http://www.wikidata.org/entity/Q4941
-2015;Spectre;Daniel Craig;Sam Mendes;240803;148;6.8;6.4;http://www.wikidata.org/entity/Q18602670
-2020;No Time to Die;Daniel Craig;Cary Joji Fukunaga;250000;163;7.3;8.3;http://www.wikidata.org/entity/Q21534241
+Year;Movie;Bond;Director;Producer;Budget_Adj;Film_Length;Avg_User_IMDB;Avg_User_Rtn_Tom;wikidata_id
+1962;Dr. No;Sean Connery;Terence Young;Harry Saltzman & Albert R. Broccoli;7688;110;7.3;7.7;http://www.wikidata.org/entity/Q102754
+1963;From Russia with Love;Sean Connery;Terence Young;Harry Saltzman & Albert R. Broccoli;15174;115;7.5;8.0;http://www.wikidata.org/entity/Q106571
+1964;Goldfinger;Sean Connery;Guy Hamilton;Harry Saltzman & Albert R. Broccoli;22468;110;7.8;8.4;http://www.wikidata.org/entity/Q106440
+1965;Thunderball;Sean Connery;Terence Young;Richard Maibaum & John Hopkins;66333;130;7.0;6.8;http://www.wikidata.org/entity/Q107724
+1967;You Only Live Twice;Sean Connery;Lewis Gilbert;Harry Saltzman & Albert R. Broccoli;66035;117;6.9;6.3;http://www.wikidata.org/entity/Q107761
+1969;On Her Majesty's Secret Service;George Lazenby;Peter R. Hunt;Harry Saltzman & Albert R. Broccoli;50608;142;6.8;6.7;http://www.wikidata.org/entity/Q107894
+1971;Diamonds Are Forever;Sean Connery;Guy Hamilton;Harry Saltzman & Albert R. Broccoli;41274;120;6.7;6.3;http://www.wikidata.org/entity/Q107914
+1973;Live and Let Die;Roger Moore;Guy Hamilton;Harry Saltzman & Albert R. Broccoli;36603;121;6.8;5.9;http://www.wikidata.org/entity/Q27204
+1974;The Man with the Golden Gun;Roger Moore;Guy Hamilton;Harry Saltzman & Albert R. Broccoli;32965;125;6.7;5.1;http://www.wikidata.org/entity/Q309289
+1977;The Spy Who Loved Me;Roger Moore;Lewis Gilbert;Albert R. Broccoli;53636;125;7.1;6.8;http://www.wikidata.org/entity/Q320423
+1979;Moonraker;Roger Moore;Lewis Gilbert;Albert R. Broccoli;99134;126;6.2;5.7;http://www.wikidata.org/entity/Q334780
+1981;For Your Eyes Only;Roger Moore;John Glen;Albert R. Broccoli;71514;127;6.8;6.3;http://www.wikidata.org/entity/Q332330
+1983;Octopussy;Roger Moore;John Glen;Albert R. Broccoli;64102;131;6.5;5.3;http://www.wikidata.org/entity/Q204398
+1985;A View to a Kill;Roger Moore;John Glen;Albert R. Broccoli & Michael G. Wilson;64730;131;6.2;4.7;http://www.wikidata.org/entity/Q332368
+1987;The Living Daylights;Timothy Dalton;John Glen;Albert R. Broccoli & Michael G. Wilson;81749;130;6.7;6.3;http://www.wikidata.org/entity/Q272064
+1989;Licence to Kill;Timothy Dalton;John Glen;Albert R. Broccoli & Michael G. Wilson;78637;133;6.5;6.0;http://www.wikidata.org/entity/Q309086
+1995;GoldenEye;Pierce Brosnan;Martin Campbell;Michael G. Wilson & Barbara Broccoli;91404;130;7.2;6.9;http://www.wikidata.org/entity/Q19089
+1997;Tomorrow Never Dies;Pierce Brosnan;Roger Spottiswoode;Michael G. Wilson & Barbara Broccoli;159117;119;6.4;6.0;http://www.wikidata.org/entity/Q207916
+1999;The World Is Not Enough;Pierce Brosnan;Michael Apted;Michael G. Wilson & Barbara Broccoli;188130;128;6.3;5.7;http://www.wikidata.org/entity/Q212145
+2002;Die Another Day;Pierce Brosnan;Lee Tamahori;Michael G. Wilson & Barbara Broccoli;183255;133;6.0;6.1;http://www.wikidata.org/entity/Q30931
+2006;Casino Royale;Daniel Craig;Martin Campbell;Michael G. Wilson & Barbara Broccoli;117465;144;7.9;7.8;http://www.wikidata.org/entity/Q151904
+2008;Quantum of Solace;Daniel Craig;Marc Forster;Michael G. Wilson & Barbara Broccoli;248014;106;6.7;6.1;http://www.wikidata.org/entity/Q181540
+2012;Skyfall;Daniel Craig;Sam Mendes;Michael G. Wilson & Barbara Broccoli;202240;143;7.8;8.2;http://www.wikidata.org/entity/Q4941
+2015;Spectre;Daniel Craig;Sam Mendes;Michael G. Wilson & Barbara Broccoli;240803;148;6.8;6.4;http://www.wikidata.org/entity/Q18602670
+2020;No Time to Die;Daniel Craig;Cary Joji Fukunaga;Michael G. Wilson & Barbara Broccoli;250000;163;7.3;8.3;http://www.wikidata.org/entity/Q21534241
