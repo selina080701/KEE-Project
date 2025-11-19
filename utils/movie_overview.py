@@ -79,7 +79,7 @@ def display_movie_overview_thumbnails(overview_df):
             "Poster": st.column_config.ImageColumn(
                 "Poster",
                 help="double-click to enlarge",
-                width="small"  # Options: "small", "medium", "large"
+                width="medium"  # Options: "small", "medium", "large"
             ),
             "Year": st.column_config.NumberColumn(
                 "Year",

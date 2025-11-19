@@ -35,7 +35,9 @@ def show_image_gallery_page():
         # Filter by movie with dropdown box
         search = st.selectbox(
         "Filter by movie:",
-        options=[""] + sorted(vehicles_overview['movie'].unique().tolist())
+        options=[""] + sorted(vehicles_overview['movie'].unique().tolist()),
+        index=None,
+        placeholder="Select a movie..."
         )
 
         # show filtered DataFrame
@@ -60,7 +62,9 @@ def show_image_gallery_page():
         # Filter by movie with dropdown box
         search = st.selectbox(
         "Filter by movie:",
-        options=[""] + sorted(bond_girls_overview['movie'].unique().tolist())
+        options=[""] + sorted(bond_girls_overview['movie'].unique().tolist()),
+        index=None,
+        placeholder="Select a movie..."
         )
 
         # show filtered DataFrame

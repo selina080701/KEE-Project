@@ -14,16 +14,23 @@ def show_movie_page():
 
     # Create Movie Overview with Posters
     movie_overview = get_movie_overview(df, df_posters, df_german_titles)
+    
+    # add new column for Movie + movie_de for better searchability
+    movie_overview['Movie_Combined'] = movie_overview['Movie'] + " - " + movie_overview['Movie_de']
 
     # Header
     st.write("### Movie Collection Overview")
     st.metric("Total Movies", len(movie_overview))
 
     # Search functionality
-    search = st.text_input("Search movies:", placeholder="Type to filter...")
+    search = st.selectbox(
+        "Search Movie Title:",
+        options=[""] + sorted(movie_overview['Movie_Combined'].unique()),
+        index=None,
+        placeholder="Select a movie title to filter...")
   
     if search:
-        filtered = movie_overview[movie_overview['Movie'].str.contains(search, case=False, na=False)]
+        filtered = movie_overview[movie_overview['Movie_Combined'].str.contains(search, case=False, na=False)]
     else:
         filtered = movie_overview
 

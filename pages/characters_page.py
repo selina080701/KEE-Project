@@ -42,9 +42,10 @@ def show_characters_page():
     with col2:
         char_options = [""] + sorted(recurring_chars)
         selected_character = st.selectbox(
-            "Select a character:",
-            char_options,
-            index=0
+            "Filter by character:",
+            options=char_options,
+            index=None,
+            placeholder="Select a movie character"
         )
 
     # ---- Apply Filters ----
