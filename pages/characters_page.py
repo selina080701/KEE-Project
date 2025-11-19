@@ -84,6 +84,6 @@ def show_characters_page():
         fig = create_scatterplot(df_filtered)
 
         if fig:
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
         else:
             st.info("No data available for scatterplot.")

@@ -85,6 +85,13 @@ def create_scatterplot(df_filtered):
     if len(scatter_df) == 0:
         return None
 
+    # Merge to get german movie titles and actors for hover info
+    scatter_df = scatter_df.merge(
+            df_filtered[['character', 'movie_year', 'Movie_de', 'actor']],
+            on=['character', 'movie_year'],
+            how='left'
+        )
+
     fig = px.scatter(
         scatter_df,
         x="character",
@@ -92,12 +99,20 @@ def create_scatterplot(df_filtered):
         color="appears",
         color_discrete_sequence=["blue"],
         size=[2] * len(scatter_df),
+        custom_data=['Movie_de', 'actor']
     )
 
-    fig.update_traces(marker=dict(symbol="circle", opacity=0.9))
+    fig.update_traces(
+        marker=dict(symbol="circle", opacity=0.9),
+        hovertemplate='<b>%{customdata[0]}</b><br>%{x}<br>%{customdata[1]}<extra></extra>'
+    )
+
+    num_movies = scatter_df['movie_year'].nunique()
+    dynamic_height = max(700, num_movies * 40)  # Adjust height based on number of movies: max 600px, 30px per movie
+
     fig.update_layout(
         xaxis=dict(side="top"),
-        height=max(1000, len(pivot_binary) * 50),
+        height=dynamic_height,
         xaxis_tickangle=-45,
         showlegend=False
     )
