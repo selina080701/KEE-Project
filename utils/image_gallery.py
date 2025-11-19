@@ -2,6 +2,10 @@
 import pandas as pd
 import streamlit as st
 
+"""
+Helper functions for the image gallery page.
+"""
+
 # ---- Generate Vehicle Image Overview ----
 @st.cache_data
 def generate_vehicle_image_overview(df_vehicles, df_german_titles):

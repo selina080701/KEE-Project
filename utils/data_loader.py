@@ -56,10 +56,20 @@ def load_poster_urls():
 def load_geo_locations():
     try:
         df_locations = pd.read_csv('extract_knowledge/geocoded_locations/all_movies_geocoded.csv', sep=',', encoding='utf-8')
+
+        # Merge with German titles
+        df_titles = load_german_titles()
+        df_locations = df_locations.merge(
+            df_titles,
+            left_on='movie',
+            right_on='Movie',
+            how='left'
+        )
+        df_locations = df_locations.drop(columns=['Movie'])
         return df_locations
     except FileNotFoundError:
         st.warning("Geocoded Locations File not found.")
-        return pd.DataFrame(columns=['name', 'lat', 'lon'])
+        return pd.DataFrame(columns=['name', 'movie', 'Movie_de', 'lat', 'lon'])
     
 # ---- Load character-actor pairs with caching ----
 @st.cache_data
