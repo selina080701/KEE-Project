@@ -31,7 +31,7 @@ def get_movie_overview(df, df_posters, df_german_titles, df_songs):
 
     # Merge theme song data based on movie title
     overview = overview.merge(
-        df_songs[['movie', 'song', 'performer', 'composer']],
+        df_songs[['movie', 'song', 'performer', 'composer', 'youtube_link']],
         left_on='Movie',
         right_on='movie',
         how='left'
@@ -44,9 +44,10 @@ def get_movie_overview(df, df_posters, df_german_titles, df_songs):
     overview['Theme Song'] = overview['song'] + " by " + overview['performer']
 
     # Reorder columns to have poster_url first, then sort by Year and rename Poster column
-    cols = ['poster_url', 'Year', 'Movie', 'Movie_de', 'Bond', 'Director', 'Producer', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom', 'Theme Song']
+    cols = ['poster_url', 'Year', 'Movie', 'Movie_de', 'Bond', 'Director', 'Producer', 'Avg_User_IMDB', 'Avg_User_Rtn_Tom', 'Theme Song', 'youtube_link']
     overview = overview[cols].sort_values(by='Year').reset_index(drop=True)
     overview = overview.rename(columns={'poster_url': 'Poster'})
+    overview = overview.rename(columns={'youtube_link': 'Opening Sequence'})
 
     return overview
 
@@ -79,6 +80,11 @@ def display_movie_overview_large(overview_df):
             st.write(f"**Producer:** {row['Producer']}")
             st.write(f"**IMDB:** {row['Avg_User_IMDB']:.1f} ⭐ | **RT:** {row['Avg_User_Rtn_Tom']:.1f} 🍅")
             st.write(f"**Theme Song:** {row['Theme Song']}")
+            st.link_button(
+                "Watch Opening Sequence",
+                row['Opening Sequence'],
+                icon="▶️"
+            )
         st.divider()
 
 
@@ -86,7 +92,7 @@ def display_movie_overview_large(overview_df):
 @st.cache_data
 def display_movie_overview_thumbnails(overview_df):
     st.dataframe(
-        overview_df[["Poster", "Year", "Movie_de", "Theme Song", "Avg_User_IMDB", "Avg_User_Rtn_Tom"]],
+        overview_df[["Poster", "Year", "Movie_de", "Theme Song", "Opening Sequence", "Avg_User_IMDB", "Avg_User_Rtn_Tom"]],
         column_config={
             "Poster": st.column_config.ImageColumn(
                 "Poster",
@@ -102,6 +108,10 @@ def display_movie_overview_thumbnails(overview_df):
             ),
             "Theme Song": st.column_config.TextColumn(
                 "Theme Song"
+            ),
+            "Opening Sequence": st.column_config.LinkColumn(
+                "Opening Sequence",
+                help="Click to watch the opening sequence on YouTube"
             ),
             "Avg_User_IMDB": st.column_config.NumberColumn(
                 "IMDB Rating",

@@ -1,26 +1,26 @@
-movie;song;performer;composer
-A View to a Kill;A View to a Kill;Duran Duran;Duran Duran, John Barry
-Casino Royale;You Know My Name;Chris Cornell;Chris Cornell, David Arnold
-Diamonds Are Forever;Diamonds Are Forever;Shirley Bassey;Don Black
-Die Another Day;Die Another Day;Madonna;Madonna, Mirwais Ahmadzaï
-Dr. No;James Bond Theme;The John Barry Orchestra;Monty Norman
-For Your Eyes Only;For Your Eyes Only;Sheena Easton;Michael Leeson
-From Russia with Love;From Russia with Love;Matt Monro;Lionel Bart
-GoldenEye;GoldenEye;Tina Turner;Bono, The Edge
-Goldfinger;Goldfinger;Shirley Bassey;John Barry, Leslie Bricusse, Anthony Newley
-Licence to Kill;Licence to Kill;Gladys Knight;Narada Michael Walden, Jeffrey Cohen, Walter Afanaseiff
-Live and Let Die;Live and Let Die;Paul McCartney & Wings;Paul McCartney, Linda McCartney
-Moonraker;Moonraker;Shirley Bassey;Hal David
-No Time to Die;No Time to Die;Billie Eilish;Billie Eilish, Finneas O'Connell
-Octopussy;All Time High;Rita Coolidge;Tim Rice
-On Her Majesty's Secret Service;We Have All The Time In The World;Louis Armstrong;John Barry, Hal David
-Quantum of Solace;Another Way to Die;Jack White & Alicia Keys;Jack White
-Skyfall;Skyfall;Adele;Adele Adkins
-Spectre;Writing's on the Wall;Sam Smith;Sam Smith, Jimmy Napes
-The Living Daylights;The Living Daylights;a-ha;John Barry, Pal Waaktaar
-The Man with the Golden Gun;The Man with the Golden Gun;Lulu;Don Black
-The Spy Who Loved Me;Nobody Does It Better;Carly Simon;Marvin Hamlisch, Carole Bayer Sager
-The World Is Not Enough;The World Is Not Enough;Garbage;Don Black
-Thunderball;Thunderball;Tom Jones;John Barry, Don Black
-Tomorrow Never Dies;Tomorrow Never Dies;Sheryl Crow;Sheryl Crow, Mitchell Froom
-You Only Live Twice;You Only Live Twice;Nancy Sinatra;John Barry, Leslie Bricusse
+movie;song;performer;composer;youtube_link
+A View to a Kill;A View to a Kill;Duran Duran;Duran Duran, John Barry;https://youtu.be/hWVbVT3igdw?si=Ndam6Q-IDECf9RCW
+Casino Royale;You Know My Name;Chris Cornell;Chris Cornell, David Arnold;https://youtu.be/A1AMUmkj-ck?si=YBgYd8nF8rAEn06C
+Diamonds Are Forever;Diamonds Are Forever;Shirley Bassey;Don Black;https://youtu.be/ZwbEuzJCnqI?si=xH-BoyxMvlyF6knx
+Die Another Day;Die Another Day;Madonna;Madonna, Mirwais Ahmadzaï;https://youtu.be/ZVFDshqlmOQ?si=FjvbqAWargVkyU3F
+Dr. No;James Bond Theme;The John Barry Orchestra;Monty Norman;https://youtu.be/oTo3YtPxG5k?si=v2Yx2a4--kAEgaqI
+For Your Eyes Only;For Your Eyes Only;Sheena Easton;Michael Leeson;https://youtu.be/8kNksLL0sv4?si=RcjZ713gXyavBz4Q
+From Russia with Love;From Russia with Love;Matt Monro;Lionel Bart;https://youtu.be/RIY8KDrx-E8?si=enJ7nKJGq1Y2l-4o
+GoldenEye;GoldenEye;Tina Turner;Bono, The Edge;https://youtu.be/qGPBFvDz_HM?si=OJlOnDWRcRWeZMTG
+Goldfinger;Goldfinger;Shirley Bassey;John Barry, Leslie Bricusse, Anthony Newley;https://youtu.be/6D1nK7q2i8I?si=7f-l_tJqg-riV2tO
+Licence to Kill;Licence to Kill;Gladys Knight;Narada Michael Walden, Jeffrey Cohen, Walter Afanaseiff;https://youtu.be/Ju_by-sC79c?si=kO0Rn-FoJ9YVgTUA
+Live and Let Die;Live and Let Die;Paul McCartney & Wings;Paul McCartney, Linda McCartney;https://youtu.be/sn8alMYSu44?si=a6Q7bd-rNj4ZtvUM
+Moonraker;Moonraker;Shirley Bassey;Hal David;https://youtu.be/gt3oQN0cAv0?si=sBE9o7fKiXP-YgOi
+No Time to Die;No Time to Die;Billie Eilish;Billie Eilish, Finneas O'Connell;https://youtu.be/83YuaW09ueI?si=0jeUBYMHHF9ZRh61
+Octopussy;All Time High;Rita Coolidge;Tim Rice;https://youtu.be/213t3YeQosE?si=k8JyqEwV5KHJb3o9
+On Her Majesty's Secret Service;We Have All The Time In The World;Louis Armstrong;John Barry, Hal David;https://youtu.be/WYRf_S9DLfk?si=tDaNqMy0WlychzGl
+Quantum of Solace;Another Way to Die;Jack White & Alicia Keys;Jack White;https://youtu.be/B4LpSzKnEtA?si=cQUB9HTuXNDG-XCI
+Skyfall;Skyfall;Adele;Adele Adkins;https://youtu.be/DeumyOzKqgI?si=5aH1fvbGm0D0uwzT
+Spectre;Writing's on the Wall;Sam Smith;Sam Smith, Jimmy Napes;https://youtu.be/G9LxUQL_Ucg?si=4N9YBt6lGD2H8ZSA
+The Living Daylights;The Living Daylights;a-ha;John Barry, Pal Waaktaar;https://youtu.be/y9p0FJnk2vM?si=Wm2IJrNLqdfZsonm
+The Man with the Golden Gun;The Man with the Golden Gun;Lulu;Don Black;https://youtu.be/PSbj2Mx2By8?si=lSTEzJTfxcNSlcdv
+The Spy Who Loved Me;Nobody Does It Better;Carly Simon;Marvin Hamlisch, Carole Bayer Sager;https://youtu.be/isAUOa50wdA?si=DWFVFD8GU7826luA
+The World Is Not Enough;The World Is Not Enough;Garbage;Don Black;https://youtu.be/LzvNDR5OrqM?si=cIzQiwbeyxNOCrDs
+Thunderball;Thunderball;Tom Jones;John Barry, Don Black;https://youtu.be/Ia6-5gC5ArM?si=9UalFYNXPHhPaq1L
+Tomorrow Never Dies;Tomorrow Never Dies;Sheryl Crow;Sheryl Crow, Mitchell Froom;https://youtu.be/SDe1xi4tGUA?si=HgeN7UlCN8dA7v7i
+You Only Live Twice;You Only Live Twice;Nancy Sinatra;John Barry, Leslie Bricusse;https://youtu.be/hs8uYxTJ530?si=D7V00R6Skoe1vicl

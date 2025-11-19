@@ -109,4 +109,4 @@ def load_song_data():
         return df_songs
     except FileNotFoundError:
         st.warning("Song File not found.")
-        return pd.DataFrame(columns=['movie', 'song', 'performer', 'composer'])
+        return pd.DataFrame(columns=['movie', 'song', 'performer', 'composer', 'youtube_link'])
