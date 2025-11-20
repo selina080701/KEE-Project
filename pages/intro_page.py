@@ -32,4 +32,12 @@ def show_intro_page():
     ---       
     *Created for the \"Knowledge Engineering and Extraction\" module at FHGR (MSc in Data Visualization)*
     """)
-    
+
+    with st.expander("ℹ️ Data Sources", expanded=False):
+        st.markdown("""
+        - [Kaggle - James Bond Dataset](https://www.kaggle.com/datasets/dreb87/jamesbond)
+        - [James Bond Wiki](https://jamesbond.fandom.com/wiki/James_Bond_Wiki)
+        - [Wikipedia - List of James Bond villains](https://en.wikipedia.org/wiki/List_of_James_Bond_villains)
+        - [Wikidata](https://www.wikidata.org/)
+        - [YouTube](https://www.youtube.com/)
+        """)

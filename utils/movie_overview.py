@@ -92,7 +92,7 @@ def display_movie_overview_large(overview_df):
 @st.cache_data
 def display_movie_overview_thumbnails(overview_df):
     st.dataframe(
-        overview_df[["Poster", "Year", "Movie_de", "Theme Song", "Opening Sequence", "Avg_User_IMDB", "Avg_User_Rtn_Tom"]],
+        overview_df[["Poster", "Year", "Movie_de", "Theme Song", "Avg_User_IMDB", "Avg_User_Rtn_Tom","Opening Sequence"]],
         column_config={
             "Poster": st.column_config.ImageColumn(
                 "Poster",
