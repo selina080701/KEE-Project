@@ -1,52 +1,65 @@
+@prefix country: <http://example.org/country/> .
 @prefix ex: <http://example.org/jamesbond/> .
+@prefix gender: <http://example.org/gender/> .
 @prefix movie: <https://triplydb.com/Triply/linkedmdb/vocab/> .
 @prefix person: <http://example.org/person/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 person:Q134333 a movie:Actor ;
-    ex:citizenship "United Kingdom" ;
+    rdfs:label "Roger Moore" ;
+    ex:citizenship country:Q145 ;
     ex:dateOfBirth "1927-10-14"^^xsd:date ;
     ex:dateOfDeath "2017-05-23"^^xsd:date ;
-    ex:gender "male" ;
-    ex:name "Roger Moore" ;
+    ex:gender gender:Q6581097 ;
     ex:sameAs <http://www.wikidata.org/entity/Q134333> .
 
 person:Q205599 a movie:Actor ;
-    ex:citizenship "Australia" ;
+    rdfs:label "George Lazenby" ;
+    ex:citizenship country:Q408 ;
     ex:dateOfBirth "1939-09-05"^^xsd:date ;
-    ex:gender "male" ;
-    ex:name "George Lazenby" ;
+    ex:gender gender:Q6581097 ;
     ex:sameAs <http://www.wikidata.org/entity/Q205599> .
 
 person:Q41233 a movie:Actor ;
-    ex:citizenship "United Kingdom" ;
+    rdfs:label "Timothy Dalton" ;
+    ex:citizenship country:Q145 ;
     ex:dateOfBirth "1946-03-21"^^xsd:date ;
-    ex:gender "male" ;
-    ex:name "Timothy Dalton" ;
+    ex:gender gender:Q6581097 ;
     ex:sameAs <http://www.wikidata.org/entity/Q41233> .
 
 person:Q4547 a movie:Actor ;
-    ex:citizenship "United Kingdom",
-        "United States" ;
+    rdfs:label "Daniel Craig" ;
+    ex:citizenship country:Q145,
+        country:Q30 ;
     ex:dateOfBirth "1968-03-02"^^xsd:date ;
-    ex:gender "male" ;
-    ex:name "Daniel Craig" ;
+    ex:gender gender:Q6581097 ;
     ex:sameAs <http://www.wikidata.org/entity/Q4547> .
 
 person:Q4573 a movie:Actor ;
-    ex:citizenship "United Kingdom" ;
+    rdfs:label "Sean Connery" ;
+    ex:citizenship country:Q145 ;
     ex:dateOfBirth "1930-08-25"^^xsd:date ;
     ex:dateOfDeath "2020-10-31"^^xsd:date ;
-    ex:gender "male" ;
-    ex:name "Sean Connery" ;
+    ex:gender gender:Q6581097 ;
     ex:sameAs <http://www.wikidata.org/entity/Q4573> .
 
 person:Q81520 a movie:Actor ;
-    ex:citizenship "Ireland",
-        "United Kingdom",
-        "United States" ;
+    rdfs:label "Pierce Brosnan" ;
+    ex:citizenship country:Q145,
+        country:Q27,
+        country:Q30 ;
     ex:dateOfBirth "1953-05-16"^^xsd:date ;
-    ex:gender "male" ;
-    ex:name "Pierce Brosnan" ;
+    ex:gender gender:Q6581097 ;
     ex:sameAs <http://www.wikidata.org/entity/Q81520> .
+
+country:Q27 rdfs:label "Ireland" .
+
+country:Q408 rdfs:label "Australia" .
+
+country:Q30 rdfs:label "United States" .
+
+country:Q145 rdfs:label "United Kingdom" .
+
+gender:Q6581097 rdfs:label "male" .
 
