@@ -32,7 +32,7 @@ def show_rdf_page():
 
     # ---- Prepare graph rendering ----
     nodes, edges = [], []
-    config = Config(height=600, width=760)    
+    config = Config(height=600, width=760)
 
     if show_all:
         # Display the entire RDF graph
@@ -46,12 +46,13 @@ def show_rdf_page():
                 seen_nodes.add(s)
             if o not in seen_nodes:
                 nodes.append(Node(id=str(o)))
-                seen_nodes.append(o)
+                seen_nodes.add(o)
             edges.append(Edge(
-                 source=str(s),
-                 label=str(p).split('/')[-1].split('#')[-1],
-                 target=str(o)
+                source=str(s),
+                label=str(p).split('/')[-1].split('#')[-1],
+                target=str(o)
             ))
+
     else:
         # Display filtered graph based on user selections
         if show_movies:
