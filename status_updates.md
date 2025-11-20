@@ -24,7 +24,6 @@ person:Q134333 a movie:Actor ;
     rdfs:label "Roger Moore" ;
 ```
 - [Frage] Daten nur als Annotation geladen in Protege
-- [Frage] Ontologie (0 Axioms, 0 logical Axioms)
 
 **Whats Next**:
 - Ontologie in Protegé erstellen
