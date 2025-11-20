@@ -110,3 +110,13 @@ def load_song_data():
     except FileNotFoundError:
         st.warning("Song File not found.")
         return pd.DataFrame(columns=['movie', 'song', 'performer', 'composer', 'youtube_link'])
+
+# ---- Load villains data with caching ----
+@st.cache_data
+def load_villains_data():
+    try:
+        df_villains = pd.read_csv('extract_knowledge/villains/villains_with_images.csv', sep=';', encoding='utf-8')
+        return df_villains
+    except FileNotFoundError:
+        st.warning("Villains File not found.")
+        return pd.DataFrame(columns=['Film', 'Villain', 'Portrayed by', 'Objective', 'Outcome', 'Status', 'Image URL' ])

@@ -1,9 +1,13 @@
 # 3. Statusupdate - Fr, 21.11.2025
 **Done**:
 - Wikidata-Triples extrahiert: deutsche Filmtitel, Bond-Schauspieler Metadaten
-- Bild-URLs und Charaktere aus Wiki-Fandom extrahiert
+- Charaktere, Autos und Bondgirls aus Text Sections der Fandom-Seiten extrahiert (über wikitextparser)
+- Antagonisten aus Wikipedia extrahiert (über Request und pd.read_html)
+- Bild-URLs aus Wiki-Fandom extrahiert (alle Charaktere, Autos, Antagonisten, Bondgirls)
 - Seite für Wiederkehrende Charakteren eingebaut
 - Übersichtseite für Autos, Bond Girls und Villains mit Bildern erstellt
+- Songs und Performer aus Infoboxen extrahiert und YouTube-Links hinzugefügt
+- Filter optimiert mit deutschen und englischen Titeln
 - Template für den Bericht in Overleaf erstellt
 
 **Obstacles**:

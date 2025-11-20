@@ -112,5 +112,60 @@ def display_bond_girls_image_overview_large(df_bond_girls):
             st.write(f"**Movie:** {row['movie']}" + (f" ({row['title_de']})" if pd.notna(row['title_de']) else ""))
 
 
-        
+
+        st.divider()
+
+
+# ---- Generate Villains Image Overview ----
+@st.cache_data
+def generate_villains_image_overview(df_villains, df_german_titles):
+    df_villains = df_villains[['Film',
+                               'Villain',
+                               'Portrayed by',
+                               'Objective',
+                               'Outcome',
+                               'Status',
+                               'image_url']].copy()
+
+    # Rename Film to movie for consistency
+    df_villains = df_villains.rename(columns={'Film': 'movie'})
+
+    # Merge to german movie titles
+    df_villains = df_villains.merge(
+        df_german_titles[['Movie', 'Movie_de']],
+        left_on='movie',
+        right_on='Movie',
+        how='left'
+    )
+    # Drop duplicate Movie column and rename Movie_de to title_de
+    df_villains = df_villains.drop(columns=['Movie'])
+    df_villains = df_villains.rename(columns={'Movie_de': 'title_de'})
+
+    return df_villains
+
+
+# ---- Display Villains Image Overview as Cards (medium-sized) ----
+@st.cache_data
+def display_villains_image_overview_large(df_villains):
+    for idx, row in df_villains.iterrows():
+        col1, col2 = st.columns([1, 3])
+
+        with col1:
+            if pd.notna(row['image_url']) and row['image_url'] and str(row['image_url']).strip():
+                try:
+                    st.image(row['image_url'],
+                             width='content')
+                except Exception as e:
+                    st.error(f"Error loading image: {e}")
+                    st.write("No image")
+            else:
+                st.write("No image")
+
+        with col2:
+            st.write(f"**Villain:** {row['Villain']}")
+            st.write(f"**Portrayed by:** {row['Portrayed by']}")
+            st.write(f"**Movie:** {row['movie']}" + (f" ({row['title_de']})" if pd.notna(row['title_de']) else ""))
+            st.write(f"**Objective:** {row['Objective']}")
+            st.write(f"**Status:** {row['Status']}")
+
         st.divider()

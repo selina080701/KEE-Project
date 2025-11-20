@@ -1,11 +1,13 @@
 # image_gallery_page.py
 
 import streamlit as st
-from utils.data_loader import load_vehicle_data, load_bond_girls_data, load_data, load_german_titles
+from utils.data_loader import load_vehicle_data, load_bond_girls_data, load_data, load_german_titles, load_villains_data
 from utils.image_gallery import (generate_vehicle_image_overview,
                                 display_vehicle_image_overview_large,
                                 generate_bond_girls_image_overview,
-                                display_bond_girls_image_overview_large)
+                                display_bond_girls_image_overview_large,
+                                generate_villains_image_overview,
+                                display_villains_image_overview_large)
 
 """
 The below functions are displayed in the image page.
@@ -24,6 +26,9 @@ def show_image_gallery_page():
     df_movies = load_data()
     bond_girls_overview = generate_bond_girls_image_overview(df_bond_girls, df_movies, df_german_titles)
 
+    df_villains = load_villains_data()
+    villains_overview = generate_villains_image_overview(df_villains, df_german_titles)
+
     st.write("### Image Gallery Overview")
 
     # ---- Tabs for different categories ----
@@ -31,20 +36,21 @@ def show_image_gallery_page():
 
     with tab1:
         st.write("#### Vehicle Gallery")
-        
+
+        # Create combined movie column for filtering
+        vehicles_overview['movie_combined'] = vehicles_overview['movie'] + ' (' + vehicles_overview['title_de'].fillna('') + ')'
+
         # Filter by movie with dropdown box
         search = st.selectbox(
         "Filter by movie:",
-        options=[""] + sorted(vehicles_overview['movie'].unique().tolist()),
+        options=vehicles_overview['movie_combined'].unique().tolist(),
         index=None,
         placeholder="Select a movie..."
         )
 
         # show filtered DataFrame
         if search:
-            filtered = vehicles_overview[
-                vehicles_overview['movie'].str.contains(search, case=False, na=False)
-            ]
+            filtered = vehicles_overview[vehicles_overview['movie_combined'] == search]
         else:
             filtered = vehicles_overview
 
@@ -59,19 +65,21 @@ def show_image_gallery_page():
     with tab2:
         st.write("#### Bond Girls Gallery")
 
+        # Create combined movie column for filtering
+        bond_girls_overview['movie_combined'] = bond_girls_overview['movie'] + ' (' + bond_girls_overview['title_de'].fillna('') + ')'
+
         # Filter by movie with dropdown box
         search = st.selectbox(
         "Filter by movie:",
-        options=[""] + sorted(bond_girls_overview['movie'].unique().tolist()),
+        options=bond_girls_overview['movie_combined'].unique().tolist(),
         index=None,
-        placeholder="Select a movie..."
+        placeholder="Select a movie...",
+        key="bond_girls_movie_filter"
         )
 
         # show filtered DataFrame
         if search:
-            filtered = bond_girls_overview[
-                bond_girls_overview['movie'].str.contains(search, case=False, na=False)
-            ]
+            filtered = bond_girls_overview[bond_girls_overview['movie_combined'] == search]
         else:
             filtered = bond_girls_overview
 
@@ -85,4 +93,29 @@ def show_image_gallery_page():
         
     with tab3:
         st.write("#### Villains Gallery")
-        st.write("... will follow ...")
+
+        # Create combined movie column for filtering
+        villains_overview['movie_combined'] = villains_overview['movie'] + ' (' + villains_overview['title_de'].fillna('') + ')'
+
+        # Filter by movie with dropdown box
+        search = st.selectbox(
+        "Filter by movie:",
+        options=villains_overview['movie_combined'].unique().tolist(),
+        index=None,
+        placeholder="Select a movie...",
+        key="villains_movie_filter"
+        )
+
+        # show filtered DataFrame
+        if search:
+            filtered = villains_overview[villains_overview['movie_combined'] == search]
+        else:
+            filtered = villains_overview
+
+        # Display count of shown (filtered) villains
+        st.metric(
+        f"Displayed Villains of total {len(villains_overview)}:",
+        f"{len(filtered)}",
+        )
+
+        display_villains_image_overview_large(filtered)
