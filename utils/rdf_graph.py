@@ -2,6 +2,7 @@
 
 import streamlit as st
 from rdflib import Graph, Namespace
+from rdflib.namespace import RDF, RDFS
 from streamlit_agraph import Node, Edge
 
 """
@@ -100,7 +101,8 @@ def create_bond_info_graph(df_bond_ttl):
     """
     EX = Namespace("http://example.org/jamesbond/")
     MOVIE = Namespace("https://triplydb.com/Triply/linkedmdb/vocab/")
-    RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+
+    from rdflib.namespace import RDF, RDFS  # wichtig: RDFS importieren
 
     g = Graph()
     g.parse(data=df_bond_ttl, format="ttl")
@@ -108,17 +110,25 @@ def create_bond_info_graph(df_bond_ttl):
     bond_info_nodes = []
     bond_info_edges = []
 
+    # container such that country and gender are unique
+    country_nodes = {}
+    gender_nodes = {}
+
     # Iterate over all actors defined as movie:Actor
     for actor in g.subjects(RDF.type, MOVIE.Actor):
-        name = g.value(actor, EX.name)
+        label_value = g.value(actor, RDFS.label)
+        if label_value:
+            label = str(label_value)
+        else:
+            label = str(actor).split("/")[-1]
+
+        # Properties
         citizenship = g.value(actor, EX.citizenship)
         gender = g.value(actor, EX.gender)
         dob = g.value(actor, EX.dateOfBirth)
         dod = g.value(actor, EX.dateOfDeath)
-        same_as = g.value(actor, EX.sameAs)
 
-        # Create main actor node
-        label = str(name) if name else str(actor).split("/")[-1]
+        # actor node
         actor_node = Node(
             id=str(actor),
             label=label,
@@ -128,8 +138,58 @@ def create_bond_info_graph(df_bond_ttl):
         )
         bond_info_nodes.append(actor_node)
 
-        # Helper to add literal/object value nodes
-        def add_property_node(prop_value, prop_label):
+        # country node
+        if citizenship:
+            if citizenship not in country_nodes:
+                country_label_val = g.value(citizenship, RDFS.label)
+                if country_label_val:
+                    country_label = str(country_label_val)
+                else:
+                    country_label = str(citizenship).split("/")[-1]
+
+                country_nodes[citizenship] = Node(
+                    id=str(citizenship),
+                    label=country_label,
+                    color='#DBEBC2',
+                    shape='dot',
+                    size=20,
+                )
+
+            bond_info_edges.append(
+                Edge(
+                    source=str(actor),
+                    label="citizenship",
+                    target=str(citizenship),
+                )
+            )
+
+        # gender node
+        if gender:
+            if gender not in gender_nodes:
+                gender_label_val = g.value(gender, RDFS.label)
+                if gender_label_val:
+                    gender_label = str(gender_label_val)
+                else:
+                    gender_label = str(gender).split("/")[-1]
+
+                gender_nodes[gender] = Node(
+                    id=str(gender),
+                    label=gender_label,
+                    color='#FF6B6B',
+                    shape='hexagon',
+                    size=20,
+                )
+
+            bond_info_edges.append(
+                Edge(
+                    source=str(actor),
+                    label="gender",
+                    target=str(gender),
+                )
+            )
+
+        # helper for literals
+        def add_literal_node(prop_value, prop_label):
             if not prop_value:
                 return
             node_id = f"{actor}_{prop_label}"
@@ -149,28 +209,12 @@ def create_bond_info_graph(df_bond_ttl):
                 )
             )
 
-        add_property_node(citizenship, "citizenship")
-        add_property_node(gender, "gender")
-        add_property_node(dob, "dateOfBirth")
-        add_property_node(dod, "dateOfDeath")
+        add_literal_node(dob, "dateOfBirth")
+        add_literal_node(dod, "dateOfDeath")
 
-        if same_as:
-            same_as_id = f"{actor}_sameAs"
-            bond_info_nodes.append(
-                Node(
-                    id=same_as_id,
-                    label=str(same_as),
-                    shape="box",
-                    size=18,
-                )
-            )
-            bond_info_edges.append(
-                Edge(
-                    source=str(actor),
-                    label="sameAs",
-                    target=same_as_id,
-                )
-            )
+    # add country and gender sets to node set
+    bond_info_nodes.extend(country_nodes.values())
+    bond_info_nodes.extend(gender_nodes.values())
 
     return {
         "bond_info_nodes": bond_info_nodes,
