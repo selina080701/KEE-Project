@@ -2,8 +2,8 @@
 
 import streamlit as st
 from streamlit_agraph import agraph, Config
-from utils.data_loader import load_ttl
-from utils.rdf_graph import create_rdf_graph
+from utils.data_loader import load_ttl, load_bond_info_ttl
+from utils.rdf_graph import create_rdf_graph, create_bond_info_graph
 from rdflib import Graph
 from streamlit_agraph import Node, Edge
 
@@ -11,15 +11,19 @@ def show_rdf_page():
     st.sidebar.info("You are on the RDF graph page.")
     st.header("James Bond Knowledge Graph")
 
-    st.write('The RDF graph represents the relationships between various entities in the James Bond universe,' \
+    st.write('The RDF graph represents the relationships between various entities in the James Bond universe, '
     'including movies, directors, and actors. Use the checkboxes below to customize the visualization of the graph.')
 
     # ---- Load data  ----
     df_ttl = load_ttl()
     graph_data = create_rdf_graph(df_ttl)
 
+    # Load Bond actor info (separate RDF graph)
+    bond_ttl = load_bond_info_ttl()
+    bond_info_data = create_bond_info_graph(bond_ttl)
+
     # ---- User controls with checkboxes ----
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4, col5 = st.columns(5)
 
     with col1:
         show_all = st.checkbox('Display whole graph')
@@ -29,10 +33,21 @@ def show_rdf_page():
         show_directors = st.checkbox('Display directors', value=True)
     with col4:
         show_actors = st.checkbox('Display Bond actors', value=True)
+    with col5:
+        show_bond_info = st.checkbox('Display Bond information (separate)', value=False)
 
     # ---- Prepare graph rendering ----
     nodes, edges = [], []
     config = Config(height=600, width=760)
+
+    # ---- Separate Bond actor info graph ----
+    if show_bond_info:
+
+        nodes = bond_info_data["bond_info_nodes"]
+        edges = bond_info_data["bond_info_edges"]
+
+        agraph(nodes=nodes, edges=edges, config=config)
+        return
 
     if show_all:
         # Display the entire RDF graph

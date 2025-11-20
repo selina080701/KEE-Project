@@ -91,6 +91,93 @@ def create_rdf_graph(df_ttl):
         "starring": starring
     }
 
+
+@st.cache_data
+def create_bond_info_graph(df_bond_ttl):
+    """
+    Create a separate RDF graph for Bond actors and their attributes,
+    based on the bond_actor_info.ttl file.
+    """
+    EX = Namespace("http://example.org/jamesbond/")
+    MOVIE = Namespace("https://triplydb.com/Triply/linkedmdb/vocab/")
+    RDF = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+
+    g = Graph()
+    g.parse(data=df_bond_ttl, format="ttl")
+
+    bond_info_nodes = []
+    bond_info_edges = []
+
+    # Iterate over all actors defined as movie:Actor
+    for actor in g.subjects(RDF.type, MOVIE.Actor):
+        name = g.value(actor, EX.name)
+        citizenship = g.value(actor, EX.citizenship)
+        gender = g.value(actor, EX.gender)
+        dob = g.value(actor, EX.dateOfBirth)
+        dod = g.value(actor, EX.dateOfDeath)
+        same_as = g.value(actor, EX.sameAs)
+
+        # Create main actor node
+        label = str(name) if name else str(actor).split("/")[-1]
+        actor_node = Node(
+            id=str(actor),
+            label=label,
+            color='#FFD93D',
+            shape='star',
+            size=28,
+        )
+        bond_info_nodes.append(actor_node)
+
+        # Helper to add literal/object value nodes
+        def add_property_node(prop_value, prop_label):
+            if not prop_value:
+                return
+            node_id = f"{actor}_{prop_label}"
+            bond_info_nodes.append(
+                Node(
+                    id=node_id,
+                    label=str(prop_value),
+                    shape="box",
+                    size=18,
+                )
+            )
+            bond_info_edges.append(
+                Edge(
+                    source=str(actor),
+                    label=prop_label,
+                    target=node_id,
+                )
+            )
+
+        add_property_node(citizenship, "citizenship")
+        add_property_node(gender, "gender")
+        add_property_node(dob, "dateOfBirth")
+        add_property_node(dod, "dateOfDeath")
+
+        if same_as:
+            same_as_id = f"{actor}_sameAs"
+            bond_info_nodes.append(
+                Node(
+                    id=same_as_id,
+                    label=str(same_as),
+                    shape="box",
+                    size=18,
+                )
+            )
+            bond_info_edges.append(
+                Edge(
+                    source=str(actor),
+                    label="sameAs",
+                    target=same_as_id,
+                )
+            )
+
+    return {
+        "bond_info_nodes": bond_info_nodes,
+        "bond_info_edges": bond_info_edges,
+    }
+
+
 @st.cache_data
 def create_rdf_graph_characters(df_ttl):
     from rdflib.namespace import RDF, RDFS
