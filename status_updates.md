@@ -1,17 +1,30 @@
 # 3. Statusupdate - Fr, 21.11.2025
 **Done**:
+- Wikidata Q-ID für Bond-Schauspieler extrahiert
 - Wikidata-Triples extrahiert: deutsche Filmtitel, Bond-Schauspieler Metadaten
 - Charaktere, Autos und Bondgirls aus Text Sections der Fandom-Seiten extrahiert (über wikitextparser)
 - Antagonisten aus Wikipedia extrahiert (über Request und pd.read_html)
 - Bild-URLs aus Wiki-Fandom extrahiert (alle Charaktere, Autos, Antagonisten, Bondgirls)
 - Seite für Wiederkehrende Charakteren eingebaut
 - Übersichtseite für Autos, Bond Girls und Villains mit Bildern erstellt
+- RDF Graph für Bond Schauspieler Infos ergänzt
 - Songs und Performer aus Infoboxen extrahiert und YouTube-Links hinzugefügt
 - Filter optimiert mit deutschen und englischen Titeln
 - Template für den Bericht in Overleaf erstellt
 
 **Obstacles**:
-
+- fehlende Ontolgie: `person:Roger_Moore` und `person:Q134333` mit Label `"Roger Moore"` können nicht gematched werden.
+```
+ex:movie_For_Your_Eyes_Only a mo:Movie ;
+    ex:starring person:Roger_Moore ;
+```
+vs.
+```
+person:Q134333 a movie:Actor ;
+    rdfs:label "Roger Moore" ;
+```
+- [Frage] Daten nur als Annotation geladen in Protege
+- [Frage] Ontologie (0 Axioms, 0 logical Axioms)
 
 **Whats Next**:
 - Ontologie in Protegé erstellen
