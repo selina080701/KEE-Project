@@ -95,14 +95,8 @@ def create_rdf_graph(df_ttl):
 
 @st.cache_data
 def create_bond_info_graph(df_bond_ttl):
-    """
-    Create a separate RDF graph for Bond actors and their attributes,
-    based on the bond_actor_info.ttl file.
-    """
     EX = Namespace("http://example.org/jamesbond/")
     MOVIE = Namespace("https://triplydb.com/Triply/linkedmdb/vocab/")
-
-    from rdflib.namespace import RDF, RDFS  # wichtig: RDFS importieren
 
     g = Graph()
     g.parse(data=df_bond_ttl, format="ttl")
@@ -110,43 +104,38 @@ def create_bond_info_graph(df_bond_ttl):
     bond_info_nodes = []
     bond_info_edges = []
 
-    # container such that country and gender are unique
     country_nodes = {}
     gender_nodes = {}
 
-    # Iterate over all actors defined as movie:Actor
     for actor in g.subjects(RDF.type, MOVIE.Actor):
-        label_value = g.value(actor, RDFS.label)
-        if label_value:
-            label = str(label_value)
-        else:
-            label = str(actor).split("/")[-1]
+        # Actor-Label
+        label_value = g.value(actor, RDFS.label) or g.value(actor, EX.name)
+        label = str(label_value) if label_value else str(actor).split("/")[-1]
 
-        # Properties
-        citizenship = g.value(actor, EX.citizenship)
-        gender = g.value(actor, EX.gender)
         dob = g.value(actor, EX.dateOfBirth)
         dod = g.value(actor, EX.dateOfDeath)
+        gender = g.value(actor, EX.gender)
 
-        # actor node
-        actor_node = Node(
-            id=str(actor),
-            label=label,
-            color='#FFD93D',
-            shape='star',
-            size=28,
+        # Actor node
+        bond_info_nodes.append(
+            Node(
+                id=str(actor),
+                label=label,
+                color="#FFD93D",
+                shape="star",
+                size=28,
+            )
         )
-        bond_info_nodes.append(actor_node)
 
-        # country node
-        if citizenship:
+        # all citizenship countries
+        for citizenship in g.objects(actor, EX.citizenship):
             if citizenship not in country_nodes:
                 country_label_val = g.value(citizenship, RDFS.label)
-                if country_label_val:
-                    country_label = str(country_label_val)
-                else:
-                    country_label = str(citizenship).split("/")[-1]
-
+                country_label = (
+                    str(country_label_val)
+                    if country_label_val
+                    else str(citizenship).split("/")[-1]
+                )
                 country_nodes[citizenship] = Node(
                     id=str(citizenship),
                     label=country_label,
@@ -163,20 +152,20 @@ def create_bond_info_graph(df_bond_ttl):
                 )
             )
 
-        # gender node
+        # Gender node
         if gender:
             if gender not in gender_nodes:
                 gender_label_val = g.value(gender, RDFS.label)
-                if gender_label_val:
-                    gender_label = str(gender_label_val)
-                else:
-                    gender_label = str(gender).split("/")[-1]
-
+                gender_label = (
+                    str(gender_label_val)
+                    if gender_label_val
+                    else str(gender).split("/")[-1]
+                )
                 gender_nodes[gender] = Node(
                     id=str(gender),
                     label=gender_label,
                     color='#FF6B6B',
-                    shape='hexagon',
+                    shape='diamond',
                     size=20,
                 )
 
@@ -188,7 +177,7 @@ def create_bond_info_graph(df_bond_ttl):
                 )
             )
 
-        # helper for literals
+        # Dates nodes (Literal)
         def add_literal_node(prop_value, prop_label):
             if not prop_value:
                 return
@@ -212,7 +201,6 @@ def create_bond_info_graph(df_bond_ttl):
         add_literal_node(dob, "dateOfBirth")
         add_literal_node(dod, "dateOfDeath")
 
-    # add country and gender sets to node set
     bond_info_nodes.extend(country_nodes.values())
     bond_info_nodes.extend(gender_nodes.values())
 
