@@ -1,0 +1,57 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix movie: <https://triplydb.com/Triply/linkedmdb/vocab/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix schema: <http://schema.org/> .
+
+@prefix bond: <http://example.org/bond/> .
+
+----------------------------------------------------------------
+
+ex:movie_A_View_to_a_Kill a mo:Movie ;
+    ex:budgetAdjusted 64730 ;
+    ex:filmLength 131 ;
+    ex:imdbRating 6.2 ;
+    ex:rottenTomatoesRating 4.7 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q332368> ;
+    ex:starring person:Roger_Moore ;
+    ex:title "A View to a Kill" ;
+    ex:year "1985"^^xsd:gYear ;
+    mo:director person:John_Glen .
+
+person:Q134333 a movie:Actor ;
+    rdfs:label "Roger Moore" ;
+    ex:citizenship country:Q145 ;
+    ex:dateOfBirth "1927-10-14"^^xsd:date ;
+    ex:dateOfDeath "2017-05-23"^^xsd:date ;
+    ex:gender gender:Q6581097 ;
+    ex:sameAs <http://www.wikidata.org/entity/Q134333> .
+
+---------------------------------------------------------------------
+
+movie:Actor
+movie:Film
+movie:Director
+movie:FilmLocation
+movie:MusicContributor
+movie:Producer
+movie:Person
+
+foaf:gender
+
+dbo:birthDate
+dbo:deathDate
+dbo:citizenship
+
+time:Year
+
+schema:org
+
+bond:bond
+bond:bondGirl
+bond:villain
+bond:imdbRating
+bond:rtRating
