@@ -41,7 +41,7 @@ def load_bond_info_ttl():
     """
     Load the RDF data containing detailed Bond actor information.
     """
-    with open("extract_knowledge/actor_info/bond_actor_info.ttl", "r", encoding="utf-8") as file:
+    with open("extract_knowledge/bond_info/bond_info.ttl", "r", encoding="utf-8") as file:
         ttl_data = file.read()
     return ttl_data
 

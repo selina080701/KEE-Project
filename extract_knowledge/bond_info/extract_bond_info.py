@@ -5,7 +5,7 @@ from rdflib.namespace import RDF, RDFS, XSD
 
 
 INPUT_CSV = "bond_with_ids.csv"
-OUTPUT_TTL = "bond_actor_info.ttl"
+OUTPUT_TTL = "bond_info.ttl"
 
 
 def load_actor_qids(csv_path: str):
