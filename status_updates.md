@@ -24,6 +24,7 @@ person:Q134333 a movie:Actor ;
     rdfs:label "Roger Moore" ;
 ```
 - [Frage] Daten nur als Annotation geladen in Protege
+- [Frage] 1 turtle-file, oder mehrere
 
 **Whats Next**:
 - Ontologie in Protegé erstellen
