@@ -40,4 +40,5 @@ def show_intro_page():
         - [Wikipedia - List of James Bond villains](https://en.wikipedia.org/wiki/List_of_James_Bond_villains)
         - [Wikidata](https://www.wikidata.org/)
         - [YouTube](https://www.youtube.com/)
+        - [007 Logo Intro Page](https://www.pngegg.com/en/png-ecmnv)
         """)

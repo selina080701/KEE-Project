@@ -26,9 +26,17 @@ person:Q134333 a movie:Actor ;
 - [Frage] Daten nur als Annotation geladen in Protege
 
 **Whats Next**:
-- Ontologie in Protegé erstellen
+- Ontologie (T-Box) erstellen
+- TTL-Files mergen (A-Box) und zusammen in Protegé laden
 - RDF-Graph vervollständigen
 - Dokumentation der Ergebnisse
+
+**Tips & Inputs**:
+- Data Fusion Thematik unbedingt im Bericht dokumentieren. Lösungswege:
+   - Entweder: same as für Individual verwenden
+   - Oder: identifier anpassen
+   - Oder: über String-match
+- Überlegen wo in der Visualisierung die Ontologie eingesetzt werden kann oder Eigenschaften daraus geholt werden können
 
 ----
 
