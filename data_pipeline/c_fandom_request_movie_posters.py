@@ -1,4 +1,4 @@
-# d_fandom_request_movie_posters.py
+# c_fandom_request_movie_posters.py
 
 import requests
 from pathlib import Path
@@ -71,7 +71,6 @@ def save_poster_url(movie_list):
         })
 
         # save to CSV
-        project_root = Path(__file__).parent.parent
         output_dir = project_root / "extract_knowledge/movie_posters"
         output_dir.mkdir(exist_ok=True)
         output_file = output_dir / "movie_poster_url.csv"
