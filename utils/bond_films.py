@@ -23,5 +23,5 @@ BOND_FILMS = [
     "Quantum of Solace (film)",
     "Skyfall (film)",
     "Spectre (film)",
-    "No Time to Die (film)"
+    "No Time to Die (film)",
 ]
