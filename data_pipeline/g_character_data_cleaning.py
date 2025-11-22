@@ -4,9 +4,9 @@ import pandas as pd
 from pathlib import Path
 
 """
-This script applies post-processing corrections to the character data with images.
+This file applies post-processing corrections to the character data with images.
 It handles known data quality issues including character name corrections, actor corrections,
-and image URL restorations.
+and image URL restorations. There are also provisions to add missing entries and remove unwanted ones.
     -> Input: CSV file extract_knowledge/characters/all_movie_characters_with_image.csv
     -> Output: Cleaned CSV file in the same directory
 """
@@ -77,6 +77,13 @@ def clean_data(df):
             "movie": "A View to a Kill",
             "correct_image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e6/Fredrick_Gray_%28The_Spy_Who_Loved_Me%29_-_Profile.png",
             "correct_search_title": "Sir Fredrick Gray"
+        },
+        {
+            "character": "Dr. Christmas Jones",
+            "actor": "Denise Richards",
+            "movie": "The World Is Not Enough",
+            "correct_image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Christmas_Jones_%28Denise_Richards%29_-_Profile.jpg",
+            "correct_search_title": "Dr. Christmas Jones"
         },
         {
             "character": "Ernst Stavro Blofeld",

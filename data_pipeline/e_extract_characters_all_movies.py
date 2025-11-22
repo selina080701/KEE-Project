@@ -6,7 +6,7 @@ import pandas as pd
 from pathlib import Path
 
 """
-This script extracts character and actor information from the downloaded JSON files
+This file extracts character and actor information from the downloaded JSON files
 representing James Bond movie pages from wiki fandom. It specifically looks for sections titled
 "Cast and characters" or "Cast & characters". The extracted data is saved into a single CSV file.
     -> Input: JSON files in extract_knowledge/fandom_wiki_pages/ directory
