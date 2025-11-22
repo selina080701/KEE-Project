@@ -64,27 +64,67 @@ def extract_song_info(input_file, movie_title):
     
     return None
 
+# ---- Create List of YouTube URLs for Movie Opening Sequences ----
+def create_youtube_urls():
+    """
+    Manually created mapping of movie titles to their YouTube opening sequence URLs.
+    """ 
+    return {
+        "A View to a Kill": "https://youtu.be/hWVbVT3igdw?si=Ndam6Q-IDECf9RCW",
+        "Casino Royale": "https://youtu.be/A1AMUmkj-ck?si=YBgYd8nF8rAEn06C",
+        "Diamonds Are Forever": "https://youtu.be/ZwbEuzJCnqI?si=xH-BoyxMvlyF6knx",
+        "Die Another Day": "https://youtu.be/ZVFDshqlmOQ?si=FjvbqAWargVkyU3F",
+        "Dr. No": "https://youtu.be/oTo3YtPxG5k?si=v2Yx2a4--kAEgaqI",
+        "For Your Eyes Only": "https://youtu.be/8kNksLL0    sv4?si=RcjZ713gXyavBz4Q",
+        "From Russia with Love": "https://youtu.be/RIY8KDrx-E8?si=enJ7nKJGq1Y2l-4o",
+        "GoldenEye": "https://youtu.be/qGPBFvDz_HM?si=OJlOnDWRcRWeZMTG",
+        "Goldfinger": "https://youtu.be/6D1nK7q2i8I?si=7f-l_tJqg-riV2tO",
+        "Licence to Kill": "https://youtu.be/Ju_by-sC79c?si=kO0Rn-FoJ9YVgTUA",
+        "Live and Let Die": "https://youtu.be/sn8alMYSu44?si=a6Q7bd-rNj4ZtvUM",
+        "Moonraker": "https://youtu.be/gt3oQN0cAv0?si=sBE9o7fKiXP-YgOi",
+        "No Time to Die": "https://youtu.be/83YuaW09ueI?si=0jeUBYMHHF9ZRh61",
+        "Octopussy": "https://youtu.be/213t3YeQosE?si=k8JyqEwV5KHJb3o9",
+        "On Her Majesty's Secret Service": "https://youtu.be/WYRf_S9DLfk?si=tDaNqMy0WlychzGl",
+        "Quantum of Solace": "https://youtu.be/B4LpSzKnEtA?si=cQUB9HTuXNDG-XCI",
+        "Skyfall": "https://youtu.be/DeumyOzKqgI?si=5aH1fvbGm0D0uwzT",
+        "Spectre": "https://youtu.be/G9LxUQL_Ucg?si=4N9YBt6lGD2H8ZSA",
+        "The Living Daylights": "https://youtu.be/y9p0FJnk2vM?si=Wm2IJrNLqdfZsonm",
+        "The Man with the Golden Gun": "https://youtu.be/PSbj2Mx2By8?si=lSTEzJTfxcNSlcdv",
+        "The Spy Who Loved Me": "https://youtu.be/isAUOa50wdA?si=DWFVFD8GU7826luA",
+        "The World Is Not Enough": "https://youtu.be/LzvNDR5OrqM?si=cIzQiwbeyxNOCrDs",
+        "Thunderball": "https://youtu.be/Ia6-5gC5ArM?si=9UalFYNXPHhPaq1L",
+        "Tomorrow Never Dies": "https://youtu.be/SDe1xi4tGUA?si=HgeN7UlCN8dA7v7i",
+        "You Only Live Twice": "https://youtu.be/hs8uYxTJ530?si=D7V00R6Skoe1vicl"
+}
+
+# ---- Add YouTube URLs to DataFrame ----
+def map_youtube_urls(df):
+    youtube_urls = create_youtube_urls()
+    df['youtube_url'] = df['movie'].map(youtube_urls)
+    return df
+
+
 
 if __name__ == "__main__":  
-    # Get all JSON files from fandom_wiki_pages directory
-    input_dir = Path("extract_knowledge/fandom_wiki_pages")
-    json_files = list(input_dir.glob("*_film.json"))
+    base_dir = Path(__file__).parent.parent
+    input_dir = base_dir / "extract_knowledge/fandom_wiki_pages"
+    input_files = list(input_dir.glob("*_film.json"))
     
-    if not json_files:
+    if not input_files:
         print("No JSON files found in 'fandom_wiki_pages' directory.")
     else:
-        print(f"Found {len(json_files)} JSON files to process.\n")
+        print(f"Found {len(input_files)} JSON files to process.\n")
 
         # Collect all song data
         all_songs = []
         
         # Process each file
-        for json_file in sorted(json_files):
+        for json_file in sorted(input_files):
             # Remove "_film" suffix and replace underscores with spaces for readable movie title
             movie_title = json_file.stem.replace("_film", "").replace("_", " ")
             
             print(f"Processing: {json_file.name}")
-            print(f"  Movie: {movie_title}")
+            print(f"Movie: {movie_title}")
             
             try:
                 song_info = extract_song_info(str(json_file), movie_title)
@@ -99,35 +139,25 @@ if __name__ == "__main__":
                     print(f"No song information found")
                     
             except Exception as e:
-                print(f"  ✗ Error processing {json_file.name}: {e}")
+                print(f"Error processing {json_file.name}: {e}")
                      
-        # Save all data to a single CSV
+        # Save all data to a CSV and add YouTube Links
         if all_songs:
             df = pd.DataFrame(all_songs)
             
             # Reorder columns
-            columns = ['movie', 'song', 'performer', 'composer']
+            columns = ['movie', 'song', 'performer', 'composer', 'youtube_link']
             df = df[columns]
+            df = map_youtube_urls(df)
             
             # Remove duplicates
             df = df.drop_duplicates(subset=['movie', 'song'])
             
             # Create output directory if it doesn't exist
-            output_dir = Path("extract_knowledge/songs")
+            output_dir = base_dir / "extract_knowledge/songs"
             output_dir.mkdir(parents=True, exist_ok=True)
             
             # Save to CSV
-            output_file = output_dir / "all_movie_songs.csv"
+            output_file = output_dir / "all_movie_songs_test.csv"
             df.to_csv(output_file, index=False, encoding="utf-8", sep=';')
-
-            print(f"=" * 60)
-            print(f"Processing complete!")
-            print(f"Total songs extracted: {len(df)}")
-            print(f"Saved to: {output_file}")
-            print(f"=" * 60)
-            print(f"\nAll extracted songs:")
-            print(df.to_string(index=False))
-        else:
-            print("\n" + "=" * 60)
-            print("No songs were extracted from any files.")
-            print("=" * 60)
+            print(f"Songs data saved to {output_file}")
