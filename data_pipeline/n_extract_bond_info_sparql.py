@@ -2,10 +2,18 @@ import pandas as pd
 import requests
 from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, XSD
+from pathlib import Path
 
+"""
+This file queries Wikidata SPARQL endpoint to extract detailed information
+about Bond actors using their Wikidata Q-IDs (extracted with m_extract_bond_wikidata_id_sparql.py)
+    -> Input: bond_with_ids.csv (folder extract_knowledge/bond_info)
+    -> Output: bond_info.ttl in Turtle format
+"""
 
-INPUT_CSV = "bond_with_ids.csv"
-OUTPUT_TTL = "bond_info.ttl"
+base_dir = Path(__file__).parent.parent
+INPUT_CSV = base_dir / "extract_knowledge/bond_info/bond_with_ids.csv"
+OUTPUT_TTL = base_dir / "extract_knowledge/bond_info/bond_info.ttl"
 
 
 def load_actor_qids(csv_path: str):
@@ -17,8 +25,8 @@ def load_actor_qids(csv_path: str):
 
 
 def build_sparql_query(qids):
-    values_lines = [f"    wd:{qid}" for qid in qids]
-    values_block = "  VALUES ?actor {\n" + "\n".join(values_lines) + "\n  }"
+    values_lines = [f"wd:{qid}" for qid in qids]
+    values_block = "VALUES ?actor {\n" + "\n".join(values_lines) + "\n  }"
 
     query = f"""
 PREFIX wd:   <http://www.wikidata.org/entity/>

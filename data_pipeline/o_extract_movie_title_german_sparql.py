@@ -1,12 +1,18 @@
-# extract_movie_title_german.py
+# o_extract_movie_title_german.py
 
 import pandas as pd
 import requests
+from pathlib import Path
 
+"""
+This file extracts the German movie titles from Wikidata using SPARQL queries.
+It reads a CSV file with James Bond movies and their Wikidata IDs, fetches the German titles,
+and saves the results in a new CSV file.
+"""
 
-INPUT_CSV = "../../data/jamesbond_with_id.csv"
-OUTPUT_CSV = "movie_title_en_de.csv"
-
+base_dir = Path(__file__).resolve().parent.parent
+INPUT_CSV = base_dir / "data/jamesbond_with_id.csv"
+OUTPUT_CSV = base_dir / "extract_knowledge/movie_title_german/movie_title_en_de.csv"
 
 def load_movies(csv_path: str) -> pd.DataFrame:
     df = pd.read_csv(csv_path, sep=";", encoding="utf-8")

@@ -4,7 +4,16 @@
 import pandas as pd
 import requests
 import time
+from pathlib import Path
 
+"""
+This file queries Wikidata SPARQL endpoint to retrieve Wikidata IDs for Bond actors
+based on their names in the James Bond dataset.
+    -> Inpus: jamesbond_with_id.csv (folder data)
+    -> Output: bond_with_ids.csv with columns Bond;wikidata_id;wikidata_url
+"""
+
+base_dir = Path(__file__).parent.parent
 
 def load_unique_bond_actors(csv_path: str):
     """
@@ -93,4 +102,6 @@ def build_actor_id_csv(input_file: str, output_file: str, delay_seconds: float =
 
 
 if __name__ == "__main__":
-    build_actor_id_csv("../../data/jamesbond_with_id.csv","bond_with_ids.csv")
+    input_file = base_dir / "data/jamesbond_with_id.csv"
+    output_file = base_dir / "extract_knowledge/bond_info/bond_with_ids.csv"
+    build_actor_id_csv(input_file, output_file)
