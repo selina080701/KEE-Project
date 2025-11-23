@@ -342,6 +342,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
             g.add((girl_uri, RDF.type, BOND.BondGirl))
             g.add((girl_uri, FOAF.name, Literal(girl_name)))
             g.add((girl_uri, BOND.appearsIn, movie_uri))
+            g.add((movie_uri, BOND.hasBondGirl, girl_uri))
             g.add((girl_uri, BOND.portrayedBy, actress_uri))
             g.add((actress_uri, RDF.type, MOVIE.Actor))
             g.add((actress_uri, FOAF.name, Literal(actress_name)))
@@ -366,6 +367,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
             g.add((villain_uri, RDF.type, BOND.Villain))
             g.add((villain_uri, FOAF.name, Literal(villain_name)))
             g.add((villain_uri, BOND.appearsIn, movie_uri))
+            g.add((movie_uri, BOND.hasAntagonist, villain_uri))
             g.add((villain_uri, BOND.portrayedBy, actor_uri))
             g.add((actor_uri, RDF.type, MOVIE.Actor))
             g.add((actor_uri, FOAF.name, Literal(actor_name)))
@@ -393,7 +395,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
             actor_uri = BOND[actor_uri_safe]
 
             # Add triples
-            g.add((char_uri, RDF.type, MOVIE.Person))
+            g.add((char_uri, RDF.type, MOVIE.FilmCharacter))
             g.add((char_uri, FOAF.name, Literal(char_name)))
             g.add((char_uri, BOND.appearsIn, movie_uri))
             g.add((char_uri, BOND.portrayedBy, actor_uri))

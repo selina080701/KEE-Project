@@ -31,7 +31,7 @@ def load_german_titles():
 # ---- Load main TTL-dataset with caching ----
 @st.cache_data
 def load_ttl():
-    with open('rdf/jamesbond_rdf.ttl', 'r', encoding='utf-8') as file:
+    with open('data/triple_store/james_bond_knowledge.ttl', 'r', encoding='utf-8') as file:
         ttl_data = file.read()
     return ttl_data
 
