@@ -115,6 +115,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
 
     g.add((DBO.Song, RDF.type, OWL.Class))
 
+    g.add((BOND.Casting, RDF.type, OWL.Class))
     g.add((BOND.BondGirl, RDF.type, OWL.Class))
     g.add((BOND.Villain, RDF.type, OWL.Class))
     g.add((BOND.Vehicle, RDF.type, OWL.Class))
@@ -152,6 +153,21 @@ def create_ttl_knowledge_graph(json_file, output_file):
     g.add((BOND.portrayedByInverse, RDF.type, OWL.ObjectProperty))
     g.add((BOND.portrayedByInverse, RDFS.domain, MOVIE.Actor))
     g.add((BOND.portrayedByInverse, RDFS.range, MOVIE.FilmCharacter))
+
+    # Casting -> Character: roleCharacter
+    g.add((BOND.roleCharacter, RDF.type, OWL.ObjectProperty))
+    g.add((BOND.roleCharacter, RDFS.domain, BOND.Casting))
+    g.add((BOND.roleCharacter, RDFS.range, MOVIE.FilmCharacter))
+
+    # Casting -> Actor: roleActor
+    g.add((BOND.roleActor, RDF.type, OWL.ObjectProperty))
+    g.add((BOND.roleActor, RDFS.domain, BOND.Casting))
+    g.add((BOND.roleActor, RDFS.range, MOVIE.Actor))
+
+    # Casting -> Film: roleInFilm
+    g.add((BOND.roleInFilm, RDF.type, OWL.ObjectProperty))
+    g.add((BOND.roleInFilm, RDFS.domain, BOND.Casting))
+    g.add((BOND.roleInFilm, RDFS.range, MOVIE.Film))
 
     # Film -> Villain: hasAntagonist
     g.add((BOND.hasAntagonist, RDF.type, OWL.ObjectProperty))
@@ -344,6 +360,16 @@ def create_ttl_knowledge_graph(json_file, output_file):
             g.add((girl_uri, BOND.appearsIn, movie_uri))
             g.add((movie_uri, BOND.hasBondGirl, girl_uri))
             g.add((girl_uri, BOND.portrayedBy, actress_uri))
+
+            # Create film-specific casting individual
+            casting_id = f"{girl_uri_safe}_{movie_uri_safe}_Casting"
+            casting_uri = BOND[sanitize_uri_part(casting_id)]
+
+            g.add((casting_uri, RDF.type, BOND.Casting))
+            g.add((casting_uri, BOND.roleCharacter, girl_uri))
+            g.add((casting_uri, BOND.roleActor, actress_uri))
+            g.add((casting_uri, BOND.roleInFilm, movie_uri))
+
             g.add((actress_uri, RDF.type, MOVIE.Actor))
             g.add((actress_uri, FOAF.name, Literal(actress_name)))
 
@@ -369,6 +395,16 @@ def create_ttl_knowledge_graph(json_file, output_file):
             g.add((villain_uri, BOND.appearsIn, movie_uri))
             g.add((movie_uri, BOND.hasAntagonist, villain_uri))
             g.add((villain_uri, BOND.portrayedBy, actor_uri))
+
+            # Create film-specific casting individual
+            casting_id = f"{villain_uri_safe}_{movie_uri_safe}_Casting"
+            casting_uri = BOND[sanitize_uri_part(casting_id)]
+
+            g.add((casting_uri, RDF.type, BOND.Casting))
+            g.add((casting_uri, BOND.roleCharacter, villain_uri))
+            g.add((casting_uri, BOND.roleActor, actor_uri))
+            g.add((casting_uri, BOND.roleInFilm, movie_uri))
+
             g.add((actor_uri, RDF.type, MOVIE.Actor))
             g.add((actor_uri, FOAF.name, Literal(actor_name)))
 
@@ -399,6 +435,16 @@ def create_ttl_knowledge_graph(json_file, output_file):
             g.add((char_uri, FOAF.name, Literal(char_name)))
             g.add((char_uri, BOND.appearsIn, movie_uri))
             g.add((char_uri, BOND.portrayedBy, actor_uri))
+
+            # Create film-specific casting individual
+            casting_id = f"{char_uri_safe}_{movie_uri_safe}_Casting"
+            casting_uri = BOND[sanitize_uri_part(casting_id)]
+
+            g.add((casting_uri, RDF.type, BOND.Casting))
+            g.add((casting_uri, BOND.roleCharacter, char_uri))
+            g.add((casting_uri, BOND.roleActor, actor_uri))
+            g.add((casting_uri, BOND.roleInFilm, movie_uri))
+
             g.add((actor_uri, RDF.type, MOVIE.Actor))
             g.add((actor_uri, FOAF.name, Literal(actor_name)))
 
