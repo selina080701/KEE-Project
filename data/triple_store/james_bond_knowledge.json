@@ -4,6 +4,13 @@
       "movie": "A View to a Kill",
       "title_en": "A View to a Kill",
       "title_de": "James Bond 007 – Im Angesicht des Todes",
+      "year": "1985",
+      "bond_actor": "Roger Moore",
+      "director": "John Glen",
+      "producer": "Albert R. Broccoli & Michael G. Wilson",
+      "imdb_rating": "6.2",
+      "rotten_tomatoes_rating": "4.7",
+      "wikidata_id": "http://www.wikidata.org/entity/Q332368",
       "bond_girls": [
         {
           "name": "Stacey Sutton",
@@ -246,79 +253,101 @@
       "vehicles": [
         {
           "name": "Renault 11",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b8/Vehicle_-_Renault_Taxi.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b8/Vehicle_-_Renault_Taxi.png",
+          "sequence_in_movie": "Bond commandeers this car and takes it on a pursuit through . During the pursuit the car has its roof chopped off and then later the entire back half of the car is ripped off."
         },
         {
           "name": "Rolls-Royce Silver Cloud II",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Vehicle_-_Rolls-Royce_Silver_Cloud_2.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Vehicle_-_Rolls-Royce_Silver_Cloud_2.png",
+          "sequence_in_movie": "driven by Bond's companion . Along with its driver, it meets an untimely demise when pushed into a lake by ."
         },
         {
           "name": "Ford Bronco XLT",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4b/Bronco1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4b/Bronco1.jpg",
+          "sequence_in_movie": "Driven by , Bond's CIA contact."
         },
         {
           "name": "Ford Thunderbird",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/02/Vehicle_-_VTAK_Thunderbird.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/02/Vehicle_-_VTAK_Thunderbird.png",
+          "sequence_in_movie": "car driven by Gogol to pick Pola Ivanova after she steals the (wrong) audio cassette from Bond."
         },
         {
           "name": "Renault Fuego Turbo",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c8/Vehicle_-_VTAK_Renault_Fuego_Turbo.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c8/Vehicle_-_VTAK_Renault_Fuego_Turbo.png",
+          "sequence_in_movie": "driven by Jenny Flex and Pan Ho, before Tibbett gets killed by May Day."
         },
         {
           "name": "1977 Cadillac Fleetwood limousine",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Vehicle_-_Cadillac_Fleetwood_Limousine.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Vehicle_-_Cadillac_Fleetwood_Limousine.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Dodge Monaco",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "San Francisco Police Department motorcars during the fire engine chase."
         },
         {
           "name": "Dodge Diplomat",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "San Francisco Police Department motorcars during the fire engine chase."
         },
         {
           "name": "Land Rover Range Rover Series I",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/00/Vehicle_-_VTAK_Range_Rover_Series_I.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/00/Vehicle_-_VTAK_Range_Rover_Series_I.png",
+          "sequence_in_movie": "driven by Zorin's thugs at the horse racecourse."
         },
         {
           "name": "Dodge D-100",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Vehicle_-_Dodge_D-100.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Vehicle_-_Dodge_D-100.png",
+          "sequence_in_movie": "Max Zorin owns a red D-100 in A View to a Kill, where it is used by his mine workers at the Main Strike Mine."
         },
         {
           "name": "MBB Bo 105",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/68/Vehicle_-_MBB_Bo_105_2015.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/68/Vehicle_-_MBB_Bo_105_2015.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Eurocopter AS355",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Eurocopter_AS355.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Eurocopter_AS355.png",
+          "sequence_in_movie": "white version is seen landing at Zorin's villa, bringing Stacey Sutton to its premises."
         },
         {
           "name": "Skyship 6000",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/82/Skyship_6000.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/82/Skyship_6000.png",
+          "sequence_in_movie": "Max Zorin's first a larger airship. It is used for conferencing facilities, where Zorin first proposes the Main Strike plan."
         },
         {
           "name": "Skyship 500",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/aa/Vehicle_-_Blimp.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/aa/Vehicle_-_Blimp.png",
+          "sequence_in_movie": "Max Zorin's second, a much smaller blimp. It was intended to be used for Zorin to watch the destruction of Silicon Valley, but with that plan thwarted was a getaway vehicle that meets its end on the Golden Gate Bridge."
         },
         {
           "name": "Iceberg Submarine",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Iceberg.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Iceberg.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Glastron CVX-18 Intimidator",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/87/Intimidator1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/87/Intimidator1.jpg",
+          "sequence_in_movie": "No description available"
         }
       ],
       "villains": [
         {
           "name": "Max Zorin",
           "actor": "Christopher Walken",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bb/Max_Zorin_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bb/Max_Zorin_-_Profile.png",
+          "Objective": "Trigger an earthquake along the San Andreas fault to destroy Silicon Valley, thus wiping out his competitors in the microchip market and giving him a monopoly.",
+          "Outcome": "Zorin leaves May Day to die. Enraged, she smuggles the bomb out of the blast radius, sacrificing herself.",
+          "Status": "Falls from the top of the Golden Gate Bridge during a fight with Bond."
         },
         {
           "name": "May Day",
           "actor": "Grace Jones",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9a/May_Day_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9a/May_Day_-_Profile.png",
+          "Objective": "Assist Max Zorin in destroying Silicon Valley through a double earthquake to flood the area and give Zorin monopoly control of the microchip market.",
+          "Outcome": "After being betrayed by Zorin, switched allegiances and helped Bond stop the plan. Silicon Valley was saved.",
+          "Status": "Sacrificed herself by riding a bomb-laden mine cart out of the mine, dying in the explosion but preventing Zorin's plan from succeeding."
         }
       ]
     },
@@ -326,6 +355,13 @@
       "movie": "Casino Royale",
       "title_en": "Casino Royale",
       "title_de": "James Bond 007: Casino Royale",
+      "year": "2006",
+      "bond_actor": "Daniel Craig",
+      "director": "Martin Campbell",
+      "producer": "Michael G. Wilson & Barbara Broccoli",
+      "imdb_rating": "7.9",
+      "rotten_tomatoes_rating": "7.8",
+      "wikidata_id": "http://www.wikidata.org/entity/Q151904",
       "bond_girls": [
         {
           "name": "Vesper Lynd",
@@ -600,12 +636,18 @@
         {
           "name": "Le Chiffre",
           "actor": "Mads Mikkelsen",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Le_Chiffre_%28Mads_Mikkelsen%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Le_Chiffre_%28Mads_Mikkelsen%29_-_Profile.jpg",
+          "Objective": "Recoup his clients' squandered funds by winning a poker tournament at the Casino Royale.",
+          "Outcome": "Bond wins the tournament.",
+          "Status": "Shot in the forehead by Mr. White."
         },
         {
           "name": "Mr. White",
           "actor": "Jesper Christensen",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png",
+          "Objective": "Assassinate Le Chiffre and steal back the money.",
+          "Outcome": "Succeeds.",
+          "Status": "Arrested by Bond."
         }
       ]
     },
@@ -613,6 +655,13 @@
       "movie": "Diamonds Are Forever",
       "title_en": "Diamonds Are Forever",
       "title_de": "James Bond 007 – Diamantenfieber",
+      "year": "1971",
+      "bond_actor": "Sean Connery",
+      "director": "Guy Hamilton",
+      "producer": "Harry Saltzman & Albert R. Broccoli",
+      "imdb_rating": "6.7",
+      "rotten_tomatoes_rating": "6.3",
+      "wikidata_id": "http://www.wikidata.org/entity/Q107914",
       "bond_girls": [
         {
           "name": "Tiffany Case",
@@ -955,66 +1004,83 @@
       "vehicles": [
         {
           "name": "Ford Mustang Mach 1",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/92/Vehicle_-_Ford_Mustang_Mach_1.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/92/Vehicle_-_Ford_Mustang_Mach_1.png",
+          "sequence_in_movie": "after escaping henchmen Bond is picked up by Tiffany Case in this car while in Las Vegas; Bond uses it to elude the Las Vegas Police."
         },
         {
           "name": "Triumph Stag",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Vehicle_-_Triumph_Stag.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Vehicle_-_Triumph_Stag.png",
+          "sequence_in_movie": "Bond is seen early in the movie driving a yellow Stag to Amsterdam, while posing as diamond smuggler Peter Franks."
         },
         {
           "name": "Ford Galaxie 500",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/aa/Bondwiki_Bond_Ford_Galaxie_waiting.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/aa/Bondwiki_Bond_Ford_Galaxie_waiting.jpg",
+          "sequence_in_movie": "The car Bond has when Leiter tries to survey Tiffany Case at the funfair. Also used by some of Whyte Electronics security that chase down Bond after he escapes the lab."
         },
         {
           "name": "1970 Ford Custom",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/82/Vehicle_-_Ford_Custom_1970_DAF_CIA.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/82/Vehicle_-_Ford_Custom_1970_DAF_CIA.png",
+          "sequence_in_movie": "the blue-white cars used by the Las Vegas Police. Black ones are later used by Felix Leiter and the CIA agents, when they search the house where Willard Whyte is imprisoned at."
         },
         {
           "name": "1971 Ford Custom",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/29/Vehicle_-_Ford_Custom_1971_DAF_BW_Police.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/29/Vehicle_-_Ford_Custom_1971_DAF_BW_Police.png",
+          "sequence_in_movie": "first appear as cars driven by Whyte Electronic security. Later appear as the black-white cars of the Las Vegas Police."
         },
         {
           "name": "Cadillac Funeral Coach",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/32/Vehicle_-_Cadillac_Funeral_Coach.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/32/Vehicle_-_Cadillac_Funeral_Coach.png",
+          "sequence_in_movie": "the Slumber Inc hearse that picks up Bond and takes him to the funeral parlor."
         },
         {
           "name": "Honda ATC 90",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Honda_ATV.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Honda_ATV.png",
+          "sequence_in_movie": "Bond commandeers an all-terrain vehicle after he ditches the moon buggy."
         },
         {
           "name": "Moon buggy",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a8/Vehicle_-_Moon_Buggy.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a8/Vehicle_-_Moon_Buggy.png",
+          "sequence_in_movie": "Used by Bond to escape from the laboratory. Fast but infamously fragile, one of its wheels can be seen rolling past the camera position as Bond drives by it during the escape."
         },
         {
           "name": "Manitowoc 3900",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/78/Vehicle_-_DAF_Oil_Platform_Crane.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/78/Vehicle_-_DAF_Oil_Platform_Crane.png",
+          "sequence_in_movie": "the mobile crane at Blofeld's Baja oil rig. Used by Bond to wreck Blofeld's Bathosub and destroy the control center for the diamond satellite."
         },
         {
           "name": "Hughes OH-06",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/86/Vehicle_-_MD_500_Helicopters.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/86/Vehicle_-_MD_500_Helicopters.png",
+          "sequence_in_movie": "first appears when piloted by diamond smuggler Joe. Later in the film, armed variants are used by US military to siege Blofeld's Baja Oilrig."
         },
         {
           "name": "Bell 206 JetRanger",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Bondwiki_DAF71_Bell206_Whyte1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Bondwiki_DAF71_Bell206_Whyte1.jpg",
+          "sequence_in_movie": "Willard Whyte's personal helicopter. Appears during the siege on Blofeld's Baja Oilrig."
         },
         {
           "name": "Bell UH-1 Iroquois",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e7/JGSDF_UH-1H%28front%29_%28recortada%29.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e7/JGSDF_UH-1H%28front%29_%28recortada%29.jpg",
+          "sequence_in_movie": "used by US military to siege Blofeld's Baja Oilrig."
         },
         {
           "name": "Bathosub",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/36/Vehicle_-Bathosub.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/36/Vehicle_-Bathosub.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "SS Canberra",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b7/Canberra_%2838978832350%29.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b7/Canberra_%2838978832350%29.jpg",
+          "sequence_in_movie": "cruise ship at the end of the movie."
         }
       ],
       "villains": [
         {
           "name": "Ernst Stavro Blofeld",
           "actor": "Charles Gray",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/95/Blofeld_Profile_%28Charles_Gray%29.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/95/Blofeld_Profile_%28Charles_Gray%29.png",
+          "Objective": "Steal diamonds to fabricate a laser satellite which can remotely detonate nuclear stockpiles, then use said laser to extort the world's nuclear powers.",
+          "Outcome": "Bond smashes Blofeld's mini-sub against the control room of his lair, disabling the satellite and causing severe damage to his lair.",
+          "Status": "Survived the fiery demolition of the control room of his oil rig headquarters as he returns in the opening of For Your Eyes Only, where Bond drops him down an industrial chimney."
         }
       ]
     },
@@ -1022,6 +1088,13 @@
       "movie": "Die Another Day",
       "title_en": "Die Another Day",
       "title_de": "James Bond 007 – Stirb an einem anderen Tag",
+      "year": "2002",
+      "bond_actor": "Pierce Brosnan",
+      "director": "Lee Tamahori",
+      "producer": "Michael G. Wilson & Barbara Broccoli",
+      "imdb_rating": "6.0",
+      "rotten_tomatoes_rating": "6.1",
+      "wikidata_id": "http://www.wikidata.org/entity/Q30931",
       "bond_girls": [
         {
           "name": "Giacinta \"Jinx\" Johnson",
@@ -1314,46 +1387,58 @@
       "vehicles": [
         {
           "name": "Aston Martin V12 Vanquish",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Aston_Martin_V12_Vanquish.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Aston_Martin_V12_Vanquish.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Ford Fairlane",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/77/Vehicle_-_Ford_Fairlane_500.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/77/Vehicle_-_Ford_Fairlane_500.png",
+          "sequence_in_movie": "Classic automobile briefly driven by Bond during his visit to . A homage to ''Dr. No'' when Bond drives a 1957 Chevrolet Bel Air, a classic Ford was used in the film since FoMoCo vehicles (including those from Ford's Premiere Automotive Group) were extensively used."
         },
         {
           "name": "Jaguar XKR",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Vehicle_-_Jaguar_XKR_-X100-.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Vehicle_-_Jaguar_XKR_-X100-.png",
+          "sequence_in_movie": "A convertible driven by , the car was extremely similar in almost every way to a James Bond automobile. The vehicle includes a gatling gun, thermal imaging capabilities, mortar bombs, rockets under the front grille, miniature missiles hidden in the door, and front ramming spikes."
         },
         {
           "name": "2002 Ford Thunderbird",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/58/Vehicle_-_Ford_Thunderbird.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/58/Vehicle_-_Ford_Thunderbird.png",
+          "sequence_in_movie": "Although only on screen for a short period of time, the vehicle was marketed as a Bond car. In fact Ford created a special \"007 edition\" of the car. In Bond spirit, only 700 were made. Jinx drives the 2002 Ford Thunderbird up to Graves ice palace. It's unknown what type of gadgets, if any, were installed."
         },
         {
           "name": "Switchblade",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Switchblade.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Switchblade.png",
+          "sequence_in_movie": "the Switchblade is essentially a one-man glider shaped like a fighter jet. It features retractable wings that control the speed and trajectory of the craft. Fitted with the same material on a stealth bomber, the switchblade allows Bond and Jinx to enter North Korea undetected."
         },
         {
           "name": "Boeing 747-436",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/19/BONDWIKI_DAD_PlaneBritAirways1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/19/BONDWIKI_DAD_PlaneBritAirways1.jpg",
+          "sequence_in_movie": "used by Bond to fly to England to try find Gustav Graves."
         },
         {
           "name": "Antonov An-124",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/73/Vehicle_-_Antonov_An-124.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/73/Vehicle_-_Antonov_An-124.png",
+          "sequence_in_movie": "this aircraft is used to transport Gustav Graves' equipment out of Iceland. It is later used as Graves' airborne command centre during the Icarus attack on the ."
         },
         {
           "name": "Mil Mi-8",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/cf/Vehicle_-_Mil_Mi-8.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/cf/Vehicle_-_Mil_Mi-8.png",
+          "sequence_in_movie": "vehicle transporting Van Bierk to Colonel Moon's base. It is hijacked by Bond and his accomplices to use to go instead of Van Bierk. Destroyed by Colonel Moon's XM29 \"Tank Buster\"."
         },
         {
           "name": "MD Helicopters MD 600N",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6d/Vehicle_-_MD_600N.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6d/Vehicle_-_MD_600N.png",
+          "sequence_in_movie": "No description available"
         }
       ],
       "villains": [
         {
           "name": "Gustav Graves",
           "actor": "Toby Stephens / Will Yun Lee",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Tan-Sun_Moon_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Tan-Sun_Moon_-_Profile.png",
+          "Objective": "Use the sun-enhancing satellite Icarus to cut a path through the Korean Demilitarized Zone, provoking a war between North and South Korea.",
+          "Outcome": "Icarus is rendered harmless when Bond destroys the control device.",
+          "Status": "Bond pulls the cord on his parachute, sucking him out off plane, electrocutes him and finally getting sucked into the plane's engine, ripping him to shreds."
         }
       ]
     },
@@ -1361,6 +1446,13 @@
       "movie": "Dr. No",
       "title_en": "Dr. No",
       "title_de": "James Bond – 007 jagt Dr. No",
+      "year": "1962",
+      "bond_actor": "Sean Connery",
+      "director": "Terence Young",
+      "producer": "Harry Saltzman & Albert R. Broccoli",
+      "imdb_rating": "7.3",
+      "rotten_tomatoes_rating": "7.7",
+      "wikidata_id": "http://www.wikidata.org/entity/Q102754",
       "bond_girls": [
         {
           "name": "Honey Ryder",
@@ -1563,26 +1655,33 @@
       "vehicles": [
         {
           "name": "Sunbeam Alpine",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/98/Vehicle_-_Sunbeam_Alpine.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/98/Vehicle_-_Sunbeam_Alpine.png",
+          "sequence_in_movie": "Bond drives to Miss Taro's home in the Blue Mountains; he is pursued by Dr. No's thugs driving a LaSalle hearse. In the novel version, Bond drives the car that formerly belonged to Commander Strangways, the murdered agent in Kingston. It is also driven by Quarrel."
         },
         {
           "name": "Chevrolet Bel Air Convertible",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8d/Vehicle_-_Chevrolet_Bel_Air.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8d/Vehicle_-_Chevrolet_Bel_Air.png",
+          "sequence_in_movie": "When 007 arrives in Jamaica, this was the first car Bond was a passenger in; however, the car was stolen, as depicted later in the film. It is driven by a chauffeur known only as \"Mr Jones\" who is in fact an agent of Dr. No."
         },
         {
           "name": "LaSalle Funeral Coach",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/19/Lasalle.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/19/Lasalle.jpg",
+          "sequence_in_movie": "Operated by the ."
         },
         {
           "name": "Dragon tank",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Dragon_Tank.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Dragon_Tank.png",
+          "sequence_in_movie": "A modified swamp buggy with dragon camouflage and armor plating. The dragon tank was employed by Dr. Julius No to keep inquisitive locals away from his operations on Crab Key. It is equipped with a forward-firing flame thrower."
         }
       ],
       "villains": [
         {
           "name": "Dr. Julius No",
           "actor": "Joseph Wiseman",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/db/Dr_No_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/db/Dr_No_-_Profile.jpg",
+          "Objective": "Use a nuclear radio beam to topple Cape Canaveral's space program.",
+          "Outcome": "Bond disables the radio beam by overloading the nuclear reactor.",
+          "Status": "Slowly boils to death in the reactor's cooling pond after a struggle with Bond."
         }
       ]
     },
@@ -1590,6 +1689,13 @@
       "movie": "For Your Eyes Only",
       "title_en": "For Your Eyes Only",
       "title_de": "James Bond 007 – In tödlicher Mission",
+      "year": "1981",
+      "bond_actor": "Roger Moore",
+      "director": "John Glen",
+      "producer": "Albert R. Broccoli",
+      "imdb_rating": "6.8",
+      "rotten_tomatoes_rating": "6.3",
+      "wikidata_id": "http://www.wikidata.org/entity/Q332330",
       "bond_girls": [
         {
           "name": "Melina Havelock",
@@ -1782,104 +1888,134 @@
       "vehicles": [
         {
           "name": "Lotus Turbo Esprit (1980)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/17/Vehicle_-_Lotus_Esprit_Turbo.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/17/Vehicle_-_Lotus_Esprit_Turbo.png",
+          "sequence_in_movie": "this vehicle was cosmetically similar to the S1, but mechanically different, as it exhibited no submarine capabilities. It was most notable for its remarkable security system, which detonated and destroyed the car when  broke the driver's window in an attempt to force entry into the car. Q Branch provided a second Turbo to Bond - in bronze instead of white - later in the movie."
         },
         {
           "name": "Citroën 2CV",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2f/Vehicle_-_Citroen_2CV.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2f/Vehicle_-_Citroen_2CV.png",
+          "sequence_in_movie": "A tiny but seemingly indestructible (rental) car belonging to  that Bond uses to make a \"fast\" getaway after Melina assassinates , who murdered her parents. The car used in the movie was allegedly fitted with a Citroën GS 4-cylinder boxer engine (in place of the standard 2-cylinder boxer), to make it able to outrun the two Peugeot 504s in pursuit."
         },
         {
           "name": "Peugeot 504",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Peugeot_504.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Peugeot_504.png",
+          "sequence_in_movie": "used by Gonzales' henchmen to chase down the Citroën 2CV driven by Bond and Melina."
         },
         {
           "name": "Rolls-Royce Silver Shadow I LWB",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/30/Vehicle_-_Rolls-Royce_Silver_Wraith_II.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/30/Vehicle_-_Rolls-Royce_Silver_Wraith_II.png",
+          "sequence_in_movie": "a Silver Wraith II is owned by Aris Kristatos and takes Bond and the Countess Lisl home from the casino."
         },
         {
           "name": "Mercedes-Benz 280 SE",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Vehicle_-_Mercedes-Benz_280_SE.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Vehicle_-_Mercedes-Benz_280_SE.png",
+          "sequence_in_movie": "Locque's personal car, which he uses to drive to Hector Gonzales' villa and later attempts to escape the Albanian warehouse with, only to die inside it when Bond kicks it off the cliff."
         },
         {
           "name": "Mercedes-Benz 200 D",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Mercedes-Benz_200_D.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Mercedes-Benz_200_D.png",
+          "sequence_in_movie": "Locque, Kriegler, Claus and other henchmen use a dark red Mercedes-Benz 200 D facelift model when hunting James Bond in Cortina d'Ampezzo."
         },
         {
           "name": "Yamaha XT 500",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Vehicle_-_Yamaha_XT500.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Vehicle_-_Yamaha_XT500.png",
+          "sequence_in_movie": "used by the assassins that attack Bond at Cortina d'Ampezzo."
         },
         {
           "name": "GP Super Buggy Series III",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/25/Vehicle_-_FYEO_Buggy.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/25/Vehicle_-_FYEO_Buggy.png",
+          "sequence_in_movie": "used by Locque and other hitmen to try kill Bond and Lisl on the beach."
         },
         {
           "name": "Zamboni",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Vehicle_-_FYEO_Zamboni.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Vehicle_-_FYEO_Zamboni.png",
+          "sequence_in_movie": "appears during the fight at the Ice Hockey rink."
         },
         {
           "name": "Mercedes-Benz LP",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e2/Vehicle_-_FYEO_MB_LP65.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e2/Vehicle_-_FYEO_MB_LP65.png",
+          "sequence_in_movie": "appears during Spain chase."
         },
         {
           "name": "Mercedes-Benz O 322",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f9/Vehicle_-_FYEO_MB_O_322.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f9/Vehicle_-_FYEO_MB_O_322.png",
+          "sequence_in_movie": "appears during Spain chase."
         },
         {
           "name": "Mercedes-Benz L 1413",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/da/Vehicle_-_FYEO_MB_L1413.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/da/Vehicle_-_FYEO_MB_L1413.png",
+          "sequence_in_movie": "appears during Spain chase."
         },
         {
           "name": "Bell 206 JetRanger",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Bell_206_JetRanger_OHMSS.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Bell_206_JetRanger_OHMSS.png",
+          "sequence_in_movie": "helicopter that's guided indirectly by the \"Mystery Assailant\" to try kill Bond after the latter visits the graveyard."
         },
         {
           "name": "Mil Mi-2",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fe/Vehicle_-_Mil_Mi-2_FYEO.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fe/Vehicle_-_Mil_Mi-2_FYEO.png",
+          "sequence_in_movie": "the helicopter General Gogol and his bodyguards arrive to St. Cyril's Monastery with. <small>(Note: these copters were made by the Polish \"PZL-Świdnik\" for Soviet Union and its client states.)</small>"
         },
         {
           "name": "Cessna A185F",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/96/Vehicle_-_Cessna_A185F.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/96/Vehicle_-_Cessna_A185F.png",
+          "sequence_in_movie": "used by Gonzales to gun down the Havelocks."
         },
         {
           "name": "Neptune Submarine",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6b/Vehicle_-_Neptune_Sub.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6b/Vehicle_-_Neptune_Sub.png",
+          "sequence_in_movie": "used by Bond and Melina to go to wreck of St. Georges. Later gets attacked by a Mantis submarine operated by one of Kristatos' underlings."
         },
         {
           "name": "Mantis Submarine",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d1/Vehicle_-_Mantis_Sub.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d1/Vehicle_-_Mantis_Sub.png",
+          "sequence_in_movie": "used by one of Kristatos' underlings to attack Bond and Melina in their Neptune sub."
         },
         {
           "name": "St. Georges",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a3/Vehicle_-_StGeorges_FYEO81.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a3/Vehicle_-_StGeorges_FYEO81.png",
+          "sequence_in_movie": "clandestine British electronic surveillance ship, disguised as an innocuous-looking Maltese fishing trawler. It housed the ATAC and gets scuttled by a seamine set by Kristatos' henchmen. Later in the film, Bond and Melina scuba dive inside it to retrieve ATAC."
         },
         {
           "name": "Triana",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_Triana.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_Triana.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Santa Mavra",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/73/Santamavra1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/73/Santamavra1.jpg",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "SS Columbina",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_Columbina_FYEO_Movie.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_Columbina_FYEO_Movie.png",
+          "sequence_in_movie": "Columbo's yatch. Bond its taken aboard after Lisl is killed on the beach."
         }
       ],
       "villains": [
         {
           "name": "Aristotle Kristatos",
           "actor": "Julian Glover",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/61/Aris_Kristatos_%28Julian_Glover%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/61/Aris_Kristatos_%28Julian_Glover%29_-_Profile.jpg",
+          "Objective": "Retrieve an ATAC missile command system lost by the British in a shipwreck and sell it to the Soviet Union. Additionally, trick Bond and MI6 into killing his main rival, Milos Columbo.",
+          "Outcome": "Bond joins forces with Melina Havelock and Milos Columbo, infiltrating Kristatos's hideout and throwing the device off a cliff.",
+          "Status": "Stabbed with a knife thrown by Columbo."
         },
         {
           "name": "Emile Leopold Locque",
           "actor": "Michael Gothard",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Emile_Leopold_Locque_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Emile_Leopold_Locque_-_Profile.png",
+          "Objective": "Assist Aristotle Kristatos in retrieving the ATAC system for the KGB by eliminating witnesses and framing rival Milos Columbo.",
+          "Outcome": "Failed to obtain the ATAC. His operations were exposed and stopped by Bond.",
+          "Status": "Shot by Bond, causing his car to hang over a cliff edge. Bond kicked the car, sending it plummeting down the cliff to his death."
         },
         {
           "name": "Erich Kriegler",
           "actor": "John Wyman",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/80/Erich_Kriegler_%28John_Wyman%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/80/Erich_Kriegler_%28John_Wyman%29_-_Profile.jpg",
+          "Objective": "Assist Kristatos as a KGB operative in obtaining the ATAC system and delivering it to the Soviet Union.",
+          "Outcome": "Failed to deliver the ATAC to the KGB. The device was destroyed by Bond.",
+          "Status": "Pushed out of a window by Bond during a fight at St. Cyril's monastery, falling to his death."
         }
       ]
     },
@@ -1887,6 +2023,13 @@
       "movie": "From Russia with Love",
       "title_en": "From Russia with Love",
       "title_de": "James Bond 007 – Liebesgrüße aus Moskau",
+      "year": "1963",
+      "bond_actor": "Sean Connery",
+      "director": "Terence Young",
+      "producer": "Harry Saltzman & Albert R. Broccoli",
+      "imdb_rating": "7.5",
+      "rotten_tomatoes_rating": "8.0",
+      "wikidata_id": "http://www.wikidata.org/entity/Q106571",
       "bond_girls": [
         {
           "name": "Tatiana Romanova",
@@ -2059,53 +2202,72 @@
       "vehicles": [
         {
           "name": "Bentley 3½ Litre",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/11/Vehicle_-_Bentley_Mark_IV.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/11/Vehicle_-_Bentley_Mark_IV.png",
+          "sequence_in_movie": "Contrary to the films, James Bond's official car in the  novels was a grey 1933 Bentley convertible. The car featured a 4.5 litre engine with the Amherst-Villiers supercharger. In the novels, no gadgets were installed as this was Bond's personal vehicle that in ' is mentioned as being a hobby that Bond enjoys working on. Its only armament, in the novels, is a high power revolver Bond keeps in the glove compartment. The novel version of the Bentley Mark IV was destroyed during a chase sequence in '. The Bentley is also seen in ''From Russia with Love''. In the movie, the only gadget known to be included was a car phone. The film version of ''Goldfinger'' strongly implies that the Bentley was issued to Bond by Q-Branch"
         },
         {
           "name": "Blofeld's Yacht",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Blofeld%27s_Yacht.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Blofeld%27s_Yacht.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Hiller UH-12",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-Hiller_UH-12.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-Hiller_UH-12.png",
+          "sequence_in_movie": "Used by . First appears when it brings Rosa Klebb to the . After Bond and Tatiana get out of the train, SPECTRE operatives use a UH-12 to try chase them down. It is destroyed when Bond snipes the co-pilot with his AR-7, who had pulled a sock of an grenade, causing the co-pilot to drop it inside and exploding the helicopter."
         },
         {
           "name": "Rolls-Royce Silver Wraith",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Wraith_I.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Wraith_I.png",
+          "sequence_in_movie": "Driven by one of Kerim's sons, who picks Bond from Yesilköy Airport and chauffeurs him to Kerim's location."
         },
         {
           "name": "Citroën Traction Avant",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7b/Vehicle_-Citro%C3%ABn_Traction_Avant.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7b/Vehicle_-Citro%C3%ABn_Traction_Avant.png",
+          "sequence_in_movie": "It is used by Bulgarian spies to track Bond through Istanbul. It is later stolen by Red Grant to follow Bond."
         },
         {
           "name": "Chevrolet Apache C30 One-Ton Truck",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/34/Vehicle_-_Chevrolet_Apache_C30.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/34/Vehicle_-_Chevrolet_Apache_C30.png",
+          "sequence_in_movie": "pick-up truck guarded by , that was meant to be Red Grant's getaway vehicle. It is instead hijacked by Bond and Tania."
         },
         {
           "name": "Fairey Huntress 23",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/32/Vehicle_-_Fairey_Huntress_23_BondTania.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/32/Vehicle_-_Fairey_Huntress_23_BondTania.png",
+          "sequence_in_movie": "Boats used during the last action sequence near Trieste. Bond and Tania steal one with bunch of barrels attached on the rear, with SPECTRE henchmen soon arriving with Huntress 23 boats with black decals."
         }
       ],
       "villains": [
         {
           "name": "Colonel Rosa Klebb",
           "actor": "Lotte Lenya",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/de/Rosa-klebb-from-russia-with-love.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/de/Rosa-klebb-from-russia-with-love.png",
+          "Objective": "Trick James Bond and MI6 into stealing a Soviet decoder machine called the Lektor so they can steal it from them, while also destroying Bond's reputation in a humiliating sex scandal and eventually killing him as revenge for the death of Dr. No.",
+          "Outcome": "Bond acquires the device for MI6 and evades SPECTRE's attempts on his life.",
+          "Status": "Shot in the chest by Tatiana Romanova during an attempt to murder Bond after her last plan failed."
         },
         {
           "name": "Ernst Stavro Blofeld",
           "actor": "Anthony Dawson (body), Eric Pohlmann (voice)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg",
+          "Objective": "Trick James Bond and MI6 into stealing a Soviet decoder machine called the Lektor so they can steal it from them, while also destroying Bond's reputation in a humiliating sex scandal and eventually killing him as revenge for the death of Dr. No.",
+          "Outcome": "Bond acquires the device for MI6 and evades SPECTRE's attempts on his life.",
+          "Status": "Survives (no contact between him and Bond)."
         },
         {
           "name": "Kronsteen",
           "actor": "Vladek Sheybal",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/45/Kronsteen_%28Vladek_Sheybal%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/45/Kronsteen_%28Vladek_Sheybal%29_-_Profile.jpg",
+          "Objective": "Trick James Bond and MI6 into stealing a Soviet decoder machine called the Lektor so they can steal it from them, while also destroying Bond's reputation in a humiliating sex scandal and eventually killing him as revenge for the death of Dr. No.",
+          "Outcome": "Bond acquires the device for MI6 and evades SPECTRE's attempts on his life.",
+          "Status": "Murdered by SPECTRE on Blofeld's orders after his plan to ruin Bond failed."
         },
         {
           "name": "Donald Grant",
           "actor": "Robert Shaw",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg",
+          "Objective": "Trick James Bond and MI6 into stealing a Soviet decoder machine called the Lektor so they can steal it from them, while also destroying Bond's reputation in a humiliating sex scandal and eventually killing him as revenge for the death of Dr. No.",
+          "Outcome": "Bond acquires the device for MI6 and evades SPECTRE's attempts on his life.",
+          "Status": "Killed by Bond in fight aboard the Orient Express."
         }
       ]
     },
@@ -2113,6 +2275,13 @@
       "movie": "GoldenEye",
       "title_en": "GoldenEye",
       "title_de": "James Bond 007 – GoldenEye",
+      "year": "1995",
+      "bond_actor": "Pierce Brosnan",
+      "director": "Martin Campbell",
+      "producer": "Michael G. Wilson & Barbara Broccoli",
+      "imdb_rating": "7.2",
+      "rotten_tomatoes_rating": "6.9",
+      "wikidata_id": "http://www.wikidata.org/entity/Q19089",
       "bond_girls": [
         {
           "name": "Natalya Simonova",
@@ -2422,7 +2591,10 @@
         {
           "name": "Alec Trevelyan / 'Janus'",
           "actor": "Sean Bean",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/76/Alec_Trevelyan_%28Sean_Bean%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/76/Alec_Trevelyan_%28Sean_Bean%29_-_Profile.jpg",
+          "Objective": "Use an EMP weapon called GoldenEye to destroy London's economy in revenge for British repatriation of Lienz Cossacks which led to the murder-suicide of his parents. Also aims to eliminate Severnaya survivor Natalya Simonova, before she becomes too much trouble.",
+          "Outcome": "Simonova reprograms the GoldenEye satellite's controls to initiate atmospheric re-entry, thus destroying itself. Bond sabotages the dish's antenna by jamming its gears, rendering Boris Grishenko incapable of undoing Simomova's work.",
+          "Status": "Bond drops Alec to the bottom of the dish surface, and subsequently ends crushed by the antenna's collapsing beam steering mechanism."
         }
       ]
     },
@@ -2430,6 +2602,13 @@
       "movie": "Goldfinger",
       "title_en": "Goldfinger",
       "title_de": "James Bond 007 – Goldfinger",
+      "year": "1964",
+      "bond_actor": "Sean Connery",
+      "director": "Guy Hamilton",
+      "producer": "Harry Saltzman & Albert R. Broccoli",
+      "imdb_rating": "7.8",
+      "rotten_tomatoes_rating": "8.4",
+      "wikidata_id": "http://www.wikidata.org/entity/Q106440",
       "bond_girls": [
         {
           "name": "Pussy Galore",
@@ -2707,51 +2886,66 @@
       "vehicles": [
         {
           "name": "Aston Martin DB5",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Aston_Martin_DB5.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Aston_Martin_DB5.png",
+          "sequence_in_movie": "The most famous Bond car of all, it came with all the usual Q-Branch refinements which have been copied from movie to movie including bulletproof front and rear panels, oil slick, smoke screen, machine guns, rotating licence plates, telescoping tire slashers, tracer-receiving console and most famously, the passenger ejector seat."
         },
         {
           "name": "Rolls-Royce Phantom III",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/19/Vehicle_-_Rolls-Royce_Phantom_III.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/19/Vehicle_-_Rolls-Royce_Phantom_III.png",
+          "sequence_in_movie": "Owned by Auric Goldfinger, it was used to smuggle gold by recasting all of the body panels in gold and shipping it from place to place. Often mistakenly called the \"Phantom 337\" as that is what Connery said in the film. If the car was actually called the \"337,\" Connery probably would have spelled out \"three-three-seven,\" as the British commonly do."
         },
         {
           "name": "Ford Mustang Convertible (1964.5)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/68/Vehicle_-_1965_Ford_Mustang_Convertible.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/68/Vehicle_-_1965_Ford_Mustang_Convertible.png",
+          "sequence_in_movie": "Tilly Masterson is seen driving a white Mustang - the convertible is totaled after Bond shreds the tires and lower rocker panels. This was the first appearance of a Mustang in a feature film. Other Fords were seen in the film, including a Ranchero and a Lincoln Continental."
         },
         {
           "name": "Mercedes-Benz 190 (W121)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/eb/Vehicle_-_Mercedes-Benz_190_%28W121%29.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/eb/Vehicle_-_Mercedes-Benz_190_%28W121%29.png",
+          "sequence_in_movie": "Two 190/W121 cars are used to chase down Bond's DB5 at Goldfinger's Factory in Switzerland."
         },
         {
           "name": "Mercedes-Benz 220 SE (W128)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e0/Vehicle_-_Mercedes-Benz_220_SE.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e0/Vehicle_-_Mercedes-Benz_220_SE.png",
+          "sequence_in_movie": "Oddjob is a passenger in a grey 220 SE during the car chase at Goldfinger's Factory in Switzerland."
         },
         {
           "name": "Piper PA-28 Cherokee",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0c/Vehicle_-_Piper_PA-28_Cherokee.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0c/Vehicle_-_Piper_PA-28_Cherokee.png",
+          "sequence_in_movie": "the type of aircraft used by the members of . They are used to (falsely) spread the Delta 9 Nerve Gas upon Fort Knox and the surrounding area."
         },
         {
           "name": "1964 Lincoln Continental (Fourth Generation)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b3/Vehicle_-_Lincoln_Continental_Gen_4.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b3/Vehicle_-_Lincoln_Continental_Gen_4.png",
+          "sequence_in_movie": "Car driven by  to take  to the nearby junkyard and kill him there. The car is subsequently crushed into a cube with Solo's body inside."
         },
         {
           "name": "Dodge M43",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/ad/Vehicle_-_Dodge_M43.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/ad/Vehicle_-_Dodge_M43.png",
+          "sequence_in_movie": "posing as an army ambulance, it is used to bring the  to Fort Knox to cut through the armored shutters."
         },
         {
           "name": "Lockheed JetStar",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/19/Vehicle_-_Goldfinger_JetStar.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/19/Vehicle_-_Goldfinger_JetStar.png",
+          "sequence_in_movie": "Used as Auric Goldfinger's private jet. It is later disguised as a United States Air Force C-140 transport to kidnap Bond while Goldfinger makes his escape."
         }
       ],
       "villains": [
         {
           "name": "Auric Goldfinger",
           "actor": "Gert Fröbe",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Auric_Goldfinger_%28Gert_Fr%C3%B6be%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Auric_Goldfinger_%28Gert_Fr%C3%B6be%29_-_Profile.png",
+          "Objective": "Irradiate the gold in Fort Knox with a nuclear weapon to increase the value of his own gold.",
+          "Outcome": "An American technician safely disables the bomb.",
+          "Status": "Sucked out of the shattered window of a depressurizing plane, falling to his death."
         },
         {
           "name": "Oddjob",
           "actor": "Harold Sakata",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a5/Oddjob_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a5/Oddjob_Profile.png",
+          "Objective": "Assist Auric Goldfinger in Operation Grand Slam to destroy Fort Knox and its gold supply, increasing the value of Goldfinger's gold.",
+          "Outcome": "Operation Grand Slam was foiled by Bond and the bomb was disarmed.",
+          "Status": "Electrocuted when Bond connected a loose electric cable to metal bars that Oddjob touched while retrieving his hat."
         }
       ]
     },
@@ -2759,6 +2953,13 @@
       "movie": "Licence to Kill",
       "title_en": "Licence to Kill",
       "title_de": "James Bond 007 – Lizenz zum Töten",
+      "year": "1989",
+      "bond_actor": "Timothy Dalton",
+      "director": "John Glen",
+      "producer": "Albert R. Broccoli & Michael G. Wilson",
+      "imdb_rating": "6.5",
+      "rotten_tomatoes_rating": "6.0",
+      "wikidata_id": "http://www.wikidata.org/entity/Q309086",
       "bond_girls": [
         {
           "name": "Pam Bouvier",
@@ -3091,98 +3292,123 @@
       "vehicles": [
         {
           "name": "Rolls-Royce Phantom V",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/37/Vehicle_-_LTK_RR_PhantomV.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/37/Vehicle_-_LTK_RR_PhantomV.png",
+          "sequence_in_movie": "limousine in which Bond, Leiter and Sharkey ride to Leiter's wedding, before DEA informs them of Sanchez's presence in Bahamas."
         },
         {
           "name": "Lincoln Town Car Stretched Limousine",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8b/Vehicle_-_LTK_Lincoln_Town_Car_Stretch_Limo.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8b/Vehicle_-_LTK_Lincoln_Town_Car_Stretch_Limo.png",
+          "sequence_in_movie": "limousine that's bringing Della to the church."
         },
         {
           "name": "Willys M38",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d3/Vehicle_-_Willys_MC_M38.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d3/Vehicle_-_Willys_MC_M38.png",
+          "sequence_in_movie": "used by Sanchez and his thugs at Alvarez's hideout."
         },
         {
           "name": "Lincoln Mark VII LSC",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/25/Vehicle_-_LTK_LincolnMkVII.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/25/Vehicle_-_LTK_LincolnMkVII.png",
+          "sequence_in_movie": "Bond's rental car in Key West."
         },
         {
           "name": "Utilimaster Aeromaster",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_LTK_Armored_Van.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_LTK_Armored_Van.png",
+          "sequence_in_movie": "the armored van that is used to transport Sanchez before Kilifer reveals his true colors."
         },
         {
           "name": "Rolls-Royce Silver Shadow II",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Shadow_II.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Shadow_II.png",
+          "sequence_in_movie": "the car Bond is chauffeured around Isthmus City by Q with."
         },
         {
           "name": "Maserati Biturbo 425i",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Vehicle_-_Maserati_Biturbo_425i.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Vehicle_-_Maserati_Biturbo_425i.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Dodge Ram",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9a/Vehicle_-_Dodge_Ram.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9a/Vehicle_-_Dodge_Ram.png",
+          "sequence_in_movie": "used by Sanchez's henchmen at Paso El Diablo."
         },
         {
           "name": "Jeep CJ-7",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5e/Vehicle_-_Jeep_CJ7.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5e/Vehicle_-_Jeep_CJ7.png",
+          "sequence_in_movie": "used by Perez and some other henchmen at Paso El Diablo. It carries the Stinger missiles Perez tries to destroy Bond's truck with. It gets crushed by Bond's truck."
         },
         {
           "name": "Taylor-Dunn Tee-Bird",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/be/Vehicles_-_Taylor-Dunn_Tee-Bird.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/be/Vehicles_-_Taylor-Dunn_Tee-Bird.png",
+          "sequence_in_movie": "cart that brings Pam to Joe Butcher at the Olympatec."
         },
         {
           "name": "Kenworth W-900",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5b/Vehicle_-_Kenworth_W-900.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5b/Vehicle_-_Kenworth_W-900.png",
+          "sequence_in_movie": "Sanchez has four of these trucks leave his plant after Bond destroys the place. Bond eventually hijacks one."
         },
         {
           "name": "M5 Stuart Tank",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_M5_Stuart_Tank.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_M5_Stuart_Tank.png",
+          "sequence_in_movie": "tank used by Heller and the Isthmusian soldiers to siege the safe house of the Hong Kong narcotics agents."
         },
         {
           "name": "HH-65A Dolphin",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Vehicle_-_AS365_Dauphin.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Vehicle_-_AS365_Dauphin.png",
+          "sequence_in_movie": "operated by the United States Coast Guard in the pre-title sequence. James Bond later uses the helicopter to trap escaping Sanchez's Cessna 172."
         },
         {
           "name": "Aerospatiale AS350B AStar",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/73/Vehicle_-_Eurocopter_AS350B.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/73/Vehicle_-_Eurocopter_AS350B.png",
+          "sequence_in_movie": "Used by Sanchez to travel between his villa and the Olympatec Meditation Institute."
         },
         {
           "name": "Learjet 35",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/cd/Vehicle_-_Learjet_35.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/cd/Vehicle_-_Learjet_35.png",
+          "sequence_in_movie": "used by Sanchez to arrive to Bahamas."
         },
         {
           "name": "Cessna 172P Skyhawk",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/67/Vehicle_-_Cessna_172_LTK.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/67/Vehicle_-_Cessna_172_LTK.png",
+          "sequence_in_movie": "Sanchez uses one to try escape Bond and Felix during the pre-title sequence."
         },
         {
           "name": "Cessna A185F",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/39/Vehicle_-_LTK_A185F.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/39/Vehicle_-_LTK_A185F.png",
+          "sequence_in_movie": "Floatplane hijacked by Bond during the Wavekrest sequence."
         },
         {
           "name": "Piper PA-18-150 Super Cub",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f7/Vehicle_-_Piper_PA-18-150_Super_Cub_Plane.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f7/Vehicle_-_Piper_PA-18-150_Super_Cub_Plane.png",
+          "sequence_in_movie": "A crop dusting plane flown by  in pursuit of 's cocaine-filled Tankers. It is crippled by a stinger surface-to-air missile during the chase sequence."
         },
         {
           "name": "Shark Hunter II Submersible",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e3/Shark_Hunter_II_%281%29.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e3/Shark_Hunter_II_%281%29.png",
+          "sequence_in_movie": "midget submarine operated by Milton Krest's Wavekrest Marine Research. Its supposedly unused, when in reality, its was used to for Franz Sanchez's operations."
         },
         {
           "name": "Cigarette Racing Café Racer",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Vehicle_-_Cigarette_Racing_Cafe_Racer.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Vehicle_-_Cigarette_Racing_Cafe_Racer.png",
+          "sequence_in_movie": "motorboat used by Bond to arrive to Barrelhead Bar and then later escape it with Pam Bouvier."
         },
         {
           "name": "Supra Pirata",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2b/Vehicle_-_Super_Pirata.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2b/Vehicle_-_Super_Pirata.png",
+          "sequence_in_movie": "the motorboat used by Lupe to leave Sanchez's villa to help Bond covertly leave."
         },
         {
           "name": "Wavekrest",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/05/Vehicle_-_Wavekrest_Movie.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/05/Vehicle_-_Wavekrest_Movie.png",
+          "sequence_in_movie": "marine research vessel operated by Milton Krest. Bond sneaks aboard this ship a couple of times during the story. <small>(This vessel was called \"State Point\" when movie was filmed, and current goes by \"J.W. Powell\".)</small>"
         }
       ],
       "villains": [
         {
           "name": "Franz Sanchez",
           "actor": "Robert Davi",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/48/Franz_Sanchez_%28Robert_Davi%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/48/Franz_Sanchez_%28Robert_Davi%29_-_Profile.png",
+          "Objective": "Smuggle a large shipment of cocaine into Asia by dissolving the substance in petrol.",
+          "Outcome": "Bond destroys the refinery used to dissolve the cocaine and later the four tankers that are already filled.",
+          "Status": "Bond sets Sanchez, who is soaked in gasoline due to a tanker crash, on fire with a lighter gifted by Felix Leiter. Burning Sanchez stumbles into a leaking tank truck, causing the leaked gasoline to catch on fire and make the tanker explode, killing Sanchez."
         }
       ]
     },
@@ -3190,6 +3416,13 @@
       "movie": "Live and Let Die",
       "title_en": "Live and Let Die",
       "title_de": "James Bond 007 – Leben und sterben lassen",
+      "year": "1973",
+      "bond_actor": "Roger Moore",
+      "director": "Guy Hamilton",
+      "producer": "Harry Saltzman & Albert R. Broccoli",
+      "imdb_rating": "6.8",
+      "rotten_tomatoes_rating": "5.9",
+      "wikidata_id": "http://www.wikidata.org/entity/Q27204",
       "bond_girls": [
         {
           "name": "Solitaire",
@@ -3484,7 +3717,10 @@
         {
           "name": "Dr. Kananga / Mr. Big",
           "actor": "Yaphet Kotto",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Dr._Kananga_%28Yaphet_Kotto%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Dr._Kananga_%28Yaphet_Kotto%29_-_Profile.jpg",
+          "Objective": "Distribute a large cache of heroin into the United States without cost, driving his competitors out of business and gaining a monopoly.",
+          "Outcome": "Quarrel Jr. destroys Kananga's poppy fields with a series of explosives.",
+          "Status": "Forced by Bond to ingest a compressed gas pellet, causing him to inflate and explode."
         }
       ]
     },
@@ -3492,6 +3728,13 @@
       "movie": "Moonraker",
       "title_en": "Moonraker",
       "title_de": "James Bond 007 – Moonraker – Streng geheim",
+      "year": "1979",
+      "bond_actor": "Roger Moore",
+      "director": "Lewis Gilbert",
+      "producer": "Albert R. Broccoli",
+      "imdb_rating": "6.2",
+      "rotten_tomatoes_rating": "5.7",
+      "wikidata_id": "http://www.wikidata.org/entity/Q334780",
       "bond_girls": [
         {
           "name": "Holly Goodhead",
@@ -3704,47 +3947,61 @@
       "vehicles": [
         {
           "name": "Rolls-Royce Silver Shadow I LWB",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/30/Vehicle_-_Rolls-Royce_Silver_Wraith_II.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/30/Vehicle_-_Rolls-Royce_Silver_Wraith_II.png",
+          "sequence_in_movie": "When Bond arrives in Rio de Janeiro, he is seen as a passenger in a blue Silver Wraith II which takes him to his hotel."
         },
         {
           "name": "Austin Mini Moke",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/35/Vehicle_-_Moonraker_Film_Mini_Moke.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/35/Vehicle_-_Moonraker_Film_Mini_Moke.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Bell 206 JetRanger",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/90/Vehicle_-_206JetRanger_Moonraker.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/90/Vehicle_-_206JetRanger_Moonraker.png",
+          "sequence_in_movie": "one is piloted by Corrine to bring Bond to Drax's Estate in California."
         },
         {
           "name": "Handley Page HP.137 Jetstream 1",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/99/Vehicle_-_Handley_Page_Jetstream.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/99/Vehicle_-_Handley_Page_Jetstream.png",
+          "sequence_in_movie": "In the pre-titles sequence, Bond is almost left stranded on this aircraft with no pilot and no instruments, until he is pushed out with no parachute by Jaws."
         },
         {
           "name": "Gondola Hovercraft",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Vehicle_-_Gondola.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Vehicle_-_Gondola.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Q's Hydrofoil Boat",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Glastron_Boat.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Glastron_Boat.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Glastron SSV-189",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d8/Vehicle_-_Moonraker_Villain_Glastron_SVV-189.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d8/Vehicle_-_Moonraker_Villain_Glastron_SVV-189.png",
+          "sequence_in_movie": "used by Drax's sentries during the Amazon river chase."
         },
         {
           "name": "Moonraker Shuttle",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/52/Vehicle_-_Moonraker_Shuttle.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/52/Vehicle_-_Moonraker_Shuttle.png",
+          "sequence_in_movie": "\"Moonraker\" is a brand name applied to a space shuttle orbiter design, built by Drax Industries for NASA. Though the actual Space Shuttle had not flown by the time ''Moonraker'' was released, the Drax Moonraker is identical in design. These were named Moonraker 1-6."
         }
       ],
       "villains": [
         {
           "name": "Hugo Drax",
           "actor": "Michael Lonsdale",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/97/Hugo_Drax_%28Michael_Lonsdale%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/97/Hugo_Drax_%28Michael_Lonsdale%29_-_Profile.png",
+          "Objective": "Fire a nerve agent from space, poisoning Earth's atmosphere and killing off the human population. Rebuild humanity in space with carefully selected humans.",
+          "Outcome": "The space station containing the poisonous globes is destroyed by US Marines, and the three globes that were launched are destroyed by Bond and Holly Goodhead.",
+          "Status": "Shot with a dart by Bond and ejected into outer space."
         },
         {
           "name": "Jaws",
           "actor": "Richard Kiel",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png",
+          "Objective": "Assist Hugo Drax in eliminating James Bond to protect Drax's plan to wipe out humanity with nerve gas and repopulate Earth with a master race.",
+          "Outcome": "After falling in love with Dolly and realizing Drax would kill them as 'imperfect' specimens, switched sides to help Bond defeat Drax and destroy his space station.",
+          "Status": "Redeemed himself by helping Bond. Escaped the disintegrating space station in an escape pod with Dolly and was safely recovered by U.S. Marines."
         }
       ]
     },
@@ -3752,6 +4009,13 @@
       "movie": "No Time to Die",
       "title_en": "No Time to Die",
       "title_de": "James Bond 007: Keine Zeit zu sterben",
+      "year": "2020",
+      "bond_actor": "Daniel Craig",
+      "director": "Cary Joji Fukunaga",
+      "producer": "Michael G. Wilson & Barbara Broccoli",
+      "imdb_rating": "7.3",
+      "rotten_tomatoes_rating": "8.3",
+      "wikidata_id": "http://www.wikidata.org/entity/Q21534241",
       "bond_girls": [
         {
           "name": "Madeleine Swann",
@@ -3885,12 +4149,18 @@
         {
           "name": "Lyutsifer Safin",
           "actor": "Rami Malek",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Lyutsifer_Safin_-_Profile_V2.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Lyutsifer_Safin_-_Profile_V2.jpg",
+          "Objective": "Wipe out SPECTRE after Blofeld ordered Mr. White to assassinate his family. Later take revenge on the world at large by using \"Heracles\" – a DNA-based bioweapon which SPECTRE stole from MI6.",
+          "Outcome": "Succeeds in wiping out SPECTRE but fails to spread Heracles worldwide due to the Royal Navy's and Bond's intervention, which destroys the facility producing it.",
+          "Status": "Shot by Bond after a brief fistfight."
         },
         {
           "name": "Ernst Stavro Blofeld",
           "actor": "Christoph Waltz",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Blofeld_%28Christoph_Waltz%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Blofeld_%28Christoph_Waltz%29_-_Profile.png",
+          "Objective": "Escape prison, restore SPECTRE, and eliminate Bond using Heracles.",
+          "Outcome": "Safin uses Heracles to wipe out SPECTRE in Cuba and later coerces Madeleine Swann into killing Blofeld with it.",
+          "Status": "Inadvertently infected with Heracles when Bond briefly touches and strangles him—after he touched Swann—during an interrogation and dies as a result."
         }
       ]
     },
@@ -3898,6 +4168,13 @@
       "movie": "Octopussy",
       "title_en": "Octopussy",
       "title_de": "James Bond 007 – Octopussy",
+      "year": "1983",
+      "bond_actor": "Roger Moore",
+      "director": "John Glen",
+      "producer": "Albert R. Broccoli",
+      "imdb_rating": "6.5",
+      "rotten_tomatoes_rating": "5.3",
+      "wikidata_id": "http://www.wikidata.org/entity/Q204398",
       "bond_girls": [
         {
           "name": "Octopussy",
@@ -4135,75 +4412,96 @@
       "vehicles": [
         {
           "name": "Land Rover Range Rover Convertible",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1e/Vehicle_-Land_Rover_Range_Rover_Convertible.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1e/Vehicle_-Land_Rover_Range_Rover_Convertible.png",
+          "sequence_in_movie": "Appears in the pre-title sequence, where it was driven by James Bond and his colleague Bianca. It is used to tow a horsebox, which secretly contains the AcroStar/Bede BD-5J inside."
         },
         {
           "name": "Mercedes-Benz 280 S (W108)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Vehicle_-_Mercedes-Benz_280_S.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Vehicle_-_Mercedes-Benz_280_S.png",
+          "sequence_in_movie": "Bond commandeers this Soviet Army staff car to pursue Octopussy's train. When the tires are shredded by a spikestrip, Bond turns onto the railway line and drives the car along the rails until he escapes just before the car is knocked into the river by an oncoming train."
         },
         {
           "name": "Alfa Romeo GTV6",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_1981_Alfa_Romeo_GTV_6.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_1981_Alfa_Romeo_GTV_6.png",
+          "sequence_in_movie": "After falling from Octopussy's train and hitching a lift in a Volkswagen Beetle, Bond steals this car to make the last stage of his journey to the US Air Force Base. West German police BMW 5 Series pursue Bond after his theft of the vehicle. Interestingly, sharp eyes will spot that this is a GTV 6 Quadrifoglio, the highest specification Alfa Romeo available, and widely considered the finest of these cars, as well as the fastest."
         },
         {
           "name": "Volkswagen Type 1 \"Beetle\"",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6d/Vehicles_-_VW_Beetle_Octopussy.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6d/Vehicles_-_VW_Beetle_Octopussy.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "BMW 518 (E28)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f4/Vehicle_-_BMW_518_E28_Octopussy.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f4/Vehicle_-_BMW_518_E28_Octopussy.png",
+          "sequence_in_movie": "cars used by West German police to chase down Bond after he has stolen the Alfa Romeo."
         },
         {
           "name": "Rolls-Royce Phantom II Sedanca de Ville",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d6/Vehicle_-_Octopussy_RR_Phantom_II.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d6/Vehicle_-_Octopussy_RR_Phantom_II.png",
+          "sequence_in_movie": "Kamal Khan's car in India"
         },
         {
           "name": "Volga M-24",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5e/Vehicle_-_Orlov_Volga_1983.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5e/Vehicle_-_Orlov_Volga_1983.png",
+          "sequence_in_movie": "boarded by Gen. Orlov to chase Bond after he has stolen the Mercedes-Benz with the stolen jewels aboard."
         },
         {
           "name": "Willys MB \"Jeep\"",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Octopussy_Jeep_India_A.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Octopussy_Jeep_India_A.png",
+          "sequence_in_movie": "used by group of assassins trying to kill Bond and Vijay during the Tuk-Tuk chase."
         },
         {
           "name": "GMC CCKW 352",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/92/Vehicle_-_GMC_G508_Octopussy.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/92/Vehicle_-_GMC_G508_Octopussy.png",
+          "sequence_in_movie": "the truck used by South American troops to escort Bond out of the base. After Bond gets free and boards the Range Rover, he shoots its wheels to stop it from chasing him down."
         },
         {
           "name": "BMW R 100 CS",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e2/Vehicle_-_BMW_R100_Polizei_Octopussy.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e2/Vehicle_-_BMW_R100_Polizei_Octopussy.png",
+          "sequence_in_movie": "motorcycle used by West German police"
         },
         {
           "name": "Bajaj RE taxi",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Bajaj_RE.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Bajaj_RE.png",
+          "sequence_in_movie": "Two of these basic auto rickshaws are used in a chase sequence through the streets of Udaipur - Bond and fellow MI6 agent  being in one, with  and his henchmen in the pursuing vehicle. It is insinuated that the auto-wallah driven by Vijay has been modified by MI6 as the tone of the engine becomes more like a motorcycle and Vijay performs a wheelie, exclaiming \"This is a company car!\""
         },
         {
           "name": "Eurocopter AS365 Dauphin",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/cc/Vehicle_-_1983_Red_AS365_Dauphin.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/cc/Vehicle_-_1983_Red_AS365_Dauphin.png",
+          "sequence_in_movie": "two models appear; a red one that brings Orlov to Khan's palace and a green one that brings Gogol to the demolished Mercedes-Benz."
         },
         {
           "name": "Beechcraft C-45H Expeditor",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_Beechcraft.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_Beechcraft.png",
+          "sequence_in_movie": "Kamal Khan's private aircraft. Bond grips onto the aircraft during take off and, after a fight with Gobinda atop the Twin Beech, rescues Octopussy before it crashes."
         },
         {
           "name": "Acrostar Jet / Bede BD-5J",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6a/Vehicle_-_Acrostar.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6a/Vehicle_-_Acrostar.png",
+          "sequence_in_movie": "The Acrostar was used to escape from a mission in the opening sequence. The wings and nosecone section of this plane fold up vertically while not in use allowing it to be stored in small compartments (in this case a horse trailer)."
         },
         {
           "name": "Hot Air Balloon",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Hot_Air_Balloon.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Hot_Air_Balloon.png",
+          "sequence_in_movie": "A Union-Jack emblazoned Hot Air Balloon, used by Q and Bond to storm 's palace. It is equipped with CCTV cameras."
         }
       ],
       "villains": [
         {
           "name": "Kamal Khan",
           "actor": "Louis Jourdan",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/26/Kamal_Khan_%28Louis_Jourdan%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/26/Kamal_Khan_%28Louis_Jourdan%29_-_Profile.jpg",
+          "Objective": "Execute General Orlov's plan in exchange for being paid in jewels stolen from the Kremlin.",
+          "Outcome": "The jewels are recovered by the KGB.",
+          "Status": "Attempts to escape in his plane, but Bond disables the left engine of the plane, causing Khan to crash it into a mountain, killing him."
         },
         {
           "name": "General Orlov",
           "actor": "Steven Berkoff",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/General_Orlov_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/General_Orlov_-_Profile.png",
+          "Objective": "Smuggle a nuclear warhead onto a US Air Force Base in West Germany and detonate it to clear a path for the Soviet Bloc to conquer Western Europe.",
+          "Outcome": "Bond, with the help of Octopussy, disarms the bomb.",
+          "Status": "Shot by guards who believe that he is trying to defect."
         }
       ]
     },
@@ -4211,6 +4509,13 @@
       "movie": "On Her Majesty's Secret Service",
       "title_en": "On Her Majesty's Secret Service",
       "title_de": "James Bond 007 – Im Geheimdienst Ihrer Majestät",
+      "year": "1969",
+      "bond_actor": "George Lazenby",
+      "director": "Peter R. Hunt",
+      "producer": "Harry Saltzman & Albert R. Broccoli",
+      "imdb_rating": "6.8",
+      "rotten_tomatoes_rating": "6.7",
+      "wikidata_id": "http://www.wikidata.org/entity/Q107894",
       "bond_girls": [
         {
           "name": "Tracy Bond (Teresa di Vicenzo)",
@@ -4438,30 +4743,38 @@
       "vehicles": [
         {
           "name": "Aston Martin DBS",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fd/Vehicle_-_Aston_Martin_DBS_1969.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fd/Vehicle_-_Aston_Martin_DBS_1969.png",
+          "sequence_in_movie": "This car is seen in the movie in six scenes: in the pre-credits teaser, outside Bond's hotel, in the parking area at Draco's Birthday celebration, when he arrives at M's home (Quarterdeck), briefly outside a jeweler's shop, and as Bond &amp; Tracy's wedding car. Nothing is known about what kind of gadgets are installed, except for a rifle with a telescopic sight mounted in the glovebox. Obviously, given what happens at the end, it does not have bulletproof glass."
         },
         {
           "name": "Mercury Cougar XR-7",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Mercury_Cougar.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Mercury_Cougar.png",
+          "sequence_in_movie": "owned by Tracy Di Vincenzo and features prominently in Bond's escape from Piz Gloria."
         },
         {
           "name": "Mercedes-Benz 600 (W100)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/ad/OHMSS_Mercedes_600.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/ad/OHMSS_Mercedes_600.jpg",
+          "sequence_in_movie": "used in the drive-by-shooting that claims Tracy's life at the end of the film, with Blofeld driving it and Irma Bunt shooting an M16 rifle from the backseat through the open passenger window."
         },
         {
           "name": "Agusta-Bell AB-206B JetRanger",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Bell_206_JetRanger_OHMSS.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Bell_206_JetRanger_OHMSS.png",
+          "sequence_in_movie": "used by Irma Bunt, Bond and a few guards to travel from Lauterbrunnen to Piz Gloria's helipad."
         },
         {
           "name": "Agusta-Bell AB-204",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Vehicle_-_Bell_UH1_OHMSS.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Vehicle_-_Bell_UH1_OHMSS.png",
+          "sequence_in_movie": "used by Draco and his men to siege Piz Gloria at the climactic battle."
         }
       ],
       "villains": [
         {
           "name": "Ernst Stavro Blofeld",
           "actor": "Telly Savalas",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/78/Blofeld_%28Telly_Savalas%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/78/Blofeld_%28Telly_Savalas%29_-_Profile.png",
+          "Objective": "Distribute an infertility-based viral plague to destroy livestock and cereals, unless issued a pardon by the United Nations and the title of count by the College of Arms.",
+          "Outcome": "Bond and Marc-Ange Draco destroy the laboratory and radio station from which commands to distribute the viruses are issued. Agents supposedly neutralised.",
+          "Status": "Survives, despite neck injury. His henchwoman Irma Bunt assassinates Tracy di Vicenzo, Bond's newly married wife, on their honeymoon."
         }
       ]
     },
@@ -4469,6 +4782,13 @@
       "movie": "Quantum of Solace",
       "title_en": "Quantum of Solace",
       "title_de": "James Bond 007: Ein Quantum Trost",
+      "year": "2008",
+      "bond_actor": "Daniel Craig",
+      "director": "Marc Forster",
+      "producer": "Michael G. Wilson & Barbara Broccoli",
+      "imdb_rating": "6.7",
+      "rotten_tomatoes_rating": "6.1",
+      "wikidata_id": "http://www.wikidata.org/entity/Q181540",
       "bond_girls": [
         {
           "name": "Camille Montes",
@@ -4693,12 +5013,18 @@
         {
           "name": "Dominic Greene",
           "actor": "Mathieu Amalric",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Profile_-_Dominic_Greene.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Profile_-_Dominic_Greene.png",
+          "Objective": "Carry out a coup d'état in Bolivia and install his puppet ruler, General Medrano, in exchange for land hiding a massively valuable, undiscovered aquifer. Then sell the new Bolivian government water from the aquifer at massively inflated prices.",
+          "Outcome": "Bond intercepts Greene and Medrano before they can carry out the coup.",
+          "Status": "Bond abandons him in the middle of the Bolivian desert, with nothing but a can of motor oil to drink. He is later reported to have been shot by an anonymous assassin after drinking the oil."
         },
         {
           "name": "Mr. White",
           "actor": "Jesper Christensen",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png",
+          "Objective": "Escape MI6 custody.",
+          "Outcome": "Succeeds.",
+          "Status": "Survives (returns in Spectre where he is dying from thallium poisoning and commits suicide using Bond's Walther PPK)."
         }
       ]
     },
@@ -4706,6 +5032,13 @@
       "movie": "Skyfall",
       "title_en": "Skyfall",
       "title_de": "James Bond 007: Skyfall",
+      "year": "2012",
+      "bond_actor": "Daniel Craig",
+      "director": "Sam Mendes",
+      "producer": "Michael G. Wilson & Barbara Broccoli",
+      "imdb_rating": "7.8",
+      "rotten_tomatoes_rating": "8.2",
+      "wikidata_id": "http://www.wikidata.org/entity/Q4941",
       "bond_girls": [
         {
           "name": "Sévérine",
@@ -4885,7 +5218,10 @@
         {
           "name": "Raoul Silva",
           "actor": "Javier Bardem",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1b/Raoul_Silva_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1b/Raoul_Silva_-_Profile.png",
+          "Objective": "Take revenge on M by launching a massive cyberattack on MI6 and then personally carry out her assassination.",
+          "Outcome": "Indirectly succeeds. Bond foils his first assassination attempt, but later she is fatally wounded by one of his henchmen. (Although, he does not live to realize this or find the closure he sought.)",
+          "Status": "Bond throws a hunting knife into his back."
         }
       ]
     },
@@ -4893,6 +5229,13 @@
       "movie": "Spectre",
       "title_en": "Spectre",
       "title_de": "James Bond 007: Spectre",
+      "year": "2015",
+      "bond_actor": "Daniel Craig",
+      "director": "Sam Mendes",
+      "producer": "Michael G. Wilson & Barbara Broccoli",
+      "imdb_rating": "6.8",
+      "rotten_tomatoes_rating": "6.4",
+      "wikidata_id": "http://www.wikidata.org/entity/Q18602670",
       "bond_girls": [
         {
           "name": "Madeleine Swann",
@@ -5092,12 +5435,18 @@
         {
           "name": "Franz Oberhauser / Ernst Stavro Blofeld",
           "actor": "Christoph Waltz",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Blofeld_%28Christoph_Waltz%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Blofeld_%28Christoph_Waltz%29_-_Profile.png",
+          "Objective": "Gain control of a global surveillance program called \"Nine Eyes\".",
+          "Outcome": "Bond destroys Blofeld's data center and Q prevents the Nine Eyes program from being activated.",
+          "Status": "Arrested by M after he survives his escape helicopter being shot down by Bond."
         },
         {
           "name": "Max Denbigh / C",
           "actor": "Andrew Scott",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Max_Denbigh_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Max_Denbigh_-_Profile.png",
+          "Objective": "Gain control of a global surveillance program called \"Nine Eyes\".",
+          "Outcome": "Bond destroys Blofeld's data center and Q prevents the Nine Eyes program from being activated.",
+          "Status": "Engages in a fight with M and falls to his death."
         }
       ]
     },
@@ -5105,6 +5454,13 @@
       "movie": "The Living Daylights",
       "title_en": "The Living Daylights",
       "title_de": "James Bond 007 – Der Hauch des Todes",
+      "year": "1987",
+      "bond_actor": "Timothy Dalton",
+      "director": "John Glen",
+      "producer": "Albert R. Broccoli & Michael G. Wilson",
+      "imdb_rating": "6.7",
+      "rotten_tomatoes_rating": "6.3",
+      "wikidata_id": "http://www.wikidata.org/entity/Q272064",
       "bond_girls": [
         {
           "name": "Kara Milovy",
@@ -5462,79 +5818,101 @@
       "vehicles": [
         {
           "name": "Aston Martin V8 Vantage Volante",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/ba/Vehicle_-_Aston_Martin_V8_Vantage_Volante.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/ba/Vehicle_-_Aston_Martin_V8_Vantage_Volante.png",
+          "sequence_in_movie": "a convertible, which was later \"winterised\" with a hardtop. Came with all the usual refinements including side skis, spiked tires, missiles, hubcap-mounted lasers, rocket propulsion and a self-destruct mechanism."
         },
         {
           "name": "Land Rover 88'' Series III",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/23/Vehicle_-_TLD_Jeep.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/23/Vehicle_-_TLD_Jeep.png",
+          "sequence_in_movie": "munitions truck used by the Imposter 00 to try escape Gibraltar."
         },
         {
           "name": "Audi 200 (C3)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/23/Vehicle_-_Audi_200.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/23/Vehicle_-_Audi_200.png",
+          "sequence_in_movie": "Austrian-registered 200 quattro Exclusiv C3 is used as a getaway car after General Koskov's defection at the start of the film. Later at Tangiers, Bond drives a 200 Avant quattro C3."
         },
         {
           "name": "Wales & Edwards Rangemaster",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5d/Vehicle_-_TLD87_MilkFloat.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5d/Vehicle_-_TLD87_MilkFloat.png",
+          "sequence_in_movie": "the milk float that is stolen by Necros in order to gain access to Blayden House."
         },
         {
           "name": "Lada 1500 / VAZ-2103 \"Zhiguli\"",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/86/Vehicle_-_Lada_TLD.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/86/Vehicle_-_Lada_TLD.png",
+          "sequence_in_movie": "used by the Czechoslovakian troops during the Aston Martin chase. <small>(These cars are actually Lada 1600/VAZ-2106 but with Lada 1500/VAZ-2103 bumpers and grilles)</small>"
         },
         {
           "name": "Chevrolet Impala",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f6/31b808_f4ff0de4bb61449b897401558e8edd53~mv2.webp"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f6/31b808_f4ff0de4bb61449b897401558e8edd53~mv2.webp",
+          "sequence_in_movie": "driven by the two female CIA agents in Tangiers. Bond tries to hitch a ride with them to evade the police, but ends up being taken to Felix Leiter's spy vessel."
         },
         {
           "name": "Tracma 1500",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/47/Vehicle_-_Tracma_1500.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/47/Vehicle_-_Tracma_1500.png",
+          "sequence_in_movie": "the ground conveyor that Bond uses in Afghanistan to jump over the fence."
         },
         {
           "name": "Land Rover 90",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_TLD87_LandRover90.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_TLD87_LandRover90.png",
+          "sequence_in_movie": "used by Kara to race inside the Hercules. Then, after they are forced to abandon the Hercules, Bond and Kara use this to parachute out of the aforementioned cargo plane. After landing, Bond decides to drive to Karachi."
         },
         {
           "name": "Dodge WC 51",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8c/Vehicle_-_Dodge_WC_51.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8c/Vehicle_-_Dodge_WC_51.png",
+          "sequence_in_movie": "Soviet Army vehicle that is used by both General Koskov and Necros to try chase down the Hercules."
         },
         {
           "name": "Panhard AML",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Vehicle_-_Panhard_AML_90.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Vehicle_-_Panhard_AML_90.png",
+          "sequence_in_movie": "two of them pursue Mujahadeen fighters across the bridge that ends up being destroyed by the Bomb thrown by Bond out of the Hercules."
         },
         {
           "name": "Bell UH-1 Iroquois",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/db/Vehicle_-_Medical_UH1.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/db/Vehicle_-_Medical_UH1.png",
+          "sequence_in_movie": "medical helicopter used by Koskov's collaborators to sprit him away from the Blayden House. <small>(The helicopter used in the movie is in-fact a UH-1 that was captured by the British during the Falklands War and then sold to private use.)</small>"
         },
         {
           "name": "Hawker Siddeley Harrier",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a3/Vehicle_-_Harrier.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a3/Vehicle_-_Harrier.png",
+          "sequence_in_movie": "this V/STOL aircraft is used to evacuate Koskov after his defection to the west."
         },
         {
           "name": "Lockheed C-130 Hercules",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Vehicle_-_C130_Hercules_TLD87_RAF.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Vehicle_-_C130_Hercules_TLD87_RAF.png",
+          "sequence_in_movie": "two different C-130 planes appear in the film. One is a RAF plane used by the 00 agents to parachute to Gibraltar. The second one is employed by Koskov/Whitaker's drug operation, which ends up being stolen by during the siege at the Soviet Airbase in Afghanistan. The second plane is doubled by Fairchild C-123 Provider in the scene where Bond and Necros fight each other while dangling on a web."
         },
         {
           "name": "Aero Commander 500",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f9/Vehicle_-_Aero_Commander_500.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f9/Vehicle_-_Aero_Commander_500.png",
+          "sequence_in_movie": "the aircraft that lands on the Soviet airbase just to crash at the WC 51 that Koskov is driving."
         },
         {
           "name": "Spectral Marine 2:20",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/67/Spectral_Marine_220.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/67/Spectral_Marine_220.png",
+          "sequence_in_movie": "CIA intelligence gathering vessel. Bond meets Felix Leiter aboard it."
         },
         {
           "name": "PIG Pod",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4a/PIG_-_Pipeline_Inspection_Gauge_%28The_Living_Daylights%29_National_Motor_Museum%2C_Beaulieu.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4a/PIG_-_Pipeline_Inspection_Gauge_%28The_Living_Daylights%29_National_Motor_Museum%2C_Beaulieu.jpg",
+          "sequence_in_movie": "used to initially to clean and check the natural gas pipeline from USSR to West Europe. It's converted here specially to smuggle a man out of the Eastern bloc, with Koskov being the first."
         }
       ],
       "villains": [
         {
           "name": "General Georgi Koskov",
           "actor": "Jeroen Krabbé",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg",
+          "Objective": "Fake a defection and trick MI6 into killing his rival, General Leonid Pushkin, to cover-up his weapon smuggling racket, which Pushkin was investigating.",
+          "Outcome": "Bond and Pushkin fake the latter's assassination and Bond destroys the shipment of opium that Koskov was going to use to buy weapons from Whitaker.",
+          "Status": "Arrested by Pushkin; implied to be executed by the Soviet government, off-screen."
         },
         {
           "name": "Brad Whitaker",
           "actor": "Joe Don Baker",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Brad_Whitaker_%28Joe_Don_Baker%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Brad_Whitaker_%28Joe_Don_Baker%29_-_Profile.png",
+          "Objective": "Engage in a triangle deal with Koskov and the Mujahadeen, where Whitaker will get valuable opium in exchange for high-tech weapons.",
+          "Outcome": "Bond destroys the shipment of opium, ruining the deal.",
+          "Status": "Bond activates a bomb disguised as a key chain, dropping a bust of the Duke of Wellington on Whitaker, crushing him."
         }
       ]
     },
@@ -5542,6 +5920,13 @@
       "movie": "The Man with the Golden Gun",
       "title_en": "The Man with the Golden Gun",
       "title_de": "James Bond 007 – Der Mann mit dem goldenen Colt",
+      "year": "1974",
+      "bond_actor": "Roger Moore",
+      "director": "Guy Hamilton",
+      "producer": "Harry Saltzman & Albert R. Broccoli",
+      "imdb_rating": "6.7",
+      "rotten_tomatoes_rating": "5.1",
+      "wikidata_id": "http://www.wikidata.org/entity/Q309289",
       "bond_girls": [
         {
           "name": "Mary Goodnight",
@@ -5694,47 +6079,61 @@
       "vehicles": [
         {
           "name": "AMC Hornet",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7d/Vehicle_-_AMC_Hornet.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7d/Vehicle_-_AMC_Hornet.png",
+          "sequence_in_movie": "Bond steals this car in Thailand, unknowing that Sheriff J.W. Pepper was in it looking to test drive it. It was used for the famous corkscrew jump, a computer-designed stunt that was captured in one take."
         },
         {
           "name": "AMC Matador Coupé",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_AMC_Matador.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_AMC_Matador.png",
+          "sequence_in_movie": "Francisco Scaramanga and Nick Nack use this car to kidnap Mary Goodnight and make their escape."
         },
         {
           "name": "Mercedes-Benz 220 D (W115)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Vehicle_-_Mercedes-Benz_220_D_%28W115%29.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Vehicle_-_Mercedes-Benz_220_D_%28W115%29.png",
+          "sequence_in_movie": "driven by Lt. Hip in Thailand."
         },
         {
           "name": "AMC Matador Sedan",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/88/Vehicle_-_AMC_Matador_Sedan_Thai_Police.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/88/Vehicle_-_AMC_Matador_Sedan_Thai_Police.png",
+          "sequence_in_movie": "driven by Thailand Police"
         },
         {
           "name": "Republic RC-3 Seabee",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8e/Vehicle_-_Republic_RC-3_Seabee.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8e/Vehicle_-_Republic_RC-3_Seabee.png",
+          "sequence_in_movie": "Used by Bond to reach ."
         },
         {
           "name": "Bangkok Boat",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/68/Bangkokboat.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/68/Bangkokboat.jpg",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Scaramanga's Junk",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/31/Vehicle_-_Scaramanga_Junk_Ship.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/31/Vehicle_-_Scaramanga_Junk_Ship.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "RMS Queen Elizabeth",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7e/Vehicle_-_RMS_Queen_Elizabeth.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7e/Vehicle_-_RMS_Queen_Elizabeth.png",
+          "sequence_in_movie": "No description available"
         }
       ],
       "villains": [
         {
           "name": "Francisco Scaramanga",
           "actor": "Christopher Lee",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b9/Francisco_Scaramanga_%28Christopher_Lee%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b9/Francisco_Scaramanga_%28Christopher_Lee%29_-_Profile.png",
+          "Objective": "Kill James Bond and sell the Solex Agitator, a device that can harness solar energy for destructive purposes.",
+          "Outcome": "Bond retrieves the Agitator for MI6 and defeats Scaramanga in mortal combat.",
+          "Status": "Shot in the chest by Bond during their duel."
         },
         {
           "name": "Nick Nack",
           "actor": "Hervé Villechaize",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Nick_Nack_%28Herv%C3%A9_Villechaize%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Nick_Nack_%28Herv%C3%A9_Villechaize%29_-_Profile.jpg",
+          "Objective": "Assist Francisco Scaramanga in his assassination missions and theft of the Solex Agitator, while occasionally hiring assassins to test Scaramanga's skills, as Nick Nack was sole heir to Scaramanga's estate.",
+          "Outcome": "Scaramanga was killed by Bond and the solar plant estate was destroyed, eliminating Nick Nack's inheritance.",
+          "Status": "Captured by Bond during a fight aboard Scaramanga's junk, locked in a suitcase, and placed in a wicker basket hanging from the boat's mast."
         }
       ]
     },
@@ -5742,6 +6141,13 @@
       "movie": "The Spy Who Loved Me",
       "title_en": "The Spy Who Loved Me",
       "title_de": "James Bond 007 – Der Spion, der mich liebte",
+      "year": "1977",
+      "bond_actor": "Roger Moore",
+      "director": "Lewis Gilbert",
+      "producer": "Albert R. Broccoli",
+      "imdb_rating": "7.1",
+      "rotten_tomatoes_rating": "6.8",
+      "wikidata_id": "http://www.wikidata.org/entity/Q320423",
       "bond_girls": [
         {
           "name": "Anya Amasova",
@@ -5989,75 +6395,96 @@
       "vehicles": [
         {
           "name": "Lotus Esprit S1 (1976)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/3f/Vehicle_-_Lotus_Esprit_S2.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/3f/Vehicle_-_Lotus_Esprit_S2.png",
+          "sequence_in_movie": "Including all of the usual Q refinements, this car was equipped with surface to air missiles. The main feature of the car however was the ability to transform into a submarine. Once transformed it could unleash depth charges and smoke screens. The car was nicknamed ''Wet Nellie'', a reference to the autogyro provided by Q for Bond's use in ''You Only Live Twice''."
         },
         {
           "name": "Ford Taunus Ghia",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5a/Vehicle_-_Ford_Taunus.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5a/Vehicle_-_Ford_Taunus.png",
+          "sequence_in_movie": "used by Stromberg's thugs (+ Jaws) to pursue Bond on a highway in . Bond sprays grease on the windshield where the car runs off the road."
         },
         {
           "name": "Leyland Sherpa 240",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7c/Vehicle_-_Leyland_Sherpa_240.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7c/Vehicle_-_Leyland_Sherpa_240.png",
+          "sequence_in_movie": "Van used by Jaws, who tricks Bond and Anya to sneak in the van, only for Jaws to take them to the pillars where he tries to kill them."
         },
         {
           "name": "Kawasaki Z900-A4",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d0/1976-kawasaki-z900-sidecar.jpeg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d0/1976-kawasaki-z900-sidecar.jpeg",
+          "sequence_in_movie": "used by the motorcycle assassin trying to kill Bond and Anya while they drive the Lotus Esprit on the roads of Sardinia."
         },
         {
           "name": "Westland WS-61 Sea King",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Bondwiki_Westland_WS-61_SeaKing.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Bondwiki_Westland_WS-61_SeaKing.jpg",
+          "sequence_in_movie": "Royal Navy helicopter that Bond travels in to arrive in the meeting with the British officials."
         },
         {
           "name": "Bell 206 JetRanger",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/65/Vehicle_-_Bell_206_JetRanger.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/65/Vehicle_-_Bell_206_JetRanger.png",
+          "sequence_in_movie": "an Bell 206 is owned by Karl Stromberg. When Bond begins investigating his affairs, chopper pilot  is dispatched to assassinate him from the air. A chase sequence across the Italian island of Sardinia ensues, culminating in Bond's  being driven off the end of a pier into the sea. Unaware of its sub-aquatic abilities, Naomi was eliminated by a surface to air missile launched by the car."
         },
         {
           "name": "Westland WS-58 Wessex",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "Royal Navy helicopter that brings Bond and Amasova to the USS Wayne."
         },
         {
           "name": "Wetbike",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Gadgets_-_TSWLM_-_Jetski.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Gadgets_-_TSWLM_-_Jetski.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Shark Hunter II Submersible",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/61/Stromberg_Shark_Hunter_II_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/61/Stromberg_Shark_Hunter_II_-_Profile.png",
+          "sequence_in_movie": "used by Stromberg's men to attack Bond's Lotus Esprit underwater."
         },
         {
           "name": "Intermarine Cigarette 37",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "driven by Naomi to sail Bond and Anya to Atlantis."
         },
         {
           "name": "HMS Ranger",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6b/HMS_Ranger_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6b/HMS_Ranger_-_Profile.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Potemkin",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "USS Wayne",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "HMS Fearless (L10)",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "appears at the end of the film to extract Bond and Anya's escape pod."
         },
         {
           "name": "Liparus",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_Liparus.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_Liparus.png",
+          "sequence_in_movie": "No description available"
         }
       ],
       "villains": [
         {
           "name": "Karl Stromberg",
           "actor": "Curd Jürgens",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/58/Karl-stromberg-portrait.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/58/Karl-stromberg-portrait.png",
+          "Objective": "Capture a British submarine and a Soviet submarine and use them to trick Britain and the USSR into starting a nuclear war. Once the world's population has been decimated, repopulate the Earth with a new society under his control formed in secret bases under the ocean.",
+          "Outcome": "Bond redirects the British and Soviet nuclear missiles' coordinates so that the missile fired by each sub hits the other, destroying them.",
+          "Status": "Shot repeatedly by Bond using his own dinner table booby trap."
         },
         {
           "name": "Jaws",
           "actor": "Richard Kiel",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png",
+          "Objective": "Assist Karl Stromberg in eliminating James Bond and Major Anya Amasova to protect Stromberg's plan to destroy humanity and rebuild civilization underwater.",
+          "Outcome": "Failed to kill Bond. Stromberg's plan was foiled and his underwater base Atlantis was destroyed.",
+          "Status": "Survived the destruction of Atlantis. Last seen swimming away in the ocean after defeating a shark."
         }
       ]
     },
@@ -6065,6 +6492,13 @@
       "movie": "The World Is Not Enough",
       "title_en": "The World Is Not Enough",
       "title_de": "James Bond 007 – Die Welt ist nicht genug",
+      "year": "1999",
+      "bond_actor": "Pierce Brosnan",
+      "director": "Michael Apted",
+      "producer": "Michael G. Wilson & Barbara Broccoli",
+      "imdb_rating": "6.3",
+      "rotten_tomatoes_rating": "5.7",
+      "wikidata_id": "http://www.wikidata.org/entity/Q212145",
       "bond_girls": [
         {
           "name": "Dr. Christmas Jones",
@@ -6292,59 +6726,76 @@
       "vehicles": [
         {
           "name": "BMW Z8",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_BMW_Z8.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_BMW_Z8.png",
+          "sequence_in_movie": "Loaded with several Q refinements including ground to air missiles, a key chain that can control the car remotely, and as R proudly points out, cup holders. For films, this is the first car Bond is given by Q-branch where the steering wheel is on the left side."
         },
         {
           "name": "Lada Niva (VAZ-2121)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/3d/None-listed-lada-niva-4x4.jpeg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/3d/None-listed-lada-niva-4x4.jpeg",
+          "sequence_in_movie": "used by Davidov to drive to the airfield to meet Renard's men."
         },
         {
           "name": "Rolls-Royce Silver Shadow II",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Shadow_II.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Shadow_II.png",
+          "sequence_in_movie": "Valentin Zukovsky's personal car, which ends up in the Caspian Sea after the catwalk was severed."
         },
         {
           "name": "Eurocopter AS355",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1c/The_World_Is_Not_Enough_-_Eurocopter_AS-355-F1_%26_BMW_Z8_Miniature.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1c/The_World_Is_Not_Enough_-_Eurocopter_AS-355-F1_%26_BMW_Z8_Miniature.jpg",
+          "sequence_in_movie": "used by King Industries as aerial saws."
         },
         {
           "name": "Eurocopter AS365 Dauphin",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Vehicle_-_AS365_Dauphin.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Vehicle_-_AS365_Dauphin.png",
+          "sequence_in_movie": "Elektra's private copter. Used by her and Bond to travel to ski at the Caucasus Mountains."
         },
         {
           "name": "Parahawk",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_Parahawk.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_Parahawk.png",
+          "sequence_in_movie": "Several are sent to kill Bond as part of a scheme devised by Electra King and Renard."
         },
         {
           "name": "CASA C-212CB Aviocar",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/97/Vehicle_-_CASA_c212_Aviocar.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/97/Vehicle_-_CASA_c212_Aviocar.png",
+          "sequence_in_movie": "\"Russian plane\" used by Renard's men. It first appears when Trukhin, Bond and other men fly to Kazakhstan. After Renard and co. have stolen the warhead from the Test Site, Bond and Dr. Jones see the plane flying away."
         },
         {
           "name": "Q-Boat",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Q_Boat.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Q_Boat.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Sunseeker Superhawk 34",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/97/Vehicle_-_Sunseeker_Superhawk_34.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/97/Vehicle_-_Sunseeker_Superhawk_34.png",
+          "sequence_in_movie": "the sportsboat used by the \"Cigar Girl\" to flee Bond after the MI6 headquarters is exploded. She crashes it by the Millennium Dome."
         },
         {
           "name": "Seven Heaven",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Princess_40.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Princess_40.png",
+          "sequence_in_movie": "used by Renard/Elektra's men to travel from coast to the Maiden's Tower."
         },
         {
           "name": "Victor-III Class Submarine",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/TWINE_-_Victor-III_submarine_crashes.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/TWINE_-_Victor-III_submarine_crashes.png",
+          "sequence_in_movie": "No description available"
         }
       ],
       "villains": [
         {
           "name": "Elektra King",
           "actor": "Sophie Marceau",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Elektra_King_%28Sophie_Marceau%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Elektra_King_%28Sophie_Marceau%29_-_Profile.jpg",
+          "Objective": "Gain a monopoly on crude oil in Europe by setting off a nuclear explosion in Istanbul, rendering the Bosporus Strait impassable to tankers carrying oil from competing pipelines. Also murder M in retaliation for ordering her father Sir Robert King to not pay the ransom after her kidnapping.",
+          "Outcome": "Bond kills her and then stops the detonation of the submarine.",
+          "Status": "Shot in the chest by Bond after she refused to order Renard to surrender."
         },
         {
           "name": "Victor 'Renard' Zokas",
           "actor": "Robert Carlyle",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Profile_-_Renard.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Profile_-_Renard.png",
+          "Objective": "Detonate a nuclear submarine in the waters of Istanbul to serve Elektra's plan.",
+          "Outcome": "Bond kills him before he can overload the submarine's reactor.",
+          "Status": "Impaled by a plutonium rod, shot out of the sub's reactor core at high speed, by Bond."
         }
       ]
     },
@@ -6352,6 +6803,13 @@
       "movie": "Thunderball",
       "title_en": "Thunderball",
       "title_de": "James Bond 007 – Feuerball",
+      "year": "1965",
+      "bond_actor": "Sean Connery",
+      "director": "Terence Young",
+      "producer": "Richard Maibaum & John Hopkins",
+      "imdb_rating": "7.0",
+      "rotten_tomatoes_rating": "6.8",
+      "wikidata_id": "http://www.wikidata.org/entity/Q107724",
       "bond_girls": [
         {
           "name": "Domino Derval",
@@ -6514,79 +6972,101 @@
       "vehicles": [
         {
           "name": "Aston Martin DB5",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Aston_Martin_DB5.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Aston_Martin_DB5.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Ford Fairlane 500 Skyliner (Retractable Hardtop model)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/90/Vehicle_-_Ford_Fairlane_500_Thunderball.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/90/Vehicle_-_Ford_Fairlane_500_Thunderball.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Ford Mustang Convertible",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/63/Vehicle_-_1965_Ford_Mustang.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/63/Vehicle_-_1965_Ford_Mustang.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "BSA Lightning A65L",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_BSA_Lightning_-A65L-.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_BSA_Lightning_-A65L-.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Bell-Textron Jet Pack",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/15/Rocket_Belt.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/15/Rocket_Belt.png",
+          "sequence_in_movie": "used by Bond to escape the henchmen after having eliminated Jacques Bouvar."
         },
         {
           "name": "Avro Vulcan",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/00/Vehicle_-_Avro_Vulcan_Bomber.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/00/Vehicle_-_Avro_Vulcan_Bomber.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Boeing B-17 Flying Fortress",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Boeing C-97 Stratofreighter",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Bell 47J Ranger",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/dd/Vehicle_-_Bell_47J_Ranger.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/dd/Vehicle_-_Bell_47J_Ranger.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Underwater Attack Sledge",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/55/Vehicle_-_Attack_Sledge.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/55/Vehicle_-_Attack_Sledge.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Underwater Bomb Sledge",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/ff/Unknown_-_Bomb_Sledge.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/ff/Unknown_-_Bomb_Sledge.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Buehler Turbocraft",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Vehicle_-_Buehler_Turbocraft.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Vehicle_-_Buehler_Turbocraft.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Evinrude Sport-16",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Evinrude_Sport-16.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Evinrude_Sport-16.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Evinrude Playmate",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Disco Volante",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/83/Vehicle_-_Disco_Volante.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/83/Vehicle_-_Disco_Volante.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "HMS Rothesay",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/55/Vehicle_-_HMS_Rothesay.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/55/Vehicle_-_HMS_Rothesay.png",
+          "sequence_in_movie": "No description available"
         }
       ],
       "villains": [
         {
           "name": "Emilio Largo",
           "actor": "Adolfo Celi",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/78/Emilio_Largo_%28Adolfo_Celi%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/78/Emilio_Largo_%28Adolfo_Celi%29_-_Profile.jpg",
+          "Objective": "Steal two atomic bombs and use them to extort money from various world governments.",
+          "Outcome": "The bombs are recovered and safely destroyed by Bond and the U.S. Coast Guard.",
+          "Status": "Shot in the back with a harpoon by his mistress, Domino Derval."
         },
         {
           "name": "Ernst Stavro Blofeld",
           "actor": "Anthony Dawson (body), Eric Pohlmann (voice)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg",
+          "Objective": "Steal two atomic bombs and use them to extort money from various world governments.",
+          "Outcome": "The bombs are recovered and safely destroyed by Bond and the U.S. Coast Guard.",
+          "Status": "Survives (no contact between him and Bond)."
         }
       ]
     },
@@ -6594,6 +7074,13 @@
       "movie": "Tomorrow Never Dies",
       "title_en": "Tomorrow Never Dies",
       "title_de": "James Bond 007 – Der Morgen stirbt nie",
+      "year": "1997",
+      "bond_actor": "Pierce Brosnan",
+      "director": "Roger Spottiswoode",
+      "producer": "Michael G. Wilson & Barbara Broccoli",
+      "imdb_rating": "6.4",
+      "rotten_tomatoes_rating": "6.0",
+      "wikidata_id": "http://www.wikidata.org/entity/Q207916",
       "bond_girls": [
         {
           "name": "Wai Lin",
@@ -6986,70 +7473,88 @@
       "vehicles": [
         {
           "name": "Aston Martin DB5",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Aston_Martin_DB5.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Aston_Martin_DB5.png",
+          "sequence_in_movie": "Bond's legendary DB5 makes a couple camoes early in the film. First seen at the Oxford university and Bond subsequently uses it to drive to the Ministry of Defence headquarters."
         },
         {
           "name": "BMW 750iL",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1e/Vehicle_-_BMW_750iL.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1e/Vehicle_-_BMW_750iL.png",
+          "sequence_in_movie": "used in , the car has a security system disallowing access without first being disarmed via the mobile telephone; the glove box security system is fingerprint-controlled. Armament includes sunroof rockets, deployable caltrops (out of the rear bumper), re-inflatable tyres, and a wire-cutter hidden under the BMW logo on the hood. The car may be remotely operated via Bond's mobile phone. The vehicle itself is actually a 740i model re-badged as a 750."
         },
         {
           "name": "Daimler Limousine",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1f/Tnd_daimler1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1f/Tnd_daimler1.jpg",
+          "sequence_in_movie": "the car that passages M, Bond and Moneypenny at streets of London."
         },
         {
           "name": "Ford Scorpio",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a7/Tnd_scorpio1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a7/Tnd_scorpio1.jpg",
+          "sequence_in_movie": "one of the cars used by Carver's henchmen at the Hamburg multistorey car park sequence. Gets exploded by the LAW-80 rocket launcher."
         },
         {
           "name": "Mercedes-Benz S-Klasse (W126)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Mercedes-Benz_S-Klasse_%28W126%29.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Mercedes-Benz_S-Klasse_%28W126%29.png",
+          "sequence_in_movie": "one of the cars used by Carver's henchmen at the Hamburg multistorey car park sequence."
         },
         {
           "name": "Opel Senator",
-          "image_url": ""
+          "image_url": "",
+          "sequence_in_movie": "one of the cars used by Carver's henchmen at the Hamburg multistorey car park sequence."
         },
         {
           "name": "Land Rover Range Rover",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b4/Bondwiki_TND_RangeRoverSII_cropped.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b4/Bondwiki_TND_RangeRoverSII_cropped.jpg",
+          "sequence_in_movie": "used by Carver's men to chase Bond and Wai Lin in Saigon."
         },
         {
           "name": "BMW R1200C",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d1/Vehicle_-_BMW_R1200.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d1/Vehicle_-_BMW_R1200.png",
+          "sequence_in_movie": "stolen in Saigon, the BMW R1200 motorcycle was used in a chase sequence through the city and was ridden by both James Bond and  of the ."
         },
         {
           "name": "Aero L-39 Albatros",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Albatros.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Albatros.png",
+          "sequence_in_movie": "light attack jet at the arms bazaar that's carrying two Soviet SB-5 nuclear torpedoes. Bond hijacks it to get it out of the terrorist hands and prevent the incoming Royal Navy cruise missile from exploding the L-39's nuclear payload."
         },
         {
           "name": "Fairchild C-123 Provider",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/87/Vehicle_-_C123_Provider.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/87/Vehicle_-_C123_Provider.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "Eurocopter AS355",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Eurocopter_AS355.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Eurocopter_AS355.png",
+          "sequence_in_movie": "used by Carver's men to extract Bond and Wai Lin from the site of the sunken Devonshire. Later used by them to chase Bond and Wai Lin escaping through Saigon."
         },
         {
           "name": "Stealth Ship",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/99/Vehicle_-_Stealth_Ship.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/99/Vehicle_-_Stealth_Ship.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "HMS Chester",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/35/Vehicle_-_HMS_Chester.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/35/Vehicle_-_HMS_Chester.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "HMS Devonshire",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Vehicle_-_HMS_Devonshire.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Vehicle_-_HMS_Devonshire.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "HMS Bedford",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/af/HMS_Bedford_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/af/HMS_Bedford_-_Profile.png",
+          "sequence_in_movie": "No description available"
         }
       ],
       "villains": [
         {
           "name": "Elliot Carver",
           "actor": "Jonathan Pryce",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/45/Elliot_Carver_%28Jonathan_Pryce%29_-_Profile.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/45/Elliot_Carver_%28Jonathan_Pryce%29_-_Profile.jpg",
+          "Objective": "Cause a war between the UK and China by firing a cruise missile from a sunken British warship towards Beijing, both so he can arrange a broadcasting deal with a new Chinese government and so that his media empire will have more news to cover.",
+          "Outcome": "Bond destroys Carver's stealth boat in a massive explosion, destroying the missile before it can launch.",
+          "Status": "Bond incapacitates Carver and leaves him in the path of his own Sea-Vac drill, which shreds him to pieces."
         }
       ]
     },
@@ -7057,6 +7562,13 @@
       "movie": "You Only Live Twice",
       "title_en": "You Only Live Twice",
       "title_de": "James Bond 007 – Man lebt nur zweimal",
+      "year": "1967",
+      "bond_actor": "Sean Connery",
+      "director": "Lewis Gilbert",
+      "producer": "Harry Saltzman & Albert R. Broccoli",
+      "imdb_rating": "6.9",
+      "rotten_tomatoes_rating": "6.3",
+      "wikidata_id": "http://www.wikidata.org/entity/Q107761",
       "bond_girls": [
         {
           "name": "Kissy Suzuki",
@@ -7269,66 +7781,83 @@
       "vehicles": [
         {
           "name": "Toyota 2000GT convertible",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2c/Vehicle_-_Toyota_2000GT.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2c/Vehicle_-_Toyota_2000GT.png",
+          "sequence_in_movie": "owned by Aki. <small>(Two prototype convertibles were built especially for the film; no others were made. One 2000GT convertible was located in South Africa awaiting restoration into the Cars for the Stars museum.)</small>"
         },
         {
           "name": "Toyopet Crown Deluxe",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Vehicle_-_Toyota_Crown_Deluxe.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Vehicle_-_Toyota_Crown_Deluxe.png",
+          "sequence_in_movie": "used by gunmen who chase Bond and Aki's 2000GT. It gets grabbed by the KV-107's magnet and dropped in the sea."
         },
         {
           "name": "Dodge Polara",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2a/Polara1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/2/2a/Polara1.jpg",
+          "sequence_in_movie": "used by the Japanese assassins who kill Dikko Henderson."
         },
         {
           "name": "Little Nellie",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/31/Vehicle_-_Little_Nellie.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/31/Vehicle_-_Little_Nellie.png",
+          "sequence_in_movie": "heavily armed gyrocopter that could be transported in several cases and quickly assembled in the field."
         },
         {
           "name": "Kawasaki KV-107",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/95/Vehicle_-_Kawasaki_KV-107.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/95/Vehicle_-_Kawasaki_KV-107.png",
+          "sequence_in_movie": "A vehicle pursuing Bond and Aki is dispatched by the use of this Japanese variant of the Boeing-Vertol Sea Knight and a large magnet suspended from the helicopter."
         },
         {
           "name": "Kawasaki-Bell 47G-3",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7a/Vehicle_-_Kawasaki-Bell_47G-3.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7a/Vehicle_-_Kawasaki-Bell_47G-3.png",
+          "sequence_in_movie": "Operated by SPECTRE, these helicopters attack Bond flying the Little Nellie to scout where the Ning-Po ship had unloaded its cargo."
         },
         {
           "name": "Aero Commander 200",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Aerocommander1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/89/Aerocommander1.jpg",
+          "sequence_in_movie": "used by Helga Brandt, it is later used by her to trap Bond and crash the plane to kill him."
         },
         {
           "name": "Ning-Po",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a7/Vehicle_-_NingPo.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a7/Vehicle_-_NingPo.png",
+          "sequence_in_movie": "No description available"
         },
         {
           "name": "HMS Tenby",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fc/Tenby1.jpg"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/fc/Tenby1.jpg",
+          "sequence_in_movie": "Bond's fake military funeral is held aboard this ship."
         },
         {
           "name": "HMS Aeneas (P427)",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/48/Vehicle_-_HMS_Aeneas_P427_YOLT.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/48/Vehicle_-_HMS_Aeneas_P427_YOLT.png",
+          "sequence_in_movie": "the submarine that picks up Bond after the fake funeral. At the end of the film, it surfaces right on the spot where Bond's and Kissy's raft is."
         },
         {
           "name": "Jupiter 16",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ed/Vehicle_-_Jupiter_16.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ed/Vehicle_-_Jupiter_16.png",
+          "sequence_in_movie": "the American space capsule captured by Bird 1."
         },
         {
           "name": "Vostok 16",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_Vostok_16.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_Vostok_16.png",
+          "sequence_in_movie": "the Soviet space capsule captured by Bird 1."
         },
         {
           "name": "Jupiter 17",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0d/Vehicle_-_Jupiter_17.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0d/Vehicle_-_Jupiter_17.png",
+          "sequence_in_movie": "the second American space capsule. Bond destructs the Bird 1 before its able to snatch it."
         },
         {
           "name": "Bird 1",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Bird_One.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Bird_One.png",
+          "sequence_in_movie": "built by , the Bird One spacecraft was designed to kidnap American and Soviet orbital vehicles, engulfing the target craft and returning it to SPECTRE's hidden launch site in Japan."
         }
       ],
       "villains": [
         {
           "name": "Ernst Stavro Blofeld",
           "actor": "Donald Pleasence",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Blofeld_%28You_Only_Live_Twice%29_-_Profile.png"
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Blofeld_%28You_Only_Live_Twice%29_-_Profile.png",
+          "Objective": "Trigger a war between the United States and Soviet Union, on the behalf of China, by capturing their space capsules midflight.",
+          "Outcome": "Bond uses a self-destruct button in Blofeld's lair to destroy the Bird One spacecraft.",
+          "Status": "Survives, although wounded."
         }
       ]
     }

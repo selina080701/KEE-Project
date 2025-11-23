@@ -10,6 +10,7 @@ This script merges all extracted knowledge data from CSV into a single JSON file
 The 25 James Bond movies are organized as the top-level root nodes.
 
 CSV files processed:
+- jamesbond_with_id.csv
 - bond_girls_with_images.csv
 - all_movie_characters_with_image.csv
 - all_movies_geocoded.csv
@@ -52,80 +53,73 @@ def merge_csvs_to_json(output_file):
     # Dictionary to organize data by movie
     movies_dict = {}
 
+    # ---- 1. Read movie metadata from jamesbond_with_id.csv ----
+    movie_metadata_path = base_dir / "data/jamesbond_with_id.csv"
+    movie_metadata = read_csv_with_semicolon(movie_metadata_path)
 
-    # ---- 1. Read bond girls ----
+    for movie_info in movie_metadata:
+        movie = movie_info['Movie']
+        movies_dict[movie] = {
+            "title_en": movie,
+            "title_de": "",
+            "year": movie_info['Year'],
+            "bond_actor": movie_info['Bond'],
+            "director": movie_info['Director'],
+            "producer": movie_info['Producer'],
+            "imdb_rating": movie_info['Avg_User_IMDB'],
+            "rotten_tomatoes_rating": movie_info['Avg_User_Rtn_Tom'],
+            "wikidata_id": movie_info['wikidata_id'],
+            "bond_girls": [],
+            "characters": [],
+            "locations": [],
+            "songs": [],
+            "vehicles": [],
+            "villains": []
+        }
+
+    # ---- 2. Read bond girls ----
     bond_girls_path = base_dir / "extract_knowledge/bond_girls/bond_girls_with_images.csv"
     bond_girls = read_csv_with_semicolon(bond_girls_path)
 
     for girl in bond_girls:
         movie = girl['movie']
-        if movie not in movies_dict:
-            movies_dict[movie] = {
-                "title_en": movie,
-                "title_de": "",
-                "bond_girls": [],
-                "characters": [],
-                "locations": [],
-                "songs": [],
-                "vehicles": [],
-                "villains": []
-            }
-        movies_dict[movie]['bond_girls'].append({
-            "name": girl['bond_girl'],
-            "actress": girl['actress'],
-            "image_url": girl.get('image_url', '')
-        })
+        if movie in movies_dict:
+            movies_dict[movie]['bond_girls'].append({
+                "name": girl['bond_girl'],
+                "actress": girl['actress'],
+                "image_url": girl.get('image_url', '')
+            })
 
 
-    # ---- 2. Read all movie characters ----
+    # ---- 3. Read all movie characters ----
     characters_path = base_dir / "extract_knowledge/characters/all_movie_characters_with_image.csv"
     characters = read_csv_with_semicolon(characters_path)
 
     for char in characters:
         movie = char['movie']
-        if movie not in movies_dict:
-            movies_dict[movie] = {
-                "title_en": movie,
-                "title_de": "",
-                "bond_girls": [],
-                "characters": [],
-                "locations": [],
-                "songs": [],
-                "vehicles": [],
-                "villains": []
-            }
-        movies_dict[movie]['characters'].append({
-            "name": char['character'],
-            "actor": char['actor'],
-            "image_url": char.get('image_url', '')
-        })
+        if movie in movies_dict:
+            movies_dict[movie]['characters'].append({
+                "name": char['character'],
+                "actor": char['actor'],
+                "image_url": char.get('image_url', '')
+            })
 
 
-    # ---- 3. Read geocoded locations (comma-separated) ----
+    # ---- 4. Read geocoded locations (comma-separated) ----
     locations_path = base_dir / "extract_knowledge/geocoded_locations/all_movies_geocoded.csv"
     locations = read_csv_with_comma(locations_path)
 
     for loc in locations:
         movie = loc['movie']
-        if movie not in movies_dict:
-            movies_dict[movie] = {
-                "title_en": movie,
-                "title_de": "",
-                "bond_girls": [],
-                "characters": [],
-                "locations": [],
-                "songs": [],
-                "vehicles": [],
-                "villains": []
-            }
-        movies_dict[movie]['locations'].append({
-            "name": loc['name'],
-            "latitude": loc.get('lat', ''),
-            "longitude": loc.get('lon', '')
-        })
+        if movie in movies_dict:
+            movies_dict[movie]['locations'].append({
+                "name": loc['name'],
+                "latitude": loc.get('lat', ''),
+                "longitude": loc.get('lon', '')
+            })
 
 
-    # ---- 4. Read German titles (comma-separated) ----
+    # ---- 5. Read German titles (comma-separated) ----
     titles_path = base_dir / "extract_knowledge/movie_title_german/movie_title_en_de.csv"
     titles = read_csv_with_comma(titles_path)
 
@@ -139,76 +133,49 @@ def merge_csvs_to_json(output_file):
             movies_dict[movie]['title_de'] = title_dict[movie]
 
 
-    # ---- 5. Read songs ----
+    # ---- 6. Read songs ----
     songs_path = base_dir / "extract_knowledge/songs/all_movie_songs.csv"
     songs = read_csv_with_semicolon(songs_path)
 
     for song in songs:
         movie = song['movie']
-        if movie not in movies_dict:
-            movies_dict[movie] = {
-                "title_en": movie,
-                "title_de": "",
-                "bond_girls": [],
-                "characters": [],
-                "locations": [],
-                "songs": [],
-                "vehicles": [],
-                "villains": []
-            }
-        movies_dict[movie]['songs'].append({
-            "title": song['song'],
-            "performer": song['performer'],
-            "composer": song.get('composer', ''),
-            "youtube_link": song.get('youtube_link', '')
-        })
+        if movie in movies_dict:
+            movies_dict[movie]['songs'].append({
+                "title": song['song'],
+                "performer": song['performer'],
+                "composer": song.get('composer', ''),
+                "youtube_link": song.get('youtube_link', '')
+            })
 
 
-    # ---- 6. Read vehicles ----
+    # ---- 7. Read vehicles ----
     vehicles_path = base_dir / "extract_knowledge/vehicles/all_movie_vehicles_with_image.csv"
     vehicles = read_csv_with_semicolon(vehicles_path)
 
     for vehicle in vehicles:
         movie = vehicle['movie']
-        if movie not in movies_dict:
-            movies_dict[movie] = {
-                "title_en": movie,
-                "title_de": "",
-                "bond_girls": [],
-                "characters": [],
-                "locations": [],
-                "songs": [],
-                "vehicles": [],
-                "villains": []
-            }
-        movies_dict[movie]['vehicles'].append({
-            "name": vehicle['vehicle'],
-            "image_url": vehicle.get('image_url', '')
-        })
+        if movie in movies_dict:
+            movies_dict[movie]['vehicles'].append({
+                "name": vehicle['vehicle'],
+                "image_url": vehicle.get('image_url', ''),
+                "sequence_in_movie": vehicle.get('sequence', '')
+            })
 
-    # ---- 7. Read villains ----
+    # ---- 8. Read villains ----
     villains_path = base_dir / "extract_knowledge/villains/villains_with_images.csv"
     villains = read_csv_with_semicolon(villains_path)
 
     for villain in villains:
         movie = villain['Film']
-        if movie not in movies_dict:
-            movies_dict[movie] = {
-                "title_en": movie,
-                "title_de": "",
-                "bond_girls": [],
-                "characters": [],
-                "locations": [],
-                "songs": [],
-                "vehicles": [],
-                "villains": []
-            }
-        movies_dict[movie]['villains'].append({
-            "name": villain['Villain'],
-            "actor": villain['Portrayed by'],
-            "image_url": villain.get('image_url', ''),
-        })
-
+        if movie in movies_dict:
+            movies_dict[movie]['villains'].append({
+                "name": villain['Villain'],
+                "actor": villain['Portrayed by'],
+                "image_url": villain.get('image_url', ''),
+                "Objective": villain.get('Objective', ''),
+                "Outcome": villain.get('Outcome', ''),
+                "Status": villain.get('Status', '')
+            })
 
     # Convert dictionary to list
     knowledge_data['movies'] = [
