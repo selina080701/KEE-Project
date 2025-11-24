@@ -62,6 +62,13 @@ def show_rdf_page():
                 if movie[3] in selected_movies:
                     selected_movie_uris.append(movie[0])
 
+
+    # Add Ontology Picture as reference    
+    with st.expander("Show James Bond Ontology Diagram"):
+        st.image("ontologies/ontologie-james-bond_V2.png",
+                 width="stretch",
+                 caption="Reference Model for the James Bond Knowledge Graph (own creation)")
+
     # Separate Bond actor info checkbox
     st.write("---")
     show_bond_info = st.checkbox('Display Bond actor information (separate graph)', value=False)
@@ -134,23 +141,35 @@ def show_rdf_page():
                                 node_list.append(v)
                                 villains_in_movie.add(v.id)
 
-                # Get all characters in this movie (bond girls and villains)
-                all_characters_in_movie = bondgirls_in_movie | villains_in_movie
+                # Get other characters in this movie using hasCharacter edges
+                other_characters_in_movie = set()
+                for edge in graph_data["character_edges"]:
+                    if edge.source == movie_uri:
+                        # Only add if it's not a bond girl or villain (they have their own specific edges)
+                        if edge.to not in bondgirls_in_movie and edge.to not in villains_in_movie:
+                            edges.append(edge)  # Add the hasCharacter edge
+                            for c in graph_data["characters"]:
+                                if c.id == edge.to:
+                                    node_list.append(c)
+                                    other_characters_in_movie.add(c.id)
 
-                # Get actors using Casting instances (movie-specific character-actor relationships)
-                for casting in graph_data["castings"]:
-                    if casting['film'] == movie_uri and casting['character'] in all_characters_in_movie:
-                        # Add actor
+                # Get all characters in this movie (bond girls, villains, and other characters)
+                all_characters_in_movie = bondgirls_in_movie | villains_in_movie | other_characters_in_movie
+
+                # Get actors who acted in this movie
+                actors_in_movie = set()
+                for edge in graph_data["acted_in_edges"]:
+                    if edge.to == movie_uri:
+                        actors_in_movie.add(edge.source)
                         for actor in graph_data["actors"]:
-                            if actor.id == casting['actor']:
+                            if actor.id == edge.source:
                                 node_list.append(actor)
                                 break
 
-                        # Add portrayedBy edge from character to actor
-                        for edge in graph_data["portrayed_edges"]:
-                            if edge.source == casting['character'] and edge.to == casting['actor']:
-                                edges.append(edge)
-                                break
+                # Add portrayedBy edges for characters in this movie
+                for edge in graph_data["portrayed_edges"]:
+                    if edge.source in all_characters_in_movie and edge.to in actors_in_movie:
+                        edges.append(edge)
 
                 # Get theme song for this movie
                 for edge in graph_data["song_edges"]:
@@ -173,17 +192,36 @@ def show_rdf_page():
             node_list += graph_data["directors"]
             node_list += graph_data["producers"]
             node_list += graph_data["bondgirls"]
+            node_list += graph_data["villains"]
+            node_list += graph_data["characters"]  # Other characters (Q, M, James Bond, etc.)
             node_list += graph_data["songs"]
             node_list += graph_data["music_contributors"]
-            node_list += graph_data["villains"]
+
+            # Add only actors who portray characters (bondgirls, villains, or other characters)
+            all_character_ids = set()
+            all_character_ids.update(bg.id for bg in graph_data["bondgirls"])
+            all_character_ids.update(v.id for v in graph_data["villains"])
+            all_character_ids.update(c.id for c in graph_data["characters"])
+
+            character_actor_ids = set()
+            for edge in graph_data["portrayed_edges"]:
+                if edge.source in all_character_ids:
+                    character_actor_ids.add(edge.to)
+
+            # Add those specific actors
+            for actor in graph_data["actors"]:
+                if actor.id in character_actor_ids:
+                    node_list.append(actor)
 
             edges += graph_data["movie_attribute_edges"]
             edges += graph_data["director_edges"]
             edges += graph_data["producer_edges"]
             edges += graph_data["bondgirl_edges"]
             edges += graph_data["villain_edges"]
+            edges += graph_data["character_edges"]  # Movie -> other characters
             edges += graph_data["song_edges"]
             edges += graph_data["performer_edges"]
+            edges += [e for e in graph_data["portrayed_edges"] if e.source in all_character_ids]  # Character -> Actor
 
     elif view_option == "Bond girls":
         # View 2: Bond Girls - movies, bond girls, and actresses (actors who portray them)
@@ -205,19 +243,20 @@ def show_rdf_page():
                                 node_list.append(bg)
                                 bondgirls_in_movie.add(bg.id)
 
-                # Get actors using Casting instances (movie-specific character-actor relationships)
-                for casting in graph_data["castings"]:
-                    if casting['film'] == movie_uri and casting['character'] in bondgirls_in_movie:
-                        # Add actor
-                        for actor in graph_data["actors"]:
-                            if actor.id == casting['actor']:
-                                node_list.append(actor)
-                                break
+                # Get actors who acted in this movie
+                actors_in_movie = set()
+                for edge in graph_data["acted_in_edges"]:
+                    if edge.to == movie_uri:
+                        actors_in_movie.add(edge.source)
 
-                        # Add portrayedBy edge from character to actor
-                        for edge in graph_data["portrayed_edges"]:
-                            if edge.source == casting['character'] and edge.to == casting['actor']:
-                                edges.append(edge)
+                # Add portrayedBy edges for bond girls and their actors
+                for edge in graph_data["portrayed_edges"]:
+                    if edge.source in bondgirls_in_movie and edge.to in actors_in_movie:
+                        edges.append(edge)
+                        # Add the actor node
+                        for actor in graph_data["actors"]:
+                            if actor.id == edge.to:
+                                node_list.append(actor)
                                 break
         else:
             # Show all
@@ -262,19 +301,20 @@ def show_rdf_page():
                                 node_list.append(v)
                                 villains_in_movie.add(v.id)
 
-                # Get actors using Casting instances (movie-specific character-actor relationships)
-                for casting in graph_data["castings"]:
-                    if casting['film'] == movie_uri and casting['character'] in villains_in_movie:
-                        # Add actor
-                        for actor in graph_data["actors"]:
-                            if actor.id == casting['actor']:
-                                node_list.append(actor)
-                                break
+                # Get actors who acted in this movie
+                actors_in_movie = set()
+                for edge in graph_data["acted_in_edges"]:
+                    if edge.to == movie_uri:
+                        actors_in_movie.add(edge.source)
 
-                        # Add portrayedBy edge from character to actor
-                        for edge in graph_data["portrayed_edges"]:
-                            if edge.source == casting['character'] and edge.to == casting['actor']:
-                                edges.append(edge)
+                # Add portrayedBy edges for villains and their actors
+                for edge in graph_data["portrayed_edges"]:
+                    if edge.source in villains_in_movie and edge.to in actors_in_movie:
+                        edges.append(edge)
+                        # Add the actor node
+                        for actor in graph_data["actors"]:
+                            if actor.id == edge.to:
+                                node_list.append(actor)
                                 break
         else:
             # Show all
@@ -331,34 +371,35 @@ def show_rdf_page():
                                 node_list.append(v)
                                 villains_in_movie.add(v.id)
 
-                # Get other characters in this movie using appearsIn edges
+                # Get other characters in this movie using hasCharacter edges
                 other_characters_in_movie = set()
-                for edge in graph_data["appears_in_edges"]:
-                    if edge.to == movie_uri:
-                        # Only add if it's not a bond girl or villain
-                        if edge.source not in bondgirls_in_movie and edge.source not in villains_in_movie:
+                for edge in graph_data["character_edges"]:
+                    if edge.source == movie_uri:
+                        # Only add if it's not a bond girl or villain (they have their own specific edges)
+                        if edge.to not in bondgirls_in_movie and edge.to not in villains_in_movie:
+                            edges.append(edge)  # Add the hasCharacter edge
                             for c in graph_data["characters"]:
-                                if c.id == edge.source:
+                                if c.id == edge.to:
                                     node_list.append(c)
                                     other_characters_in_movie.add(c.id)
-                                    edges.append(edge)
 
                 # Get all characters in this movie
                 all_characters_in_movie = bondgirls_in_movie | villains_in_movie | other_characters_in_movie
 
-                # Get actors using Casting instances (movie-specific character-actor relationships)
-                for casting in graph_data["castings"]:
-                    if casting['film'] == movie_uri and casting['character'] in all_characters_in_movie:
-                        # Add actor
-                        for actor in graph_data["actors"]:
-                            if actor.id == casting['actor']:
-                                node_list.append(actor)
-                                break
+                # Get actors who acted in this movie
+                actors_in_movie = set()
+                for edge in graph_data["acted_in_edges"]:
+                    if edge.to == movie_uri:
+                        actors_in_movie.add(edge.source)
 
-                        # Add portrayedBy edge from character to actor
-                        for edge in graph_data["portrayed_edges"]:
-                            if edge.source == casting['character'] and edge.to == casting['actor']:
-                                edges.append(edge)
+                # Add actors and portrayedBy edges for all characters
+                for edge in graph_data["portrayed_edges"]:
+                    if edge.source in all_characters_in_movie and edge.to in actors_in_movie:
+                        edges.append(edge)
+                        # Add the actor node
+                        for actor in graph_data["actors"]:
+                            if actor.id == edge.to:
+                                node_list.append(actor)
                                 break
 
         else:
@@ -385,8 +426,10 @@ def show_rdf_page():
                 if actor.id in character_actor_ids:
                     node_list.append(actor)
 
-            # Add only edges related to characters
-            edges += [e for e in graph_data["appears_in_edges"] if e.source in all_character_ids]
+            # Add edges: bondgirl edges, villain edges, character edges, and portrayedBy edges
+            edges += graph_data["bondgirl_edges"]
+            edges += graph_data["villain_edges"]
+            edges += graph_data["character_edges"]  # Movie -> other characters (not bondgirls or villains)
             edges += [e for e in graph_data["portrayed_edges"] if e.source in all_character_ids]
 
     elif view_option == "Theme songs":

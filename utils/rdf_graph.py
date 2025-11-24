@@ -393,6 +393,14 @@ def create_rdf_graph(df_ttl):
         for movie, _, villain in g.triples((None, BOND.hasAntagonist, None))
     ]
 
+    # ---- Edges: Movie -> Character (hasCharacter) ----
+    character_edges = [
+        Edge(source=str(movie),
+                label='hasCharacter',
+                target=str(character))
+        for movie, _, character in g.triples((None, BOND.hasCharacter, None))
+    ]
+
     # ---- Edges: Character -> Actor (portrayedBy) ----
     portrayed_edges = [
         Edge(source=str(character),
@@ -401,35 +409,20 @@ def create_rdf_graph(df_ttl):
         for character, _, actor in g.triples((None, BOND.portrayedBy, None))
     ]
 
-    # ---- Query Casting instances for movie-specific character-actor relationships ----
-    # Get all casting instances and their relationships
-    casting_query = '''
-        PREFIX bond: <http://example.org/bond/>
-        SELECT DISTINCT ?casting ?film ?character ?actor
-        WHERE {
-            ?casting a bond:Casting .
-            ?casting bond:roleInFilm ?film .
-            ?casting bond:roleCharacter ?character .
-            ?casting bond:roleActor ?actor .
-        }
-    '''
-
-    # Store casting relationships in a list of dictionaries for easy lookup
-    castings = []
-    for row in g.query(casting_query):
-        castings.append({
-            'casting': str(row[0]),
-            'film': str(row[1]),
-            'character': str(row[2]),
-            'actor': str(row[3])
-        })
-
-    # ---- Edges: Person -> Movie (appearsIn) ----
-    appears_in_edges = [
-        Edge(source=str(person),
-                label='appearsIn',
+    # ---- Edges: Actor -> Movie (actedIn) ----
+    acted_in_edges = [
+        Edge(source=str(actor),
+                label='actedIn',
                 target=str(movie))
-        for person, _, movie in g.triples((None, BOND.appearsIn, None))
+        for actor, _, movie in g.triples((None, BOND.actedIn, None))
+    ]
+
+    # ---- Edges: Character -> Movie (isCharacterIn) ----
+    character_in_edges = [
+        Edge(source=str(character),
+                label='isCharacterIn',
+                target=str(movie))
+        for character, _, movie in g.triples((None, BOND.isCharacterIn, None))
     ]
 
     # ---- Edges: Movie -> Location ----
@@ -481,10 +474,11 @@ def create_rdf_graph(df_ttl):
         "producer_edges": producer_edges,
         "bondgirl_edges": bondgirl_edges,
         "villain_edges": villain_edges,
+        "character_edges": character_edges,
         "movie_attribute_edges": movie_attribute_edges,
         "portrayed_edges": portrayed_edges,
-        "castings": castings,
-        "appears_in_edges": appears_in_edges,
+        "acted_in_edges": acted_in_edges,
+        "character_in_edges": character_in_edges,
         "location_edges": location_edges,
         "vehicle_edges": vehicle_edges,
         "song_edges": song_edges,
