@@ -48,7 +48,7 @@ dbo:citizenship
 
 time:Year
 
-schema:org
+schema:sameAs
 
 bond:bond
 bond:bondGirl
