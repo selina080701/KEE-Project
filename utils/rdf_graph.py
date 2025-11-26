@@ -488,8 +488,10 @@ def create_rdf_graph(df_ttl):
 
 @st.cache_data
 def create_bond_info_graph(df_bond_ttl):
-    EX = Namespace("http://example.org/jamesbond/")
     MOVIE = Namespace("https://triplydb.com/Triply/linkedmdb/vocab/")
+    FOAF = Namespace("http://xmlns.com/foaf/0.1/")
+    DBO = Namespace("http://dbpedia.org/ontology/")
+    BOND = Namespace("http://example.org/bond/")
 
     g = Graph()
     g.parse(data=df_bond_ttl, format="ttl")
@@ -502,12 +504,12 @@ def create_bond_info_graph(df_bond_ttl):
 
     for actor in g.subjects(RDF.type, MOVIE.Actor):
         # Actor-Label
-        label_value = g.value(actor, RDFS.label) or g.value(actor, EX.name)
+        label_value = g.value(actor, RDFS.label)
         label = str(label_value) if label_value else str(actor).split("/")[-1]
 
-        dob = g.value(actor, EX.dateOfBirth)
-        dod = g.value(actor, EX.dateOfDeath)
-        gender = g.value(actor, EX.gender)
+        dob = g.value(actor, DBO.birthDate)
+        dod = g.value(actor, DBO.deathDate)
+        gender = g.value(actor, FOAF.gender)
 
         # Actor node
         bond_info_nodes.append(
@@ -521,7 +523,7 @@ def create_bond_info_graph(df_bond_ttl):
         )
 
         # all citizenship countries
-        for citizenship in g.objects(actor, EX.citizenship):
+        for citizenship in g.objects(actor, DBO.citizenship):
             if citizenship not in country_nodes:
                 country_label_val = g.value(citizenship, RDFS.label)
                 country_label = (
@@ -591,8 +593,8 @@ def create_bond_info_graph(df_bond_ttl):
                 )
             )
 
-        add_literal_node(dob, "dateOfBirth")
-        add_literal_node(dod, "dateOfDeath")
+        add_literal_node(dob, "birthDate")
+        add_literal_node(dod, "deathDate")
 
     bond_info_nodes.extend(country_nodes.values())
     bond_info_nodes.extend(gender_nodes.values())
