@@ -7,7 +7,7 @@ from pathlib import Path
 """
 This file takes the raw James Bond dataset and performs data cleaning and enrichment in two steps:
     1. Cleans the raw dataset by selecting relevant columns and saving to a new CSV.
-        -> Input: jamesbond.csv
+        -> Input: jamesbond_raw.csv
         -> Output: jamesbond_clean.csv
     2. Takes the cleaned input dataset and adds Wikidata movie IDs to each movie entry.
         -> Input: jamesbond_clean.csv
@@ -17,17 +17,63 @@ This file takes the raw James Bond dataset and performs data cleaning and enrich
         -> Output: utils/bond_films.py
 """
 
+PRODUCERS = {
+    "Dr. No": "Harry Saltzman & Albert R. Broccoli",
+    "From Russia with Love": "Harry Saltzman & Albert R. Broccoli",
+    "Goldfinger": "Harry Saltzman & Albert R. Broccoli",
+    "Thunderball": "Richard Maibaum & John Hopkins",
+    "You Only Live Twice": "Harry Saltzman & Albert R. Broccoli",
+    "On Her Majesty's Secret Service": "Harry Saltzman & Albert R. Broccoli",
+    "Diamonds Are Forever": "Harry Saltzman & Albert R. Broccoli",
+    "Live and Let Die": "Harry Saltzman & Albert R. Broccoli",
+    "The Man with the Golden Gun": "Harry Saltzman & Albert R. Broccoli",
+    "The Spy Who Loved Me": "Albert R. Broccoli",
+    "Moonraker": "Albert R. Broccoli",
+    "For Your Eyes Only": "Albert R. Broccoli",
+    "Octopussy": "Albert R. Broccoli",
+    "A View to a Kill": "Albert R. Broccoli & Michael G. Wilson",
+    "The Living Daylights": "Albert R. Broccoli & Michael G. Wilson",
+    "Licence to Kill": "Albert R. Broccoli & Michael G. Wilson",
+    "GoldenEye": "Michael G. Wilson & Barbara Broccoli",
+    "Tomorrow Never Dies": "Michael G. Wilson & Barbara Broccoli",
+    "The World Is Not Enough": "Michael G. Wilson & Barbara Broccoli",
+    "Die Another Day": "Michael G. Wilson & Barbara Broccoli",
+    "Casino Royale": "Michael G. Wilson & Barbara Broccoli",
+    "Quantum of Solace": "Michael G. Wilson & Barbara Broccoli",
+    "Skyfall": "Michael G. Wilson & Barbara Broccoli",
+    "Spectre": "Michael G. Wilson & Barbara Broccoli",
+}
+
+EXTRA_MOVIES = [
+    {
+        "Year": 2020,
+        "Movie": "No Time to Die",
+        "Bond": "Daniel Craig",
+        "Director": "Cary Joji Fukunaga",
+        "Producer": "Michael G. Wilson & Barbara Broccoli",
+        "Avg_User_IMDB": 7.3,
+        "Avg_User_Rtn_Tom": 8.3,
+    }
+]
+
 def clean_raw_data(input_file: str, output_file: str):
     df = pd.read_csv(input_file, sep=',')
+
+    # Add producer column from manual dictionary
+    df["Producer"] = df["Movie"].map(PRODUCERS)
+
+    # Add manually specified extra movie (No Time to Die)
+    extra_df = pd.DataFrame(EXTRA_MOVIES)
+    df = pd.concat([df, extra_df], ignore_index=True)
+
     # extract relevant columns
     df = df[['Year',
              'Movie',
              'Bond',
              'Director',
-             'Budget_Adj',
-             'Film_Length',
+             'Producer',
              'Avg_User_IMDB',
-             'Avg_User_Rtn_Tom']]
+             'Avg_User_Rtn_Tom']].sort_values('Year')
     df.to_csv(output_file, index=False, sep=';')
 
 
@@ -81,16 +127,16 @@ if __name__ == "__main__":
     """
     Step 1: Clean raw data
     """
-    input_raw_file = base_dir / 'data/jamesbond.csv'
+    input_raw_file = base_dir / 'data/jamesbond_raw.csv'
     output_clean_file = base_dir / 'data/jamesbond_clean.csv'
-    #clean_raw_data(input_raw_file, output_clean_file)
+    clean_raw_data(input_raw_file, output_clean_file)
 
     """
     Step 2: Add Wikidata IDs
     """
     input_clean_file = base_dir / 'data/jamesbond_clean.csv'
     output_clean_file = base_dir / 'data/jamesbond_with_id.csv'
-    #add_wikidata_ids_to_dataframe(input_clean_file, output_clean_file)
+    add_wikidata_ids_to_dataframe(input_clean_file, output_clean_file)
 
     """
     Step 3: Create bond films list
@@ -98,9 +144,3 @@ if __name__ == "__main__":
     input_with_id_file = base_dir / 'data/jamesbond_with_id.csv'
     output_bond_films_file = base_dir / 'utils/bond_films.py'
     create_bond_films_list(input_with_id_file, output_bond_films_file)
-
-
-# ---- To Do ----
-# - Add Producer column to raw data cleaning step
-# - Add new movie 'No Time to Die' to raw data cleaning step
-# - Delete Budget and Film Length columns from raw data cleaning step
