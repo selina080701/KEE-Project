@@ -1,3 +1,5 @@
+# n_extract_bond_info_sparql.py
+
 import pandas as pd
 import requests
 from rdflib import Graph, Namespace, URIRef, Literal
@@ -70,23 +72,25 @@ def fetch_bindings(query: str):
 
 
 def serialize_bindings_to_rdf(bindings, output_file: str):
-    EX = Namespace("http://example.org/jamesbond/")
-    PE = Namespace("http://example.org/person/")
     MOVIE = Namespace("https://triplydb.com/Triply/linkedmdb/vocab/")
-    CT = Namespace("http://example.org/country/")
-    GD = Namespace("http://example.org/gender/")
+    FOAF = Namespace("http://xmlns.com/foaf/0.1/")
+    DBO = Namespace("http://dbpedia.org/ontology/")
+    TIME = Namespace("http://www.w3.org/2006/time#")
+    SCHEMA = Namespace("http://schema.org/")
+    BOND = Namespace("http://example.org/bond/")
 
     g = Graph()
-    g.bind("ex", EX)
-    g.bind("person", PE)
     g.bind("movie", MOVIE)
-    g.bind("country", CT)
-    g.bind("gender", GD)
+    g.bind("foaf", FOAF)
+    g.bind("dbo", DBO)
+    g.bind("schema", SCHEMA)
+    g.bind("time", TIME)
+    g.bind("bond", BOND)
 
     for b in bindings:
         actor_uri = b["actor"]["value"]
         qid = actor_uri.rsplit("/", 1)[-1]
-        actor_local = PE[qid]
+        actor_local = BOND[qid]
 
         # Actor-Typ
         g.add((actor_local, RDF.type, MOVIE.Actor))
@@ -96,33 +100,33 @@ def serialize_bindings_to_rdf(bindings, output_file: str):
             g.add((actor_local, RDFS.label, Literal(b["actor_label"]["value"])))
 
         # sameAs Wikidata
-        g.add((actor_local, EX.sameAs, URIRef(actor_uri)))
+        g.add((actor_local, SCHEMA.sameAs, URIRef(actor_uri)))
 
         # Gender (Ressource)
         if "gender" in b and b["gender"]["value"]:
-            gender_qid = b["gender"]["value"].rsplit("/", 1)[-1]
-            gender_res = GD[gender_qid]
-            g.add((actor_local, EX.gender, gender_res))
+            gender_uri = b["gender"]["value"]
+            gender_res = URIRef(gender_uri)
+            g.add((actor_local, FOAF.gender, gender_res))
             # Label an Gender-Resource hängen
             if "gender_label" in b:
                 g.add((gender_res, RDFS.label, Literal(b["gender_label"]["value"])))
 
         # Citizenship (Ressource)
         if "country" in b and b["country"]["value"]:
-            country_qid = b["country"]["value"].rsplit("/", 1)[-1]
-            country_res = CT[country_qid]
-            g.add((actor_local, EX.citizenship, country_res))
+            country_uri = b["country"]["value"]
+            country_res = URIRef(country_uri)
+            g.add((actor_local, DBO.citizenship, country_res))
             if "country_label" in b:
                 g.add((country_res, RDFS.label, Literal(b["country_label"]["value"])))
 
         # Dates (Literal)
         if "dob" in b:
             dob = b["dob"]["value"].split("T")[0]
-            g.add((actor_local, EX.dateOfBirth, Literal(dob, datatype=XSD.date)))
+            g.add((actor_local, DBO.birthDate, Literal(dob, datatype=XSD.date)))
 
         if "dod" in b:
             dod = b["dod"]["value"].split("T")[0]
-            g.add((actor_local, EX.dateOfDeath, Literal(dod, datatype=XSD.date)))
+            g.add((actor_local, DBO.deathDate, Literal(dod, datatype=XSD.date)))
 
     g.serialize(destination=output_file, format="turtle")
     print(f"{len(g)} triples saved in {output_file}")

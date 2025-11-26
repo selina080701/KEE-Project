@@ -1,65 +1,65 @@
-@prefix country: <http://example.org/country/> .
-@prefix ex: <http://example.org/jamesbond/> .
-@prefix gender: <http://example.org/gender/> .
+@prefix bond: <http://example.org/bond/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix movie: <https://triplydb.com/Triply/linkedmdb/vocab/> .
-@prefix person: <http://example.org/person/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-person:Q134333 a movie:Actor ;
+bond:Q134333 a movie:Actor ;
     rdfs:label "Roger Moore" ;
-    ex:citizenship country:Q145 ;
-    ex:dateOfBirth "1927-10-14"^^xsd:date ;
-    ex:dateOfDeath "2017-05-23"^^xsd:date ;
-    ex:gender gender:Q6581097 ;
-    ex:sameAs <http://www.wikidata.org/entity/Q134333> .
+    dbo:birthDate "1927-10-14"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
+    dbo:deathDate "2017-05-23"^^xsd:date ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q134333> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> .
 
-person:Q205599 a movie:Actor ;
+bond:Q205599 a movie:Actor ;
     rdfs:label "George Lazenby" ;
-    ex:citizenship country:Q408 ;
-    ex:dateOfBirth "1939-09-05"^^xsd:date ;
-    ex:gender gender:Q6581097 ;
-    ex:sameAs <http://www.wikidata.org/entity/Q205599> .
+    dbo:birthDate "1939-09-05"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q408> ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q205599> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> .
 
-person:Q41233 a movie:Actor ;
+bond:Q41233 a movie:Actor ;
     rdfs:label "Timothy Dalton" ;
-    ex:citizenship country:Q145 ;
-    ex:dateOfBirth "1946-03-21"^^xsd:date ;
-    ex:gender gender:Q6581097 ;
-    ex:sameAs <http://www.wikidata.org/entity/Q41233> .
+    dbo:birthDate "1946-03-21"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q41233> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> .
 
-person:Q4547 a movie:Actor ;
+bond:Q4547 a movie:Actor ;
     rdfs:label "Daniel Craig" ;
-    ex:citizenship country:Q145,
-        country:Q30 ;
-    ex:dateOfBirth "1968-03-02"^^xsd:date ;
-    ex:gender gender:Q6581097 ;
-    ex:sameAs <http://www.wikidata.org/entity/Q4547> .
+    dbo:birthDate "1968-03-02"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145>,
+        <http://www.wikidata.org/entity/Q30> ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q4547> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> .
 
-person:Q4573 a movie:Actor ;
+bond:Q4573 a movie:Actor ;
     rdfs:label "Sean Connery" ;
-    ex:citizenship country:Q145 ;
-    ex:dateOfBirth "1930-08-25"^^xsd:date ;
-    ex:dateOfDeath "2020-10-31"^^xsd:date ;
-    ex:gender gender:Q6581097 ;
-    ex:sameAs <http://www.wikidata.org/entity/Q4573> .
+    dbo:birthDate "1930-08-25"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
+    dbo:deathDate "2020-10-31"^^xsd:date ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q4573> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> .
 
-person:Q81520 a movie:Actor ;
+bond:Q81520 a movie:Actor ;
     rdfs:label "Pierce Brosnan" ;
-    ex:citizenship country:Q145,
-        country:Q27,
-        country:Q30 ;
-    ex:dateOfBirth "1953-05-16"^^xsd:date ;
-    ex:gender gender:Q6581097 ;
-    ex:sameAs <http://www.wikidata.org/entity/Q81520> .
+    dbo:birthDate "1953-05-16"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145>,
+        <http://www.wikidata.org/entity/Q27>,
+        <http://www.wikidata.org/entity/Q30> ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q81520> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> .
 
-country:Q27 rdfs:label "Ireland" .
+<http://www.wikidata.org/entity/Q27> rdfs:label "Ireland" .
 
-country:Q408 rdfs:label "Australia" .
+<http://www.wikidata.org/entity/Q408> rdfs:label "Australia" .
 
-country:Q30 rdfs:label "United States" .
+<http://www.wikidata.org/entity/Q30> rdfs:label "United States" .
 
-country:Q145 rdfs:label "United Kingdom" .
+<http://www.wikidata.org/entity/Q145> rdfs:label "United Kingdom" .
 
-gender:Q6581097 rdfs:label "male" .
+<http://www.wikidata.org/entity/Q6581097> rdfs:label "male" .
 
