@@ -2,8 +2,8 @@
 
 import streamlit as st
 from streamlit_agraph import agraph, Config
-from utils.data_loader import load_ttl, load_bond_info_ttl
-from utils.rdf_graph import create_rdf_graph, create_bond_info_graph, get_movies_with_titles
+from utils.data_loader import load_ttl
+from utils.rdf_graph import create_rdf_graph, get_movies_with_titles
 
 def show_rdf_page():
     st.sidebar.info("You are on the RDF graph page.")
@@ -16,10 +16,6 @@ def show_rdf_page():
     # ---- Load data  ----
     df_ttl = load_ttl()
     graph_data = create_rdf_graph(df_ttl)
-
-    # Load Bond actor info (separate RDF graph)
-    bond_ttl = load_bond_info_ttl()
-    bond_info_data = create_bond_info_graph(bond_ttl)
 
     # Radio buttons for mutually exclusive view selection
     view_option = st.radio(
@@ -72,18 +68,10 @@ def show_rdf_page():
 
     # Separate Bond actor info checkbox
     st.write("---")
-    show_bond_info = st.checkbox('Display Bond actor information (separate graph)', value=False)
 
     # ---- Prepare graph rendering ----
     nodes, edges = [], []
     config = Config(height=600, width=760)
-
-    # ---- Separate Bond actor info graph ----
-    if show_bond_info:
-        nodes = bond_info_data["bond_info_nodes"]
-        edges = bond_info_data["bond_info_edges"]
-        agraph(nodes=nodes, edges=edges, config=config)
-        return
 
     # ---- Build graph based on selected view ----
     node_list = []

@@ -35,16 +35,6 @@ def load_ttl():
         ttl_data = file.read()
     return ttl_data
 
-# ---- Load Bond info TTL (separate RDF graph) ----
-@st.cache_data
-def load_bond_info_ttl():
-    """
-    Load the RDF data containing detailed Bond actor information.
-    """
-    with open("extract_knowledge/bond_info/bond_info.ttl", "r", encoding="utf-8") as file:
-        ttl_data = file.read()
-    return ttl_data
-
 # ---- Load poster URLs with caching ----
 @st.cache_data
 def load_poster_urls():
