@@ -26,6 +26,7 @@ def show_rdf_page():
         " ",
         options=[
             "Movie overview",
+            "James Bond",
             "Bond girls",
             "Villains",
             "Characters",
@@ -42,7 +43,7 @@ def show_rdf_page():
     selected_movie = None
 
     # Show filter for views that support movie filtering
-    filterable_views = ["Movie overview", "Bond girls", "Villains", "Characters", "Theme songs", "Locations", "Vehicles"]
+    filterable_views = ["Movie overview", "James Bond", "Bond girls", "Villains", "Characters", "Theme songs", "Locations", "Vehicles"]
 
     if view_option in filterable_views:
         st.write("---")
@@ -121,6 +122,27 @@ def show_rdf_page():
                             if producer.id == edge.to:
                                 node_list.append(producer)
 
+                # Get Bond actor for this movie (hasJamesBond)
+                for edge in graph_data["bond_actor_edges"]:
+                    if edge.source == movie_uri:
+                        edges.append(edge)
+                        bond_actor_id = edge.to
+
+                        # Actor-Node hinzufügen (falls noch nicht in node_list)
+                        for actor in graph_data["actors"]:
+                            if actor.id == bond_actor_id:
+                                node_list.append(actor)
+                                break
+
+                        # Attribute (birthDate, deathDate, citizenship, gender)
+                        for attr_edge in graph_data["bond_actor_attr_edges"]:
+                            if attr_edge.source == bond_actor_id:
+                                edges.append(attr_edge)
+                                for attr_node in graph_data["bond_actor_attr_nodes"]:
+                                    if attr_node.id == attr_edge.to:
+                                        node_list.append(attr_node)
+                                        break
+
                 # Get bond girls in this movie using hasBondGirl edges
                 bondgirls_in_movie = set()
                 for edge in graph_data["bondgirl_edges"]:
@@ -196,6 +218,7 @@ def show_rdf_page():
             node_list += graph_data["characters"]  # Other characters (Q, M, James Bond, etc.)
             node_list += graph_data["songs"]
             node_list += graph_data["music_contributors"]
+            node_list += graph_data["bond_actor_attr_nodes"]
 
             # Add only actors who portray characters (bondgirls, villains, or other characters)
             all_character_ids = set()
@@ -221,7 +244,57 @@ def show_rdf_page():
             edges += graph_data["character_edges"]  # Movie -> other characters
             edges += graph_data["song_edges"]
             edges += graph_data["performer_edges"]
+            edges += graph_data["bond_actor_edges"]
+            edges += graph_data["bond_actor_attr_edges"]
             edges += [e for e in graph_data["portrayed_edges"] if e.source in all_character_ids]  # Character -> Actor
+
+    elif view_option == "James Bond":
+        # View: James Bond - movies, Bond actors and their Wikidata-based attributes
+        if selected_movie_uris:
+            # 1) Add selected movie nodes
+            for movie in graph_data["movies"]:
+                if movie.id in selected_movie_uris:
+                    node_list.append(movie)
+
+            # 2) For each selected movie, find its BondActor via hasJamesBond
+            for movie_uri in selected_movie_uris:
+                for edge in graph_data["bond_actor_edges"]:
+                    if edge.source == movie_uri:
+                        # Edge: Movie -> BondActor
+                        edges.append(edge)
+                        bond_actor_id = edge.to
+
+                        # Add BondActor node (from actors list)
+                        for actor in graph_data["actors"]:
+                            if actor.id == bond_actor_id:
+                                node_list.append(actor)
+                                break
+
+                        # 3) Add BondActor attributes (birthDate, deathDate, citizenship, gender)
+                        for attr_edge in graph_data["bond_actor_attr_edges"]:
+                            if attr_edge.source == bond_actor_id:
+                                edges.append(attr_edge)
+                                for attr_node in graph_data["bond_actor_attr_nodes"]:
+                                    if attr_node.id == attr_edge.to:
+                                        node_list.append(attr_node)
+                                        break
+        else:
+            # No movie filter selected: show all movies that have a BondActor
+            # 1) Add all movies
+            node_list += graph_data["movies"]
+
+            # 2) Add all BondActor attributes
+            node_list += graph_data["bond_actor_attr_nodes"]
+
+            # 3) Add all BondActor edges (Movie -> BondActor) and attribute edges
+            edges += graph_data["bond_actor_edges"]
+            edges += graph_data["bond_actor_attr_edges"]
+
+            # 4) Add BondActor nodes themselves (subset der allgemeinen actors)
+            bond_actor_ids = {e.to for e in graph_data["bond_actor_edges"]}
+            for actor in graph_data["actors"]:
+                if actor.id in bond_actor_ids:
+                    node_list.append(actor)
 
     elif view_option == "Bond girls":
         # View 2: Bond Girls - movies, bond girls, and actresses (actors who portray them)

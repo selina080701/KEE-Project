@@ -228,6 +228,108 @@ def create_rdf_graph(df_ttl):
                 size=22)
         for row in g.query(actor_query)
     ]
+
+    # ---- Bond Actors: Attribute + hasJamesBond ----
+    bond_actor_attr_nodes = []
+    bond_actor_attr_edges = []
+    bond_actor_edges = []
+
+    # Attribute für alle BondActor-Knoten
+    for actor in g.subjects(RDF.type, BOND.BondActor):
+        actor_uri = str(actor)
+
+        # birthDate
+        for dob in g.objects(actor, DBO.birthDate):
+            node_id = f"{actor_uri}_birthDate"
+            bond_actor_attr_nodes.append(
+                Node(
+                    id=node_id,
+                    label=str(dob),
+                    color='#91D9F7',
+                    shape="box",
+                    size=16,
+                )
+            )
+            bond_actor_attr_edges.append(
+                Edge(
+                    source=actor_uri,
+                    label="birthDate",
+                    target=node_id,
+                )
+            )
+
+        # deathDate
+        for dod in g.objects(actor, DBO.deathDate):
+            node_id = f"{actor_uri}_deathDate"
+            bond_actor_attr_nodes.append(
+                Node(
+                    id=node_id,
+                    label=str(dod),
+                    color='#0B6E99',
+                    shape="box",
+                    size=16,
+                )
+            )
+            bond_actor_attr_edges.append(
+                Edge(
+                    source=actor_uri,
+                    label="deathDate",
+                    target=node_id,
+                )
+            )
+
+        # citizenship (Länder-Knoten wiederverwenden, daher ID = URI)
+        for country in g.objects(actor, DBO.citizenship):
+            country_uri = str(country)
+            country_label = g.value(country, RDFS.label) or country_uri.split("/")[-1]
+            bond_actor_attr_nodes.append(
+                Node(
+                    id=country_uri,
+                    label=str(country_label),
+                    color='#DBEBC2',
+                    shape="dot",
+                    size=20,
+                )
+            )
+            bond_actor_attr_edges.append(
+                Edge(
+                    source=actor_uri,
+                    label="citizenship",
+                    target=country_uri,
+                )
+            )
+
+        # gender
+        for gender in g.objects(actor, FOAF.gender):
+            gender_uri = str(gender)
+            gender_label = g.value(gender, RDFS.label) or gender_uri.split("/")[-1]
+            bond_actor_attr_nodes.append(
+                Node(
+                    id=gender_uri,
+                    label=str(gender_label),
+                    color='#FF6B6B',
+                    shape='diamond',
+                    size=20,
+                )
+            )
+            bond_actor_attr_edges.append(
+                Edge(
+                    source=actor_uri,
+                    label="gender",
+                    target=gender_uri,
+                )
+            )
+
+    # Kanten Film -> BondActor (hasJamesBond)
+    for movie, _, actor in g.triples((None, BOND.hasJamesBond, None)):
+        bond_actor_edges.append(
+            Edge(
+                source=str(movie),
+                label="hasJamesBond",
+                target=str(actor),
+            )
+        )
+
     # ---- Film Characters (other characters - not bond girls or villains) ----
     character_query = '''
         PREFIX movie: <https://triplydb.com/Triply/linkedmdb/vocab/>
@@ -482,7 +584,10 @@ def create_rdf_graph(df_ttl):
         "location_edges": location_edges,
         "vehicle_edges": vehicle_edges,
         "song_edges": song_edges,
-        "performer_edges": performer_edges
+        "performer_edges": performer_edges,
+        "bond_actor_attr_nodes": bond_actor_attr_nodes,
+        "bond_actor_attr_edges": bond_actor_attr_edges,
+        "bond_actor_edges": bond_actor_edges,
     }
 
 

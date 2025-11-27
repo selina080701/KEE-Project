@@ -2575,17 +2575,6 @@ bond:Q-Boat a bond:Vehicle ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Q_Boat.png" .
 
-bond:Q205599 a bond:BondActor,
-        movie:Actor ;
-    rdfs:label "George Lazenby" ;
-    dbo:birthDate "1939-09-05"^^xsd:date ;
-    dbo:citizenship <http://www.wikidata.org/entity/Q408> ;
-    bond:actedIn bond:On_Her_Majestys_Secret_Service ;
-    bond:isJamesBondIn bond:On_Her_Majestys_Secret_Service ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q205599> ;
-    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
-    foaf:name "George Lazenby" .
-
 bond:Qs_Hydrofoil_Boat a bond:Vehicle ;
     rdfs:label "Q's Hydrofoil Boat" ;
     bond:isVehicleOf bond:Moonraker ;
@@ -3651,10 +3640,6 @@ bond:Gemma_Arterton a movie:Actor ;
     bond:actedIn bond:Quantum_of_Solace ;
     foaf:name "Gemma Arterton" .
 
-bond:George_Lazenby a movie:Actor ;
-    bond:actedIn bond:On_Her_Majestys_Secret_Service ;
-    foaf:name "George Lazenby" .
-
 bond:Gert_Fröbe a movie:Actor ;
     bond:actedIn bond:Goldfinger ;
     foaf:name "Gert Fröbe" .
@@ -3932,19 +3917,6 @@ bond:Outer_Space a movie:FilmLocation ;
 bond:Peter_Burton a movie:Actor ;
     bond:actedIn bond:Dr._No ;
     foaf:name "Peter Burton" .
-
-bond:Q41233 a bond:BondActor,
-        movie:Actor ;
-    rdfs:label "Timothy Dalton" ;
-    dbo:birthDate "1946-03-21"^^xsd:date ;
-    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
-    bond:actedIn bond:Licence_to_Kill,
-        bond:The_Living_Daylights ;
-    bond:isJamesBondIn bond:Licence_to_Kill,
-        bond:The_Living_Daylights ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q41233> ;
-    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
-    foaf:name "Timothy Dalton" .
 
 bond:Rami_Malek a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die ;
@@ -4288,6 +4260,17 @@ bond:Paris a movie:FilmLocation ;
     geo1:long 2.320041,
         2.3483915 .
 
+bond:Q205599 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "George Lazenby" ;
+    dbo:birthDate "1939-09-05"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q408> ;
+    bond:actedIn bond:On_Her_Majestys_Secret_Service ;
+    bond:isJamesBondIn bond:On_Her_Majestys_Secret_Service ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q205599> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "George Lazenby" .
+
 bond:Ralph_Fiennes a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Spectre ;
@@ -4316,11 +4299,6 @@ bond:Terence_Young a movie:Director ;
         bond:From_Russia_with_Love,
         bond:Thunderball ;
     foaf:name "Terence Young" .
-
-bond:Timothy_Dalton a movie:Actor ;
-    bond:actedIn bond:Licence_to_Kill,
-        bond:The_Living_Daylights ;
-    foaf:name "Timothy Dalton" .
 
 bond:Turkey a movie:FilmLocation ;
     rdfs:label "Turkey" ;
@@ -4433,25 +4411,6 @@ bond:Naomie_Harris a movie:Actor ;
         bond:Spectre ;
     foaf:name "Naomie Harris" .
 
-bond:Q81520 a bond:BondActor,
-        movie:Actor ;
-    rdfs:label "Pierce Brosnan" ;
-    dbo:birthDate "1953-05-16"^^xsd:date ;
-    dbo:citizenship <http://www.wikidata.org/entity/Q145>,
-        <http://www.wikidata.org/entity/Q27>,
-        <http://www.wikidata.org/entity/Q30> ;
-    bond:actedIn bond:Die_Another_Day,
-        bond:GoldenEye,
-        bond:The_World_Is_Not_Enough,
-        bond:Tomorrow_Never_Dies ;
-    bond:isJamesBondIn bond:Die_Another_Day,
-        bond:GoldenEye,
-        bond:The_World_Is_Not_Enough,
-        bond:Tomorrow_Never_Dies ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q81520> ;
-    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
-    foaf:name "Pierce Brosnan" .
-
 bond:Scotland a movie:FilmLocation ;
     rdfs:label "Scotland" ;
     bond:isLocationOf bond:From_Russia_with_Love,
@@ -4524,32 +4483,18 @@ bond:Mr._White a bond:Villain,
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png" ;
     foaf:name "Mr. White" .
 
-bond:Pierce_Brosnan a movie:Actor ;
-    bond:actedIn bond:Die_Another_Day,
-        bond:GoldenEye,
-        bond:The_World_Is_Not_Enough,
-        bond:Tomorrow_Never_Dies ;
-    foaf:name "Pierce Brosnan" .
-
-bond:Q4547 a bond:BondActor,
+bond:Q41233 a bond:BondActor,
         movie:Actor ;
-    rdfs:label "Daniel Craig" ;
-    dbo:birthDate "1968-03-02"^^xsd:date ;
-    dbo:citizenship <http://www.wikidata.org/entity/Q145>,
-        <http://www.wikidata.org/entity/Q30> ;
-    bond:actedIn bond:Casino_Royale,
-        bond:No_Time_to_Die,
-        bond:Quantum_of_Solace,
-        bond:Skyfall,
-        bond:Spectre ;
-    bond:isJamesBondIn bond:Casino_Royale,
-        bond:No_Time_to_Die,
-        bond:Quantum_of_Solace,
-        bond:Skyfall,
-        bond:Spectre ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q4547> ;
+    rdfs:label "Timothy Dalton" ;
+    dbo:birthDate "1946-03-21"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
+    bond:actedIn bond:Licence_to_Kill,
+        bond:The_Living_Daylights ;
+    bond:isJamesBondIn bond:Licence_to_Kill,
+        bond:The_Living_Daylights ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q41233> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
-    foaf:name "Daniel Craig" .
+    foaf:name "Timothy Dalton" .
 
 bond:Robert_Brown a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill,
@@ -4584,14 +4529,6 @@ bond:USA a movie:FilmLocation ;
 
 <http://www.wikidata.org/entity/Q145> rdfs:label "United Kingdom" .
 
-bond:Daniel_Craig a movie:Actor ;
-    bond:actedIn bond:Casino_Royale,
-        bond:No_Time_to_Die,
-        bond:Quantum_of_Solace,
-        bond:Skyfall,
-        bond:Spectre ;
-    foaf:name "Daniel Craig" .
-
 bond:General_Gogol a movie:FilmCharacter ;
     bond:isCharacterIn bond:A_View_to_a_Kill,
         bond:For_Your_Eyes_Only,
@@ -4602,28 +4539,6 @@ bond:General_Gogol a movie:FilmCharacter ;
     bond:portrayedBy bond:Walter_Gotell ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg" ;
     foaf:name "General Gogol" .
-
-bond:Q4573 a bond:BondActor,
-        movie:Actor ;
-    rdfs:label "Sean Connery" ;
-    dbo:birthDate "1930-08-25"^^xsd:date ;
-    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
-    dbo:deathDate "2020-10-31"^^xsd:date ;
-    bond:actedIn bond:Diamonds_Are_Forever,
-        bond:Dr._No,
-        bond:From_Russia_with_Love,
-        bond:Goldfinger,
-        bond:Thunderball,
-        bond:You_Only_Live_Twice ;
-    bond:isJamesBondIn bond:Diamonds_Are_Forever,
-        bond:Dr._No,
-        bond:From_Russia_with_Love,
-        bond:Goldfinger,
-        bond:Thunderball,
-        bond:You_Only_Live_Twice ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q4573> ;
-    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
-    foaf:name "Sean Connery" .
 
 bond:Russia a movie:FilmLocation ;
     rdfs:label "Russia" ;
@@ -4688,39 +4603,6 @@ bond:Geoffrey_Keen a movie:Actor ;
         bond:The_Spy_Who_Loved_Me ;
     foaf:name "Geoffrey Keen" .
 
-bond:Q134333 a bond:BondActor,
-        movie:Actor ;
-    rdfs:label "Roger Moore" ;
-    dbo:birthDate "1927-10-14"^^xsd:date ;
-    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
-    dbo:deathDate "2017-05-23"^^xsd:date ;
-    bond:actedIn bond:A_View_to_a_Kill,
-        bond:For_Your_Eyes_Only,
-        bond:Live_and_Let_Die,
-        bond:Moonraker,
-        bond:Octopussy,
-        bond:The_Man_with_the_Golden_Gun,
-        bond:The_Spy_Who_Loved_Me ;
-    bond:isJamesBondIn bond:A_View_to_a_Kill,
-        bond:For_Your_Eyes_Only,
-        bond:Live_and_Let_Die,
-        bond:Moonraker,
-        bond:Octopussy,
-        bond:The_Man_with_the_Golden_Gun,
-        bond:The_Spy_Who_Loved_Me ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q134333> ;
-    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
-    foaf:name "Roger Moore" .
-
-bond:Sean_Connery a movie:Actor ;
-    bond:actedIn bond:Diamonds_Are_Forever,
-        bond:Dr._No,
-        bond:From_Russia_with_Love,
-        bond:Goldfinger,
-        bond:Thunderball,
-        bond:You_Only_Live_Twice ;
-    foaf:name "Sean Connery" .
-
 bond:Walter_Gotell a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill,
         bond:For_Your_Eyes_Only,
@@ -4770,16 +4652,6 @@ bond:Judi_Dench a movie:Actor ;
         bond:Tomorrow_Never_Dies ;
     foaf:name "Judi Dench" .
 
-bond:Roger_Moore a movie:Actor ;
-    bond:actedIn bond:A_View_to_a_Kill,
-        bond:For_Your_Eyes_Only,
-        bond:Live_and_Let_Die,
-        bond:Moonraker,
-        bond:Octopussy,
-        bond:The_Man_with_the_Golden_Gun,
-        bond:The_Spy_Who_Loved_Me ;
-    foaf:name "Roger Moore" .
-
 bond:United_States a movie:FilmLocation ;
     rdfs:label "United States" ;
     bond:isLocationOf bond:A_View_to_a_Kill,
@@ -4819,6 +4691,25 @@ bond:France a movie:FilmLocation ;
         bond:Tomorrow_Never_Dies ;
     foaf:name "Michael G. Wilson & Barbara Broccoli" .
 
+bond:Q81520 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "Pierce Brosnan" ;
+    dbo:birthDate "1953-05-16"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145>,
+        <http://www.wikidata.org/entity/Q27>,
+        <http://www.wikidata.org/entity/Q30> ;
+    bond:actedIn bond:Die_Another_Day,
+        bond:GoldenEye,
+        bond:The_World_Is_Not_Enough,
+        bond:Tomorrow_Never_Dies ;
+    bond:isJamesBondIn bond:Die_Another_Day,
+        bond:GoldenEye,
+        bond:The_World_Is_Not_Enough,
+        bond:Tomorrow_Never_Dies ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q81520> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "Pierce Brosnan" .
+
 bond:Felix_Leiter a movie:FilmCharacter ;
     bond:isCharacterIn bond:Casino_Royale,
         bond:Diamonds_Are_Forever,
@@ -4845,6 +4736,26 @@ bond:Felix_Leiter a movie:FilmCharacter ;
         "https://static.wikia.nocookie.net/jamesbond/images/d/dc/Felix_Leiter_%28Cec_Linder%29_-_Profile.png",
         "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Leiter_%28John_Terry%29_Profile.png" ;
     foaf:name "Felix Leiter" .
+
+bond:Q4547 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "Daniel Craig" ;
+    dbo:birthDate "1968-03-02"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145>,
+        <http://www.wikidata.org/entity/Q30> ;
+    bond:actedIn bond:Casino_Royale,
+        bond:No_Time_to_Die,
+        bond:Quantum_of_Solace,
+        bond:Skyfall,
+        bond:Spectre ;
+    bond:isJamesBondIn bond:Casino_Royale,
+        bond:No_Time_to_Die,
+        bond:Quantum_of_Solace,
+        bond:Skyfall,
+        bond:Spectre ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q4547> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "Daniel Craig" .
 
 bond:UK a movie:FilmLocation ;
     rdfs:label "UK" ;
@@ -4900,6 +4811,28 @@ bond:Ernst_Stavro_Blofeld a bond:Villain,
         "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Blofeld_%28You_Only_Live_Twice%29_-_Profile.png" ;
     foaf:name "Ernst Stavro Blofeld" .
 
+bond:Q4573 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "Sean Connery" ;
+    dbo:birthDate "1930-08-25"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
+    dbo:deathDate "2020-10-31"^^xsd:date ;
+    bond:actedIn bond:Diamonds_Are_Forever,
+        bond:Dr._No,
+        bond:From_Russia_with_Love,
+        bond:Goldfinger,
+        bond:Thunderball,
+        bond:You_Only_Live_Twice ;
+    bond:isJamesBondIn bond:Diamonds_Are_Forever,
+        bond:Dr._No,
+        bond:From_Russia_with_Love,
+        bond:Goldfinger,
+        bond:Thunderball,
+        bond:You_Only_Live_Twice ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q4573> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "Sean Connery" .
+
 movie:Director a owl:Class ;
     rdfs:subClassOf movie:Person .
 
@@ -4919,6 +4852,30 @@ bond:Lois_Maxwell a movie:Actor ;
         bond:Thunderball,
         bond:You_Only_Live_Twice ;
     foaf:name "Lois Maxwell" .
+
+bond:Q134333 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "Roger Moore" ;
+    dbo:birthDate "1927-10-14"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
+    dbo:deathDate "2017-05-23"^^xsd:date ;
+    bond:actedIn bond:A_View_to_a_Kill,
+        bond:For_Your_Eyes_Only,
+        bond:Live_and_Let_Die,
+        bond:Moonraker,
+        bond:Octopussy,
+        bond:The_Man_with_the_Golden_Gun,
+        bond:The_Spy_Who_Loved_Me ;
+    bond:isJamesBondIn bond:A_View_to_a_Kill,
+        bond:For_Your_Eyes_Only,
+        bond:Live_and_Let_Die,
+        bond:Moonraker,
+        bond:Octopussy,
+        bond:The_Man_with_the_Golden_Gun,
+        bond:The_Spy_Who_Loved_Me ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q134333> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "Roger Moore" .
 
 bond:Desmond_Llewelyn a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill,
@@ -5030,6 +4987,43 @@ bond:England a movie:FilmLocation ;
     geo1:lat 52.5310214 ;
     geo1:long -1.2649062 .
 
+bond:No_Time_to_Die a dbo:Song,
+        movie:Film ;
+    rdfs:label "No Time to Die",
+        "James Bond 007: Keine Zeit zu sterben"@de,
+        "No Time to Die"@en ;
+    bond:hasActor bond:Ben_Whishaw,
+        bond:Christoph_Waltz,
+        bond:Jeffrey_Wright,
+        bond:Léa_Seydoux,
+        bond:Naomie_Harris,
+        bond:Q4547,
+        bond:Ralph_Fiennes,
+        bond:Rami_Malek,
+        bond:Rory_Kinnear ;
+    bond:hasAntagonist bond:Ernst_Stavro_Blofeld,
+        bond:Lyutsifer_Safin ;
+    bond:hasBondGirl bond:Madeleine_Swann ;
+    bond:hasCharacter bond:Bill_Tanner,
+        bond:Ernst_Stavro_Blofeld,
+        bond:Eve_Moneypenny,
+        bond:Felix_Leiter,
+        bond:James_Bond,
+        bond:M,
+        bond:Q ;
+    bond:hasDirector bond:Cary_Joji_Fukunaga ;
+    bond:hasJamesBond bond:Q4547 ;
+    bond:hasMusicContributor bond:Billie_Eilish ;
+    bond:hasProducer <http://example.org/bond/Michael_G._Wilson_&_Barbara_Broccoli> ;
+    bond:hasThemeSong bond:No_Time_to_Die ;
+    bond:imdbRating 7.3 ;
+    bond:isPerformedBy bond:Billie_Eilish ;
+    bond:isThemeSongOf bond:No_Time_to_Die ;
+    bond:rtmRating 8.3 ;
+    schema1:name "No Time to Die" ;
+    schema1:url "https://youtu.be/83YuaW09ueI?si=0jeUBYMHHF9ZRh61" ;
+    time:year "2020"^^xsd:gYear .
+
 bond:London a movie:FilmLocation ;
     rdfs:label "London" ;
     bond:isLocationOf bond:A_View_to_a_Kill,
@@ -5094,43 +5088,6 @@ bond:M a movie:FilmCharacter ;
         "https://static.wikia.nocookie.net/jamesbond/images/f/fe/M_%28Octopussy%29_-_Profile.png" ;
     foaf:name "M" .
 
-bond:No_Time_to_Die a dbo:Song,
-        movie:Film ;
-    rdfs:label "No Time to Die",
-        "James Bond 007: Keine Zeit zu sterben"@de,
-        "No Time to Die"@en ;
-    bond:hasActor bond:Ben_Whishaw,
-        bond:Christoph_Waltz,
-        bond:Daniel_Craig,
-        bond:Jeffrey_Wright,
-        bond:Léa_Seydoux,
-        bond:Naomie_Harris,
-        bond:Ralph_Fiennes,
-        bond:Rami_Malek,
-        bond:Rory_Kinnear ;
-    bond:hasAntagonist bond:Ernst_Stavro_Blofeld,
-        bond:Lyutsifer_Safin ;
-    bond:hasBondGirl bond:Madeleine_Swann ;
-    bond:hasCharacter bond:Bill_Tanner,
-        bond:Ernst_Stavro_Blofeld,
-        bond:Eve_Moneypenny,
-        bond:Felix_Leiter,
-        bond:James_Bond,
-        bond:M,
-        bond:Q ;
-    bond:hasDirector bond:Cary_Joji_Fukunaga ;
-    bond:hasJamesBond bond:Q4547 ;
-    bond:hasMusicContributor bond:Billie_Eilish ;
-    bond:hasProducer <http://example.org/bond/Michael_G._Wilson_&_Barbara_Broccoli> ;
-    bond:hasThemeSong bond:No_Time_to_Die ;
-    bond:imdbRating 7.3 ;
-    bond:isPerformedBy bond:Billie_Eilish ;
-    bond:isThemeSongOf bond:No_Time_to_Die ;
-    bond:rtmRating 8.3 ;
-    schema1:name "No Time to Die" ;
-    schema1:url "https://youtu.be/83YuaW09ueI?si=0jeUBYMHHF9ZRh61" ;
-    time:year "2020"^^xsd:gYear .
-
 bond:James_Bond a movie:FilmCharacter ;
     bond:isCharacterIn bond:A_View_to_a_Kill,
         bond:Casino_Royale,
@@ -5157,12 +5114,12 @@ bond:James_Bond a movie:FilmCharacter ;
         bond:Thunderball,
         bond:Tomorrow_Never_Dies,
         bond:You_Only_Live_Twice ;
-    bond:portrayedBy bond:Daniel_Craig,
-        bond:George_Lazenby,
-        bond:Pierce_Brosnan,
-        bond:Roger_Moore,
-        bond:Sean_Connery,
-        bond:Timothy_Dalton ;
+    bond:portrayedBy bond:Q134333,
+        bond:Q205599,
+        bond:Q41233,
+        bond:Q4547,
+        bond:Q4573,
+        bond:Q81520 ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Bond_-_George_Lazenby_-_Profile.jpg",
         "https://static.wikia.nocookie.net/jamesbond/images/5/59/James_Bond_%28Timothy_Dalton%29_-_Profile.jpg",
         "https://static.wikia.nocookie.net/jamesbond/images/8/81/James_Bond_%28Daniel_Craig%29_-_Profile.jpg",
@@ -5180,8 +5137,6 @@ bond:BondGirl a owl:Class ;
 movie:MusicContributor a owl:Class ;
     rdfs:subClassOf movie:Person .
 
-dbo:Song a owl:Class .
-
 bond:Skyfall a dbo:Song,
         movie:Film ;
     rdfs:label "Skyfall",
@@ -5189,10 +5144,10 @@ bond:Skyfall a dbo:Song,
         "Skyfall"@en ;
     bond:hasActor bond:Ben_Whishaw,
         bond:Berenice_Marlohe,
-        bond:Daniel_Craig,
         bond:Javier_Bardem,
         bond:Judi_Dench,
         bond:Naomie_Harris,
+        bond:Q4547,
         bond:Rory_Kinnear ;
     bond:hasAntagonist bond:Raoul_Silva ;
     bond:hasBondGirl bond:Sévérine ;
@@ -5224,16 +5179,18 @@ bond:Skyfall a dbo:Song,
     schema1:url "https://youtu.be/DeumyOzKqgI?si=5aH1fvbGm0D0uwzT" ;
     time:year "2012"^^xsd:gYear .
 
+dbo:Song a owl:Class .
+
 bond:Casino_Royale a movie:Film ;
     rdfs:label "James Bond 007: Casino Royale"@de,
         "Casino Royale"@en ;
-    bond:hasActor bond:Daniel_Craig,
-        bond:Eva_Green,
+    bond:hasActor bond:Eva_Green,
         bond:Giancarlo_Giannini,
         bond:Jeffrey_Wright,
         bond:Jesper_Christensen,
         bond:Judi_Dench,
-        bond:Mads_Mikkelsen ;
+        bond:Mads_Mikkelsen,
+        bond:Q4547 ;
     bond:hasAntagonist bond:Le_Chiffre,
         bond:Mr._White ;
     bond:hasBondGirl bond:Vesper_Lynd ;
@@ -5270,13 +5227,13 @@ bond:Casino_Royale a movie:Film ;
 bond:Quantum_of_Solace a movie:Film ;
     rdfs:label "James Bond 007: Ein Quantum Trost"@de,
         "Quantum of Solace"@en ;
-    bond:hasActor bond:Daniel_Craig,
-        bond:Gemma_Arterton,
+    bond:hasActor bond:Gemma_Arterton,
         bond:Giancarlo_Giannini,
         bond:Jeffrey_Wright,
         bond:Jesper_Christensen,
         bond:Judi_Dench,
         bond:Mathieu_Amalric,
+        bond:Q4547,
         bond:Rory_Kinnear ;
     bond:hasAntagonist bond:Dominic_Greene,
         bond:Mr._White ;
@@ -5316,10 +5273,10 @@ bond:Spectre a movie:Film ;
     bond:hasActor bond:Andrew_Scott,
         bond:Ben_Whishaw,
         bond:Christoph_Waltz,
-        bond:Daniel_Craig,
         bond:Jesper_Christensen,
         bond:Léa_Seydoux,
         bond:Naomie_Harris,
+        bond:Q4547,
         bond:Ralph_Fiennes,
         bond:Rory_Kinnear ;
     bond:hasAntagonist bond:Franz_Oberhauser_Ernst_Stavro_Blofeld,
@@ -5353,10 +5310,6 @@ bond:Spectre a movie:Film ;
     schema1:name "Spectre" ;
     time:year "2015"^^xsd:gYear .
 
-bond:Villain a owl:Class ;
-    rdfs:subClassOf movie:FilmCharacter,
-        movie:Person .
-
 bond:Dr._No a movie:Film ;
     rdfs:label "James Bond – 007 jagt Dr. No"@de,
         "Dr. No"@en ;
@@ -5366,7 +5319,7 @@ bond:Dr._No a movie:Film ;
         bond:Joseph_Wiseman,
         bond:Lois_Maxwell,
         bond:Peter_Burton,
-        bond:Sean_Connery,
+        bond:Q4573,
         bond:Ursula_Andress ;
     bond:hasAntagonist bond:Dr._Julius_No ;
     bond:hasBondGirl bond:Honey_Ryder ;
@@ -5404,6 +5357,10 @@ bond:Dr._No a movie:Film ;
     schema1:name "Dr. No" ;
     time:year "1962"^^xsd:gYear .
 
+bond:Villain a owl:Class ;
+    rdfs:subClassOf movie:FilmCharacter,
+        movie:Person .
+
 bond:The_Man_with_the_Golden_Gun a dbo:Song,
         movie:Film ;
     rdfs:label "The Man with the Golden Gun",
@@ -5416,7 +5373,7 @@ bond:The_Man_with_the_Golden_Gun a dbo:Song,
         bond:Desmond_Llewelyn,
         bond:Hervé_Villechaize,
         bond:Lois_Maxwell,
-        bond:Roger_Moore ;
+        bond:Q134333 ;
     bond:hasAntagonist bond:Francisco_Scaramanga,
         bond:Nick_Nack ;
     bond:hasBondGirl bond:Mary_Goodnight ;
@@ -5469,8 +5426,8 @@ bond:From_Russia_with_Love a dbo:Song,
         bond:Eunice_Gayson,
         bond:Lois_Maxwell,
         bond:Lotte_Lenya,
+        bond:Q4573,
         bond:Robert_Shaw,
-        bond:Sean_Connery,
         bond:Vladek_Sheybal ;
     bond:hasAntagonist bond:Colonel_Rosa_Klebb,
         bond:Donald_Grant,
@@ -5529,8 +5486,8 @@ bond:Thunderball a dbo:Song,
         bond:Claudine_Auger,
         bond:Desmond_Llewelyn,
         bond:Lois_Maxwell,
-        bond:Rik_Van_Nutter,
-        bond:Sean_Connery ;
+        bond:Q4573,
+        bond:Rik_Van_Nutter ;
     bond:hasAntagonist bond:Emilio_Largo,
         bond:Ernst_Stavro_Blofeld ;
     bond:hasBondGirl bond:Domino_Derval ;
@@ -5584,8 +5541,8 @@ bond:On_Her_Majestys_Secret_Service a movie:Film ;
     bond:hasActor bond:Bernard_Lee,
         bond:Desmond_Llewelyn,
         bond:Diana_Rigg,
-        bond:George_Lazenby,
         bond:Lois_Maxwell,
+        bond:Q205599,
         bond:Telly_Savalas ;
     bond:hasAntagonist bond:Ernst_Stavro_Blofeld ;
     bond:hasBondGirl bond:Tracy_Bond_Teresa_di_Vicenzo ;
@@ -5636,8 +5593,6 @@ bond:On_Her_Majestys_Secret_Service a movie:Film ;
     schema1:name "On Her Majesty's Secret Service" ;
     time:year "1969"^^xsd:gYear .
 
-movie:Film a owl:Class .
-
 bond:Moonraker a dbo:Song,
         movie:Film ;
     rdfs:label "Moonraker",
@@ -5649,8 +5604,8 @@ bond:Moonraker a dbo:Song,
         bond:Lois_Chiles,
         bond:Lois_Maxwell,
         bond:Michael_Lonsdale,
+        bond:Q134333,
         bond:Richard_Kiel,
-        bond:Roger_Moore,
         bond:Walter_Gotell ;
     bond:hasAntagonist bond:Hugo_Drax,
         bond:Jaws ;
@@ -5703,6 +5658,8 @@ bond:Moonraker a dbo:Song,
     schema1:url "https://youtu.be/gt3oQN0cAv0?si=sBE9o7fKiXP-YgOi" ;
     time:year "1979"^^xsd:gYear .
 
+movie:Film a owl:Class .
+
 bond:You_Only_Live_Twice a dbo:Song,
         movie:Film ;
     rdfs:label "You Only Live Twice",
@@ -5713,7 +5670,7 @@ bond:You_Only_Live_Twice a dbo:Song,
         bond:Donald_Pleasence,
         bond:Lois_Maxwell,
         bond:Mie_Hama,
-        bond:Sean_Connery ;
+        bond:Q4573 ;
     bond:hasAntagonist bond:Ernst_Stavro_Blofeld ;
     bond:hasBondGirl bond:Kissy_Suzuki ;
     bond:hasCharacter bond:Ernst_Stavro_Blofeld,
@@ -5781,8 +5738,8 @@ bond:Octopussy a bond:BondGirl,
         bond:Lois_Maxwell,
         bond:Louis_Jourdan,
         bond:Maud_Adams,
+        bond:Q134333,
         bond:Robert_Brown,
-        bond:Roger_Moore,
         bond:Steven_Berkoff,
         bond:Walter_Gotell ;
     bond:hasAntagonist bond:General_Orlov,
@@ -5851,7 +5808,7 @@ bond:Goldfinger a dbo:Song,
         bond:Harold_Sakata,
         bond:Honor_Blackman,
         bond:Lois_Maxwell,
-        bond:Sean_Connery ;
+        bond:Q4573 ;
     bond:hasAntagonist bond:Auric_Goldfinger,
         bond:Oddjob ;
     bond:hasBondGirl bond:Pussy_Galore ;
@@ -5918,7 +5875,7 @@ bond:Live_and_Let_Die a dbo:Song,
         bond:David_Hedison,
         bond:Jane_Seymour,
         bond:Lois_Maxwell,
-        bond:Roger_Moore,
+        bond:Q134333,
         bond:Yaphet_Kotto ;
     bond:hasAntagonist bond:Dr._Kananga_Mr._Big ;
     bond:hasBondGirl bond:Solitaire ;
@@ -5988,8 +5945,8 @@ bond:A_View_to_a_Kill a dbo:Song,
         bond:Geoffrey_Keen,
         bond:Grace_Jones,
         bond:Lois_Maxwell,
+        bond:Q134333,
         bond:Robert_Brown,
-        bond:Roger_Moore,
         bond:Tanya_Roberts,
         bond:Walter_Gotell ;
     bond:hasAntagonist bond:Max_Zorin,
@@ -6062,7 +6019,7 @@ bond:For_Your_Eyes_Only a dbo:Song,
         bond:Julian_Glover,
         bond:Lois_Maxwell,
         bond:Michael_Gothard,
-        bond:Roger_Moore,
+        bond:Q134333,
         bond:Walter_Gotell ;
     bond:hasAntagonist bond:Aristotle_Kristatos,
         bond:Emile_Leopold_Locque,
@@ -6130,8 +6087,8 @@ bond:The_Spy_Who_Loved_Me a movie:Film ;
         bond:Eva_Rueber-Staier,
         bond:Geoffrey_Keen,
         bond:Lois_Maxwell,
+        bond:Q134333,
         bond:Richard_Kiel,
-        bond:Roger_Moore,
         bond:Walter_Gotell ;
     bond:hasAntagonist bond:Jaws,
         bond:Karl_Stromberg ;
@@ -6198,7 +6155,7 @@ bond:GoldenEye a dbo:Song,
         bond:Joe_Don_Baker,
         bond:Judi_Dench,
         bond:Michael_Kitchen,
-        bond:Pierce_Brosnan,
+        bond:Q81520,
         bond:Robbie_Coltrane,
         bond:Samantha_Bond,
         bond:Sean_Bean ;
@@ -6270,7 +6227,7 @@ bond:The_World_Is_Not_Enough a dbo:Song,
         bond:Desmond_Llewelyn,
         bond:Judi_Dench,
         bond:Michael_Kitchen,
-        bond:Pierce_Brosnan,
+        bond:Q81520,
         bond:Robbie_Coltrane,
         bond:Robert_Carlyle,
         bond:Samantha_Bond,
@@ -6341,7 +6298,7 @@ bond:Die_Another_Day a dbo:Song,
         bond:Halle_Berry,
         bond:John_Cleese,
         bond:Judi_Dench,
-        bond:Pierce_Brosnan,
+        bond:Q81520,
         bond:Samantha_Bond,
         bond:Toby_Stephens_Will_Yun_Lee ;
     bond:hasAntagonist bond:Gustav_Graves ;
@@ -6418,9 +6375,9 @@ bond:Licence_to_Kill a dbo:Song,
         bond:Caroline_Bliss,
         bond:David_Hedison,
         bond:Desmond_Llewelyn,
+        bond:Q41233,
         bond:Robert_Brown,
-        bond:Robert_Davi,
-        bond:Timothy_Dalton ;
+        bond:Robert_Davi ;
     bond:hasAntagonist bond:Franz_Sanchez ;
     bond:hasBondGirl bond:Pam_Bouvier ;
     bond:hasCharacter bond:Felix_Leiter,
@@ -6505,7 +6462,7 @@ bond:Tomorrow_Never_Dies a dbo:Song,
         bond:Jonathan_Pryce,
         bond:Judi_Dench,
         bond:Michelle_Yeoh,
-        bond:Pierce_Brosnan,
+        bond:Q81520,
         bond:Samantha_Bond ;
     bond:hasAntagonist bond:Elliot_Carver ;
     bond:hasBondGirl bond:Wai_Lin ;
@@ -6589,7 +6546,7 @@ bond:Diamonds_Are_Forever a dbo:Song,
         bond:Lana_Wood,
         bond:Lois_Maxwell,
         bond:Norman_Burton,
-        bond:Sean_Connery ;
+        bond:Q4573 ;
     bond:hasAntagonist bond:Ernst_Stavro_Blofeld ;
     bond:hasBondGirl bond:Tiffany_Case ;
     bond:hasCharacter bond:Ernst_Stavro_Blofeld,
@@ -6677,8 +6634,8 @@ bond:The_Living_Daylights a dbo:Song,
         bond:Joe_Don_Baker,
         bond:John_Terry,
         bond:Maryam_dAbo,
+        bond:Q41233,
         bond:Robert_Brown,
-        bond:Timothy_Dalton,
         bond:Walter_Gotell ;
     bond:hasAntagonist bond:Brad_Whitaker,
         bond:General_Georgi_Koskov ;
