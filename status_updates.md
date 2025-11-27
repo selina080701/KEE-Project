@@ -3,7 +3,7 @@
 - Data-Pipeline für Reproduzierbarkeit
 - automatisierte statt manuelle Ergänzung: Film (No Time to Die) und Producer
 - automatisiertes Data Cleaning der Characters (im File `g_character_data_cleaning.py`)
-- Bond Girls, Characters, Locations, Movie Poster, Songs, Vehicles Villains als JSON abgespeichert
+- Bond Info, Bond Girls, Characters, Locations, Movie Poster, Songs, Vehicles Villains als JSON abgespeichert
 - Knowledge JSON mit allen Daten zu Filmen und Bond-Darstellern erstellt
 - Knowledge Graphen mit richtigem Vokabular und T-Box erstellt
 - Ontologie Zeichnung erstellt
@@ -17,6 +17,10 @@
 - [Frage] Nutzen der Ontologie in Protegé: Müssen wir noch ein Reasoning durchführen?
 - [Frage] Wird foaf:Gender eher als Literal oder als Resource modelliert?
 - [Frage] Wie sieht die Code-Review am 05.12. genau aus? Was müssen wir vorbereiten?
+- [Frage] Soll das ReadMe für die Endabgabe wieder auf max. 2000 Zeichen gekürzt werden?
+
+**Tips & Inputs**:
+
 
 ----
 
