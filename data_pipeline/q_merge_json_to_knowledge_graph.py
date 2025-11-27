@@ -504,7 +504,6 @@ def create_ttl_knowledge_graph(json_file, output_file):
                 g.add((villain_uri, SCHEMA.image, Literal(villain['image_url'])))
 
         # Process Characters (other than bond girls and villains)
-        # Only include characters that appear in at least 2 films
         for character in movie_data.get('characters', []):
             char_name = character['name']
 
@@ -512,23 +511,28 @@ def create_ttl_knowledge_graph(json_file, output_file):
             if char_name not in frequent_characters:
                 continue
 
-            actor_name = character['actor']
+            actor_name = character['actor'].strip()
 
-            # Create character URI
+            # Character URI
             char_uri_safe = sanitize_uri_part(char_name)
             char_uri = BOND[char_uri_safe]
 
-            # Create actor URI
-            actor_uri_safe = sanitize_uri_part(actor_name)
-            actor_uri = BOND[actor_uri_safe]
+            # for James Bond: use QID
+            qid = label_to_qid.get(actor_name)
+            if qid and char_name == "James Bond":
+                actor_uri = BOND[qid]
+            else:
+                actor_uri_safe = sanitize_uri_part(actor_name)
+                actor_uri = BOND[actor_uri_safe]
 
-            # Add triples
+            # Charakter-Triple
             g.add((char_uri, RDF.type, MOVIE.FilmCharacter))
             g.add((char_uri, FOAF.name, Literal(char_name)))
             g.add((char_uri, BOND.isCharacterIn, movie_uri))
             g.add((movie_uri, BOND.hasCharacter, char_uri))
             g.add((char_uri, BOND.portrayedBy, actor_uri))
 
+            # Actor-Triple
             g.add((actor_uri, RDF.type, MOVIE.Actor))
             g.add((actor_uri, FOAF.name, Literal(actor_name)))
             g.add((actor_uri, BOND.actedIn, movie_uri))
