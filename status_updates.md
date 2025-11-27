@@ -1,3 +1,18 @@
+# 4. Statusupdate - Fr, 28.11.2025
+**Done:**
+- Data-Pipeline für reproduzierbarkeit
+- automatisierte statt manuelle Ergänzung: Film (No Time to Die) und Producer
+- Bond Info als JSON abgespeichert
+- Bond Girls, Characters, Locations, Movie Poster, Songs, Vehicles Villains als JSON abgespeichert
+- Knowledge JSON mit allen Daten zu Filmen und Bond-Darstellern erstellt
+- Knowledge Graphen mit richtigem Vokabular und T-Box erstellt
+- Ontologie Zeichnung erstellt
+- alles ins Streamlit eingebunden
+
+**Whats Next:**
+- Bericht schreiben
+
+
 # 3. Statusupdate - Fr, 21.11.2025
 **Done**:
 - Wikidata Q-ID für Bond-Schauspieler extrahiert
@@ -89,11 +104,11 @@ person:Q134333 a movie:Actor ;
 
 2. [x] James Bond 007: No Time to Die im Kerndatensatz hinzufügen (händisch).
 
-3. [] RDF-Domänenmodell bereitstellen:
+3. [x] RDF-Domänenmodell bereitstellen:
    - [x] RDF-Graph Skizze in Excalidraw (Beispiel Casino Royale)
    - [x] RDF-Graph serialisieren (ttl-Format)
    - [x] RDF-Graph visualisieren (streamlit)
-   - [] RDF-Graph neu generieren: Wenn neue Triples vorhanden sind (zb. „hat Ort“, „hat Auto“, „hat Antagonisten“)
+   - [x] RDF-Graph neu generieren: Wenn neue Triples vorhanden sind (zb. „hat Ort“, „hat Auto“, „hat Antagonisten“)
 4. [] Hinzufügen einer Ontologie, um das Modell zu beschreiben und Schlussfolgerungen zu ermöglichen:
    - [] Ontologie in Protegé erstellen
    - [] Reasoning-Regeln für wiederkehrende Locations, Charaktere, Autos, etc. 
@@ -107,7 +122,7 @@ person:Q134333 a movie:Actor ;
    - [x] Deutsche Film-Titel hinzufügen
    - [x] Schauspieler Info: dob, dod, country origin, etc.
 
-3. [] Unstrukturierte Texte extrahieren (Fandom):
+3. [x] Unstrukturierte Texte extrahieren (Fandom):
    - [x] Filmseiten auf Fandom über `wikitextparser` parsen und als JSON speichern
    - [x] Benötigte Elemente aus dem Text extrahieren
    - [x] NLP-Analyse:
@@ -119,23 +134,23 @@ person:Q134333 a movie:Actor ;
 # Visualization
 1. [x] Framework der Streamlit-App erstellen
 
-2. [] Titelpage:
+2. [x] Titelpage:
    - [x] Übersicht / Intro gestalten
    - [x] Kerndatensatz-Tabelle einfügen
    - [x] deutsche Titel ergänzen
    - [x] Suchfunktion für Filme     
    - [x] Filmposter einfügen
 
-3. [] RDF-Graph
+3. [x] RDF-Graph
    - [x] RDF-Graph visualisieren (streamlit)
-   - [] RDF-Graph mit neuen Triples aktualisieren
+   - [x] RDF-Graph mit neuen Triples aktualisieren
 
 4. [x] Recurring Characters Page
 
-5. [] Image Galleries:
+5. [x] Image Galleries:
    - [x] Autos Übersichtseite
    - [x] Bond Girls Übersichtseite
-   - [] Villains Übersichtseite
+   - [x] Villains Übersichtseite
 
 5. [x] Interactive Map 
 
