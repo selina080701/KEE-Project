@@ -4,7 +4,7 @@ import json
 import os
 import re
 from pathlib import Path
-from rdflib import Graph, Namespace, Literal
+from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF, RDFS, XSD, OWL
 
 """
@@ -82,6 +82,16 @@ def create_ttl_knowledge_graph(json_file, output_file):
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+    # Load actors block (Bond actors from Wikidata)
+    actors_data = data.get("actors", {})
+
+    # Map actor label ("Roger Moore") -> QID ("Q134333")
+    label_to_qid = {}
+    for qid, info in actors_data.items():
+        label = (info.get("label") or "").strip()
+        if label:
+            label_to_qid[label] = qid
+
     # Count character appearances across all movies
     character_appearances = {}
     for movie_data in data['movies']:
@@ -114,6 +124,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
 
     g.add((DBO.Song, RDF.type, OWL.Class))
 
+    g.add((BOND.BondActor, RDF.type, OWL.Class))
     g.add((BOND.BondGirl, RDF.type, OWL.Class))
     g.add((BOND.Villain, RDF.type, OWL.Class))
     g.add((BOND.Vehicle, RDF.type, OWL.Class))
@@ -131,8 +142,15 @@ def create_ttl_knowledge_graph(json_file, output_file):
     g.add((BOND.BondGirl, RDFS.subClassOf, MOVIE.FilmCharacter))
     g.add((BOND.Villain, RDFS.subClassOf, MOVIE.FilmCharacter))
 
+    # SubClasses of Actor
+    g.add((BOND.BondActor, RDFS.subClassOf, MOVIE.Actor))
+
     # ----- 3: Define Object Properties (relationships between individuals)
-    
+
+    # Gender
+    g.add((FOAF.gender, RDF.type, OWL.ObjectProperty))
+    g.add((FOAF.gender, RDFS.domain, MOVIE.Person))
+
     # Film -> Actor: hasActor | Actor -> Film: apctedIn
     g.add((BOND.hasActor, RDF.type, OWL.ObjectProperty))
     g.add((BOND.hasActor, RDFS.domain, MOVIE.Film))
@@ -151,6 +169,15 @@ def create_ttl_knowledge_graph(json_file, output_file):
     g.add((BOND.portrayedByInverse, RDFS.domain, MOVIE.Actor))
     g.add((BOND.portrayedByInverse, RDFS.range, MOVIE.FilmCharacter))
 
+    # Film -> BondActor: hasJamesBond | BondActor -> Film: isJamesBondIn
+    g.add((BOND.hasJamesBond, RDF.type, OWL.ObjectProperty))
+    g.add((BOND.hasJamesBond, RDFS.domain, MOVIE.Film))
+    g.add((BOND.hasJamesBond, RDFS.range, BOND.BondActor))
+    g.add((BOND.hasJamesBond, OWL.inverseOf, BOND.isJamesBondIn))
+
+    g.add((BOND.isJamesBondIn, RDF.type, OWL.ObjectProperty))
+    g.add((BOND.isJamesBondIn, RDFS.domain, BOND.BondActor))
+    g.add((BOND.isJamesBondIn, RDFS.range, MOVIE.Film))
 
     # Film -> Villain: hasAntagonist | Villain -> Film: isAntagonistIn
     g.add((BOND.hasAntagonist, RDF.type, OWL.ObjectProperty))
@@ -255,10 +282,6 @@ def create_ttl_knowledge_graph(json_file, output_file):
     g.add((FOAF.name, RDFS.domain, MOVIE.Person))
     g.add((FOAF.name, RDFS.range, XSD.string))
 
-    g.add((FOAF.gender, RDF.type, OWL.DatatypeProperty))
-    g.add((FOAF.gender, RDFS.domain, MOVIE.Person))
-    g.add((FOAF.gender, RDFS.range, XSD.string))
-
     g.add((SCHEMA.image, RDF.type, OWL.DatatypeProperty))
     g.add((SCHEMA.image, RDFS.range, XSD.anyURI))
 
@@ -285,6 +308,72 @@ def create_ttl_knowledge_graph(json_file, output_file):
     g.add((BOND.rtmRating, RDF.type, OWL.DatatypeProperty))
     g.add((BOND.rtmRating, RDFS.domain, MOVIE.Film))
     g.add((BOND.rtmRating, RDFS.range, XSD.decimal))
+
+    g.add((DBO.birthDate, RDF.type, OWL.DatatypeProperty))
+    g.add((DBO.birthDate, RDFS.domain, MOVIE.Person))
+    g.add((DBO.birthDate, RDFS.range, XSD.date))
+
+    g.add((DBO.deathDate, RDF.type, OWL.DatatypeProperty))
+    g.add((DBO.deathDate, RDFS.domain, MOVIE.Person))
+    g.add((DBO.deathDate, RDFS.range, XSD.date))
+
+    g.add((DBO.citizenship, RDF.type, OWL.ObjectProperty))
+    g.add((DBO.citizenship, RDFS.domain, MOVIE.Person))
+
+    g.add((SCHEMA.sameAs, RDF.type, OWL.ObjectProperty))
+    g.add((SCHEMA.sameAs, RDFS.domain, MOVIE.Person))
+
+    #######################################################
+    # Create Triples for each Actor and its Entities
+    ########################################################
+
+    for qid, actor_info in actors_data.items():
+        actor_uri = BOND[qid]
+
+        # Type
+        g.add((actor_uri, RDF.type, MOVIE.Actor))
+        g.add((actor_uri, RDF.type, BOND.BondActor))
+
+        # Label / name
+        label = actor_info.get("label")
+        if label:
+            g.add((actor_uri, RDFS.label, Literal(label)))
+            g.add((actor_uri, FOAF.name, Literal(label)))
+
+        # sameAs (Wikidata URI)
+        wd_uri = actor_info.get("actor_uri")
+        if wd_uri:
+            g.add((actor_uri, SCHEMA.sameAs, URIRef(wd_uri)))
+
+        # Birth date
+        birth_date = actor_info.get("birth_date")
+        if birth_date:
+            g.add((actor_uri, DBO.birthDate, Literal(birth_date, datatype=XSD.date)))
+
+        # Death date (only if not null)
+        death_date = actor_info.get("death_date")
+        if death_date:
+            g.add((actor_uri, DBO.deathDate, Literal(death_date, datatype=XSD.date)))
+
+        # Genders: list of {uri, label}
+        for g_obj in actor_info.get("genders", []):
+            gender_uri = g_obj.get("uri")
+            gender_label = g_obj.get("label")
+            if gender_uri:
+                gender_ref = URIRef(gender_uri)
+                g.add((actor_uri, FOAF.gender, gender_ref))
+                if gender_label:
+                    g.add((gender_ref, RDFS.label, Literal(gender_label)))
+
+        # Citizenships: list of {uri, label}
+        for c_obj in actor_info.get("citizenships", []):
+            country_uri = c_obj.get("uri")
+            country_label = c_obj.get("label")
+            if country_uri:
+                country_ref = URIRef(country_uri)
+                g.add((actor_uri, DBO.citizenship, country_ref))
+                if country_label:
+                    g.add((country_ref, RDFS.label, Literal(country_label)))
 
     #######################################################
     # Create Triples for each Movie and its Entities
@@ -322,6 +411,19 @@ def create_ttl_knowledge_graph(json_file, output_file):
                 g.add((movie_uri, BOND.rtmRating, Literal(rating, datatype=XSD.decimal)))
             except (ValueError, TypeError):
                 pass
+
+        # Link Bond actor (from actors_data) to the movie
+        bond_actor_qid = movie_data.get("bond_actor_qid")
+        if bond_actor_qid:
+            bond_actor_uri = BOND[bond_actor_qid]
+
+            g.add((bond_actor_uri, RDF.type, MOVIE.Actor))
+            g.add((bond_actor_uri, RDF.type, BOND.BondActor))
+
+            g.add((movie_uri, BOND.hasJamesBond, bond_actor_uri))
+            g.add((bond_actor_uri, BOND.isJamesBondIn, movie_uri))
+
+            g.add((bond_actor_uri, BOND.actedIn, movie_uri))
 
         # Add Director
         if 'director' in movie_data and movie_data['director']:

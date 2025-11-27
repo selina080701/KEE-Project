@@ -9,6 +9,17 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+dbo:birthDate a owl:DatatypeProperty ;
+    rdfs:domain movie:Person ;
+    rdfs:range xsd:date .
+
+dbo:citizenship a owl:ObjectProperty ;
+    rdfs:domain movie:Person .
+
+dbo:deathDate a owl:DatatypeProperty ;
+    rdfs:domain movie:Person ;
+    rdfs:range xsd:date .
+
 bond:hasActor a owl:ObjectProperty ;
     rdfs:domain movie:Film ;
     rdfs:range movie:Actor ;
@@ -33,6 +44,11 @@ bond:hasDirector a owl:ObjectProperty ;
     rdfs:domain movie:Film ;
     rdfs:range movie:Director ;
     owl:inverseOf bond:isDirectorOf .
+
+bond:hasJamesBond a owl:ObjectProperty ;
+    rdfs:domain movie:Film ;
+    rdfs:range bond:BondActor ;
+    owl:inverseOf bond:isJamesBondIn .
 
 bond:hasLocation a owl:ObjectProperty ;
     rdfs:domain movie:Film ;
@@ -84,6 +100,9 @@ schema1:name a owl:DatatypeProperty ;
     rdfs:domain movie:Film ;
     rdfs:range xsd:string .
 
+schema1:sameAs a owl:ObjectProperty ;
+    rdfs:domain movie:Person .
+
 schema1:url a owl:DatatypeProperty ;
     rdfs:domain dbo:Song ;
     rdfs:range xsd:anyURI .
@@ -103,9 +122,8 @@ time:year a owl:DatatypeProperty ;
     rdfs:domain movie:Film ;
     rdfs:range xsd:gYear .
 
-foaf:gender a owl:DatatypeProperty ;
-    rdfs:domain movie:Person ;
-    rdfs:range xsd:string .
+foaf:gender a owl:ObjectProperty ;
+    rdfs:domain movie:Person .
 
 foaf:name a owl:DatatypeProperty ;
     rdfs:domain movie:Person ;
@@ -2557,6 +2575,17 @@ bond:Q-Boat a bond:Vehicle ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Q_Boat.png" .
 
+bond:Q205599 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "George Lazenby" ;
+    dbo:birthDate "1939-09-05"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q408> ;
+    bond:actedIn bond:On_Her_Majestys_Secret_Service ;
+    bond:isJamesBondIn bond:On_Her_Majestys_Secret_Service ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q205599> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "George Lazenby" .
+
 bond:Qs_Hydrofoil_Boat a bond:Vehicle ;
     rdfs:label "Q's Hydrofoil Boat" ;
     bond:isVehicleOf bond:Moonraker ;
@@ -3434,6 +3463,10 @@ bond:isDirectorOf a owl:ObjectProperty ;
     rdfs:domain movie:Director ;
     rdfs:range movie:Film .
 
+bond:isJamesBondIn a owl:ObjectProperty ;
+    rdfs:domain bond:BondActor ;
+    rdfs:range movie:Film .
+
 bond:isLocationOf a owl:ObjectProperty ;
     rdfs:domain movie:FilmLocation ;
     rdfs:range movie:Film .
@@ -3463,6 +3496,10 @@ bond:the_Mississippi_River a movie:FilmLocation ;
     bond:isLocationOf bond:Live_and_Let_Die ;
     geo1:lat 35.159663 ;
     geo1:long -90.0497641 .
+
+<http://www.wikidata.org/entity/Q27> rdfs:label "Ireland" .
+
+<http://www.wikidata.org/entity/Q408> rdfs:label "Australia" .
 
 bond:Adele a movie:MusicContributor ;
     foaf:name "Adele" .
@@ -3896,6 +3933,19 @@ bond:Peter_Burton a movie:Actor ;
     bond:actedIn bond:Dr._No ;
     foaf:name "Peter Burton" .
 
+bond:Q41233 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "Timothy Dalton" ;
+    dbo:birthDate "1946-03-21"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
+    bond:actedIn bond:Licence_to_Kill,
+        bond:The_Living_Daylights ;
+    bond:isJamesBondIn bond:Licence_to_Kill,
+        bond:The_Living_Daylights ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q41233> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "Timothy Dalton" .
+
 bond:Rami_Malek a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die ;
     foaf:name "Rami Malek" .
@@ -4084,6 +4134,8 @@ bond:Yaphet_Kotto a movie:Actor ;
 
 bond:a-ha a movie:MusicContributor ;
     foaf:name "a-ha" .
+
+<http://www.wikidata.org/entity/Q30> rdfs:label "United States" .
 
 <http://example.org/bond/Albert_R._Broccoli_&_Michael_G._Wilson> a movie:Producer ;
     bond:isProducerOf bond:A_View_to_a_Kill,
@@ -4381,6 +4433,25 @@ bond:Naomie_Harris a movie:Actor ;
         bond:Spectre ;
     foaf:name "Naomie Harris" .
 
+bond:Q81520 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "Pierce Brosnan" ;
+    dbo:birthDate "1953-05-16"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145>,
+        <http://www.wikidata.org/entity/Q27>,
+        <http://www.wikidata.org/entity/Q30> ;
+    bond:actedIn bond:Die_Another_Day,
+        bond:GoldenEye,
+        bond:The_World_Is_Not_Enough,
+        bond:Tomorrow_Never_Dies ;
+    bond:isJamesBondIn bond:Die_Another_Day,
+        bond:GoldenEye,
+        bond:The_World_Is_Not_Enough,
+        bond:Tomorrow_Never_Dies ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q81520> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "Pierce Brosnan" .
+
 bond:Scotland a movie:FilmLocation ;
     rdfs:label "Scotland" ;
     bond:isLocationOf bond:From_Russia_with_Love,
@@ -4460,6 +4531,26 @@ bond:Pierce_Brosnan a movie:Actor ;
         bond:Tomorrow_Never_Dies ;
     foaf:name "Pierce Brosnan" .
 
+bond:Q4547 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "Daniel Craig" ;
+    dbo:birthDate "1968-03-02"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145>,
+        <http://www.wikidata.org/entity/Q30> ;
+    bond:actedIn bond:Casino_Royale,
+        bond:No_Time_to_Die,
+        bond:Quantum_of_Solace,
+        bond:Skyfall,
+        bond:Spectre ;
+    bond:isJamesBondIn bond:Casino_Royale,
+        bond:No_Time_to_Die,
+        bond:Quantum_of_Solace,
+        bond:Skyfall,
+        bond:Spectre ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q4547> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "Daniel Craig" .
+
 bond:Robert_Brown a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill,
         bond:Licence_to_Kill,
@@ -4491,6 +4582,8 @@ bond:USA a movie:FilmLocation ;
     geo1:lat 39.7837304 ;
     geo1:long -100.445882 .
 
+<http://www.wikidata.org/entity/Q145> rdfs:label "United Kingdom" .
+
 bond:Daniel_Craig a movie:Actor ;
     bond:actedIn bond:Casino_Royale,
         bond:No_Time_to_Die,
@@ -4509,6 +4602,28 @@ bond:General_Gogol a movie:FilmCharacter ;
     bond:portrayedBy bond:Walter_Gotell ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg" ;
     foaf:name "General Gogol" .
+
+bond:Q4573 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "Sean Connery" ;
+    dbo:birthDate "1930-08-25"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
+    dbo:deathDate "2020-10-31"^^xsd:date ;
+    bond:actedIn bond:Diamonds_Are_Forever,
+        bond:Dr._No,
+        bond:From_Russia_with_Love,
+        bond:Goldfinger,
+        bond:Thunderball,
+        bond:You_Only_Live_Twice ;
+    bond:isJamesBondIn bond:Diamonds_Are_Forever,
+        bond:Dr._No,
+        bond:From_Russia_with_Love,
+        bond:Goldfinger,
+        bond:Thunderball,
+        bond:You_Only_Live_Twice ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q4573> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "Sean Connery" .
 
 bond:Russia a movie:FilmLocation ;
     rdfs:label "Russia" ;
@@ -4546,6 +4661,8 @@ bond:Switzerland a movie:FilmLocation ;
     geo1:lat 46.7985624 ;
     geo1:long 8.2319736 .
 
+<http://www.wikidata.org/entity/Q6581097> rdfs:label "male" .
+
 bond:Bill_Tanner a movie:FilmCharacter ;
     bond:isCharacterIn bond:For_Your_Eyes_Only,
         bond:GoldenEye,
@@ -4571,6 +4688,30 @@ bond:Geoffrey_Keen a movie:Actor ;
         bond:The_Spy_Who_Loved_Me ;
     foaf:name "Geoffrey Keen" .
 
+bond:Q134333 a bond:BondActor,
+        movie:Actor ;
+    rdfs:label "Roger Moore" ;
+    dbo:birthDate "1927-10-14"^^xsd:date ;
+    dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
+    dbo:deathDate "2017-05-23"^^xsd:date ;
+    bond:actedIn bond:A_View_to_a_Kill,
+        bond:For_Your_Eyes_Only,
+        bond:Live_and_Let_Die,
+        bond:Moonraker,
+        bond:Octopussy,
+        bond:The_Man_with_the_Golden_Gun,
+        bond:The_Spy_Who_Loved_Me ;
+    bond:isJamesBondIn bond:A_View_to_a_Kill,
+        bond:For_Your_Eyes_Only,
+        bond:Live_and_Let_Die,
+        bond:Moonraker,
+        bond:Octopussy,
+        bond:The_Man_with_the_Golden_Gun,
+        bond:The_Spy_Who_Loved_Me ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q134333> ;
+    foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
+    foaf:name "Roger Moore" .
+
 bond:Sean_Connery a movie:Actor ;
     bond:actedIn bond:Diamonds_Are_Forever,
         bond:Dr._No,
@@ -4591,6 +4732,9 @@ bond:Walter_Gotell a movie:Actor ;
 
 movie:Producer a owl:Class ;
     rdfs:subClassOf movie:Person .
+
+bond:BondActor a owl:Class ;
+    rdfs:subClassOf movie:Actor .
 
 <http://example.org/bond/Harry_Saltzman_&_Albert_R._Broccoli> a movie:Producer ;
     bond:isProducerOf bond:Diamonds_Are_Forever,
@@ -4648,8 +4792,6 @@ bond:United_States a movie:FilmLocation ;
         bond:The_Living_Daylights ;
     geo1:lat 39.7837304 ;
     geo1:long -100.445882 .
-
-movie:Person a owl:Class .
 
 bond:France a movie:FilmLocation ;
     rdfs:label "France" ;
@@ -4733,6 +4875,8 @@ bond:Bernard_Lee a movie:Actor ;
         bond:Thunderball,
         bond:You_Only_Live_Twice ;
     foaf:name "Bernard Lee" .
+
+movie:Person a owl:Class .
 
 bond:Ernst_Stavro_Blofeld a bond:Villain,
         movie:FilmCharacter ;
@@ -4824,42 +4968,6 @@ bond:Miss_Moneypenny a movie:FilmCharacter ;
         "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Moneypenny_-_Lois_Maxwell_-_Profile.png",
         "https://static.wikia.nocookie.net/jamesbond/images/b/b3/Moneypenny_-_Caroline_Bliss_-_Profile.png" ;
     foaf:name "Miss Moneypenny" .
-
-bond:No_Time_to_Die a dbo:Song,
-        movie:Film ;
-    rdfs:label "No Time to Die",
-        "James Bond 007: Keine Zeit zu sterben"@de,
-        "No Time to Die"@en ;
-    bond:hasActor bond:Ben_Whishaw,
-        bond:Christoph_Waltz,
-        bond:Daniel_Craig,
-        bond:Jeffrey_Wright,
-        bond:Léa_Seydoux,
-        bond:Naomie_Harris,
-        bond:Ralph_Fiennes,
-        bond:Rami_Malek,
-        bond:Rory_Kinnear ;
-    bond:hasAntagonist bond:Ernst_Stavro_Blofeld,
-        bond:Lyutsifer_Safin ;
-    bond:hasBondGirl bond:Madeleine_Swann ;
-    bond:hasCharacter bond:Bill_Tanner,
-        bond:Ernst_Stavro_Blofeld,
-        bond:Eve_Moneypenny,
-        bond:Felix_Leiter,
-        bond:James_Bond,
-        bond:M,
-        bond:Q ;
-    bond:hasDirector bond:Cary_Joji_Fukunaga ;
-    bond:hasMusicContributor bond:Billie_Eilish ;
-    bond:hasProducer <http://example.org/bond/Michael_G._Wilson_&_Barbara_Broccoli> ;
-    bond:hasThemeSong bond:No_Time_to_Die ;
-    bond:imdbRating 7.3 ;
-    bond:isPerformedBy bond:Billie_Eilish ;
-    bond:isThemeSongOf bond:No_Time_to_Die ;
-    bond:rtmRating 8.3 ;
-    schema1:name "No Time to Die" ;
-    schema1:url "https://youtu.be/83YuaW09ueI?si=0jeUBYMHHF9ZRh61" ;
-    time:year "2020"^^xsd:gYear .
 
 bond:Q a movie:FilmCharacter ;
     bond:isCharacterIn bond:A_View_to_a_Kill,
@@ -4986,6 +5094,43 @@ bond:M a movie:FilmCharacter ;
         "https://static.wikia.nocookie.net/jamesbond/images/f/fe/M_%28Octopussy%29_-_Profile.png" ;
     foaf:name "M" .
 
+bond:No_Time_to_Die a dbo:Song,
+        movie:Film ;
+    rdfs:label "No Time to Die",
+        "James Bond 007: Keine Zeit zu sterben"@de,
+        "No Time to Die"@en ;
+    bond:hasActor bond:Ben_Whishaw,
+        bond:Christoph_Waltz,
+        bond:Daniel_Craig,
+        bond:Jeffrey_Wright,
+        bond:Léa_Seydoux,
+        bond:Naomie_Harris,
+        bond:Ralph_Fiennes,
+        bond:Rami_Malek,
+        bond:Rory_Kinnear ;
+    bond:hasAntagonist bond:Ernst_Stavro_Blofeld,
+        bond:Lyutsifer_Safin ;
+    bond:hasBondGirl bond:Madeleine_Swann ;
+    bond:hasCharacter bond:Bill_Tanner,
+        bond:Ernst_Stavro_Blofeld,
+        bond:Eve_Moneypenny,
+        bond:Felix_Leiter,
+        bond:James_Bond,
+        bond:M,
+        bond:Q ;
+    bond:hasDirector bond:Cary_Joji_Fukunaga ;
+    bond:hasJamesBond bond:Q4547 ;
+    bond:hasMusicContributor bond:Billie_Eilish ;
+    bond:hasProducer <http://example.org/bond/Michael_G._Wilson_&_Barbara_Broccoli> ;
+    bond:hasThemeSong bond:No_Time_to_Die ;
+    bond:imdbRating 7.3 ;
+    bond:isPerformedBy bond:Billie_Eilish ;
+    bond:isThemeSongOf bond:No_Time_to_Die ;
+    bond:rtmRating 8.3 ;
+    schema1:name "No Time to Die" ;
+    schema1:url "https://youtu.be/83YuaW09ueI?si=0jeUBYMHHF9ZRh61" ;
+    time:year "2020"^^xsd:gYear .
+
 bond:James_Bond a movie:FilmCharacter ;
     bond:isCharacterIn bond:A_View_to_a_Kill,
         bond:Casino_Royale,
@@ -5035,6 +5180,8 @@ bond:BondGirl a owl:Class ;
 movie:MusicContributor a owl:Class ;
     rdfs:subClassOf movie:Person .
 
+dbo:Song a owl:Class .
+
 bond:Skyfall a dbo:Song,
         movie:Film ;
     rdfs:label "Skyfall",
@@ -5055,6 +5202,7 @@ bond:Skyfall a dbo:Song,
         bond:M,
         bond:Q ;
     bond:hasDirector bond:Sam_Mendes ;
+    bond:hasJamesBond bond:Q4547 ;
     bond:hasLocation bond:Adana,
         bond:China,
         bond:England,
@@ -5076,8 +5224,6 @@ bond:Skyfall a dbo:Song,
     schema1:url "https://youtu.be/DeumyOzKqgI?si=5aH1fvbGm0D0uwzT" ;
     time:year "2012"^^xsd:gYear .
 
-dbo:Song a owl:Class .
-
 bond:Casino_Royale a movie:Film ;
     rdfs:label "James Bond 007: Casino Royale"@de,
         "Casino Royale"@en ;
@@ -5097,6 +5243,7 @@ bond:Casino_Royale a movie:Film ;
         bond:Mr._White,
         bond:René_Mathis ;
     bond:hasDirector bond:Martin_Campbell ;
+    bond:hasJamesBond bond:Q4547 ;
     bond:hasLocation bond:Bahamas,
         bond:Czech_Republic,
         bond:England,
@@ -5141,6 +5288,7 @@ bond:Quantum_of_Solace a movie:Film ;
         bond:Mr._White,
         bond:René_Mathis ;
     bond:hasDirector bond:Marc_Forster ;
+    bond:hasJamesBond bond:Q4547 ;
     bond:hasLocation bond:Austria,
         bond:Bolivia,
         bond:Bregenz,
@@ -5185,6 +5333,7 @@ bond:Spectre a movie:Film ;
         bond:Mr._White,
         bond:Q ;
     bond:hasDirector bond:Sam_Mendes ;
+    bond:hasJamesBond bond:Q4547 ;
     bond:hasLocation bond:Altaussee,
         bond:Austria,
         bond:England,
@@ -5203,6 +5352,10 @@ bond:Spectre a movie:Film ;
     bond:rtmRating 6.4 ;
     schema1:name "Spectre" ;
     time:year "2015"^^xsd:gYear .
+
+bond:Villain a owl:Class ;
+    rdfs:subClassOf movie:FilmCharacter,
+        movie:Person .
 
 bond:Dr._No a movie:Film ;
     rdfs:label "James Bond – 007 jagt Dr. No"@de,
@@ -5224,6 +5377,7 @@ bond:Dr._No a movie:Film ;
         bond:Q,
         bond:Sylvia_Trench ;
     bond:hasDirector bond:Terence_Young ;
+    bond:hasJamesBond bond:Q4573 ;
     bond:hasLocation bond:Courtleigh_Manor,
         bond:Crab_Key,
         bond:Crab_Key_Island,
@@ -5272,6 +5426,7 @@ bond:The_Man_with_the_Golden_Gun a dbo:Song,
         bond:Q,
         bond:Sheriff_J.W._Pepper ;
     bond:hasDirector bond:Guy_Hamilton ;
+    bond:hasJamesBond bond:Q134333 ;
     bond:hasLocation bond:Bangkok,
         bond:Beirut,
         bond:England,
@@ -5301,10 +5456,6 @@ bond:The_Man_with_the_Golden_Gun a dbo:Song,
     schema1:url "https://youtu.be/PSbj2Mx2By8?si=lSTEzJTfxcNSlcdv" ;
     time:year "1974"^^xsd:gYear .
 
-bond:Villain a owl:Class ;
-    rdfs:subClassOf movie:FilmCharacter,
-        movie:Person .
-
 bond:From_Russia_with_Love a dbo:Song,
         movie:Film ;
     rdfs:label "From Russia with Love",
@@ -5333,6 +5484,7 @@ bond:From_Russia_with_Love a dbo:Song,
         bond:Q,
         bond:Sylvia_Trench ;
     bond:hasDirector bond:Terence_Young ;
+    bond:hasJamesBond bond:Q4573 ;
     bond:hasLocation bond:Argyll,
         bond:Belgrade,
         bond:Croatia,
@@ -5389,6 +5541,7 @@ bond:Thunderball a dbo:Song,
         bond:Miss_Moneypenny,
         bond:Q ;
     bond:hasDirector bond:Terence_Young ;
+    bond:hasJamesBond bond:Q4573 ;
     bond:hasLocation bond:Anet,
         bond:Bahamas,
         bond:England,
@@ -5442,6 +5595,7 @@ bond:On_Her_Majestys_Secret_Service a movie:Film ;
         bond:Miss_Moneypenny,
         bond:Q ;
     bond:hasDirector bond:Peter_R._Hunt ;
+    bond:hasJamesBond bond:Q205599 ;
     bond:hasLocation bond:Bahnhof,
         bond:Beach,
         bond:Bern,
@@ -5509,6 +5663,7 @@ bond:Moonraker a dbo:Song,
         bond:Q,
         bond:Sir_Fredrick_Gray ;
     bond:hasDirector bond:Lewis_Gilbert ;
+    bond:hasJamesBond bond:Q134333 ;
     bond:hasLocation bond:Brazil,
         bond:California,
         bond:Chateau_Vaux-le-Vicomte,
@@ -5567,6 +5722,7 @@ bond:You_Only_Live_Twice a dbo:Song,
         bond:Miss_Moneypenny,
         bond:Q ;
     bond:hasDirector bond:Lewis_Gilbert ;
+    bond:hasJamesBond bond:Q4573 ;
     bond:hasLocation bond:Buckinghamshire,
         bond:Cape_Cod,
         bond:England,
@@ -5640,6 +5796,7 @@ bond:Octopussy a bond:BondGirl,
         bond:Rubelvitch,
         bond:Sir_Fredrick_Gray ;
     bond:hasDirector bond:John_Glen ;
+    bond:hasJamesBond bond:Q134333 ;
     bond:hasLocation bond:Berlin,
         bond:Chemnitz,
         bond:Cuba,
@@ -5704,6 +5861,7 @@ bond:Goldfinger a dbo:Song,
         bond:Miss_Moneypenny,
         bond:Q ;
     bond:hasDirector bond:Guy_Hamilton ;
+    bond:hasJamesBond bond:Q4573 ;
     bond:hasLocation bond:Andermatt,
         bond:Baltimore,
         bond:Black_Park_Woodland,
@@ -5770,6 +5928,7 @@ bond:Live_and_Let_Die a dbo:Song,
         bond:Miss_Moneypenny,
         bond:Sheriff_J.W._Pepper ;
     bond:hasDirector bond:Guy_Hamilton ;
+    bond:hasJamesBond bond:Q134333 ;
     bond:hasLocation bond:2nd_Avenue,
         bond:5th_Avenue,
         bond:69th_Street,
@@ -5843,6 +6002,7 @@ bond:A_View_to_a_Kill a dbo:Song,
         bond:Q,
         bond:Sir_Fredrick_Gray ;
     bond:hasDirector bond:John_Glen ;
+    bond:hasJamesBond bond:Q134333 ;
     bond:hasLocation bond:Amberley,
         bond:Ascot_Racecourse,
         bond:Berkshire,
@@ -5915,6 +6075,7 @@ bond:For_Your_Eyes_Only a dbo:Song,
         bond:Q,
         bond:Sir_Fredrick_Gray ;
     bond:hasDirector bond:John_Glen ;
+    bond:hasJamesBond bond:Q134333 ;
     bond:hasLocation bond:Albania,
         bond:Bahamas,
         bond:Brazil,
@@ -5984,6 +6145,7 @@ bond:The_Spy_Who_Loved_Me a movie:Film ;
         bond:Rubelvitch,
         bond:Sir_Fredrick_Gray ;
     bond:hasDirector bond:Lewis_Gilbert ;
+    bond:hasJamesBond bond:Q134333 ;
     bond:hasLocation bond:Alps,
         bond:Cairo,
         bond:Canada,
@@ -6050,6 +6212,7 @@ bond:GoldenEye a dbo:Song,
         bond:Q,
         bond:Valentin_Zukovsky ;
     bond:hasDirector bond:Martin_Campbell ;
+    bond:hasJamesBond bond:Q81520 ;
     bond:hasLocation bond:Arecibo_Observatory,
         bond:Arkhangelsk_Oblast,
         bond:Beach,
@@ -6123,6 +6286,7 @@ bond:The_World_Is_Not_Enough a dbo:Song,
         bond:Q,
         bond:Valentin_Zukovsky ;
     bond:hasDirector bond:Michael_Apted ;
+    bond:hasJamesBond bond:Q81520 ;
     bond:hasLocation bond:Azerbaijan,
         bond:Bahamas,
         bond:Baku,
@@ -6188,6 +6352,7 @@ bond:Die_Another_Day a dbo:Song,
         bond:Miss_Moneypenny,
         bond:Q ;
     bond:hasDirector bond:Lee_Tamahori ;
+    bond:hasJamesBond bond:Q81520 ;
     bond:hasLocation bond:Aldershot,
         bond:Beach,
         bond:Bridge_of_No,
@@ -6264,6 +6429,7 @@ bond:Licence_to_Kill a dbo:Song,
         bond:Miss_Moneypenny,
         bond:Q ;
     bond:hasDirector bond:John_Glen ;
+    bond:hasJamesBond bond:Q41233 ;
     bond:hasLocation bond:Bahamas,
         bond:Bat_Tower_Road,
         bond:Bimini,
@@ -6350,6 +6516,7 @@ bond:Tomorrow_Never_Dies a dbo:Song,
         bond:Miss_Moneypenny,
         bond:Q ;
     bond:hasDirector bond:Roger_Spottiswoode ;
+    bond:hasJamesBond bond:Q81520 ;
     bond:hasLocation bond:Altiport,
         bond:Bangkok,
         bond:Banyan_Tree_Bangkok,
@@ -6432,6 +6599,7 @@ bond:Diamonds_Are_Forever a dbo:Song,
         bond:Miss_Moneypenny,
         bond:Q ;
     bond:hasDirector bond:Guy_Hamilton ;
+    bond:hasJamesBond bond:Q4573 ;
     bond:hasLocation bond:Amstel_Canal,
         bond:Amsterdam,
         bond:Baja_California,
@@ -6523,6 +6691,7 @@ bond:The_Living_Daylights a dbo:Song,
         bond:Q,
         bond:Sir_Fredrick_Gray ;
     bond:hasDirector bond:John_Glen ;
+    bond:hasJamesBond bond:Q41233 ;
     bond:hasLocation bond:Afghanistan,
         bond:Arizona,
         bond:Austria,
