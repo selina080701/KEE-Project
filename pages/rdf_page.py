@@ -496,13 +496,12 @@ def show_rdf_page():
     elif view_option == "Theme songs":
         # View 5: Theme Songs - movies, songs, and performers
         if selected_movie_uris:
-            # Filter to show only selected movie
+            # Filter to show only selected movies
             for movie in graph_data["movies"]:
                 if movie.id in selected_movie_uris:
                     node_list.append(movie)
-                    break
 
-            # Get theme song for this movie
+            # Get theme song for each selected movie
             for edge in graph_data["song_edges"]:
                 if edge.source in selected_movie_uris:
                     edges.append(edge)
@@ -528,13 +527,12 @@ def show_rdf_page():
     elif view_option == "Locations":
         # View 6: Locations - movies and locations
         if selected_movie_uris:
-            # Filter to show only selected movie
+            # Filter to show only selected movies
             for movie in graph_data["movies"]:
                 if movie.id in selected_movie_uris:
                     node_list.append(movie)
-                    break
 
-            # Get locations for this movie
+            # Get locations for each selected movie
             for edge in graph_data["location_edges"]:
                 if edge.source in selected_movie_uris:
                     edges.append(edge)
@@ -551,13 +549,12 @@ def show_rdf_page():
     elif view_option == "Vehicles":
         # View 7: Vehicles - movies and vehicles
         if selected_movie_uris:
-            # Filter to show only selected movie
+            # Filter to show only selected movies
             for movie in graph_data["movies"]:
                 if movie.id in selected_movie_uris:
                     node_list.append(movie)
-                    break
 
-            # Get vehicles for this movie
+            # Get vehicles for each selected movie
             for edge in graph_data["vehicle_edges"]:
                 if edge.source in selected_movie_uris:
                     edges.append(edge)
