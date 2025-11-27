@@ -214,18 +214,21 @@ def create_rdf_graph(df_ttl):
     actor_query = '''
         PREFIX movie: <https://triplydb.com/Triply/linkedmdb/vocab/>
         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-        SELECT DISTINCT ?actor ?name
+        PREFIX schema: <http://schema.org/>
+        SELECT DISTINCT ?actor ?name ?image
         WHERE {
             ?actor a movie:Actor .
             ?actor foaf:name ?name .
+            OPTIONAL { ?actor schema:image ?image }
         }
     '''
     actors = [
         Node(id=str(row[0]),
                 label=str(row[1]),
                 color='#FFD93D',
-                shape='star',
-                size=22)
+                shape='circularImage' if row[2] else 'star',
+                size=22,
+                image=str(row[2]) if row[2] else None)
         for row in g.query(actor_query)
     ]
 
@@ -234,7 +237,7 @@ def create_rdf_graph(df_ttl):
     bond_actor_attr_edges = []
     bond_actor_edges = []
 
-    # Attribute für alle BondActor-Knoten
+    # Attribute for BondActors
     for actor in g.subjects(RDF.type, BOND.BondActor):
         actor_uri = str(actor)
 
@@ -245,7 +248,7 @@ def create_rdf_graph(df_ttl):
                 Node(
                     id=node_id,
                     label=str(dob),
-                    color='#91D9F7',
+                    color='#FFCCCC',
                     shape="box",
                     size=16,
                 )
@@ -265,7 +268,7 @@ def create_rdf_graph(df_ttl):
                 Node(
                     id=node_id,
                     label=str(dod),
-                    color='#0B6E99',
+                    color='#FFCCCC',
                     shape="box",
                     size=16,
                 )
@@ -278,7 +281,7 @@ def create_rdf_graph(df_ttl):
                 )
             )
 
-        # citizenship (Länder-Knoten wiederverwenden, daher ID = URI)
+        # citizenship
         for country in g.objects(actor, DBO.citizenship):
             country_uri = str(country)
             country_label = g.value(country, RDFS.label) or country_uri.split("/")[-1]
@@ -286,8 +289,8 @@ def create_rdf_graph(df_ttl):
                 Node(
                     id=country_uri,
                     label=str(country_label),
-                    color='#DBEBC2',
-                    shape="dot",
+                    color='#7CCCC7',
+                    shape="ellipse",
                     size=20,
                 )
             )
@@ -307,8 +310,8 @@ def create_rdf_graph(df_ttl):
                 Node(
                     id=gender_uri,
                     label=str(gender_label),
-                    color='#FF6B6B',
-                    shape='diamond',
+                    color='#7CCCC7',
+                    shape='ellipse',
                     size=20,
                 )
             )
@@ -320,7 +323,7 @@ def create_rdf_graph(df_ttl):
                 )
             )
 
-    # Kanten Film -> BondActor (hasJamesBond)
+    # Edges Film -> BondActor (hasJamesBond)
     for movie, _, actor in g.triples((None, BOND.hasJamesBond, None)):
         bond_actor_edges.append(
             Edge(
@@ -410,18 +413,21 @@ def create_rdf_graph(df_ttl):
     vehicle_query = '''
         PREFIX bond: <http://example.org/bond/>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        SELECT DISTINCT ?vehicle ?label
+        PREFIX schema: <http://schema.org/>
+        SELECT DISTINCT ?vehicle ?label ?image
         WHERE {
             ?vehicle a bond:Vehicle .
             ?vehicle rdfs:label ?label .
+            OPTIONAL { ?vehicle schema:image ?image }
         }
     '''
     vehicles = [
         Node(id=str(row[0]),
                 label=str(row[1]),
                 color='#7CCCC7',
-                shape='ellipse',
-                size=18)
+                shape='circularImage' if row[2] else 'ellipse',
+                size=18,
+                image=str(row[2]) if row[2] else None)
         for row in g.query(vehicle_query)
     ]
 

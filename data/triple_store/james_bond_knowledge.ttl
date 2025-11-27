@@ -261,7 +261,6 @@ bond:Aldershot a movie:FilmLocation ;
 bond:Alec_Trevelyan_Janus a bond:Villain ;
     bond:isCharacterIn bond:GoldenEye ;
     bond:portrayedBy bond:Sean_Bean ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/76/Alec_Trevelyan_%28Sean_Bean%29_-_Profile.jpg" ;
     foaf:name "Alec Trevelyan / 'Janus'" .
 
 bond:Alfa_Romeo_GTV6 a bond:Vehicle ;
@@ -337,7 +336,6 @@ bond:Antonov_An-124 a bond:Vehicle ;
 bond:Anya_Amasova a bond:BondGirl ;
     bond:isCharacterIn bond:The_Spy_Who_Loved_Me ;
     bond:portrayedBy bond:Barbara_Bach ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6b/Anya_Amasova_%28Barbara_Bach%29_-_Profile.jpg" ;
     foaf:name "Anya Amasova" .
 
 bond:Arecibo_Observatory a movie:FilmLocation ;
@@ -355,7 +353,6 @@ bond:Argyll a movie:FilmLocation ;
 bond:Aristotle_Kristatos a bond:Villain ;
     bond:isCharacterIn bond:For_Your_Eyes_Only ;
     bond:portrayedBy bond:Julian_Glover ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/61/Aris_Kristatos_%28Julian_Glover%29_-_Profile.jpg" ;
     foaf:name "Aristotle Kristatos" .
 
 bond:Arizona a movie:FilmLocation ;
@@ -399,7 +396,6 @@ bond:Audi_200_C3 a bond:Vehicle ;
 bond:Auric_Goldfinger a bond:Villain ;
     bond:isCharacterIn bond:Goldfinger ;
     bond:portrayedBy bond:Gert_Fröbe ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Auric_Goldfinger_%28Gert_Fr%C3%B6be%29_-_Profile.png" ;
     foaf:name "Auric Goldfinger" .
 
 bond:Austin_Mini_Moke a bond:Vehicle ;
@@ -611,7 +607,6 @@ bond:Bolivia a movie:FilmLocation ;
 bond:Brad_Whitaker a bond:Villain ;
     bond:isCharacterIn bond:The_Living_Daylights ;
     bond:portrayedBy bond:Joe_Don_Baker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Brad_Whitaker_%28Joe_Don_Baker%29_-_Profile.png" ;
     foaf:name "Brad Whitaker" .
 
 bond:Bratislava a movie:FilmLocation ;
@@ -682,7 +677,6 @@ bond:Calle_16_de_Septiembre a movie:FilmLocation ;
 bond:Camille_Montes a bond:BondGirl ;
     bond:isCharacterIn bond:Quantum_of_Solace ;
     bond:portrayedBy bond:Gemma_Arterton ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Camille_Montes_%28Olga_Kurylenko%29_-_Profile.jpg" ;
     foaf:name "Camille Montes" .
 
 bond:Canada a movie:FilmLocation ;
@@ -799,7 +793,6 @@ bond:Citroën_Traction_Avant a bond:Vehicle ;
 bond:Colonel_Rosa_Klebb a bond:Villain ;
     bond:isCharacterIn bond:From_Russia_with_Love ;
     bond:portrayedBy bond:Lotte_Lenya ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/de/Rosa-klebb-from-russia-with-love.png" ;
     foaf:name "Colonel Rosa Klebb" .
 
 bond:Colonia_Centro a movie:FilmLocation ;
@@ -926,19 +919,16 @@ bond:Dodge_WC_51 a bond:Vehicle ;
 bond:Dominic_Greene a bond:Villain ;
     bond:isCharacterIn bond:Quantum_of_Solace ;
     bond:portrayedBy bond:Mathieu_Amalric ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Profile_-_Dominic_Greene.png" ;
     foaf:name "Dominic Greene" .
 
 bond:Domino_Derval a bond:BondGirl ;
     bond:isCharacterIn bond:Thunderball ;
     bond:portrayedBy bond:Claudine_Auger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/82/Domino_Derval_-_Profile.png" ;
     foaf:name "Domino Derval" .
 
 bond:Donald_Grant a bond:Villain ;
     bond:isCharacterIn bond:From_Russia_with_Love ;
     bond:portrayedBy bond:Robert_Shaw ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg" ;
     foaf:name "Donald Grant" .
 
 bond:Dover a movie:FilmLocation ;
@@ -962,19 +952,16 @@ bond:Downs_Racecourse a movie:FilmLocation ;
 bond:Dr._Christmas_Jones a bond:BondGirl ;
     bond:isCharacterIn bond:The_World_Is_Not_Enough ;
     bond:portrayedBy bond:Denise_Richards ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Christmas_Jones_%28Denise_Richards%29_-_Profile.jpg" ;
     foaf:name "Dr. Christmas Jones" .
 
 bond:Dr._Julius_No a bond:Villain ;
     bond:isCharacterIn bond:Dr._No ;
     bond:portrayedBy bond:Joseph_Wiseman ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/db/Dr_No_-_Profile.jpg" ;
     foaf:name "Dr. Julius No" .
 
 bond:Dr._Kananga_Mr._Big a bond:Villain ;
     bond:isCharacterIn bond:Live_and_Let_Die ;
     bond:portrayedBy bond:Yaphet_Kotto ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Dr._Kananga_%28Yaphet_Kotto%29_-_Profile.jpg" ;
     foaf:name "Dr. Kananga / Mr. Big" .
 
 bond:Dragon_tank a bond:Vehicle ;
@@ -1015,13 +1002,11 @@ bond:El_Teatro_de_la_Ciudad a movie:FilmLocation ;
 bond:Elektra_King a bond:Villain ;
     bond:isCharacterIn bond:The_World_Is_Not_Enough ;
     bond:portrayedBy bond:Sophie_Marceau ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Elektra_King_%28Sophie_Marceau%29_-_Profile.jpg" ;
     foaf:name "Elektra King" .
 
 bond:Elliot_Carver a bond:Villain ;
     bond:isCharacterIn bond:Tomorrow_Never_Dies ;
     bond:portrayedBy bond:Jonathan_Pryce ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/45/Elliot_Carver_%28Jonathan_Pryce%29_-_Profile.jpg" ;
     foaf:name "Elliot Carver" .
 
 bond:Elveden_Hall a movie:FilmLocation ;
@@ -1033,13 +1018,11 @@ bond:Elveden_Hall a movie:FilmLocation ;
 bond:Emile_Leopold_Locque a bond:Villain ;
     bond:isCharacterIn bond:For_Your_Eyes_Only ;
     bond:portrayedBy bond:Michael_Gothard ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Emile_Leopold_Locque_-_Profile.png" ;
     foaf:name "Emile Leopold Locque" .
 
 bond:Emilio_Largo a bond:Villain ;
     bond:isCharacterIn bond:Thunderball ;
     bond:portrayedBy bond:Adolfo_Celi ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/78/Emilio_Largo_%28Adolfo_Celi%29_-_Profile.jpg" ;
     foaf:name "Emilio Largo" .
 
 <http://example.org/bond/England
@@ -1053,7 +1036,6 @@ Gibraltar""" ;
 bond:Erich_Kriegler a bond:Villain ;
     bond:isCharacterIn bond:For_Your_Eyes_Only ;
     bond:portrayedBy bond:John_Wyman ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/80/Erich_Kriegler_%28John_Wyman%29_-_Profile.jpg" ;
     foaf:name "Erich Kriegler" .
 
 bond:Essex a movie:FilmLocation ;
@@ -1170,7 +1152,6 @@ bond:Fort_Knox a movie:FilmLocation ;
 bond:Francisco_Scaramanga a bond:Villain ;
     bond:isCharacterIn bond:The_Man_with_the_Golden_Gun ;
     bond:portrayedBy bond:Christopher_Lee ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b9/Francisco_Scaramanga_%28Christopher_Lee%29_-_Profile.png" ;
     foaf:name "Francisco Scaramanga" .
 
 bond:Frankfurt a movie:FilmLocation ;
@@ -1188,13 +1169,11 @@ bond:Frankfurt_Airport a movie:FilmLocation ;
 bond:Franz_Oberhauser_Ernst_Stavro_Blofeld a bond:Villain ;
     bond:isCharacterIn bond:Spectre ;
     bond:portrayedBy bond:Christoph_Waltz ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Blofeld_%28Christoph_Waltz%29_-_Profile.png" ;
     foaf:name "Franz Oberhauser / Ernst Stavro Blofeld" .
 
 bond:Franz_Sanchez a bond:Villain ;
     bond:isCharacterIn bond:Licence_to_Kill ;
     bond:portrayedBy bond:Robert_Davi ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/48/Franz_Sanchez_%28Robert_Davi%29_-_Profile.png" ;
     foaf:name "Franz Sanchez" .
 
 bond:GMC_CCKW_352 a bond:Vehicle ;
@@ -1210,19 +1189,16 @@ bond:GP_Super_Buggy_Series_III a bond:Vehicle ;
 bond:General_Georgi_Koskov a bond:Villain ;
     bond:isCharacterIn bond:The_Living_Daylights ;
     bond:portrayedBy bond:Jeroen_Krabbé ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg" ;
     foaf:name "General Georgi Koskov" .
 
 bond:General_Orlov a bond:Villain ;
     bond:isCharacterIn bond:Octopussy ;
     bond:portrayedBy bond:Steven_Berkoff ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/General_Orlov_-_Profile.png" ;
     foaf:name "General Orlov" .
 
 bond:Giacinta_Jinx_Johnson a bond:BondGirl ;
     bond:isCharacterIn bond:Die_Another_Day ;
     bond:portrayedBy bond:Halle_Berry ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/25/Jinx_%28Halle_Berry%29_-_Profile.jpg" ;
     foaf:name "Giacinta \"Jinx\" Johnson" .
 
 bond:Gibraltar a movie:FilmLocation ;
@@ -1291,7 +1267,6 @@ bond:Guincho_Beach a movie:FilmLocation ;
 bond:Gustav_Graves a bond:Villain ;
     bond:isCharacterIn bond:Die_Another_Day ;
     bond:portrayedBy bond:Toby_Stephens_Will_Yun_Lee ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Tan-Sun_Moon_-_Profile.png" ;
     foaf:name "Gustav Graves" .
 
 bond:Gypsum_Road a movie:FilmLocation ;
@@ -1459,7 +1434,6 @@ bond:Hofn a movie:FilmLocation ;
 bond:Holly_Goodhead a bond:BondGirl ;
     bond:isCharacterIn bond:Moonraker ;
     bond:portrayedBy bond:Lois_Chiles ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Holly_Goodhead_%28Lois_Chiles%29_-_Profile.jpg" ;
     foaf:name "Holly Goodhead" .
 
 bond:Honda_ATC_90 a bond:Vehicle ;
@@ -1470,7 +1444,6 @@ bond:Honda_ATC_90 a bond:Vehicle ;
 bond:Honey_Ryder a bond:BondGirl ;
     bond:isCharacterIn bond:Dr._No ;
     bond:portrayedBy bond:Ursula_Andress ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Honey_Ryder_%28Ursula_Andress%29_-_Profile.png" ;
     foaf:name "Honey Ryder" .
 
 bond:Hong_Kong_Harbour a movie:FilmLocation ;
@@ -1522,7 +1495,6 @@ bond:Hughes_OH-06 a bond:Vehicle ;
 bond:Hugo_Drax a bond:Villain ;
     bond:isCharacterIn bond:Moonraker ;
     bond:portrayedBy bond:Michael_Lonsdale ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/97/Hugo_Drax_%28Michael_Lonsdale%29_-_Profile.png" ;
     foaf:name "Hugo Drax" .
 
 bond:Hyōgo_Prefecture a movie:FilmLocation ;
@@ -1599,7 +1571,6 @@ bond:Kagoshima a movie:FilmLocation ;
 bond:Kamal_Khan a bond:Villain ;
     bond:isCharacterIn bond:Octopussy ;
     bond:portrayedBy bond:Louis_Jourdan ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/26/Kamal_Khan_%28Louis_Jourdan%29_-_Profile.jpg" ;
     foaf:name "Kamal Khan" .
 
 bond:Kananga a movie:FilmLocation ;
@@ -1617,13 +1588,11 @@ bond:Kansai_Region a movie:FilmLocation ;
 bond:Kara_Milovy a bond:BondGirl ;
     bond:isCharacterIn bond:The_Living_Daylights ;
     bond:portrayedBy bond:Maryam_dAbo ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/18/Kara_Milovy_%28Maryam_d%27Abo%29_-_Profile.png" ;
     foaf:name "Kara Milovy" .
 
 bond:Karl_Stromberg a bond:Villain ;
     bond:isCharacterIn bond:The_Spy_Who_Loved_Me ;
     bond:portrayedBy bond:Curd_Jürgens ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/58/Karl-stromberg-portrait.png" ;
     foaf:name "Karl Stromberg" .
 
 bond:Karnak a movie:FilmLocation ;
@@ -1715,7 +1684,6 @@ bond:Kingston_Airport a movie:FilmLocation ;
 bond:Kissy_Suzuki a bond:BondGirl ;
     bond:isCharacterIn bond:You_Only_Live_Twice ;
     bond:portrayedBy bond:Mie_Hama ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a2/Kissy_Suzuki_-_Profile.png" ;
     foaf:name "Kissy Suzuki" .
 
 bond:Kong a movie:FilmLocation ;
@@ -1727,7 +1695,6 @@ bond:Kong a movie:FilmLocation ;
 bond:Kronsteen a bond:Villain ;
     bond:isCharacterIn bond:From_Russia_with_Love ;
     bond:portrayedBy bond:Vladek_Sheybal ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/45/Kronsteen_%28Vladek_Sheybal%29_-_Profile.jpg" ;
     foaf:name "Kronsteen" .
 
 bond:Kyushu_Region a movie:FilmLocation ;
@@ -1845,7 +1812,6 @@ bond:Lauterbrunnen a movie:FilmLocation ;
 bond:Le_Chiffre a bond:Villain ;
     bond:isCharacterIn bond:Casino_Royale ;
     bond:portrayedBy bond:Mads_Mikkelsen ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Le_Chiffre_%28Mads_Mikkelsen%29_-_Profile.jpg" ;
     foaf:name "Le Chiffre" .
 
 bond:Learjet_35 a bond:Vehicle ;
@@ -1971,7 +1937,6 @@ bond:Lucerne a movie:FilmLocation ;
 bond:Lyutsifer_Safin a bond:Villain ;
     bond:isCharacterIn bond:No_Time_to_Die ;
     bond:portrayedBy bond:Rami_Malek ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Lyutsifer_Safin_-_Profile_V2.jpg" ;
     foaf:name "Lyutsifer Safin" .
 
 bond:M5_Stuart_Tank a bond:Vehicle ;
@@ -2042,7 +2007,6 @@ bond:Marina a movie:FilmLocation ;
 bond:Mary_Goodnight a bond:BondGirl ;
     bond:isCharacterIn bond:The_Man_with_the_Golden_Gun ;
     bond:portrayedBy bond:Britt_Ekland ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c4/Mary_Goodnight_%28Britt_Ekland%29_-_Profile.jpg" ;
     foaf:name "Mary Goodnight" .
 
 bond:Maryland a movie:FilmLocation ;
@@ -2071,19 +2035,16 @@ bond:Maui a movie:FilmLocation ;
 bond:Max_Denbigh_C a bond:Villain ;
     bond:isCharacterIn bond:Spectre ;
     bond:portrayedBy bond:Andrew_Scott ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Max_Denbigh_-_Profile.png" ;
     foaf:name "Max Denbigh / C" .
 
 bond:Max_Zorin a bond:Villain ;
     bond:isCharacterIn bond:A_View_to_a_Kill ;
     bond:portrayedBy bond:Christopher_Walken ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bb/Max_Zorin_-_Profile.png" ;
     foaf:name "Max Zorin" .
 
 bond:May_Day a bond:Villain ;
     bond:isCharacterIn bond:A_View_to_a_Kill ;
     bond:portrayedBy bond:Grace_Jones ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9a/May_Day_-_Profile.png" ;
     foaf:name "May Day" .
 
 bond:Mayfair a movie:FilmLocation ;
@@ -2107,7 +2068,6 @@ bond:McCarran_International_Airport a movie:FilmLocation ;
 bond:Melina_Havelock a bond:BondGirl ;
     bond:isCharacterIn bond:For_Your_Eyes_Only ;
     bond:portrayedBy bond:Carole_Bouquet ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Melina_Havelock_%28Carole_Bouquet%29_-_Profile.jpg" ;
     foaf:name "Melina Havelock" .
 
 bond:Mercedes-Benz_190_W121 a bond:Vehicle ;
@@ -2245,7 +2205,6 @@ bond:Moonraker_Shuttle a bond:Vehicle ;
 bond:Natalya_Simonova a bond:BondGirl ;
     bond:isCharacterIn bond:GoldenEye ;
     bond:portrayedBy bond:Izabella_Scorupco ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/02%2BIzabella%2BScorupco%2Bas%2BNatalya%2BSimonova.jpg" ;
     foaf:name "Natalya Simonova" .
 
 bond:Navarre a movie:FilmLocation ;
@@ -2304,7 +2263,6 @@ bond:Newquay a movie:FilmLocation ;
 bond:Nick_Nack a bond:Villain ;
     bond:isCharacterIn bond:The_Man_with_the_Golden_Gun ;
     bond:portrayedBy bond:Hervé_Villechaize ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Nick_Nack_%28Herv%C3%A9_Villechaize%29_-_Profile.jpg" ;
     foaf:name "Nick Nack" .
 
 bond:Ning-Po a bond:Vehicle ;
@@ -2345,7 +2303,6 @@ bond:Ocho_Rios a movie:FilmLocation ;
 bond:Oddjob a bond:Villain ;
     bond:isCharacterIn bond:Goldfinger ;
     bond:portrayedBy bond:Harold_Sakata ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a5/Oddjob_Profile.png" ;
     foaf:name "Oddjob" .
 
 bond:On_Her_Majestys_Secret_Service_We_Have_All_The_Time_In_The_World a dbo:Song ;
@@ -2414,7 +2371,6 @@ bond:Palmela a movie:FilmLocation ;
 bond:Pam_Bouvier a bond:BondGirl ;
     bond:isCharacterIn bond:Licence_to_Kill ;
     bond:portrayedBy bond:Carey_Lowell ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/96/Pam_Bouvier_%28Carey_Lowell%29_-_Profile.jpg" ;
     foaf:name "Pam Bouvier" .
 
 bond:Panama a movie:FilmLocation ;
@@ -2567,7 +2523,6 @@ bond:Punta_Garza a movie:FilmLocation ;
 bond:Pussy_Galore a bond:BondGirl ;
     bond:isCharacterIn bond:Goldfinger ;
     bond:portrayedBy bond:Honor_Blackman ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/cf/Pussy_Galore_%28Honor_Blackman%29_-_Profile.png" ;
     foaf:name "Pussy Galore" .
 
 bond:Q-Boat a bond:Vehicle ;
@@ -2594,7 +2549,6 @@ bond:RMS_Queen_Elizabeth a bond:Vehicle ;
 bond:Raoul_Silva a bond:Villain ;
     bond:isCharacterIn bond:Skyfall ;
     bond:portrayedBy bond:Javier_Bardem ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1b/Raoul_Silva_-_Profile.png" ;
     foaf:name "Raoul Silva" .
 
 bond:Renault_11 a bond:Vehicle ;
@@ -2821,7 +2775,6 @@ bond:Slovakia a movie:FilmLocation ;
 bond:Solitaire a bond:BondGirl ;
     bond:isCharacterIn bond:Live_and_Let_Die ;
     bond:portrayedBy bond:Jane_Seymour ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ef/Solitaire_%28Jane_Seymour%29_-_Profile.jpg" ;
     foaf:name "Solitaire" .
 
 bond:Sommarugagasse a movie:FilmLocation ;
@@ -2903,7 +2856,6 @@ bond:St_Pancras_Station a movie:FilmLocation ;
 bond:Stacey_Sutton a bond:BondGirl ;
     bond:isCharacterIn bond:A_View_to_a_Kill ;
     bond:portrayedBy bond:Tanya_Roberts ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7e/Stacy_Sutton_-_Profile.png" ;
     foaf:name "Stacey Sutton" .
 
 bond:Stansted_Airport a movie:FilmLocation ;
@@ -2988,7 +2940,6 @@ bond:Switchblade a bond:Vehicle ;
 bond:Sévérine a bond:BondGirl ;
     bond:isCharacterIn bond:Skyfall ;
     bond:portrayedBy bond:Berenice_Marlohe ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/35/S%C3%A9v%C3%A9rine_%28Berenice_Marlohe%29_-_Profile.jpg" ;
     foaf:name "Sévérine" .
 
 bond:Tagus a movie:FilmLocation ;
@@ -3030,7 +2981,6 @@ bond:Tangier_Morocco a movie:FilmLocation ;
 bond:Tatiana_Romanova a bond:BondGirl ;
     bond:isCharacterIn bond:From_Russia_with_Love ;
     bond:portrayedBy bond:Daniela_Bianchi ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/Tatiana_Romanova_%28Daniela_Bianchi%29_-_Profile.jpg" ;
     foaf:name "Tatiana Romanova" .
 
 bond:Taylor-Dunn_Tee-Bird a bond:Vehicle ;
@@ -3065,7 +3015,6 @@ bond:The_O2_Arena a movie:FilmLocation ;
 bond:Tiffany_Case a bond:BondGirl ;
     bond:isCharacterIn bond:Diamonds_Are_Forever ;
     bond:portrayedBy bond:Lana_Wood ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/30/Tiffany_Case_%28Jill_St_John%29_-_Profile.png" ;
     foaf:name "Tiffany Case" .
 
 bond:Tjøme a movie:FilmLocation ;
@@ -3116,7 +3065,6 @@ bond:Tracma_1500 a bond:Vehicle ;
 bond:Tracy_Bond_Teresa_di_Vicenzo a bond:BondGirl ;
     bond:isCharacterIn bond:On_Her_Majestys_Secret_Service ;
     bond:portrayedBy bond:Diana_Rigg ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/Tracy_Bond_%28Diana_Rigg%29_-_Profile.jpg" ;
     foaf:name "Tracy Bond (Teresa di Vicenzo)" .
 
 bond:Trafalgar_Square a movie:FilmLocation ;
@@ -3217,7 +3165,6 @@ bond:Verzasca_Dam a movie:FilmLocation ;
 bond:Vesper_Lynd a bond:BondGirl ;
     bond:isCharacterIn bond:Casino_Royale ;
     bond:portrayedBy bond:Eva_Green ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/ca/Vesper_Lynd_%28Eva_Green%29_-_Profile.png" ;
     foaf:name "Vesper Lynd" .
 
 bond:Victor-III_Class_Submarine a bond:Vehicle ;
@@ -3228,7 +3175,6 @@ bond:Victor-III_Class_Submarine a bond:Vehicle ;
 bond:Victor_Renard_Zokas a bond:Villain ;
     bond:isCharacterIn bond:The_World_Is_Not_Enough ;
     bond:portrayedBy bond:Robert_Carlyle ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Profile_-_Renard.png" ;
     foaf:name "Victor 'Renard' Zokas" .
 
 bond:Victoria_Harbour a movie:FilmLocation ;
@@ -3273,7 +3219,6 @@ bond:Vostok_16 a bond:Vehicle ;
 bond:Wai_Lin a bond:BondGirl ;
     bond:isCharacterIn bond:Tomorrow_Never_Dies ;
     bond:portrayedBy bond:Michelle_Yeoh ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Wai_Lin_Profile.png" ;
     foaf:name "Wai Lin" .
 
 bond:Wales a movie:FilmLocation ;
@@ -3495,10 +3440,12 @@ bond:Adele a movie:MusicContributor ;
 
 bond:Adolfo_Celi a movie:Actor ;
     bond:actedIn bond:Thunderball ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/78/Emilio_Largo_%28Adolfo_Celi%29_-_Profile.jpg" ;
     foaf:name "Adolfo Celi" .
 
 bond:Andrew_Scott a movie:Actor ;
     bond:actedIn bond:Spectre ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Max_Denbigh_-_Profile.png" ;
     foaf:name "Andrew Scott" .
 
 bond:Bangkok a movie:FilmLocation ;
@@ -3510,6 +3457,7 @@ bond:Bangkok a movie:FilmLocation ;
 
 bond:Barbara_Bach a movie:Actor ;
     bond:actedIn bond:The_Spy_Who_Loved_Me ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6b/Anya_Amasova_%28Barbara_Bach%29_-_Profile.jpg" ;
     foaf:name "Barbara Bach" .
 
 bond:Bell_UH-1_Iroquois a bond:Vehicle ;
@@ -3521,6 +3469,7 @@ bond:Bell_UH-1_Iroquois a bond:Vehicle ;
 
 bond:Berenice_Marlohe a movie:Actor ;
     bond:actedIn bond:Skyfall ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/35/S%C3%A9v%C3%A9rine_%28Berenice_Marlohe%29_-_Profile.jpg" ;
     foaf:name "Berenice Marlohe" .
 
 bond:Billie_Eilish a movie:MusicContributor ;
@@ -3535,6 +3484,7 @@ bond:Brazil a movie:FilmLocation ;
 
 bond:Britt_Ekland a movie:Actor ;
     bond:actedIn bond:The_Man_with_the_Golden_Gun ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c4/Mary_Goodnight_%28Britt_Ekland%29_-_Profile.jpg" ;
     foaf:name "Britt Ekland" .
 
 bond:Cairo a movie:FilmLocation ;
@@ -3546,6 +3496,7 @@ bond:Cairo a movie:FilmLocation ;
 
 bond:Carey_Lowell a movie:Actor ;
     bond:actedIn bond:Licence_to_Kill ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/96/Pam_Bouvier_%28Carey_Lowell%29_-_Profile.jpg" ;
     foaf:name "Carey Lowell" .
 
 bond:Carly_Simon a movie:MusicContributor ;
@@ -3553,10 +3504,12 @@ bond:Carly_Simon a movie:MusicContributor ;
 
 bond:Carole_Bouquet a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Melina_Havelock_%28Carole_Bouquet%29_-_Profile.jpg" ;
     foaf:name "Carole Bouquet" .
 
 bond:Cec_Linder a movie:Actor ;
     bond:actedIn bond:Goldfinger ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/dc/Felix_Leiter_%28Cec_Linder%29_-_Profile.png" ;
     foaf:name "Cec Linder" .
 
 bond:Cessna_A185F a bond:Vehicle ;
@@ -3568,6 +3521,7 @@ bond:Cessna_A185F a bond:Vehicle ;
 
 bond:Charles_Gray a movie:Actor ;
     bond:actedIn bond:Diamonds_Are_Forever ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/95/Blofeld_Profile_%28Charles_Gray%29.png" ;
     foaf:name "Charles Gray" .
 
 bond:Chris_Cornell a movie:MusicContributor ;
@@ -3575,34 +3529,42 @@ bond:Chris_Cornell a movie:MusicContributor ;
 
 bond:Christopher_Lee a movie:Actor ;
     bond:actedIn bond:The_Man_with_the_Golden_Gun ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b9/Francisco_Scaramanga_%28Christopher_Lee%29_-_Profile.png" ;
     foaf:name "Christopher Lee" .
 
 bond:Christopher_Walken a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bb/Max_Zorin_-_Profile.png" ;
     foaf:name "Christopher Walken" .
 
 bond:Claudine_Auger a movie:Actor ;
     bond:actedIn bond:Thunderball ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/82/Domino_Derval_-_Profile.png" ;
     foaf:name "Claudine Auger" .
 
 bond:Curd_Jürgens a movie:Actor ;
     bond:actedIn bond:The_Spy_Who_Loved_Me ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/58/Karl-stromberg-portrait.png" ;
     foaf:name "Curd Jürgens" .
 
 bond:Daniela_Bianchi a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/Tatiana_Romanova_%28Daniela_Bianchi%29_-_Profile.jpg" ;
     foaf:name "Daniela Bianchi" .
 
 bond:Denise_Richards a movie:Actor ;
     bond:actedIn bond:The_World_Is_Not_Enough ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Christmas_Jones_%28Denise_Richards%29_-_Profile.jpg" ;
     foaf:name "Denise Richards" .
 
 bond:Diana_Rigg a movie:Actor ;
     bond:actedIn bond:On_Her_Majestys_Secret_Service ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/Tracy_Bond_%28Diana_Rigg%29_-_Profile.jpg" ;
     foaf:name "Diana Rigg" .
 
 bond:Donald_Pleasence a movie:Actor ;
     bond:actedIn bond:You_Only_Live_Twice ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Blofeld_%28You_Only_Live_Twice%29_-_Profile.png" ;
     foaf:name "Donald Pleasence" .
 
 bond:Duran_Duran a movie:MusicContributor ;
@@ -3624,6 +3586,7 @@ bond:Eurocopter_AS365_Dauphin a bond:Vehicle ;
 
 bond:Eva_Green a movie:Actor ;
     bond:actedIn bond:Casino_Royale ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/ca/Vesper_Lynd_%28Eva_Green%29_-_Profile.png" ;
     foaf:name "Eva Green" .
 
 bond:Fontainebleau a movie:FilmLocation ;
@@ -3638,10 +3601,12 @@ bond:Garbage a movie:MusicContributor ;
 
 bond:Gemma_Arterton a movie:Actor ;
     bond:actedIn bond:Quantum_of_Solace ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Camille_Montes_%28Olga_Kurylenko%29_-_Profile.jpg" ;
     foaf:name "Gemma Arterton" .
 
 bond:Gert_Fröbe a movie:Actor ;
     bond:actedIn bond:Goldfinger ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Auric_Goldfinger_%28Gert_Fr%C3%B6be%29_-_Profile.png" ;
     foaf:name "Gert Fröbe" .
 
 bond:Gladys_Knight a movie:MusicContributor ;
@@ -3649,6 +3614,7 @@ bond:Gladys_Knight a movie:MusicContributor ;
 
 bond:Grace_Jones a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9a/May_Day_-_Profile.png" ;
     foaf:name "Grace Jones" .
 
 bond:HMS_Devonshire a bond:Vehicle,
@@ -3662,10 +3628,12 @@ bond:HMS_Devonshire a bond:Vehicle,
 
 bond:Halle_Berry a movie:Actor ;
     bond:actedIn bond:Die_Another_Day ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/25/Jinx_%28Halle_Berry%29_-_Profile.jpg" ;
     foaf:name "Halle Berry" .
 
 bond:Harold_Sakata a movie:Actor ;
     bond:actedIn bond:Goldfinger ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a5/Oddjob_Profile.png" ;
     foaf:name "Harold Sakata" .
 
 bond:Hawaii a movie:FilmLocation ;
@@ -3684,10 +3652,12 @@ bond:Hertfordshire a movie:FilmLocation ;
 
 bond:Hervé_Villechaize a movie:Actor ;
     bond:actedIn bond:The_Man_with_the_Golden_Gun ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Nick_Nack_%28Herv%C3%A9_Villechaize%29_-_Profile.jpg" ;
     foaf:name "Hervé Villechaize" .
 
 bond:Honor_Blackman a movie:Actor ;
     bond:actedIn bond:Goldfinger ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/cf/Pussy_Galore_%28Honor_Blackman%29_-_Profile.png" ;
     foaf:name "Honor Blackman" .
 
 bond:Iceland a movie:FilmLocation ;
@@ -3706,17 +3676,18 @@ bond:Iguaçu_Falls a movie:FilmLocation ;
 
 bond:Izabella_Scorupco a movie:Actor ;
     bond:actedIn bond:GoldenEye ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/02%2BIzabella%2BScorupco%2Bas%2BNatalya%2BSimonova.jpg" ;
     foaf:name "Izabella Scorupco" .
 
 bond:Jack_Lord a movie:Actor ;
     bond:actedIn bond:Dr._No ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/44/Felix_Leiter_%28Jack_Lord%29_-_Profile.png" ;
     foaf:name "Jack Lord" .
 
 bond:Jack_Wade a movie:FilmCharacter ;
     bond:isCharacterIn bond:GoldenEye,
         bond:Tomorrow_Never_Dies ;
     bond:portrayedBy bond:Joe_Don_Baker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/12/Jack_Wade_%28Joe_Don_Baker%29_-_Profile.jpg" ;
     foaf:name "Jack Wade" .
 
 bond:Jack_White_Alicia_Keys a movie:MusicContributor ;
@@ -3731,50 +3702,62 @@ bond:Jamaica a movie:FilmLocation ;
 
 bond:James_Villiers a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/84/Bill_Tanner_%28James_Villiers%29_-_Profile.jpg" ;
     foaf:name "James Villiers" .
 
 bond:Jane_Seymour a movie:Actor ;
     bond:actedIn bond:Live_and_Let_Die ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ef/Solitaire_%28Jane_Seymour%29_-_Profile.jpg" ;
     foaf:name "Jane Seymour" .
 
 bond:Javier_Bardem a movie:Actor ;
     bond:actedIn bond:Skyfall ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1b/Raoul_Silva_-_Profile.png" ;
     foaf:name "Javier Bardem" .
 
 bond:Jeroen_Krabbé a movie:Actor ;
     bond:actedIn bond:The_Living_Daylights ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg" ;
     foaf:name "Jeroen Krabbé" .
 
 bond:John_Cleese a movie:Actor ;
     bond:actedIn bond:Die_Another_Day ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/R_-_TWiNE_-_Profile.png" ;
     foaf:name "John Cleese" .
 
 bond:John_Terry a movie:Actor ;
     bond:actedIn bond:The_Living_Daylights ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Leiter_%28John_Terry%29_Profile.png" ;
     foaf:name "John Terry" .
 
 bond:John_Wyman a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/80/Erich_Kriegler_%28John_Wyman%29_-_Profile.jpg" ;
     foaf:name "John Wyman" .
 
 bond:Jonathan_Pryce a movie:Actor ;
     bond:actedIn bond:Tomorrow_Never_Dies ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/45/Elliot_Carver_%28Jonathan_Pryce%29_-_Profile.jpg" ;
     foaf:name "Jonathan Pryce" .
 
 bond:Joseph_Wiseman a movie:Actor ;
     bond:actedIn bond:Dr._No ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/db/Dr_No_-_Profile.jpg" ;
     foaf:name "Joseph Wiseman" .
 
 bond:Julian_Glover a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/61/Aris_Kristatos_%28Julian_Glover%29_-_Profile.jpg" ;
     foaf:name "Julian Glover" .
 
 bond:Lana_Wood a movie:Actor ;
     bond:actedIn bond:Diamonds_Are_Forever ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/30/Tiffany_Case_%28Jill_St_John%29_-_Profile.png" ;
     foaf:name "Lana Wood" .
 
 bond:Lois_Chiles a movie:Actor ;
     bond:actedIn bond:Moonraker ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Holly_Goodhead_%28Lois_Chiles%29_-_Profile.jpg" ;
     foaf:name "Lois Chiles" .
 
 bond:Los_Angeles a movie:FilmLocation ;
@@ -3786,6 +3769,7 @@ bond:Los_Angeles a movie:FilmLocation ;
 
 bond:Lotte_Lenya a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/de/Rosa-klebb-from-russia-with-love.png" ;
     foaf:name "Lotte Lenya" .
 
 bond:Louis_Armstrong a movie:MusicContributor ;
@@ -3793,6 +3777,7 @@ bond:Louis_Armstrong a movie:MusicContributor ;
 
 bond:Louis_Jourdan a movie:Actor ;
     bond:actedIn bond:Octopussy ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/26/Kamal_Khan_%28Louis_Jourdan%29_-_Profile.jpg" ;
     foaf:name "Louis Jourdan" .
 
 bond:Lulu a movie:MusicContributor ;
@@ -3809,7 +3794,6 @@ bond:Madeleine_Swann a bond:BondGirl ;
     bond:isCharacterIn bond:No_Time_to_Die,
         bond:Spectre ;
     bond:portrayedBy bond:Léa_Seydoux ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d4/Profile_-_Madeleine_Swann.png" ;
     foaf:name "Madeleine Swann" .
 
 bond:Madonna a movie:MusicContributor ;
@@ -3817,6 +3801,7 @@ bond:Madonna a movie:MusicContributor ;
 
 bond:Mads_Mikkelsen a movie:Actor ;
     bond:actedIn bond:Casino_Royale ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Le_Chiffre_%28Mads_Mikkelsen%29_-_Profile.jpg" ;
     foaf:name "Mads Mikkelsen" .
 
 bond:Martin_Campbell a movie:Director ;
@@ -3826,10 +3811,12 @@ bond:Martin_Campbell a movie:Director ;
 
 bond:Maryam_dAbo a movie:Actor ;
     bond:actedIn bond:The_Living_Daylights ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/18/Kara_Milovy_%28Maryam_d%27Abo%29_-_Profile.png" ;
     foaf:name "Maryam d'Abo" .
 
 bond:Mathieu_Amalric a movie:Actor ;
     bond:actedIn bond:Quantum_of_Solace ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Profile_-_Dominic_Greene.png" ;
     foaf:name "Mathieu Amalric" .
 
 bond:Matt_Monro a movie:MusicContributor ;
@@ -3837,6 +3824,7 @@ bond:Matt_Monro a movie:MusicContributor ;
 
 bond:Maud_Adams a movie:Actor ;
     bond:actedIn bond:Octopussy ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/84/Octopussy_%28Maud_Adams%29_-_Profile.png" ;
     foaf:name "Maud Adams" .
 
 bond:Mexico_City a movie:FilmLocation ;
@@ -3855,18 +3843,22 @@ bond:Miami a movie:FilmLocation ;
 
 bond:Michael_Gothard a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Emile_Leopold_Locque_-_Profile.png" ;
     foaf:name "Michael Gothard" .
 
 bond:Michael_Lonsdale a movie:Actor ;
     bond:actedIn bond:Moonraker ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/97/Hugo_Drax_%28Michael_Lonsdale%29_-_Profile.png" ;
     foaf:name "Michael Lonsdale" .
 
 bond:Michelle_Yeoh a movie:Actor ;
     bond:actedIn bond:Tomorrow_Never_Dies ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Wai_Lin_Profile.png" ;
     foaf:name "Michelle Yeoh" .
 
 bond:Mie_Hama a movie:Actor ;
     bond:actedIn bond:You_Only_Live_Twice ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a2/Kissy_Suzuki_-_Profile.png" ;
     foaf:name "Mie Hama" .
 
 bond:Morocco a movie:FilmLocation ;
@@ -3888,6 +3880,7 @@ bond:Nassau a movie:FilmLocation ;
 
 bond:Norman_Burton a movie:Actor ;
     bond:actedIn bond:Diamonds_Are_Forever ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c3/Felix_Leiter_%28Norman_Burton%29_-_Profile.png" ;
     foaf:name "Norman Burton" .
 
 bond:Norway a movie:FilmLocation ;
@@ -3916,21 +3909,23 @@ bond:Outer_Space a movie:FilmLocation ;
 
 bond:Peter_Burton a movie:Actor ;
     bond:actedIn bond:Dr._No ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Q_%28Peter_Burton%29_-_Profile.png" ;
     foaf:name "Peter Burton" .
 
 bond:Rami_Malek a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Lyutsifer_Safin_-_Profile_V2.jpg" ;
     foaf:name "Rami Malek" .
 
 bond:René_Mathis a movie:FilmCharacter ;
     bond:isCharacterIn bond:Casino_Royale,
         bond:Quantum_of_Solace ;
     bond:portrayedBy bond:Giancarlo_Giannini ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fc/Ren%C3%A9_Mathis_%28Giancarlo_Giannini%29_-_Profile.png" ;
     foaf:name "René Mathis" .
 
 bond:Rik_Van_Nutter a movie:Actor ;
     bond:actedIn bond:Thunderball ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Leiter_%28Van_Nutter%29_Profile.png" ;
     foaf:name "Rik Van Nutter" .
 
 bond:Rita_Coolidge a movie:MusicContributor ;
@@ -3945,14 +3940,17 @@ bond:Road a movie:FilmLocation ;
 
 bond:Robert_Carlyle a movie:Actor ;
     bond:actedIn bond:The_World_Is_Not_Enough ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Profile_-_Renard.png" ;
     foaf:name "Robert Carlyle" .
 
 bond:Robert_Davi a movie:Actor ;
     bond:actedIn bond:Licence_to_Kill ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/48/Franz_Sanchez_%28Robert_Davi%29_-_Profile.png" ;
     foaf:name "Robert Davi" .
 
 bond:Robert_Shaw a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg" ;
     foaf:name "Robert Shaw" .
 
 bond:Rolls-Royce_Silver_Shadow_II a bond:Vehicle ;
@@ -3971,7 +3969,6 @@ bond:Rubelvitch a movie:FilmCharacter ;
     bond:isCharacterIn bond:Octopussy,
         bond:The_Spy_Who_Loved_Me ;
     bond:portrayedBy bond:Eva_Rueber-Staier ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Screenshot_2015-06-20_19.14.00.png" ;
     foaf:name "Rubelvitch" .
 
 bond:Sam_Mendes a movie:Director ;
@@ -3984,6 +3981,7 @@ bond:Sam_Smith a movie:MusicContributor ;
 
 bond:Sean_Bean a movie:Actor ;
     bond:actedIn bond:GoldenEye ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/76/Alec_Trevelyan_%28Sean_Bean%29_-_Profile.jpg" ;
     foaf:name "Sean Bean" .
 
 bond:Shark_Hunter_II_Submersible a bond:Vehicle ;
@@ -4000,8 +3998,6 @@ bond:Sheriff_J.W._Pepper a movie:FilmCharacter ;
     bond:isCharacterIn bond:Live_and_Let_Die,
         bond:The_Man_with_the_Golden_Gun ;
     bond:portrayedBy bond:Clifton_James ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b7/J.W._Pepper_%28Clifton_James%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/c/cd/J.W._Pepper_%28The_Man_With_The_Golden_Gun%29_-_Profile.jpg" ;
     foaf:name "Sheriff J.W. Pepper" .
 
 bond:Sheryl_Crow a movie:MusicContributor ;
@@ -4009,6 +4005,7 @@ bond:Sheryl_Crow a movie:MusicContributor ;
 
 bond:Sophie_Marceau a movie:Actor ;
     bond:actedIn bond:The_World_Is_Not_Enough ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Elektra_King_%28Sophie_Marceau%29_-_Profile.jpg" ;
     foaf:name "Sophie Marceau" .
 
 bond:St._Petersburg a movie:FilmLocation ;
@@ -4020,6 +4017,7 @@ bond:St._Petersburg a movie:FilmLocation ;
 
 bond:Steven_Berkoff a movie:Actor ;
     bond:actedIn bond:Octopussy ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/General_Orlov_-_Profile.png" ;
     foaf:name "Steven Berkoff" .
 
 bond:Stoke_Park a movie:FilmLocation ;
@@ -4040,7 +4038,6 @@ bond:Sylvia_Trench a movie:FilmCharacter ;
     bond:isCharacterIn bond:Dr._No,
         bond:From_Russia_with_Love ;
     bond:portrayedBy bond:Eunice_Gayson ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/14/Sylvia_Trench_%28Eunice_Gayson%29_-_Profile.jpg" ;
     foaf:name "Sylvia Trench" .
 
 bond:Tangier a movie:FilmLocation ;
@@ -4052,10 +4049,12 @@ bond:Tangier a movie:FilmLocation ;
 
 bond:Tanya_Roberts a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7e/Stacy_Sutton_-_Profile.png" ;
     foaf:name "Tanya Roberts" .
 
 bond:Telly_Savalas a movie:Actor ;
     bond:actedIn bond:On_Her_Majestys_Secret_Service ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/78/Blofeld_%28Telly_Savalas%29_-_Profile.png" ;
     foaf:name "Telly Savalas" .
 
 bond:Thailand a movie:FilmLocation ;
@@ -4073,6 +4072,7 @@ bond:Tina_Turner a movie:MusicContributor ;
 
 bond:Toby_Stephens_Will_Yun_Lee a movie:Actor ;
     bond:actedIn bond:Die_Another_Day ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Tan-Sun_Moon_-_Profile.png" ;
     foaf:name "Toby Stephens / Will Yun Lee" .
 
 bond:Tokyo a movie:FilmLocation ;
@@ -4087,21 +4087,23 @@ bond:Tom_Jones a movie:MusicContributor ;
 
 bond:Ursula_Andress a movie:Actor ;
     bond:actedIn bond:Dr._No ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Honey_Ryder_%28Ursula_Andress%29_-_Profile.png" ;
     foaf:name "Ursula Andress" .
 
 bond:Valentin_Zukovsky a movie:FilmCharacter ;
     bond:isCharacterIn bond:GoldenEye,
         bond:The_World_Is_Not_Enough ;
     bond:portrayedBy bond:Robbie_Coltrane ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/69/Valentin_Zukovsky_-_Profile_%282%29.jpg" ;
     foaf:name "Valentin Zukovsky" .
 
 bond:Vladek_Sheybal a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/45/Kronsteen_%28Vladek_Sheybal%29_-_Profile.jpg" ;
     foaf:name "Vladek Sheybal" .
 
 bond:Yaphet_Kotto a movie:Actor ;
     bond:actedIn bond:Live_and_Let_Die ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Dr._Kananga_%28Yaphet_Kotto%29_-_Profile.jpg" ;
     foaf:name "Yaphet Kotto" .
 
 bond:a-ha a movie:MusicContributor ;
@@ -4118,11 +4120,13 @@ bond:a-ha a movie:MusicContributor ;
 bond:Anthony_Dawson a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love,
         bond:Thunderball ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg" ;
     foaf:name "Anthony Dawson" .
 
 bond:Anthony_Dawson_body_Eric_Pohlmann_voice a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love,
         bond:Thunderball ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg" ;
     foaf:name "Anthony Dawson (body), Eric Pohlmann (voice)" .
 
 bond:Aston_Martin_DB5 a bond:Vehicle ;
@@ -4151,6 +4155,7 @@ bond:California a movie:FilmLocation ;
 bond:Caroline_Bliss a movie:Actor ;
     bond:actedIn bond:Licence_to_Kill,
         bond:The_Living_Daylights ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b3/Moneypenny_-_Caroline_Bliss_-_Profile.png" ;
     foaf:name "Caroline Bliss" .
 
 bond:Charles_Robinson a movie:FilmCharacter ;
@@ -4158,12 +4163,13 @@ bond:Charles_Robinson a movie:FilmCharacter ;
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
     bond:portrayedBy bond:Colin_Salmon ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Charles_Robinson_-_Profile.png" ;
     foaf:name "Charles Robinson" .
 
 bond:Clifton_James a movie:Actor ;
     bond:actedIn bond:Live_and_Let_Die,
         bond:The_Man_with_the_Golden_Gun ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b7/J.W._Pepper_%28Clifton_James%29_-_Profile.jpg",
+        "https://static.wikia.nocookie.net/jamesbond/images/c/cd/J.W._Pepper_%28The_Man_With_The_Golden_Gun%29_-_Profile.jpg" ;
     foaf:name "Clifton James" .
 
 bond:Cuba a movie:FilmLocation ;
@@ -4177,11 +4183,13 @@ bond:Cuba a movie:FilmLocation ;
 bond:David_Hedison a movie:Actor ;
     bond:actedIn bond:Licence_to_Kill,
         bond:Live_and_Let_Die ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Leiter_%28Hedison%29_Profile.png" ;
     foaf:name "David Hedison" .
 
 bond:Eunice_Gayson a movie:Actor ;
     bond:actedIn bond:Dr._No,
         bond:From_Russia_with_Love ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/14/Sylvia_Trench_%28Eunice_Gayson%29_-_Profile.jpg" ;
     foaf:name "Eunice Gayson" .
 
 bond:Eurocopter_AS355 a bond:Vehicle ;
@@ -4195,6 +4203,7 @@ bond:Eurocopter_AS355 a bond:Vehicle ;
 bond:Eva_Rueber-Staier a movie:Actor ;
     bond:actedIn bond:Octopussy,
         bond:The_Spy_Who_Loved_Me ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Screenshot_2015-06-20_19.14.00.png" ;
     foaf:name "Eva Rueber-Staier" .
 
 bond:Eve_Moneypenny a movie:FilmCharacter ;
@@ -4202,12 +4211,12 @@ bond:Eve_Moneypenny a movie:FilmCharacter ;
         bond:Skyfall,
         bond:Spectre ;
     bond:portrayedBy bond:Naomie_Harris ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/96/Eve_Moneypenny_%28Naomie_Harris%29_-_Profile.jpg" ;
     foaf:name "Eve Moneypenny" .
 
 bond:Giancarlo_Giannini a movie:Actor ;
     bond:actedIn bond:Casino_Royale,
         bond:Quantum_of_Solace ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fc/Ren%C3%A9_Mathis_%28Giancarlo_Giannini%29_-_Profile.png" ;
     foaf:name "Giancarlo Giannini" .
 
 bond:Hong_Kong a movie:FilmLocation ;
@@ -4243,11 +4252,13 @@ bond:Lewis_Gilbert a movie:Director ;
 bond:Léa_Seydoux a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Spectre ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d4/Profile_-_Madeleine_Swann.png" ;
     foaf:name "Léa Seydoux" .
 
 bond:Michael_Kitchen a movie:Actor ;
     bond:actedIn bond:GoldenEye,
         bond:The_World_Is_Not_Enough ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Bill_Tanner_%28Michael_Kitchen%29_-_Profile.jpg" ;
     foaf:name "Michael Kitchen" .
 
 bond:Paris a movie:FilmLocation ;
@@ -4267,6 +4278,7 @@ bond:Q205599 a bond:BondActor,
     dbo:citizenship <http://www.wikidata.org/entity/Q408> ;
     bond:actedIn bond:On_Her_Majestys_Secret_Service ;
     bond:isJamesBondIn bond:On_Her_Majestys_Secret_Service ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Bond_-_George_Lazenby_-_Profile.jpg" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q205599> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "George Lazenby" .
@@ -4274,16 +4286,19 @@ bond:Q205599 a bond:BondActor,
 bond:Ralph_Fiennes a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Spectre ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/65/Gareth_Mallory_%28Ralph_Fiennes%29_-_Profile.jpg" ;
     foaf:name "Ralph Fiennes" .
 
 bond:Richard_Kiel a movie:Actor ;
     bond:actedIn bond:Moonraker,
         bond:The_Spy_Who_Loved_Me ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png" ;
     foaf:name "Richard Kiel" .
 
 bond:Robbie_Coltrane a movie:Actor ;
     bond:actedIn bond:GoldenEye,
         bond:The_World_Is_Not_Enough ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/69/Valentin_Zukovsky_-_Profile_%282%29.jpg" ;
     foaf:name "Robbie Coltrane" .
 
 bond:Spain a movie:FilmLocation ;
@@ -4338,17 +4353,20 @@ bond:Ben_Whishaw a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Skyfall,
         bond:Spectre ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Q_%28Ben_Whishaw%29_-_Profile.jpg" ;
     foaf:name "Ben Whishaw" .
 
 bond:Christoph_Waltz a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Spectre ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Blofeld_%28Christoph_Waltz%29_-_Profile.png" ;
     foaf:name "Christoph Waltz" .
 
 bond:Colin_Salmon a movie:Actor ;
     bond:actedIn bond:Die_Another_Day,
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Charles_Robinson_-_Profile.png" ;
     foaf:name "Colin Salmon" .
 
 bond:Florida a movie:FilmLocation ;
@@ -4381,19 +4399,20 @@ bond:Jaws a bond:Villain,
     bond:isCharacterIn bond:Moonraker,
         bond:The_Spy_Who_Loved_Me ;
     bond:portrayedBy bond:Richard_Kiel ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png" ;
     foaf:name "Jaws" .
 
 bond:Jeffrey_Wright a movie:Actor ;
     bond:actedIn bond:Casino_Royale,
         bond:No_Time_to_Die,
         bond:Quantum_of_Solace ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/03/Felix_Leiter_%28Jeffrey_Wright%29_-_Profile.png" ;
     foaf:name "Jeffrey Wright" .
 
 bond:Jesper_Christensen a movie:Actor ;
     bond:actedIn bond:Casino_Royale,
         bond:Quantum_of_Solace,
         bond:Spectre ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png" ;
     foaf:name "Jesper Christensen" .
 
 bond:Moscow a movie:FilmLocation ;
@@ -4409,6 +4428,7 @@ bond:Naomie_Harris a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Skyfall,
         bond:Spectre ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/96/Eve_Moneypenny_%28Naomie_Harris%29_-_Profile.jpg" ;
     foaf:name "Naomie Harris" .
 
 bond:Scotland a movie:FilmLocation ;
@@ -4454,6 +4474,8 @@ bond:Joe_Don_Baker a movie:Actor ;
     bond:actedIn bond:GoldenEye,
         bond:The_Living_Daylights,
         bond:Tomorrow_Never_Dies ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Brad_Whitaker_%28Joe_Don_Baker%29_-_Profile.png",
+        "https://static.wikia.nocookie.net/jamesbond/images/1/12/Jack_Wade_%28Joe_Don_Baker%29_-_Profile.jpg" ;
     foaf:name "Joe Don Baker" .
 
 bond:John_Glen a movie:Director ;
@@ -4480,7 +4502,6 @@ bond:Mr._White a bond:Villain,
         bond:Quantum_of_Solace,
         bond:Spectre ;
     bond:portrayedBy bond:Jesper_Christensen ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png" ;
     foaf:name "Mr. White" .
 
 bond:Q41233 a bond:BondActor,
@@ -4492,6 +4513,7 @@ bond:Q41233 a bond:BondActor,
         bond:The_Living_Daylights ;
     bond:isJamesBondIn bond:Licence_to_Kill,
         bond:The_Living_Daylights ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/59/James_Bond_%28Timothy_Dalton%29_-_Profile.jpg" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q41233> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Timothy Dalton" .
@@ -4501,6 +4523,7 @@ bond:Robert_Brown a movie:Actor ;
         bond:Licence_to_Kill,
         bond:Octopussy,
         bond:The_Living_Daylights ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fe/M_%28Octopussy%29_-_Profile.png" ;
     foaf:name "Robert Brown" .
 
 bond:Rory_Kinnear a movie:Actor ;
@@ -4508,6 +4531,7 @@ bond:Rory_Kinnear a movie:Actor ;
         bond:Quantum_of_Solace,
         bond:Skyfall,
         bond:Spectre ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bf/Bill_Tanner_%28Quantum_of_Solace%29_-_Profile.jpg" ;
     foaf:name "Rory Kinnear" .
 
 bond:Samantha_Bond a movie:Actor ;
@@ -4515,6 +4539,7 @@ bond:Samantha_Bond a movie:Actor ;
         bond:GoldenEye,
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Miss_Moneypenny_%28Samantha_Bond%29_-_Profile.png" ;
     foaf:name "Samantha Bond" .
 
 bond:USA a movie:FilmLocation ;
@@ -4537,7 +4562,6 @@ bond:General_Gogol a movie:FilmCharacter ;
         bond:The_Living_Daylights,
         bond:The_Spy_Who_Loved_Me ;
     bond:portrayedBy bond:Walter_Gotell ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg" ;
     foaf:name "General Gogol" .
 
 bond:Russia a movie:FilmLocation ;
@@ -4562,7 +4586,6 @@ bond:Sir_Fredrick_Gray a movie:FilmCharacter ;
         bond:The_Living_Daylights,
         bond:The_Spy_Who_Loved_Me ;
     bond:portrayedBy bond:Geoffrey_Keen ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e6/Fredrick_Gray_%28The_Spy_Who_Loved_Me%29_-_Profile.png" ;
     foaf:name "Sir Fredrick Gray" .
 
 bond:Switzerland a movie:FilmLocation ;
@@ -4589,9 +4612,6 @@ bond:Bill_Tanner a movie:FilmCharacter ;
     bond:portrayedBy bond:James_Villiers,
         bond:Michael_Kitchen,
         bond:Rory_Kinnear ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Bill_Tanner_%28Michael_Kitchen%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/8/84/Bill_Tanner_%28James_Villiers%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/b/bf/Bill_Tanner_%28Quantum_of_Solace%29_-_Profile.jpg" ;
     foaf:name "Bill Tanner" .
 
 bond:Geoffrey_Keen a movie:Actor ;
@@ -4601,6 +4621,7 @@ bond:Geoffrey_Keen a movie:Actor ;
         bond:Octopussy,
         bond:The_Living_Daylights,
         bond:The_Spy_Who_Loved_Me ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e6/Fredrick_Gray_%28The_Spy_Who_Loved_Me%29_-_Profile.png" ;
     foaf:name "Geoffrey Keen" .
 
 bond:Walter_Gotell a movie:Actor ;
@@ -4610,6 +4631,7 @@ bond:Walter_Gotell a movie:Actor ;
         bond:Octopussy,
         bond:The_Living_Daylights,
         bond:The_Spy_Who_Loved_Me ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg" ;
     foaf:name "Walter Gotell" .
 
 movie:Producer a owl:Class ;
@@ -4650,6 +4672,7 @@ bond:Judi_Dench a movie:Actor ;
         bond:Skyfall,
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/M_%28Casino_Royale%29_-_Profile.png" ;
     foaf:name "Judi Dench" .
 
 bond:United_States a movie:FilmLocation ;
@@ -4706,6 +4729,7 @@ bond:Q81520 a bond:BondActor,
         bond:GoldenEye,
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/dc/James_Bond_%28Pierce_Brosnan%29_-_Profile.jpg" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q81520> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Pierce Brosnan" .
@@ -4728,13 +4752,6 @@ bond:Felix_Leiter a movie:FilmCharacter ;
         bond:John_Terry,
         bond:Norman_Burton,
         bond:Rik_Van_Nutter ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/03/Felix_Leiter_%28Jeffrey_Wright%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/4/44/Felix_Leiter_%28Jack_Lord%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Leiter_%28Hedison%29_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/c/c3/Felix_Leiter_%28Norman_Burton%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Leiter_%28Van_Nutter%29_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/d/dc/Felix_Leiter_%28Cec_Linder%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Leiter_%28John_Terry%29_Profile.png" ;
     foaf:name "Felix Leiter" .
 
 bond:Q4547 a bond:BondActor,
@@ -4753,6 +4770,7 @@ bond:Q4547 a bond:BondActor,
         bond:Quantum_of_Solace,
         bond:Skyfall,
         bond:Spectre ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/81/James_Bond_%28Daniel_Craig%29_-_Profile.jpg" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q4547> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Daniel Craig" .
@@ -4785,6 +4803,7 @@ bond:Bernard_Lee a movie:Actor ;
         bond:The_Spy_Who_Loved_Me,
         bond:Thunderball,
         bond:You_Only_Live_Twice ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7c/M_%28Bernard_Lee%29_-_Profile.jpg" ;
     foaf:name "Bernard Lee" .
 
 movie:Person a owl:Class .
@@ -4804,11 +4823,6 @@ bond:Ernst_Stavro_Blofeld a bond:Villain,
         bond:Christoph_Waltz,
         bond:Donald_Pleasence,
         bond:Telly_Savalas ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Blofeld_%28Christoph_Waltz%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/7/78/Blofeld_%28Telly_Savalas%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/9/95/Blofeld_Profile_%28Charles_Gray%29.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Blofeld_%28You_Only_Live_Twice%29_-_Profile.png" ;
     foaf:name "Ernst Stavro Blofeld" .
 
 bond:Q4573 a bond:BondActor,
@@ -4829,6 +4843,7 @@ bond:Q4573 a bond:BondActor,
         bond:Goldfinger,
         bond:Thunderball,
         bond:You_Only_Live_Twice ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b2/James_Bond_%28Sean_Connery%29_-_Profile.jpg" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q4573> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Sean Connery" .
@@ -4851,6 +4866,7 @@ bond:Lois_Maxwell a movie:Actor ;
         bond:The_Spy_Who_Loved_Me,
         bond:Thunderball,
         bond:You_Only_Live_Twice ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Moneypenny_-_Lois_Maxwell_-_Profile.png" ;
     foaf:name "Lois Maxwell" .
 
 bond:Q134333 a bond:BondActor,
@@ -4873,6 +4889,7 @@ bond:Q134333 a bond:BondActor,
         bond:Octopussy,
         bond:The_Man_with_the_Golden_Gun,
         bond:The_Spy_Who_Loved_Me ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/de/James_Bond_%28Roger_Moore%29_-_Profile.jpg" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q134333> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Roger Moore" .
@@ -4895,6 +4912,7 @@ bond:Desmond_Llewelyn a movie:Actor ;
         bond:Thunderball,
         bond:Tomorrow_Never_Dies,
         bond:You_Only_Live_Twice ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/49/Q_%28Desmond_Llewelyn%29_-_Profile.png" ;
     foaf:name "Desmond Llewelyn" .
 
 bond:Miss_Moneypenny a movie:FilmCharacter ;
@@ -4921,9 +4939,6 @@ bond:Miss_Moneypenny a movie:FilmCharacter ;
     bond:portrayedBy bond:Caroline_Bliss,
         bond:Lois_Maxwell,
         bond:Samantha_Bond ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Miss_Moneypenny_%28Samantha_Bond%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Moneypenny_-_Lois_Maxwell_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/b/b3/Moneypenny_-_Caroline_Bliss_-_Profile.png" ;
     foaf:name "Miss Moneypenny" .
 
 bond:Q a movie:FilmCharacter ;
@@ -4953,10 +4968,6 @@ bond:Q a movie:FilmCharacter ;
         bond:Desmond_Llewelyn,
         bond:John_Cleese,
         bond:Peter_Burton ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Q_%28Peter_Burton%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/4/42/Q_%28Ben_Whishaw%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/4/49/Q_%28Desmond_Llewelyn%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/9/99/R_-_TWiNE_-_Profile.png" ;
     foaf:name "Q" .
 
 bond:England a movie:FilmLocation ;
@@ -5082,10 +5093,6 @@ bond:M a movie:FilmCharacter ;
         bond:Judi_Dench,
         bond:Ralph_Fiennes,
         bond:Robert_Brown ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/M_%28Casino_Royale%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/6/65/Gareth_Mallory_%28Ralph_Fiennes%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/7/7c/M_%28Bernard_Lee%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/f/fe/M_%28Octopussy%29_-_Profile.png" ;
     foaf:name "M" .
 
 bond:James_Bond a movie:FilmCharacter ;
@@ -5120,12 +5127,6 @@ bond:James_Bond a movie:FilmCharacter ;
         bond:Q4547,
         bond:Q4573,
         bond:Q81520 ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Bond_-_George_Lazenby_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/5/59/James_Bond_%28Timothy_Dalton%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/8/81/James_Bond_%28Daniel_Craig%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/b/b2/James_Bond_%28Sean_Connery%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/d/dc/James_Bond_%28Pierce_Brosnan%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/d/de/James_Bond_%28Roger_Moore%29_-_Profile.jpg" ;
     foaf:name "James Bond" .
 
 movie:FilmCharacter a owl:Class .
@@ -5791,7 +5792,6 @@ bond:Octopussy a bond:BondGirl,
     bond:isCharacterIn bond:Octopussy ;
     bond:portrayedBy bond:Maud_Adams ;
     bond:rtmRating 5.3 ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/84/Octopussy_%28Maud_Adams%29_-_Profile.png" ;
     schema1:name "Octopussy" ;
     time:year "1983"^^xsd:gYear ;
     foaf:name "Octopussy" .

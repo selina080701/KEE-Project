@@ -472,8 +472,9 @@ def create_ttl_knowledge_graph(json_file, output_file):
             g.add((actress_uri, BOND.actedIn, movie_uri))
             g.add((movie_uri, BOND.hasActor, actress_uri))
 
+            # Add image to actress (not character)
             if bond_girl.get('image_url'):
-                g.add((girl_uri, SCHEMA.image, Literal(bond_girl['image_url'])))
+                g.add((actress_uri, SCHEMA.image, Literal(bond_girl['image_url'])))
 
         # Process Villains
         for villain in movie_data.get('villains', []):
@@ -500,8 +501,9 @@ def create_ttl_knowledge_graph(json_file, output_file):
             g.add((actor_uri, BOND.actedIn, movie_uri))
             g.add((movie_uri, BOND.hasActor, actor_uri))
 
+            # Add image to actor (not character)
             if villain.get('image_url'):
-                g.add((villain_uri, SCHEMA.image, Literal(villain['image_url'])))
+                g.add((actor_uri, SCHEMA.image, Literal(villain['image_url'])))
 
         # Process Characters (other than bond girls and villains)
         for character in movie_data.get('characters', []):
@@ -525,7 +527,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
                 actor_uri_safe = sanitize_uri_part(actor_name)
                 actor_uri = BOND[actor_uri_safe]
 
-            # Charakter-Triple
+            # Character-Triple
             g.add((char_uri, RDF.type, MOVIE.FilmCharacter))
             g.add((char_uri, FOAF.name, Literal(char_name)))
             g.add((char_uri, BOND.isCharacterIn, movie_uri))
@@ -538,8 +540,9 @@ def create_ttl_knowledge_graph(json_file, output_file):
             g.add((actor_uri, BOND.actedIn, movie_uri))
             g.add((movie_uri, BOND.hasActor, actor_uri))
 
+            # Add image to actor (not character)
             if character.get('image_url'):
-                g.add((char_uri, SCHEMA.image, Literal(character['image_url'])))
+                g.add((actor_uri, SCHEMA.image, Literal(character['image_url'])))
 
         # Process Locations
         for location in movie_data.get('locations', []):
