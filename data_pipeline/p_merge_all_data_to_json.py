@@ -6,10 +6,10 @@ import os
 from pathlib import Path
 
 """
-This script merges all extracted knowledge data from CSV into a single JSON file.
+This script merges all extracted knowledge data from CSV/JSON into a single JSON file.
 The 25 James Bond movies are organized as the top-level root nodes.
 
-CSV files processed:
+CSV/JSON files processed:
 - jamesbond_with_id.csv
 - bond_girls_with_images.csv
 - all_movie_characters_with_image.csv
@@ -18,6 +18,7 @@ CSV files processed:
 - all_movie_songs.csv
 - all_movie_vehicles_with_image.csv
 - villains_with_images.csv
+- bond_info.json
 """
 
 def read_csv_with_semicolon(file_path):
@@ -50,6 +51,21 @@ def merge_csvs_to_json(output_file):
         }
     }
 
+    # Load Bond actor info from JSON
+    bond_info_path = base_dir / "extract_knowledge/bond_info/bond_info.json"
+    if bond_info_path.exists():
+        with open(bond_info_path, "r", encoding="utf-8") as f:
+            bond_actors = json.load(f)
+    else:
+        bond_actors = {}
+
+    # Map actor label -> QID to link movies to actors
+    actor_name_to_qid = {}
+    for qid, info in bond_actors.items():
+        label = (info.get("label") or "").strip()
+        if label:
+            actor_name_to_qid[label] = qid
+
     # Dictionary to organize data by movie
     movies_dict = {}
 
@@ -59,11 +75,15 @@ def merge_csvs_to_json(output_file):
 
     for movie_info in movie_metadata:
         movie = movie_info['Movie']
+        bond_actor_name = movie_info['Bond'].strip()
+        bond_actor_qid = actor_name_to_qid.get(bond_actor_name)
+
         movies_dict[movie] = {
             "title_en": movie,
             "title_de": "",
             "year": movie_info['Year'],
-            "bond_actor": movie_info['Bond'],
+            "bond_actor": bond_actor_name,
+            "bond_actor_qid": bond_actor_qid,
             "director": movie_info['Director'],
             "producer": movie_info['Producer'],
             "imdb_rating": movie_info['Avg_User_IMDB'],
@@ -183,6 +203,9 @@ def merge_csvs_to_json(output_file):
         for movie, data in sorted(movies_dict.items())
     ]
     knowledge_data['metadata']['total_movies'] = len(movies_dict)
+
+    # Add actors as a separate top-level block
+    knowledge_data['actors'] = bond_actors
 
     # Write to JSON file
     os.makedirs(os.path.dirname(output_file), exist_ok=True)

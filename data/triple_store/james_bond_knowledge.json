@@ -6,6 +6,7 @@
       "title_de": "James Bond 007 – Im Angesicht des Todes",
       "year": "1985",
       "bond_actor": "Roger Moore",
+      "bond_actor_qid": "Q134333",
       "director": "John Glen",
       "producer": "Albert R. Broccoli & Michael G. Wilson",
       "imdb_rating": "6.2",
@@ -357,6 +358,7 @@
       "title_de": "James Bond 007: Casino Royale",
       "year": "2006",
       "bond_actor": "Daniel Craig",
+      "bond_actor_qid": "Q4547",
       "director": "Martin Campbell",
       "producer": "Michael G. Wilson & Barbara Broccoli",
       "imdb_rating": "7.9",
@@ -657,6 +659,7 @@
       "title_de": "James Bond 007 – Diamantenfieber",
       "year": "1971",
       "bond_actor": "Sean Connery",
+      "bond_actor_qid": "Q4573",
       "director": "Guy Hamilton",
       "producer": "Harry Saltzman & Albert R. Broccoli",
       "imdb_rating": "6.7",
@@ -1090,6 +1093,7 @@
       "title_de": "James Bond 007 – Stirb an einem anderen Tag",
       "year": "2002",
       "bond_actor": "Pierce Brosnan",
+      "bond_actor_qid": "Q81520",
       "director": "Lee Tamahori",
       "producer": "Michael G. Wilson & Barbara Broccoli",
       "imdb_rating": "6.0",
@@ -1448,6 +1452,7 @@
       "title_de": "James Bond – 007 jagt Dr. No",
       "year": "1962",
       "bond_actor": "Sean Connery",
+      "bond_actor_qid": "Q4573",
       "director": "Terence Young",
       "producer": "Harry Saltzman & Albert R. Broccoli",
       "imdb_rating": "7.3",
@@ -1691,6 +1696,7 @@
       "title_de": "James Bond 007 – In tödlicher Mission",
       "year": "1981",
       "bond_actor": "Roger Moore",
+      "bond_actor_qid": "Q134333",
       "director": "John Glen",
       "producer": "Albert R. Broccoli",
       "imdb_rating": "6.8",
@@ -2025,6 +2031,7 @@
       "title_de": "James Bond 007 – Liebesgrüße aus Moskau",
       "year": "1963",
       "bond_actor": "Sean Connery",
+      "bond_actor_qid": "Q4573",
       "director": "Terence Young",
       "producer": "Harry Saltzman & Albert R. Broccoli",
       "imdb_rating": "7.5",
@@ -2277,6 +2284,7 @@
       "title_de": "James Bond 007 – GoldenEye",
       "year": "1995",
       "bond_actor": "Pierce Brosnan",
+      "bond_actor_qid": "Q81520",
       "director": "Martin Campbell",
       "producer": "Michael G. Wilson & Barbara Broccoli",
       "imdb_rating": "7.2",
@@ -2604,6 +2612,7 @@
       "title_de": "James Bond 007 – Goldfinger",
       "year": "1964",
       "bond_actor": "Sean Connery",
+      "bond_actor_qid": "Q4573",
       "director": "Guy Hamilton",
       "producer": "Harry Saltzman & Albert R. Broccoli",
       "imdb_rating": "7.8",
@@ -2955,6 +2964,7 @@
       "title_de": "James Bond 007 – Lizenz zum Töten",
       "year": "1989",
       "bond_actor": "Timothy Dalton",
+      "bond_actor_qid": "Q41233",
       "director": "John Glen",
       "producer": "Albert R. Broccoli & Michael G. Wilson",
       "imdb_rating": "6.5",
@@ -3418,6 +3428,7 @@
       "title_de": "James Bond 007 – Leben und sterben lassen",
       "year": "1973",
       "bond_actor": "Roger Moore",
+      "bond_actor_qid": "Q134333",
       "director": "Guy Hamilton",
       "producer": "Harry Saltzman & Albert R. Broccoli",
       "imdb_rating": "6.8",
@@ -3730,6 +3741,7 @@
       "title_de": "James Bond 007 – Moonraker – Streng geheim",
       "year": "1979",
       "bond_actor": "Roger Moore",
+      "bond_actor_qid": "Q134333",
       "director": "Lewis Gilbert",
       "producer": "Albert R. Broccoli",
       "imdb_rating": "6.2",
@@ -4011,6 +4023,7 @@
       "title_de": "James Bond 007: Keine Zeit zu sterben",
       "year": "2020",
       "bond_actor": "Daniel Craig",
+      "bond_actor_qid": "Q4547",
       "director": "Cary Joji Fukunaga",
       "producer": "Michael G. Wilson & Barbara Broccoli",
       "imdb_rating": "7.3",
@@ -4170,6 +4183,7 @@
       "title_de": "James Bond 007 – Octopussy",
       "year": "1983",
       "bond_actor": "Roger Moore",
+      "bond_actor_qid": "Q134333",
       "director": "John Glen",
       "producer": "Albert R. Broccoli",
       "imdb_rating": "6.5",
@@ -4511,6 +4525,7 @@
       "title_de": "James Bond 007 – Im Geheimdienst Ihrer Majestät",
       "year": "1969",
       "bond_actor": "George Lazenby",
+      "bond_actor_qid": "Q205599",
       "director": "Peter R. Hunt",
       "producer": "Harry Saltzman & Albert R. Broccoli",
       "imdb_rating": "6.8",
@@ -4784,6 +4799,7 @@
       "title_de": "James Bond 007: Ein Quantum Trost",
       "year": "2008",
       "bond_actor": "Daniel Craig",
+      "bond_actor_qid": "Q4547",
       "director": "Marc Forster",
       "producer": "Michael G. Wilson & Barbara Broccoli",
       "imdb_rating": "6.7",
@@ -5034,6 +5050,7 @@
       "title_de": "James Bond 007: Skyfall",
       "year": "2012",
       "bond_actor": "Daniel Craig",
+      "bond_actor_qid": "Q4547",
       "director": "Sam Mendes",
       "producer": "Michael G. Wilson & Barbara Broccoli",
       "imdb_rating": "7.8",
@@ -5231,6 +5248,7 @@
       "title_de": "James Bond 007: Spectre",
       "year": "2015",
       "bond_actor": "Daniel Craig",
+      "bond_actor_qid": "Q4547",
       "director": "Sam Mendes",
       "producer": "Michael G. Wilson & Barbara Broccoli",
       "imdb_rating": "6.8",
@@ -5456,6 +5474,7 @@
       "title_de": "James Bond 007 – Der Hauch des Todes",
       "year": "1987",
       "bond_actor": "Timothy Dalton",
+      "bond_actor_qid": "Q41233",
       "director": "John Glen",
       "producer": "Albert R. Broccoli & Michael G. Wilson",
       "imdb_rating": "6.7",
@@ -5922,6 +5941,7 @@
       "title_de": "James Bond 007 – Der Mann mit dem goldenen Colt",
       "year": "1974",
       "bond_actor": "Roger Moore",
+      "bond_actor_qid": "Q134333",
       "director": "Guy Hamilton",
       "producer": "Harry Saltzman & Albert R. Broccoli",
       "imdb_rating": "6.7",
@@ -6143,6 +6163,7 @@
       "title_de": "James Bond 007 – Der Spion, der mich liebte",
       "year": "1977",
       "bond_actor": "Roger Moore",
+      "bond_actor_qid": "Q134333",
       "director": "Lewis Gilbert",
       "producer": "Albert R. Broccoli",
       "imdb_rating": "7.1",
@@ -6494,6 +6515,7 @@
       "title_de": "James Bond 007 – Die Welt ist nicht genug",
       "year": "1999",
       "bond_actor": "Pierce Brosnan",
+      "bond_actor_qid": "Q81520",
       "director": "Michael Apted",
       "producer": "Michael G. Wilson & Barbara Broccoli",
       "imdb_rating": "6.3",
@@ -6805,6 +6827,7 @@
       "title_de": "James Bond 007 – Feuerball",
       "year": "1965",
       "bond_actor": "Sean Connery",
+      "bond_actor_qid": "Q4573",
       "director": "Terence Young",
       "producer": "Richard Maibaum & John Hopkins",
       "imdb_rating": "7.0",
@@ -7076,6 +7099,7 @@
       "title_de": "James Bond 007 – Der Morgen stirbt nie",
       "year": "1997",
       "bond_actor": "Pierce Brosnan",
+      "bond_actor_qid": "Q81520",
       "director": "Roger Spottiswoode",
       "producer": "Michael G. Wilson & Barbara Broccoli",
       "imdb_rating": "6.4",
@@ -7564,6 +7588,7 @@
       "title_de": "James Bond 007 – Man lebt nur zweimal",
       "year": "1967",
       "bond_actor": "Sean Connery",
+      "bond_actor_qid": "Q4573",
       "director": "Lewis Gilbert",
       "producer": "Harry Saltzman & Albert R. Broccoli",
       "imdb_rating": "6.9",
@@ -7865,5 +7890,127 @@
   "metadata": {
     "total_movies": 25,
     "creation_date": "2025-11-23"
+  },
+  "actors": {
+    "Q4547": {
+      "actor_uri": "http://www.wikidata.org/entity/Q4547",
+      "label": "Daniel Craig",
+      "birth_date": "1968-03-02",
+      "death_date": null,
+      "genders": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q6581097",
+          "label": "male"
+        }
+      ],
+      "citizenships": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q145",
+          "label": "United Kingdom"
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q30",
+          "label": "United States"
+        }
+      ]
+    },
+    "Q205599": {
+      "actor_uri": "http://www.wikidata.org/entity/Q205599",
+      "label": "George Lazenby",
+      "birth_date": "1939-09-05",
+      "death_date": null,
+      "genders": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q6581097",
+          "label": "male"
+        }
+      ],
+      "citizenships": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q408",
+          "label": "Australia"
+        }
+      ]
+    },
+    "Q81520": {
+      "actor_uri": "http://www.wikidata.org/entity/Q81520",
+      "label": "Pierce Brosnan",
+      "birth_date": "1953-05-16",
+      "death_date": null,
+      "genders": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q6581097",
+          "label": "male"
+        }
+      ],
+      "citizenships": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q27",
+          "label": "Ireland"
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q145",
+          "label": "United Kingdom"
+        },
+        {
+          "uri": "http://www.wikidata.org/entity/Q30",
+          "label": "United States"
+        }
+      ]
+    },
+    "Q134333": {
+      "actor_uri": "http://www.wikidata.org/entity/Q134333",
+      "label": "Roger Moore",
+      "birth_date": "1927-10-14",
+      "death_date": "2017-05-23",
+      "genders": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q6581097",
+          "label": "male"
+        }
+      ],
+      "citizenships": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q145",
+          "label": "United Kingdom"
+        }
+      ]
+    },
+    "Q4573": {
+      "actor_uri": "http://www.wikidata.org/entity/Q4573",
+      "label": "Sean Connery",
+      "birth_date": "1930-08-25",
+      "death_date": "2020-10-31",
+      "genders": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q6581097",
+          "label": "male"
+        }
+      ],
+      "citizenships": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q145",
+          "label": "United Kingdom"
+        }
+      ]
+    },
+    "Q41233": {
+      "actor_uri": "http://www.wikidata.org/entity/Q41233",
+      "label": "Timothy Dalton",
+      "birth_date": "1946-03-21",
+      "death_date": null,
+      "genders": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q6581097",
+          "label": "male"
+        }
+      ],
+      "citizenships": [
+        {
+          "uri": "http://www.wikidata.org/entity/Q145",
+          "label": "United Kingdom"
+        }
+      ]
+    }
   }
 }
