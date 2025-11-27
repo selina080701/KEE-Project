@@ -1,0 +1,122 @@
+{
+  "Q4547": {
+    "actor_uri": "http://www.wikidata.org/entity/Q4547",
+    "label": "Daniel Craig",
+    "birth_date": "1968-03-02",
+    "death_date": null,
+    "genders": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q6581097",
+        "label": "male"
+      }
+    ],
+    "citizenships": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q145",
+        "label": "United Kingdom"
+      },
+      {
+        "uri": "http://www.wikidata.org/entity/Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q205599": {
+    "actor_uri": "http://www.wikidata.org/entity/Q205599",
+    "label": "George Lazenby",
+    "birth_date": "1939-09-05",
+    "death_date": null,
+    "genders": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q6581097",
+        "label": "male"
+      }
+    ],
+    "citizenships": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q408",
+        "label": "Australia"
+      }
+    ]
+  },
+  "Q81520": {
+    "actor_uri": "http://www.wikidata.org/entity/Q81520",
+    "label": "Pierce Brosnan",
+    "birth_date": "1953-05-16",
+    "death_date": null,
+    "genders": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q6581097",
+        "label": "male"
+      }
+    ],
+    "citizenships": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q27",
+        "label": "Ireland"
+      },
+      {
+        "uri": "http://www.wikidata.org/entity/Q145",
+        "label": "United Kingdom"
+      },
+      {
+        "uri": "http://www.wikidata.org/entity/Q30",
+        "label": "United States"
+      }
+    ]
+  },
+  "Q134333": {
+    "actor_uri": "http://www.wikidata.org/entity/Q134333",
+    "label": "Roger Moore",
+    "birth_date": "1927-10-14",
+    "death_date": "2017-05-23",
+    "genders": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q6581097",
+        "label": "male"
+      }
+    ],
+    "citizenships": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q145",
+        "label": "United Kingdom"
+      }
+    ]
+  },
+  "Q4573": {
+    "actor_uri": "http://www.wikidata.org/entity/Q4573",
+    "label": "Sean Connery",
+    "birth_date": "1930-08-25",
+    "death_date": "2020-10-31",
+    "genders": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q6581097",
+        "label": "male"
+      }
+    ],
+    "citizenships": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q145",
+        "label": "United Kingdom"
+      }
+    ]
+  },
+  "Q41233": {
+    "actor_uri": "http://www.wikidata.org/entity/Q41233",
+    "label": "Timothy Dalton",
+    "birth_date": "1946-03-21",
+    "death_date": null,
+    "genders": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q6581097",
+        "label": "male"
+      }
+    ],
+    "citizenships": [
+      {
+        "uri": "http://www.wikidata.org/entity/Q145",
+        "label": "United Kingdom"
+      }
+    ]
+  }
+}
