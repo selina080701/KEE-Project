@@ -1,8 +1,8 @@
 # 4. Statusupdate - Fr, 28.11.2025
 **Done:**
-- Data-Pipeline für reproduzierbarkeit
+- Data-Pipeline für Reproduzierbarkeit
 - automatisierte statt manuelle Ergänzung: Film (No Time to Die) und Producer
-- Bond Info als JSON abgespeichert
+- automatisiertes Data Cleaning der Characters (im File `g_character_data_cleaning.py`)
 - Bond Girls, Characters, Locations, Movie Poster, Songs, Vehicles Villains als JSON abgespeichert
 - Knowledge JSON mit allen Daten zu Filmen und Bond-Darstellern erstellt
 - Knowledge Graphen mit richtigem Vokabular und T-Box erstellt
@@ -12,6 +12,13 @@
 **Whats Next:**
 - Bericht schreiben
 
+**Fragen:**
+- [Frage] Im RDF-Graphen werden aktuell nur Actors angezeigt, die mind. 2x in Filmen vorkommen, um Clutter zu vermeiden. Single-Apperances werden nicht ins TTL-File serialisiert und in ´q_merge_json_to_knowledge_graph.py´ in Zeile 104 ausgefiltert. Müsste das eher über den Reasoner gelöst werden?
+- [Frage] Nutzen der Ontologie in Protegé: Müssen wir noch ein Reasoning durchführen?
+- [Frage] Wird foaf:Gender eher als Literal oder als Resource modelliert?
+- [Frage] Wie sieht die Code-Review am 05.12. genau aus? Was müssen wir vorbereiten?
+
+----
 
 # 3. Statusupdate - Fr, 21.11.2025
 **Done**:
