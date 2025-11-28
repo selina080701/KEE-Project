@@ -18,7 +18,7 @@ WHERE {
   }
 
   FILTER(
-    LCASE(STR(?label)) = LCASE("Casino Royale") ||
+    LCASE(STR(?label)) = LCASE("Casino Royale") ||  # fix film = Casino Royale
     LCASE(STR(?altLabel)) = LCASE("Casino Royale") ||
     CONTAINS(LCASE(?label), LCASE("Casino Royale")) ||
     CONTAINS(LCASE(?altLabel), LCASE("Casino Royale"))
