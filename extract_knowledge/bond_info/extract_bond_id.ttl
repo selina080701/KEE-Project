@@ -1,0 +1,23 @@
+PREFIX wd:   <http://www.wikidata.org/entity/>
+PREFIX wdt:  <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?actor WHERE {
+    {
+        ?actor wdt:P106 wd:Q10798782 .   # film actor
+    }
+    UNION
+    {
+        ?actor wdt:P106 wd:Q10800557 .   # television actor
+    }
+
+  OPTIONAL { ?actor rdfs:label ?label . FILTER(LANG(?label) = "en") }
+  OPTIONAL { ?actor skos:altLabel ?altLabel . FILTER(LANG(?altLabel) = "en") }
+
+  FILTER(
+    LCASE(STR(?label)) = LCASE("Sean Connery") ||   # fix actor = Sean Connery
+    LCASE(STR(?altLabel)) = LCASE("Sean Connery")
+  )
+}
+LIMIT 1
