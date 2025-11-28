@@ -13,14 +13,19 @@
 - Bericht schreiben
 
 **Fragen:**
-- [Frage] Im RDF-Graphen werden aktuell nur Actors angezeigt, die mind. 2x in Filmen vorkommen, um Clutter zu vermeiden. Single-Apperances werden nicht ins TTL-File serialisiert und in ´q_merge_json_to_knowledge_graph.py´ in Zeile 104 ausgefiltert. Müsste das eher über den Reasoner gelöst werden?
-- [Frage] Nutzen der Ontologie in Protegé: Müssen wir noch ein Reasoning durchführen?
-- [Frage] Wird foaf:Gender eher als Literal oder als Resource modelliert?
-- [Frage] Wie sieht die Code-Review am 05.12. genau aus? Was müssen wir vorbereiten?
-- [Frage] Soll das ReadMe für die Endabgabe wieder auf max. 2000 Zeichen gekürzt werden?
+- [Frage] Sollen Q-IDs im Graphen noch ausgetauscht werden? -> Nein
+- [Frage] Im RDF-Graphen werden aktuell nur Actors angezeigt, die mind. 2x in Filmen vorkommen, um Clutter zu vermeiden. Single-Apperances werden nicht ins TTL-File serialisiert und in ´q_merge_json_to_knowledge_graph.py´ in Zeile 104 ausgefiltert. Müsste das eher über den Reasoner gelöst werden? -> Nein
+- [Frage] Nutzen der Ontologie in Protegé: Müssen wir noch ein Reasoning durchführen? -> Wäre spannend zu sehen, was sich noch ergibt. (owlready2 04 Ontologie Folie 44)
+- [Frage] Wird foaf:Gender eher als Literal oder als Resource modelliert? -> besser Ressource
+- [Frage] Wie sieht die Code-Review am 05.12. genau aus? Was müssen wir vorbereiten? -> im Unterricht geklärt
+- [Frage] Soll das ReadMe für die Endabgabe wieder auf max. 2000 Zeichen gekürzt werden? -> Nein
 
 **Tips & Inputs**:
-
+* Reasoner laufen lassen und schauen ob sich noch neue Sachen ergeben
+* für Code-Review: nur Flash-Demo, keine Code Clinic
+  * Idee: Zeigen, wie wir aus dem grossen Knowledge-Graphen filtern und so kleine übersichtliche Graphen erstellen. 
+  * Erste Folie: Foto von Streamlit Filter+Graph. 
+  * Zweite Folie: Sparql query um Filter anzuwenden.
 
 ----
 
