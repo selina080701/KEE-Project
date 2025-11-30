@@ -296,7 +296,7 @@ def create_knowledge_graph(json_file, output_file_ttl, output_file_owl):
 
     g.add((TIME.year, RDF.type, OWL.DatatypeProperty))
     g.add((TIME.year, RDFS.domain, MOVIE.Film))
-    g.add((TIME.year, RDFS.range, XSD.gYear))
+    g.add((TIME.year, RDFS.range, XSD.integer))
 
     g.add((BOND.imdbRating, RDF.type, OWL.DatatypeProperty))
     g.add((BOND.imdbRating, RDFS.domain, MOVIE.Film))
@@ -308,11 +308,11 @@ def create_knowledge_graph(json_file, output_file_ttl, output_file_owl):
 
     g.add((DBO.birthDate, RDF.type, OWL.DatatypeProperty))
     g.add((DBO.birthDate, RDFS.domain, MOVIE.Person))
-    g.add((DBO.birthDate, RDFS.range, XSD.date))
+    g.add((DBO.birthDate, RDFS.range, XSD.string))
 
     g.add((DBO.deathDate, RDF.type, OWL.DatatypeProperty))
     g.add((DBO.deathDate, RDFS.domain, MOVIE.Person))
-    g.add((DBO.deathDate, RDFS.range, XSD.date))
+    g.add((DBO.deathDate, RDFS.range, XSD.string))
 
     g.add((DBO.citizenship, RDF.type, OWL.ObjectProperty))
     g.add((DBO.citizenship, RDFS.domain, MOVIE.Person))
@@ -345,12 +345,12 @@ def create_knowledge_graph(json_file, output_file_ttl, output_file_owl):
         # Birth date
         birth_date = actor_info.get("birth_date")
         if birth_date:
-            g.add((actor_uri, DBO.birthDate, Literal(birth_date, datatype=XSD.date)))
+            g.add((actor_uri, DBO.birthDate, Literal(birth_date, datatype=XSD.string)))
 
         # Death date (only if not null)
         death_date = actor_info.get("death_date")
         if death_date:
-            g.add((actor_uri, DBO.deathDate, Literal(death_date, datatype=XSD.date)))
+            g.add((actor_uri, DBO.deathDate, Literal(death_date, datatype=XSD.string)))
 
         # Genders: list of {uri, label}
         for g_obj in actor_info.get("genders", []):
@@ -392,7 +392,7 @@ def create_knowledge_graph(json_file, output_file_ttl, output_file_owl):
 
         # Add Release Year
         if 'year' in movie_data and movie_data['year']:
-            g.add((movie_uri, TIME.year, Literal(movie_data['year'], datatype=XSD.gYear)))
+            g.add((movie_uri, TIME.year, Literal(movie_data['year'], datatype=XSD.integer)))
 
         # Add Ratings
         if 'imdb_rating' in movie_data and movie_data['imdb_rating']:

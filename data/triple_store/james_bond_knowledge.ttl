@@ -11,14 +11,14 @@
 
 dbo:birthDate a owl:DatatypeProperty ;
     rdfs:domain movie:Person ;
-    rdfs:range xsd:date .
+    rdfs:range xsd:string .
 
 dbo:citizenship a owl:ObjectProperty ;
     rdfs:domain movie:Person .
 
 dbo:deathDate a owl:DatatypeProperty ;
     rdfs:domain movie:Person ;
-    rdfs:range xsd:date .
+    rdfs:range xsd:string .
 
 bond:hasActor a owl:ObjectProperty ;
     rdfs:domain movie:Film ;
@@ -117,7 +117,7 @@ geo1:long a owl:DatatypeProperty ;
 
 time:year a owl:DatatypeProperty ;
     rdfs:domain movie:Film ;
-    rdfs:range xsd:gYear .
+    rdfs:range xsd:integer .
 
 foaf:gender a owl:ObjectProperty ;
     rdfs:domain movie:Person .
@@ -4271,7 +4271,7 @@ bond:Paris a movie:FilmLocation ;
 bond:Q205599 a bond:BondActor,
         movie:Actor ;
     rdfs:label "George Lazenby" ;
-    dbo:birthDate "1939-09-05"^^xsd:date ;
+    dbo:birthDate "1939-09-05"^^xsd:string ;
     dbo:citizenship <http://www.wikidata.org/entity/Q408> ;
     bond:actedIn bond:On_Her_Majestys_Secret_Service ;
     bond:isJamesBondIn bond:On_Her_Majestys_Secret_Service ;
@@ -4504,7 +4504,7 @@ bond:Mr._White a bond:Villain,
 bond:Q41233 a bond:BondActor,
         movie:Actor ;
     rdfs:label "Timothy Dalton" ;
-    dbo:birthDate "1946-03-21"^^xsd:date ;
+    dbo:birthDate "1946-03-21"^^xsd:string ;
     dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
     bond:actedIn bond:Licence_to_Kill,
         bond:The_Living_Daylights ;
@@ -4714,7 +4714,7 @@ bond:France a movie:FilmLocation ;
 bond:Q81520 a bond:BondActor,
         movie:Actor ;
     rdfs:label "Pierce Brosnan" ;
-    dbo:birthDate "1953-05-16"^^xsd:date ;
+    dbo:birthDate "1953-05-16"^^xsd:string ;
     dbo:citizenship <http://www.wikidata.org/entity/Q145>,
         <http://www.wikidata.org/entity/Q27>,
         <http://www.wikidata.org/entity/Q30> ;
@@ -4754,7 +4754,7 @@ bond:Felix_Leiter a movie:FilmCharacter ;
 bond:Q4547 a bond:BondActor,
         movie:Actor ;
     rdfs:label "Daniel Craig" ;
-    dbo:birthDate "1968-03-02"^^xsd:date ;
+    dbo:birthDate "1968-03-02"^^xsd:string ;
     dbo:citizenship <http://www.wikidata.org/entity/Q145>,
         <http://www.wikidata.org/entity/Q30> ;
     bond:actedIn bond:Casino_Royale,
@@ -4825,9 +4825,9 @@ bond:Ernst_Stavro_Blofeld a bond:Villain,
 bond:Q4573 a bond:BondActor,
         movie:Actor ;
     rdfs:label "Sean Connery" ;
-    dbo:birthDate "1930-08-25"^^xsd:date ;
+    dbo:birthDate "1930-08-25"^^xsd:string ;
     dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
-    dbo:deathDate "2020-10-31"^^xsd:date ;
+    dbo:deathDate "2020-10-31"^^xsd:string ;
     bond:actedIn bond:Diamonds_Are_Forever,
         bond:Dr._No,
         bond:From_Russia_with_Love,
@@ -4869,9 +4869,9 @@ bond:Lois_Maxwell a movie:Actor ;
 bond:Q134333 a bond:BondActor,
         movie:Actor ;
     rdfs:label "Roger Moore" ;
-    dbo:birthDate "1927-10-14"^^xsd:date ;
+    dbo:birthDate "1927-10-14"^^xsd:string ;
     dbo:citizenship <http://www.wikidata.org/entity/Q145> ;
-    dbo:deathDate "2017-05-23"^^xsd:date ;
+    dbo:deathDate "2017-05-23"^^xsd:string ;
     bond:actedIn bond:A_View_to_a_Kill,
         bond:For_Your_Eyes_Only,
         bond:Live_and_Let_Die,
@@ -5030,7 +5030,7 @@ bond:No_Time_to_Die a dbo:Song,
     bond:rtmRating 8.3 ;
     schema1:name "No Time to Die" ;
     schema1:url "https://youtu.be/83YuaW09ueI?si=0jeUBYMHHF9ZRh61"^^xsd:anyURI ;
-    time:year "2020"^^xsd:gYear .
+    time:year 2020 .
 
 bond:London a movie:FilmLocation ;
     rdfs:label "London" ;
@@ -5175,7 +5175,7 @@ bond:Skyfall a dbo:Song,
     bond:rtmRating 8.2 ;
     schema1:name "Skyfall" ;
     schema1:url "https://youtu.be/DeumyOzKqgI?si=5aH1fvbGm0D0uwzT"^^xsd:anyURI ;
-    time:year "2012"^^xsd:gYear .
+    time:year 2012 .
 
 dbo:Song a owl:Class .
 
@@ -5220,7 +5220,7 @@ bond:Casino_Royale a movie:Film ;
     bond:imdbRating 7.9 ;
     bond:rtmRating 7.8 ;
     schema1:name "Casino Royale" ;
-    time:year "2006"^^xsd:gYear .
+    time:year 2006 .
 
 bond:Quantum_of_Solace a movie:Film ;
     rdfs:label "James Bond 007: Ein Quantum Trost"@de,
@@ -5263,7 +5263,7 @@ bond:Quantum_of_Solace a movie:Film ;
     bond:imdbRating 6.7 ;
     bond:rtmRating 6.1 ;
     schema1:name "Quantum of Solace" ;
-    time:year "2008"^^xsd:gYear .
+    time:year 2008 .
 
 bond:Spectre a movie:Film ;
     rdfs:label "James Bond 007: Spectre"@de,
@@ -5306,7 +5306,7 @@ bond:Spectre a movie:Film ;
     bond:imdbRating 6.8 ;
     bond:rtmRating 6.4 ;
     schema1:name "Spectre" ;
-    time:year "2015"^^xsd:gYear .
+    time:year 2015 .
 
 bond:Dr._No a movie:Film ;
     rdfs:label "James Bond – 007 jagt Dr. No"@de,
@@ -5353,7 +5353,7 @@ bond:Dr._No a movie:Film ;
     bond:imdbRating 7.3 ;
     bond:rtmRating 7.7 ;
     schema1:name "Dr. No" ;
-    time:year "1962"^^xsd:gYear .
+    time:year 1962 .
 
 bond:Villain a owl:Class ;
     rdfs:subClassOf movie:FilmCharacter,
@@ -5409,7 +5409,7 @@ bond:The_Man_with_the_Golden_Gun a dbo:Song,
     bond:rtmRating 5.1 ;
     schema1:name "The Man with the Golden Gun" ;
     schema1:url "https://youtu.be/PSbj2Mx2By8?si=lSTEzJTfxcNSlcdv"^^xsd:anyURI ;
-    time:year "1974"^^xsd:gYear .
+    time:year 1974 .
 
 bond:From_Russia_with_Love a dbo:Song,
         movie:Film ;
@@ -5470,7 +5470,7 @@ bond:From_Russia_with_Love a dbo:Song,
     bond:rtmRating 8.0 ;
     schema1:name "From Russia with Love" ;
     schema1:url "https://youtu.be/RIY8KDrx-E8?si=enJ7nKJGq1Y2l-4o"^^xsd:anyURI ;
-    time:year "1963"^^xsd:gYear .
+    time:year 1963 .
 
 bond:Thunderball a dbo:Song,
         movie:Film ;
@@ -5531,7 +5531,7 @@ bond:Thunderball a dbo:Song,
     bond:rtmRating 6.8 ;
     schema1:name "Thunderball" ;
     schema1:url "https://youtu.be/Ia6-5gC5ArM?si=9UalFYNXPHhPaq1L"^^xsd:anyURI ;
-    time:year "1965"^^xsd:gYear .
+    time:year 1965 .
 
 bond:On_Her_Majestys_Secret_Service a movie:Film ;
     rdfs:label "James Bond 007 – Im Geheimdienst Ihrer Majestät"@de,
@@ -5589,7 +5589,7 @@ bond:On_Her_Majestys_Secret_Service a movie:Film ;
     bond:imdbRating 6.8 ;
     bond:rtmRating 6.7 ;
     schema1:name "On Her Majesty's Secret Service" ;
-    time:year "1969"^^xsd:gYear .
+    time:year 1969 .
 
 bond:Moonraker a dbo:Song,
         movie:Film ;
@@ -5654,7 +5654,7 @@ bond:Moonraker a dbo:Song,
     bond:rtmRating 5.7 ;
     schema1:name "Moonraker" ;
     schema1:url "https://youtu.be/gt3oQN0cAv0?si=sBE9o7fKiXP-YgOi"^^xsd:anyURI ;
-    time:year "1979"^^xsd:gYear .
+    time:year 1979 .
 
 movie:Film a owl:Class .
 
@@ -5724,7 +5724,7 @@ bond:You_Only_Live_Twice a dbo:Song,
     bond:rtmRating 6.3 ;
     schema1:name "You Only Live Twice" ;
     schema1:url "https://youtu.be/hs8uYxTJ530?si=D7V00R6Skoe1vicl"^^xsd:anyURI ;
-    time:year "1967"^^xsd:gYear .
+    time:year 1967 .
 
 bond:Octopussy a bond:BondGirl,
         movie:Film ;
@@ -5790,7 +5790,7 @@ bond:Octopussy a bond:BondGirl,
     bond:portrayedBy bond:Maud_Adams ;
     bond:rtmRating 5.3 ;
     schema1:name "Octopussy" ;
-    time:year "1983"^^xsd:gYear ;
+    time:year 1983 ;
     foaf:name "Octopussy" .
 
 bond:Goldfinger a dbo:Song,
@@ -5860,7 +5860,7 @@ bond:Goldfinger a dbo:Song,
     bond:rtmRating 8.4 ;
     schema1:name "Goldfinger" ;
     schema1:url "https://youtu.be/6D1nK7q2i8I?si=7f-l_tJqg-riV2tO"^^xsd:anyURI ;
-    time:year "1964"^^xsd:gYear .
+    time:year 1964 .
 
 bond:Live_and_Let_Die a dbo:Song,
         movie:Film ;
@@ -5930,7 +5930,7 @@ bond:Live_and_Let_Die a dbo:Song,
     bond:rtmRating 5.9 ;
     schema1:name "Live and Let Die" ;
     schema1:url "https://youtu.be/sn8alMYSu44?si=a6Q7bd-rNj4ZtvUM"^^xsd:anyURI ;
-    time:year "1973"^^xsd:gYear .
+    time:year 1973 .
 
 bond:A_View_to_a_Kill a dbo:Song,
         movie:Film ;
@@ -6001,7 +6001,7 @@ bond:A_View_to_a_Kill a dbo:Song,
     bond:rtmRating 4.7 ;
     schema1:name "A View to a Kill" ;
     schema1:url "https://youtu.be/hWVbVT3igdw?si=Ndam6Q-IDECf9RCW"^^xsd:anyURI ;
-    time:year "1985"^^xsd:gYear .
+    time:year 1985 .
 
 bond:For_Your_Eyes_Only a dbo:Song,
         movie:Film ;
@@ -6072,7 +6072,7 @@ bond:For_Your_Eyes_Only a dbo:Song,
     bond:rtmRating 6.3 ;
     schema1:name "For Your Eyes Only" ;
     schema1:url "https://youtu.be/8kNksLL0sv4?si=RcjZ713gXyavBz4Q"^^xsd:anyURI ;
-    time:year "1981"^^xsd:gYear .
+    time:year 1981 .
 
 bond:The_Spy_Who_Loved_Me a movie:Film ;
     rdfs:label "James Bond 007 – Der Spion, der mich liebte"@de,
@@ -6140,7 +6140,7 @@ bond:The_Spy_Who_Loved_Me a movie:Film ;
     bond:imdbRating 7.1 ;
     bond:rtmRating 6.8 ;
     schema1:name "The Spy Who Loved Me" ;
-    time:year "1977"^^xsd:gYear .
+    time:year 1977 .
 
 bond:GoldenEye a dbo:Song,
         movie:Film ;
@@ -6212,7 +6212,7 @@ bond:GoldenEye a dbo:Song,
     bond:rtmRating 6.9 ;
     schema1:name "GoldenEye" ;
     schema1:url "https://youtu.be/qGPBFvDz_HM?si=OJlOnDWRcRWeZMTG"^^xsd:anyURI ;
-    time:year "1995"^^xsd:gYear .
+    time:year 1995 .
 
 bond:The_World_Is_Not_Enough a dbo:Song,
         movie:Film ;
@@ -6284,7 +6284,7 @@ bond:The_World_Is_Not_Enough a dbo:Song,
     bond:rtmRating 5.7 ;
     schema1:name "The World Is Not Enough" ;
     schema1:url "https://youtu.be/LzvNDR5OrqM?si=cIzQiwbeyxNOCrDs"^^xsd:anyURI ;
-    time:year "1999"^^xsd:gYear .
+    time:year 1999 .
 
 bond:Die_Another_Day a dbo:Song,
         movie:Film ;
@@ -6361,7 +6361,7 @@ bond:Die_Another_Day a dbo:Song,
     bond:rtmRating 6.1 ;
     schema1:name "Die Another Day" ;
     schema1:url "https://youtu.be/ZVFDshqlmOQ?si=FjvbqAWargVkyU3F"^^xsd:anyURI ;
-    time:year "2002"^^xsd:gYear .
+    time:year 2002 .
 
 bond:Licence_to_Kill a dbo:Song,
         movie:Film ;
@@ -6446,7 +6446,7 @@ _Overseas_Highway>,
     bond:rtmRating 6.0 ;
     schema1:name "Licence to Kill" ;
     schema1:url "https://youtu.be/Ju_by-sC79c?si=kO0Rn-FoJ9YVgTUA"^^xsd:anyURI ;
-    time:year "1989"^^xsd:gYear .
+    time:year 1989 .
 
 bond:Tomorrow_Never_Dies a dbo:Song,
         movie:Film ;
@@ -6530,7 +6530,7 @@ bond:Tomorrow_Never_Dies a dbo:Song,
     bond:rtmRating 6.0 ;
     schema1:name "Tomorrow Never Dies" ;
     schema1:url "https://youtu.be/SDe1xi4tGUA?si=HgeN7UlCN8dA7v7i"^^xsd:anyURI ;
-    time:year "1997"^^xsd:gYear .
+    time:year 1997 .
 
 bond:Diamonds_Are_Forever a dbo:Song,
         movie:Film ;
@@ -6617,7 +6617,7 @@ bond:Diamonds_Are_Forever a dbo:Song,
     bond:rtmRating 6.3 ;
     schema1:name "Diamonds Are Forever" ;
     schema1:url "https://youtu.be/ZwbEuzJCnqI?si=xH-BoyxMvlyF6knx"^^xsd:anyURI ;
-    time:year "1971"^^xsd:gYear .
+    time:year 1971 .
 
 bond:The_Living_Daylights a dbo:Song,
         movie:Film ;
@@ -6713,7 +6713,7 @@ Gibraltar>,
     bond:rtmRating 6.3 ;
     schema1:name "The Living Daylights" ;
     schema1:url "https://youtu.be/y9p0FJnk2vM?si=Wm2IJrNLqdfZsonm"^^xsd:anyURI ;
-    time:year "1987"^^xsd:gYear .
+    time:year 1987 .
 
 movie:Actor a owl:Class ;
     rdfs:subClassOf movie:Person .
