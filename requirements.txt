@@ -11,3 +11,4 @@ geopy>=2.4.1
 lxml>=6.0.2
 spacy>=3.7.0
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.0/en_core_web_lg-3.7.0-py3-none-any.whl
+owlready2>=0.49
