@@ -1,6 +1,7 @@
 # 5. Statusupdate - Fr, 05.12.2025
 **Done:**
 - Inkonsistenz der Ontology behoben
+- Reasoning
 
 # 4. Statusupdate - Fr, 28.11.2025
 **Done:**
