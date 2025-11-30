@@ -51,9 +51,9 @@ def sanitize_uri_part(text):
     return text
 
 
-def create_ttl_knowledge_graph(json_file, output_file):
+def create_knowledge_graph(json_file, output_file_ttl, output_file_owl):
     """
-    Create a knowledge graph in TTL (Turtle) format from JSON data
+    Create a knowledge graph from JSON data and serialize to TTL and OWL.
     """
 
     # Define namespaces
@@ -596,16 +596,19 @@ def create_ttl_knowledge_graph(json_file, output_file):
             if vehicle.get('image_url'):
                 g.add((vehicle_uri, SCHEMA.image, Literal(vehicle['image_url'], datatype=XSD.anyURI)))
 
+    # Ensure directory exists
+    os.makedirs(os.path.dirname(output_file_ttl), exist_ok=True)
+
     # Serialize to TTL
     print(f"Serializing {len(g)} triples to Turtle format...")
-    turtle_output = g.serialize(format="turtle")
+    g.serialize(destination=str(output_file_ttl), format="turtle")
+    print(f"TTL file created: {output_file_ttl}")
 
-    # Write to file
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(turtle_output)
+    # Serialize OWL (RDF/XML)
+    print(f"Serializing {len(g)} triples to RDF/XML (OWL)...")
+    g.serialize(destination=str(output_file_owl), format="xml")
+    print(f"OWL file created: {output_file_owl}")
 
-    print(f"TTL file created: {output_file}")
     print(f"Total triples: {len(g)}")
 
     return g
@@ -616,9 +619,12 @@ if __name__ == "__main__":
 
     json_input = base_dir / "data/triple_store/james_bond_knowledge.json"
     ttl_output = base_dir / "data/triple_store/james_bond_knowledge.ttl"
+    owl_output = base_dir / "data/triple_store/james_bond_knowledge.owl"
 
-    graph = create_ttl_knowledge_graph(json_input, ttl_output)
+    graph = create_knowledge_graph(json_input, ttl_output, owl_output)
 
-    print(f"JSON input: {json_input}")
-    print(f"TTL output: {ttl_output}")
-    print(f"Total triples: {len(graph)}")
+    print("\n--- Summary ---")
+    print(f"JSON input:  {json_input}")
+    print(f"TTL output:  {ttl_output}")
+    print(f"OWL output:  {owl_output}")
+    print(f"Triples:     {len(graph)}")
