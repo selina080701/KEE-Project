@@ -107,9 +107,6 @@ schema1:url a owl:DatatypeProperty ;
     rdfs:domain dbo:Song ;
     rdfs:range xsd:anyURI .
 
-rdfs:label a owl:DatatypeProperty ;
-    rdfs:range xsd:string .
-
 geo1:lat a owl:DatatypeProperty ;
     rdfs:domain movie:FilmLocation ;
     rdfs:range xsd:decimal .
@@ -132,27 +129,27 @@ foaf:name a owl:DatatypeProperty ;
 bond:1964_Lincoln_Continental_Fourth_Generation a bond:Vehicle ;
     rdfs:label "1964 Lincoln Continental (Fourth Generation)" ;
     bond:isVehicleOf bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b3/Vehicle_-_Lincoln_Continental_Gen_4.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b3/Vehicle_-_Lincoln_Continental_Gen_4.png"^^xsd:anyURI .
 
 bond:1970_Ford_Custom a bond:Vehicle ;
     rdfs:label "1970 Ford Custom" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/82/Vehicle_-_Ford_Custom_1970_DAF_CIA.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/82/Vehicle_-_Ford_Custom_1970_DAF_CIA.png"^^xsd:anyURI .
 
 bond:1971_Ford_Custom a bond:Vehicle ;
     rdfs:label "1971 Ford Custom" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/29/Vehicle_-_Ford_Custom_1971_DAF_BW_Police.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/29/Vehicle_-_Ford_Custom_1971_DAF_BW_Police.png"^^xsd:anyURI .
 
 bond:1977_Cadillac_Fleetwood_limousine a bond:Vehicle ;
     rdfs:label "1977 Cadillac Fleetwood limousine" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Vehicle_-_Cadillac_Fleetwood_Limousine.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Vehicle_-_Cadillac_Fleetwood_Limousine.png"^^xsd:anyURI .
 
 bond:2002_Ford_Thunderbird a bond:Vehicle ;
     rdfs:label "2002 Ford Thunderbird" ;
     bond:isVehicleOf bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/58/Vehicle_-_Ford_Thunderbird.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/58/Vehicle_-_Ford_Thunderbird.png"^^xsd:anyURI .
 
 bond:2nd_Avenue a movie:FilmLocation ;
     rdfs:label "2nd Avenue" ;
@@ -187,22 +184,22 @@ bond:A1 a movie:FilmLocation ;
 bond:AMC_Hornet a bond:Vehicle ;
     rdfs:label "AMC Hornet" ;
     bond:isVehicleOf bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7d/Vehicle_-_AMC_Hornet.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7d/Vehicle_-_AMC_Hornet.png"^^xsd:anyURI .
 
 bond:AMC_Matador_Coupé a bond:Vehicle ;
     rdfs:label "AMC Matador Coupé" ;
     bond:isVehicleOf bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_AMC_Matador.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_AMC_Matador.png"^^xsd:anyURI .
 
 bond:AMC_Matador_Sedan a bond:Vehicle ;
     rdfs:label "AMC Matador Sedan" ;
     bond:isVehicleOf bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/88/Vehicle_-_AMC_Matador_Sedan_Thai_Police.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/88/Vehicle_-_AMC_Matador_Sedan_Thai_Police.png"^^xsd:anyURI .
 
 bond:Acrostar_Jet_Bede_BD-5J a bond:Vehicle ;
     rdfs:label "Acrostar Jet / Bede BD-5J" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6a/Vehicle_-_Acrostar.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6a/Vehicle_-_Acrostar.png"^^xsd:anyURI .
 
 bond:Adana a movie:FilmLocation ;
     rdfs:label "Adana" ;
@@ -213,22 +210,22 @@ bond:Adana a movie:FilmLocation ;
 bond:Aero_Commander_200 a bond:Vehicle ;
     rdfs:label "Aero Commander 200" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/89/Aerocommander1.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/89/Aerocommander1.jpg"^^xsd:anyURI .
 
 bond:Aero_Commander_500 a bond:Vehicle ;
     rdfs:label "Aero Commander 500" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f9/Vehicle_-_Aero_Commander_500.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f9/Vehicle_-_Aero_Commander_500.png"^^xsd:anyURI .
 
 bond:Aero_L-39_Albatros a bond:Vehicle ;
     rdfs:label "Aero L-39 Albatros" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Albatros.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Albatros.png"^^xsd:anyURI .
 
 bond:Aerospatiale_AS350B_AStar a bond:Vehicle ;
     rdfs:label "Aerospatiale AS350B AStar" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/73/Vehicle_-_Eurocopter_AS350B.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/73/Vehicle_-_Eurocopter_AS350B.png"^^xsd:anyURI .
 
 bond:Afghanistan a movie:FilmLocation ;
     rdfs:label "Afghanistan" ;
@@ -239,12 +236,12 @@ bond:Afghanistan a movie:FilmLocation ;
 bond:Agusta-Bell_AB-204 a bond:Vehicle ;
     rdfs:label "Agusta-Bell AB-204" ;
     bond:isVehicleOf bond:On_Her_Majestys_Secret_Service ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Vehicle_-_Bell_UH1_OHMSS.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Vehicle_-_Bell_UH1_OHMSS.png"^^xsd:anyURI .
 
 bond:Agusta-Bell_AB-206B_JetRanger a bond:Vehicle ;
     rdfs:label "Agusta-Bell AB-206B JetRanger" ;
     bond:isVehicleOf bond:On_Her_Majestys_Secret_Service ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Bell_206_JetRanger_OHMSS.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Bell_206_JetRanger_OHMSS.png"^^xsd:anyURI .
 
 bond:Albania a movie:FilmLocation ;
     rdfs:label "Albania" ;
@@ -266,13 +263,13 @@ bond:Alec_Trevelyan_Janus a bond:Villain ;
 bond:Alfa_Romeo_GTV6 a bond:Vehicle ;
     rdfs:label "Alfa Romeo GTV6" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_1981_Alfa_Romeo_GTV_6.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_1981_Alfa_Romeo_GTV_6.png"^^xsd:anyURI .
 
 bond:All_Time_High a dbo:Song ;
     rdfs:label "All Time High" ;
     bond:isPerformedBy bond:Rita_Coolidge ;
     bond:isThemeSongOf bond:Octopussy ;
-    schema1:url "https://youtu.be/213t3YeQosE?si=k8JyqEwV5KHJb3o9" .
+    schema1:url "https://youtu.be/213t3YeQosE?si=k8JyqEwV5KHJb3o9"^^xsd:anyURI .
 
 bond:Alps a movie:FilmLocation ;
     rdfs:label "Alps" ;
@@ -326,12 +323,12 @@ bond:Another_Way_to_Die a dbo:Song ;
     rdfs:label "Another Way to Die" ;
     bond:isPerformedBy bond:Jack_White_Alicia_Keys ;
     bond:isThemeSongOf bond:Quantum_of_Solace ;
-    schema1:url "https://youtu.be/B4LpSzKnEtA?si=cQUB9HTuXNDG-XCI" .
+    schema1:url "https://youtu.be/B4LpSzKnEtA?si=cQUB9HTuXNDG-XCI"^^xsd:anyURI .
 
 bond:Antonov_An-124 a bond:Vehicle ;
     rdfs:label "Antonov An-124" ;
     bond:isVehicleOf bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/73/Vehicle_-_Antonov_An-124.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/73/Vehicle_-_Antonov_An-124.png"^^xsd:anyURI .
 
 bond:Anya_Amasova a bond:BondGirl ;
     bond:isCharacterIn bond:The_Spy_Who_Loved_Me ;
@@ -376,22 +373,22 @@ bond:Ascot_Racecourse a movie:FilmLocation ;
 bond:Aston_Martin_DBS a bond:Vehicle ;
     rdfs:label "Aston Martin DBS" ;
     bond:isVehicleOf bond:On_Her_Majestys_Secret_Service ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fd/Vehicle_-_Aston_Martin_DBS_1969.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fd/Vehicle_-_Aston_Martin_DBS_1969.png"^^xsd:anyURI .
 
 bond:Aston_Martin_V12_Vanquish a bond:Vehicle ;
     rdfs:label "Aston Martin V12 Vanquish" ;
     bond:isVehicleOf bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Aston_Martin_V12_Vanquish.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Aston_Martin_V12_Vanquish.png"^^xsd:anyURI .
 
 bond:Aston_Martin_V8_Vantage_Volante a bond:Vehicle ;
     rdfs:label "Aston Martin V8 Vantage Volante" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/ba/Vehicle_-_Aston_Martin_V8_Vantage_Volante.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/ba/Vehicle_-_Aston_Martin_V8_Vantage_Volante.png"^^xsd:anyURI .
 
 bond:Audi_200_C3 a bond:Vehicle ;
     rdfs:label "Audi 200 (C3)" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/23/Vehicle_-_Audi_200.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/23/Vehicle_-_Audi_200.png"^^xsd:anyURI .
 
 bond:Auric_Goldfinger a bond:Villain ;
     bond:isCharacterIn bond:Goldfinger ;
@@ -401,12 +398,12 @@ bond:Auric_Goldfinger a bond:Villain ;
 bond:Austin_Mini_Moke a bond:Vehicle ;
     rdfs:label "Austin Mini Moke" ;
     bond:isVehicleOf bond:Moonraker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/35/Vehicle_-_Moonraker_Film_Mini_Moke.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/35/Vehicle_-_Moonraker_Film_Mini_Moke.png"^^xsd:anyURI .
 
 bond:Avro_Vulcan a bond:Vehicle ;
     rdfs:label "Avro Vulcan" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/00/Vehicle_-_Avro_Vulcan_Bomber.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/00/Vehicle_-_Avro_Vulcan_Bomber.png"^^xsd:anyURI .
 
 bond:Azerbaijan a movie:FilmLocation ;
     rdfs:label "Azerbaijan" ;
@@ -417,32 +414,32 @@ bond:Azerbaijan a movie:FilmLocation ;
 bond:BMW_518_E28 a bond:Vehicle ;
     rdfs:label "BMW 518 (E28)" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f4/Vehicle_-_BMW_518_E28_Octopussy.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f4/Vehicle_-_BMW_518_E28_Octopussy.png"^^xsd:anyURI .
 
 bond:BMW_750iL a bond:Vehicle ;
     rdfs:label "BMW 750iL" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1e/Vehicle_-_BMW_750iL.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1e/Vehicle_-_BMW_750iL.png"^^xsd:anyURI .
 
 bond:BMW_R1200C a bond:Vehicle ;
     rdfs:label "BMW R1200C" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d1/Vehicle_-_BMW_R1200.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d1/Vehicle_-_BMW_R1200.png"^^xsd:anyURI .
 
 bond:BMW_R_100_CS a bond:Vehicle ;
     rdfs:label "BMW R 100 CS" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e2/Vehicle_-_BMW_R100_Polizei_Octopussy.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e2/Vehicle_-_BMW_R100_Polizei_Octopussy.png"^^xsd:anyURI .
 
 bond:BMW_Z8 a bond:Vehicle ;
     rdfs:label "BMW Z8" ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_BMW_Z8.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_BMW_Z8.png"^^xsd:anyURI .
 
 bond:BSA_Lightning_A65L a bond:Vehicle ;
     rdfs:label "BSA Lightning A65L" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_BSA_Lightning_-A65L-.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Vehicle_-_BSA_Lightning_-A65L-.png"^^xsd:anyURI .
 
 bond:Bahnhof a movie:FilmLocation ;
     rdfs:label "Bahnhof" ;
@@ -459,7 +456,7 @@ bond:Baja_California a movie:FilmLocation ;
 bond:Bajaj_RE_taxi a bond:Vehicle ;
     rdfs:label "Bajaj RE taxi" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Bajaj_RE.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Bajaj_RE.png"^^xsd:anyURI .
 
 bond:Baku a movie:FilmLocation ;
     rdfs:label "Baku" ;
@@ -476,7 +473,7 @@ bond:Baltimore a movie:FilmLocation ;
 bond:Bangkok_Boat a bond:Vehicle ;
     rdfs:label "Bangkok Boat" ;
     bond:isVehicleOf bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/68/Bangkokboat.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/68/Bangkokboat.jpg"^^xsd:anyURI .
 
 bond:Banyan_Tree_Bangkok a movie:FilmLocation ;
     rdfs:label "Banyan Tree Bangkok" ;
@@ -499,12 +496,12 @@ bond:Bat_Tower_Road a movie:FilmLocation ;
 bond:Bathosub a bond:Vehicle ;
     rdfs:label "Bathosub" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/36/Vehicle_-Bathosub.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/36/Vehicle_-Bathosub.png"^^xsd:anyURI .
 
 bond:Beechcraft_C-45H_Expeditor a bond:Vehicle ;
     rdfs:label "Beechcraft C-45H Expeditor" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_Beechcraft.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_Beechcraft.png"^^xsd:anyURI .
 
 bond:Beirut a movie:FilmLocation ;
     rdfs:label "Beirut" ;
@@ -521,17 +518,17 @@ bond:Belgrade a movie:FilmLocation ;
 bond:Bell-Textron_Jet_Pack a bond:Vehicle ;
     rdfs:label "Bell-Textron Jet Pack" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/15/Rocket_Belt.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/15/Rocket_Belt.png"^^xsd:anyURI .
 
 bond:Bell_47J_Ranger a bond:Vehicle ;
     rdfs:label "Bell 47J Ranger" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/dd/Vehicle_-_Bell_47J_Ranger.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/dd/Vehicle_-_Bell_47J_Ranger.png"^^xsd:anyURI .
 
 <http://example.org/bond/Bentley_3½_Litre> a bond:Vehicle ;
     rdfs:label "Bentley 3½ Litre" ;
     bond:isVehicleOf bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/11/Vehicle_-_Bentley_Mark_IV.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/11/Vehicle_-_Bentley_Mark_IV.png"^^xsd:anyURI .
 
 bond:Berkshire a movie:FilmLocation ;
     rdfs:label "Berkshire" ;
@@ -566,7 +563,7 @@ bond:Bimini a movie:FilmLocation ;
 bond:Bird_1 a bond:Vehicle ;
     rdfs:label "Bird 1" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Bird_One.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Bird_One.png"^^xsd:anyURI .
 
 bond:Black_Park_Woodland a movie:FilmLocation ;
     rdfs:label "Black Park Woodland" ;
@@ -577,7 +574,7 @@ bond:Black_Park_Woodland a movie:FilmLocation ;
 bond:Blofelds_Yacht a bond:Vehicle ;
     rdfs:label "Blofeld's Yacht" ;
     bond:isVehicleOf bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Blofeld%27s_Yacht.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Blofeld%27s_Yacht.png"^^xsd:anyURI .
 
 bond:Bluegrass_Airfield a movie:FilmLocation ;
     rdfs:label "Bluegrass Airfield" ;
@@ -588,7 +585,7 @@ bond:Bluegrass_Airfield a movie:FilmLocation ;
 bond:Boeing_747-436 a bond:Vehicle ;
     rdfs:label "Boeing 747-436" ;
     bond:isVehicleOf bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/BONDWIKI_DAD_PlaneBritAirways1.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/BONDWIKI_DAD_PlaneBritAirways1.jpg"^^xsd:anyURI .
 
 bond:Boeing_B-17_Flying_Fortress a bond:Vehicle ;
     rdfs:label "Boeing B-17 Flying Fortress" ;
@@ -650,17 +647,17 @@ bond:Buckingham_Palace a movie:FilmLocation ;
 bond:Buehler_Turbocraft a bond:Vehicle ;
     rdfs:label "Buehler Turbocraft" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Vehicle_-_Buehler_Turbocraft.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Vehicle_-_Buehler_Turbocraft.png"^^xsd:anyURI .
 
 bond:CASA_C-212CB_Aviocar a bond:Vehicle ;
     rdfs:label "CASA C-212CB Aviocar" ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/97/Vehicle_-_CASA_c212_Aviocar.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/97/Vehicle_-_CASA_c212_Aviocar.png"^^xsd:anyURI .
 
 bond:Cadillac_Funeral_Coach a bond:Vehicle ;
     rdfs:label "Cadillac Funeral Coach" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/32/Vehicle_-_Cadillac_Funeral_Coach.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/32/Vehicle_-_Cadillac_Funeral_Coach.png"^^xsd:anyURI .
 
 bond:Cadiz a movie:FilmLocation ;
     rdfs:label "Cadiz" ;
@@ -734,7 +731,7 @@ bond:Caucasus_Mountains a movie:FilmLocation ;
 bond:Cessna_172P_Skyhawk a bond:Vehicle ;
     rdfs:label "Cessna 172P Skyhawk" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/67/Vehicle_-_Cessna_172_LTK.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/67/Vehicle_-_Cessna_172_LTK.png"^^xsd:anyURI .
 
 bond:Chamonix a movie:FilmLocation ;
     rdfs:label "Chamonix" ;
@@ -757,17 +754,17 @@ bond:Chemnitz a movie:FilmLocation ;
 bond:Chevrolet_Apache_C30_One-Ton_Truck a bond:Vehicle ;
     rdfs:label "Chevrolet Apache C30 One-Ton Truck" ;
     bond:isVehicleOf bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Vehicle_-_Chevrolet_Apache_C30.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Vehicle_-_Chevrolet_Apache_C30.png"^^xsd:anyURI .
 
 bond:Chevrolet_Bel_Air_Convertible a bond:Vehicle ;
     rdfs:label "Chevrolet Bel Air Convertible" ;
     bond:isVehicleOf bond:Dr._No ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8d/Vehicle_-_Chevrolet_Bel_Air.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8d/Vehicle_-_Chevrolet_Bel_Air.png"^^xsd:anyURI .
 
 bond:Chevrolet_Impala a bond:Vehicle ;
     rdfs:label "Chevrolet Impala" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f6/31b808_f4ff0de4bb61449b897401558e8edd53~mv2.webp" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f6/31b808_f4ff0de4bb61449b897401558e8edd53~mv2.webp"^^xsd:anyURI .
 
 bond:China a movie:FilmLocation ;
     rdfs:label "China" ;
@@ -778,17 +775,17 @@ bond:China a movie:FilmLocation ;
 bond:Cigarette_Racing_Café_Racer a bond:Vehicle ;
     rdfs:label "Cigarette Racing Café Racer" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Vehicle_-_Cigarette_Racing_Cafe_Racer.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Vehicle_-_Cigarette_Racing_Cafe_Racer.png"^^xsd:anyURI .
 
 bond:Citroën_2CV a bond:Vehicle ;
     rdfs:label "Citroën 2CV" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2f/Vehicle_-_Citroen_2CV.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2f/Vehicle_-_Citroen_2CV.png"^^xsd:anyURI .
 
 bond:Citroën_Traction_Avant a bond:Vehicle ;
     rdfs:label "Citroën Traction Avant" ;
     bond:isVehicleOf bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7b/Vehicle_-Citro%C3%ABn_Traction_Avant.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7b/Vehicle_-Citro%C3%ABn_Traction_Avant.png"^^xsd:anyURI .
 
 bond:Colonel_Rosa_Klebb a bond:Villain ;
     bond:isCharacterIn bond:From_Russia_with_Love ;
@@ -876,17 +873,17 @@ bond:DMZ a movie:FilmLocation ;
 bond:Daimler_Limousine a bond:Vehicle ;
     rdfs:label "Daimler Limousine" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1f/Tnd_daimler1.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1f/Tnd_daimler1.jpg"^^xsd:anyURI .
 
 bond:Disco_Volante a bond:Vehicle ;
     rdfs:label "Disco Volante" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/83/Vehicle_-_Disco_Volante.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/83/Vehicle_-_Disco_Volante.png"^^xsd:anyURI .
 
 bond:Dodge_D-100 a bond:Vehicle ;
     rdfs:label "Dodge D-100" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Vehicle_-_Dodge_D-100.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Vehicle_-_Dodge_D-100.png"^^xsd:anyURI .
 
 bond:Dodge_Diplomat a bond:Vehicle ;
     rdfs:label "Dodge Diplomat" ;
@@ -895,7 +892,7 @@ bond:Dodge_Diplomat a bond:Vehicle ;
 bond:Dodge_M43 a bond:Vehicle ;
     rdfs:label "Dodge M43" ;
     bond:isVehicleOf bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/ad/Vehicle_-_Dodge_M43.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/ad/Vehicle_-_Dodge_M43.png"^^xsd:anyURI .
 
 bond:Dodge_Monaco a bond:Vehicle ;
     rdfs:label "Dodge Monaco" ;
@@ -904,17 +901,17 @@ bond:Dodge_Monaco a bond:Vehicle ;
 bond:Dodge_Polara a bond:Vehicle ;
     rdfs:label "Dodge Polara" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2a/Polara1.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2a/Polara1.jpg"^^xsd:anyURI .
 
 bond:Dodge_Ram a bond:Vehicle ;
     rdfs:label "Dodge Ram" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9a/Vehicle_-_Dodge_Ram.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9a/Vehicle_-_Dodge_Ram.png"^^xsd:anyURI .
 
 bond:Dodge_WC_51 a bond:Vehicle ;
     rdfs:label "Dodge WC 51" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8c/Vehicle_-_Dodge_WC_51.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8c/Vehicle_-_Dodge_WC_51.png"^^xsd:anyURI .
 
 bond:Dominic_Greene a bond:Villain ;
     bond:isCharacterIn bond:Quantum_of_Solace ;
@@ -967,7 +964,7 @@ bond:Dr._Kananga_Mr._Big a bond:Villain ;
 bond:Dragon_tank a bond:Vehicle ;
     rdfs:label "Dragon tank" ;
     bond:isVehicleOf bond:Dr._No ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Dragon_Tank.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Dragon_Tank.png"^^xsd:anyURI .
 
 bond:Dumaine_Street a movie:FilmLocation ;
     rdfs:label "Dumaine Street" ;
@@ -1057,17 +1054,17 @@ bond:Evinrude_Playmate a bond:Vehicle ;
 bond:Evinrude_Sport-16 a bond:Vehicle ;
     rdfs:label "Evinrude Sport-16" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Evinrude_Sport-16.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Evinrude_Sport-16.png"^^xsd:anyURI .
 
 bond:Fairchild_C-123_Provider a bond:Vehicle ;
     rdfs:label "Fairchild C-123 Provider" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Vehicle_-_C123_Provider.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Vehicle_-_C123_Provider.png"^^xsd:anyURI .
 
 bond:Fairey_Huntress_23 a bond:Vehicle ;
     rdfs:label "Fairey Huntress 23" ;
     bond:isVehicleOf bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/32/Vehicle_-_Fairey_Huntress_23_BondTania.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/32/Vehicle_-_Fairey_Huntress_23_BondTania.png"^^xsd:anyURI .
 
 bond:Falmouth a movie:FilmLocation ;
     rdfs:label "Falmouth" ;
@@ -1096,52 +1093,52 @@ bond:Fishing_Village a movie:FilmLocation ;
 bond:Ford_Bronco_XLT a bond:Vehicle ;
     rdfs:label "Ford Bronco XLT" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4b/Bronco1.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4b/Bronco1.jpg"^^xsd:anyURI .
 
 bond:Ford_Fairlane a bond:Vehicle ;
     rdfs:label "Ford Fairlane" ;
     bond:isVehicleOf bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/77/Vehicle_-_Ford_Fairlane_500.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/77/Vehicle_-_Ford_Fairlane_500.png"^^xsd:anyURI .
 
 bond:Ford_Fairlane_500_Skyliner_Retractable_Hardtop_model a bond:Vehicle ;
     rdfs:label "Ford Fairlane 500 Skyliner (Retractable Hardtop model)" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/90/Vehicle_-_Ford_Fairlane_500_Thunderball.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/90/Vehicle_-_Ford_Fairlane_500_Thunderball.png"^^xsd:anyURI .
 
 bond:Ford_Galaxie_500 a bond:Vehicle ;
     rdfs:label "Ford Galaxie 500" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/aa/Bondwiki_Bond_Ford_Galaxie_waiting.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/aa/Bondwiki_Bond_Ford_Galaxie_waiting.jpg"^^xsd:anyURI .
 
 bond:Ford_Mustang_Convertible a bond:Vehicle ;
     rdfs:label "Ford Mustang Convertible" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/63/Vehicle_-_1965_Ford_Mustang.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/63/Vehicle_-_1965_Ford_Mustang.png"^^xsd:anyURI .
 
 bond:Ford_Mustang_Convertible_1964.5 a bond:Vehicle ;
     rdfs:label "Ford Mustang Convertible (1964.5)" ;
     bond:isVehicleOf bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/68/Vehicle_-_1965_Ford_Mustang_Convertible.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/68/Vehicle_-_1965_Ford_Mustang_Convertible.png"^^xsd:anyURI .
 
 bond:Ford_Mustang_Mach_1 a bond:Vehicle ;
     rdfs:label "Ford Mustang Mach 1" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/92/Vehicle_-_Ford_Mustang_Mach_1.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/92/Vehicle_-_Ford_Mustang_Mach_1.png"^^xsd:anyURI .
 
 bond:Ford_Scorpio a bond:Vehicle ;
     rdfs:label "Ford Scorpio" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a7/Tnd_scorpio1.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a7/Tnd_scorpio1.jpg"^^xsd:anyURI .
 
 bond:Ford_Taunus_Ghia a bond:Vehicle ;
     rdfs:label "Ford Taunus Ghia" ;
     bond:isVehicleOf bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5a/Vehicle_-_Ford_Taunus.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5a/Vehicle_-_Ford_Taunus.png"^^xsd:anyURI .
 
 bond:Ford_Thunderbird a bond:Vehicle ;
     rdfs:label "Ford Thunderbird" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/02/Vehicle_-_VTAK_Thunderbird.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/02/Vehicle_-_VTAK_Thunderbird.png"^^xsd:anyURI .
 
 bond:Fort_Knox a movie:FilmLocation ;
     rdfs:label "Fort Knox" ;
@@ -1179,12 +1176,12 @@ bond:Franz_Sanchez a bond:Villain ;
 bond:GMC_CCKW_352 a bond:Vehicle ;
     rdfs:label "GMC CCKW 352" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/92/Vehicle_-_GMC_G508_Octopussy.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/92/Vehicle_-_GMC_G508_Octopussy.png"^^xsd:anyURI .
 
 bond:GP_Super_Buggy_Series_III a bond:Vehicle ;
     rdfs:label "GP Super Buggy Series III" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/25/Vehicle_-_FYEO_Buggy.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/25/Vehicle_-_FYEO_Buggy.png"^^xsd:anyURI .
 
 bond:General_Georgi_Koskov a bond:Villain ;
     bond:isCharacterIn bond:The_Living_Daylights ;
@@ -1216,12 +1213,12 @@ bond:Giza a movie:FilmLocation ;
 bond:Glastron_CVX-18_Intimidator a bond:Vehicle ;
     rdfs:label "Glastron CVX-18 Intimidator" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Intimidator1.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Intimidator1.jpg"^^xsd:anyURI .
 
 bond:Glastron_SSV-189 a bond:Vehicle ;
     rdfs:label "Glastron SSV-189" ;
     bond:isVehicleOf bond:Moonraker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d8/Vehicle_-_Moonraker_Villain_Glastron_SVV-189.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d8/Vehicle_-_Moonraker_Villain_Glastron_SVV-189.png"^^xsd:anyURI .
 
 bond:Golden_Gate_Bridge a movie:FilmLocation ;
     rdfs:label "Golden Gate Bridge" ;
@@ -1232,7 +1229,7 @@ bond:Golden_Gate_Bridge a movie:FilmLocation ;
 bond:Gondola_Hovercraft a bond:Vehicle ;
     rdfs:label "Gondola Hovercraft" ;
     bond:isVehicleOf bond:Moonraker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Vehicle_-_Gondola.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Vehicle_-_Gondola.png"^^xsd:anyURI .
 
 bond:Gran_Hotel_Ciudad_De_Mexico a movie:FilmLocation ;
     rdfs:label "Gran Hotel Ciudad De Mexico" ;
@@ -1278,22 +1275,22 @@ bond:Gypsum_Road a movie:FilmLocation ;
 bond:HH-65A_Dolphin a bond:Vehicle ;
     rdfs:label "HH-65A Dolphin" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Vehicle_-_AS365_Dauphin.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Vehicle_-_AS365_Dauphin.png"^^xsd:anyURI .
 
 bond:HMS_Aeneas_P427 a bond:Vehicle ;
     rdfs:label "HMS Aeneas (P427)" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/48/Vehicle_-_HMS_Aeneas_P427_YOLT.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/48/Vehicle_-_HMS_Aeneas_P427_YOLT.png"^^xsd:anyURI .
 
 bond:HMS_Bedford a bond:Vehicle ;
     rdfs:label "HMS Bedford" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/af/HMS_Bedford_-_Profile.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/af/HMS_Bedford_-_Profile.png"^^xsd:anyURI .
 
 bond:HMS_Chester a bond:Vehicle ;
     rdfs:label "HMS Chester" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/35/Vehicle_-_HMS_Chester.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/35/Vehicle_-_HMS_Chester.png"^^xsd:anyURI .
 
 bond:HMS_Fearless_L10 a bond:Vehicle ;
     rdfs:label "HMS Fearless (L10)" ;
@@ -1302,17 +1299,17 @@ bond:HMS_Fearless_L10 a bond:Vehicle ;
 bond:HMS_Ranger a bond:Vehicle ;
     rdfs:label "HMS Ranger" ;
     bond:isVehicleOf bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6b/HMS_Ranger_-_Profile.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6b/HMS_Ranger_-_Profile.png"^^xsd:anyURI .
 
 bond:HMS_Rothesay a bond:Vehicle ;
     rdfs:label "HMS Rothesay" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/55/Vehicle_-_HMS_Rothesay.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/55/Vehicle_-_HMS_Rothesay.png"^^xsd:anyURI .
 
 bond:HMS_Tenby a bond:Vehicle ;
     rdfs:label "HMS Tenby" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fc/Tenby1.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fc/Tenby1.jpg"^^xsd:anyURI .
 
 bond:Haiti a movie:FilmLocation ;
     rdfs:label "Haiti" ;
@@ -1347,7 +1344,7 @@ bond:Hampshire a movie:FilmLocation ;
 bond:Handley_Page_HP.137_Jetstream_1 a bond:Vehicle ;
     rdfs:label "Handley Page HP.137 Jetstream 1" ;
     bond:isVehicleOf bond:Moonraker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/Vehicle_-_Handley_Page_Jetstream.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/Vehicle_-_Handley_Page_Jetstream.png"^^xsd:anyURI .
 
 bond:Hanover_Parish a movie:FilmLocation ;
     rdfs:label "Hanover Parish" ;
@@ -1382,7 +1379,7 @@ bond:Havana a movie:FilmLocation ;
 bond:Hawker_Siddeley_Harrier a bond:Vehicle ;
     rdfs:label "Hawker Siddeley Harrier" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a3/Vehicle_-_Harrier.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a3/Vehicle_-_Harrier.png"^^xsd:anyURI .
 
 bond:Henderson a movie:FilmLocation ;
     rdfs:label "Henderson" ;
@@ -1417,7 +1414,7 @@ bond:Highway_11 a movie:FilmLocation ;
 bond:Hiller_UH-12 a bond:Vehicle ;
     rdfs:label "Hiller UH-12" ;
     bond:isVehicleOf bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-Hiller_UH-12.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-Hiller_UH-12.png"^^xsd:anyURI .
 
 bond:Himeji_Castle a movie:FilmLocation ;
     rdfs:label "Himeji Castle" ;
@@ -1439,7 +1436,7 @@ bond:Holly_Goodhead a bond:BondGirl ;
 bond:Honda_ATC_90 a bond:Vehicle ;
     rdfs:label "Honda ATC 90" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Honda_ATV.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/79/Vehicle_-_Honda_ATV.png"^^xsd:anyURI .
 
 bond:Honey_Ryder a bond:BondGirl ;
     bond:isCharacterIn bond:Dr._No ;
@@ -1455,7 +1452,7 @@ bond:Hong_Kong_Harbour a movie:FilmLocation ;
 bond:Hot_Air_Balloon a bond:Vehicle ;
     rdfs:label "Hot Air Balloon" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Hot_Air_Balloon.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Hot_Air_Balloon.png"^^xsd:anyURI .
 
 bond:Hotel a movie:FilmLocation ;
     rdfs:label "Hotel" ;
@@ -1490,7 +1487,7 @@ bond:Hounslow a movie:FilmLocation ;
 bond:Hughes_OH-06 a bond:Vehicle ;
     rdfs:label "Hughes OH-06" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/86/Vehicle_-_MD_500_Helicopters.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/86/Vehicle_-_MD_500_Helicopters.png"^^xsd:anyURI .
 
 bond:Hugo_Drax a bond:Villain ;
     bond:isCharacterIn bond:Moonraker ;
@@ -1512,7 +1509,7 @@ bond:Ice_Rink a movie:FilmLocation ;
 bond:Iceberg_Submarine a bond:Vehicle ;
     rdfs:label "Iceberg Submarine" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Iceberg.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Iceberg.png"^^xsd:anyURI .
 
 bond:India a movie:FilmLocation ;
     rdfs:label "India" ;
@@ -1533,13 +1530,13 @@ bond:Isthmus a movie:FilmLocation ;
 bond:Jaguar_XKR a bond:Vehicle ;
     rdfs:label "Jaguar XKR" ;
     bond:isVehicleOf bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Vehicle_-_Jaguar_XKR_-X100-.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Vehicle_-_Jaguar_XKR_-X100-.png"^^xsd:anyURI .
 
 bond:James_Bond_Theme a dbo:Song ;
     rdfs:label "James Bond Theme" ;
     bond:isPerformedBy bond:The_John_Barry_Orchestra ;
     bond:isThemeSongOf bond:Dr._No ;
-    schema1:url "https://youtu.be/oTo3YtPxG5k?si=v2Yx2a4--kAEgaqI" .
+    schema1:url "https://youtu.be/oTo3YtPxG5k?si=v2Yx2a4--kAEgaqI"^^xsd:anyURI .
 
 bond:Japantown a movie:FilmLocation ;
     rdfs:label "Japantown" ;
@@ -1550,17 +1547,17 @@ bond:Japantown a movie:FilmLocation ;
 bond:Jeep_CJ-7 a bond:Vehicle ;
     rdfs:label "Jeep CJ-7" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5e/Vehicle_-_Jeep_CJ7.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5e/Vehicle_-_Jeep_CJ7.png"^^xsd:anyURI .
 
 bond:Jupiter_16 a bond:Vehicle ;
     rdfs:label "Jupiter 16" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ed/Vehicle_-_Jupiter_16.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ed/Vehicle_-_Jupiter_16.png"^^xsd:anyURI .
 
 bond:Jupiter_17 a bond:Vehicle ;
     rdfs:label "Jupiter 17" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0d/Vehicle_-_Jupiter_17.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0d/Vehicle_-_Jupiter_17.png"^^xsd:anyURI .
 
 bond:Kagoshima a movie:FilmLocation ;
     rdfs:label "Kagoshima" ;
@@ -1604,17 +1601,17 @@ bond:Karnak a movie:FilmLocation ;
 bond:Kawasaki-Bell_47G-3 a bond:Vehicle ;
     rdfs:label "Kawasaki-Bell 47G-3" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7a/Vehicle_-_Kawasaki-Bell_47G-3.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7a/Vehicle_-_Kawasaki-Bell_47G-3.png"^^xsd:anyURI .
 
 bond:Kawasaki_KV-107 a bond:Vehicle ;
     rdfs:label "Kawasaki KV-107" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/95/Vehicle_-_Kawasaki_KV-107.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/95/Vehicle_-_Kawasaki_KV-107.png"^^xsd:anyURI .
 
 bond:Kawasaki_Z900-A4 a bond:Vehicle ;
     rdfs:label "Kawasaki Z900-A4" ;
     bond:isVehicleOf bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d0/1976-kawasaki-z900-sidecar.jpeg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d0/1976-kawasaki-z900-sidecar.jpeg"^^xsd:anyURI .
 
 bond:Kazakhstan a movie:FilmLocation ;
     rdfs:label "Kazakhstan" ;
@@ -1649,7 +1646,7 @@ bond:Kentucky a movie:FilmLocation ;
 bond:Kenworth_W-900 a bond:Vehicle ;
     rdfs:label "Kenworth W-900" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/Vehicle_-_Kenworth_W-900.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/Vehicle_-_Kenworth_W-900.png"^^xsd:anyURI .
 
 bond:Key_Beach a movie:FilmLocation ;
     rdfs:label "Key Beach" ;
@@ -1706,7 +1703,7 @@ bond:Kyushu_Region a movie:FilmLocation ;
 bond:LaSalle_Funeral_Coach a bond:Vehicle ;
     rdfs:label "LaSalle Funeral Coach" ;
     bond:isVehicleOf bond:Dr._No ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Lasalle.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Lasalle.jpg"^^xsd:anyURI .
 
 bond:La_Caleta a movie:FilmLocation ;
     rdfs:label "La Caleta" ;
@@ -1729,12 +1726,12 @@ bond:La_Paz a movie:FilmLocation ;
 bond:Lada_1500_VAZ-2103_Zhiguli a bond:Vehicle ;
     rdfs:label "Lada 1500 / VAZ-2103 \"Zhiguli\"" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/86/Vehicle_-_Lada_TLD.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/86/Vehicle_-_Lada_TLD.png"^^xsd:anyURI .
 
 bond:Lada_Niva_VAZ-2121 a bond:Vehicle ;
     rdfs:label "Lada Niva (VAZ-2121)" ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/3d/None-listed-lada-niva-4x4.jpeg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/3d/None-listed-lada-niva-4x4.jpeg"^^xsd:anyURI .
 
 bond:Lake_Como a movie:FilmLocation ;
     rdfs:label "Lake Como" ;
@@ -1757,27 +1754,27 @@ bond:Lakefront_Airport a movie:FilmLocation ;
 bond:Land_Rover_88_Series_III a bond:Vehicle ;
     rdfs:label "Land Rover 88'' Series III" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/23/Vehicle_-_TLD_Jeep.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/23/Vehicle_-_TLD_Jeep.png"^^xsd:anyURI .
 
 bond:Land_Rover_90 a bond:Vehicle ;
     rdfs:label "Land Rover 90" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_TLD87_LandRover90.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_TLD87_LandRover90.png"^^xsd:anyURI .
 
 bond:Land_Rover_Range_Rover a bond:Vehicle ;
     rdfs:label "Land Rover Range Rover" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b4/Bondwiki_TND_RangeRoverSII_cropped.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b4/Bondwiki_TND_RangeRoverSII_cropped.jpg"^^xsd:anyURI .
 
 bond:Land_Rover_Range_Rover_Convertible a bond:Vehicle ;
     rdfs:label "Land Rover Range Rover Convertible" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1e/Vehicle_-Land_Rover_Range_Rover_Convertible.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1e/Vehicle_-Land_Rover_Range_Rover_Convertible.png"^^xsd:anyURI .
 
 bond:Land_Rover_Range_Rover_Series_I a bond:Vehicle ;
     rdfs:label "Land Rover Range Rover Series I" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/00/Vehicle_-_VTAK_Range_Rover_Series_I.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/00/Vehicle_-_VTAK_Range_Rover_Series_I.png"^^xsd:anyURI .
 
 bond:Las_Vegas a movie:FilmLocation ;
     rdfs:label "Las Vegas" ;
@@ -1817,7 +1814,7 @@ bond:Le_Chiffre a bond:Villain ;
 bond:Learjet_35 a bond:Vehicle ;
     rdfs:label "Learjet 35" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/cd/Vehicle_-_Learjet_35.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/cd/Vehicle_-_Learjet_35.png"^^xsd:anyURI .
 
 bond:Leavesden a movie:FilmLocation ;
     rdfs:label "Leavesden" ;
@@ -1844,22 +1841,22 @@ bond:Lee_Tamahori a movie:Director ;
 bond:Leyland_Sherpa_240 a bond:Vehicle ;
     rdfs:label "Leyland Sherpa 240" ;
     bond:isVehicleOf bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7c/Vehicle_-_Leyland_Sherpa_240.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7c/Vehicle_-_Leyland_Sherpa_240.png"^^xsd:anyURI .
 
 bond:Lincoln_Mark_VII_LSC a bond:Vehicle ;
     rdfs:label "Lincoln Mark VII LSC" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/25/Vehicle_-_LTK_LincolnMkVII.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/25/Vehicle_-_LTK_LincolnMkVII.png"^^xsd:anyURI .
 
 bond:Lincoln_Town_Car_Stretched_Limousine a bond:Vehicle ;
     rdfs:label "Lincoln Town Car Stretched Limousine" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8b/Vehicle_-_LTK_Lincoln_Town_Car_Stretch_Limo.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8b/Vehicle_-_LTK_Lincoln_Town_Car_Stretch_Limo.png"^^xsd:anyURI .
 
 bond:Liparus a bond:Vehicle ;
     rdfs:label "Liparus" ;
     bond:isVehicleOf bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_Liparus.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_Liparus.png"^^xsd:anyURI .
 
 bond:Lisbon a movie:FilmLocation ;
     rdfs:label "Lisbon" ;
@@ -1870,17 +1867,17 @@ bond:Lisbon a movie:FilmLocation ;
 bond:Little_Nellie a bond:Vehicle ;
     rdfs:label "Little Nellie" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/31/Vehicle_-_Little_Nellie.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/31/Vehicle_-_Little_Nellie.png"^^xsd:anyURI .
 
 bond:Lockheed_C-130_Hercules a bond:Vehicle ;
     rdfs:label "Lockheed C-130 Hercules" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Vehicle_-_C130_Hercules_TLD87_RAF.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Vehicle_-_C130_Hercules_TLD87_RAF.png"^^xsd:anyURI .
 
 bond:Lockheed_JetStar a bond:Vehicle ;
     rdfs:label "Lockheed JetStar" ;
     bond:isVehicleOf bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Vehicle_-_Goldfinger_JetStar.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Vehicle_-_Goldfinger_JetStar.png"^^xsd:anyURI .
 
 bond:London_Borough a movie:FilmLocation ;
     rdfs:label "London Borough" ;
@@ -1903,12 +1900,12 @@ bond:Los_Angeles_International_Airport a movie:FilmLocation ;
 bond:Lotus_Esprit_S1_1976 a bond:Vehicle ;
     rdfs:label "Lotus Esprit S1 (1976)" ;
     bond:isVehicleOf bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/3f/Vehicle_-_Lotus_Esprit_S2.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/3f/Vehicle_-_Lotus_Esprit_S2.png"^^xsd:anyURI .
 
 bond:Lotus_Turbo_Esprit_1980 a bond:Vehicle ;
     rdfs:label "Lotus Turbo Esprit (1980)" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/17/Vehicle_-_Lotus_Esprit_Turbo.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/17/Vehicle_-_Lotus_Esprit_Turbo.png"^^xsd:anyURI .
 
 bond:Louisiana a movie:FilmLocation ;
     rdfs:label "Louisiana" ;
@@ -1942,17 +1939,17 @@ bond:Lyutsifer_Safin a bond:Villain ;
 bond:M5_Stuart_Tank a bond:Vehicle ;
     rdfs:label "M5 Stuart Tank" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_M5_Stuart_Tank.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_M5_Stuart_Tank.png"^^xsd:anyURI .
 
 bond:MBB_Bo_105 a bond:Vehicle ;
     rdfs:label "MBB Bo 105" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/68/Vehicle_-_MBB_Bo_105_2015.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/68/Vehicle_-_MBB_Bo_105_2015.png"^^xsd:anyURI .
 
 bond:MD_Helicopters_MD_600N a bond:Vehicle ;
     rdfs:label "MD Helicopters MD 600N" ;
     bond:isVehicleOf bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6d/Vehicle_-_MD_600N.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6d/Vehicle_-_MD_600N.png"^^xsd:anyURI .
 
 bond:Madagascar a movie:FilmLocation ;
     rdfs:label "Madagascar" ;
@@ -1981,7 +1978,7 @@ bond:Manhattan a movie:FilmLocation ;
 bond:Manitowoc_3900 a bond:Vehicle ;
     rdfs:label "Manitowoc 3900" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/78/Vehicle_-_DAF_Oil_Platform_Crane.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/78/Vehicle_-_DAF_Oil_Platform_Crane.png"^^xsd:anyURI .
 
 bond:Manston_Airport a movie:FilmLocation ;
     rdfs:label "Manston Airport" ;
@@ -1992,7 +1989,7 @@ bond:Manston_Airport a movie:FilmLocation ;
 bond:Mantis_Submarine a bond:Vehicle ;
     rdfs:label "Mantis Submarine" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d1/Vehicle_-_Mantis_Sub.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d1/Vehicle_-_Mantis_Sub.png"^^xsd:anyURI .
 
 bond:Marc_Forster a movie:Director ;
     bond:isDirectorOf bond:Quantum_of_Solace ;
@@ -2018,7 +2015,7 @@ bond:Maryland a movie:FilmLocation ;
 bond:Maserati_Biturbo_425i a bond:Vehicle ;
     rdfs:label "Maserati Biturbo 425i" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Vehicle_-_Maserati_Biturbo_425i.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Vehicle_-_Maserati_Biturbo_425i.png"^^xsd:anyURI .
 
 bond:Massachusetts a movie:FilmLocation ;
     rdfs:label "Massachusetts" ;
@@ -2073,62 +2070,62 @@ bond:Melina_Havelock a bond:BondGirl ;
 bond:Mercedes-Benz_190_W121 a bond:Vehicle ;
     rdfs:label "Mercedes-Benz 190 (W121)" ;
     bond:isVehicleOf bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/eb/Vehicle_-_Mercedes-Benz_190_%28W121%29.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/eb/Vehicle_-_Mercedes-Benz_190_%28W121%29.png"^^xsd:anyURI .
 
 bond:Mercedes-Benz_200_D a bond:Vehicle ;
     rdfs:label "Mercedes-Benz 200 D" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Mercedes-Benz_200_D.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Mercedes-Benz_200_D.png"^^xsd:anyURI .
 
 bond:Mercedes-Benz_220_D_W115 a bond:Vehicle ;
     rdfs:label "Mercedes-Benz 220 D (W115)" ;
     bond:isVehicleOf bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Vehicle_-_Mercedes-Benz_220_D_%28W115%29.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Vehicle_-_Mercedes-Benz_220_D_%28W115%29.png"^^xsd:anyURI .
 
 bond:Mercedes-Benz_220_SE_W128 a bond:Vehicle ;
     rdfs:label "Mercedes-Benz 220 SE (W128)" ;
     bond:isVehicleOf bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e0/Vehicle_-_Mercedes-Benz_220_SE.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e0/Vehicle_-_Mercedes-Benz_220_SE.png"^^xsd:anyURI .
 
 bond:Mercedes-Benz_280_SE a bond:Vehicle ;
     rdfs:label "Mercedes-Benz 280 SE" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/06/Vehicle_-_Mercedes-Benz_280_SE.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/06/Vehicle_-_Mercedes-Benz_280_SE.png"^^xsd:anyURI .
 
 bond:Mercedes-Benz_280_S_W108 a bond:Vehicle ;
     rdfs:label "Mercedes-Benz 280 S (W108)" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Vehicle_-_Mercedes-Benz_280_S.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Vehicle_-_Mercedes-Benz_280_S.png"^^xsd:anyURI .
 
 bond:Mercedes-Benz_600_W100 a bond:Vehicle ;
     rdfs:label "Mercedes-Benz 600 (W100)" ;
     bond:isVehicleOf bond:On_Her_Majestys_Secret_Service ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/ad/OHMSS_Mercedes_600.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/ad/OHMSS_Mercedes_600.jpg"^^xsd:anyURI .
 
 bond:Mercedes-Benz_LP a bond:Vehicle ;
     rdfs:label "Mercedes-Benz LP" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e2/Vehicle_-_FYEO_MB_LP65.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e2/Vehicle_-_FYEO_MB_LP65.png"^^xsd:anyURI .
 
 bond:Mercedes-Benz_L_1413 a bond:Vehicle ;
     rdfs:label "Mercedes-Benz L 1413" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/da/Vehicle_-_FYEO_MB_L1413.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/da/Vehicle_-_FYEO_MB_L1413.png"^^xsd:anyURI .
 
 bond:Mercedes-Benz_O_322 a bond:Vehicle ;
     rdfs:label "Mercedes-Benz O 322" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f9/Vehicle_-_FYEO_MB_O_322.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f9/Vehicle_-_FYEO_MB_O_322.png"^^xsd:anyURI .
 
 bond:Mercedes-Benz_S-Klasse_W126 a bond:Vehicle ;
     rdfs:label "Mercedes-Benz S-Klasse (W126)" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Mercedes-Benz_S-Klasse_%28W126%29.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f3/Vehicle_-_Mercedes-Benz_S-Klasse_%28W126%29.png"^^xsd:anyURI .
 
 bond:Mercury_Cougar_XR-7 a bond:Vehicle ;
     rdfs:label "Mercury Cougar XR-7" ;
     bond:isVehicleOf bond:On_Her_Majestys_Secret_Service ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Mercury_Cougar.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Mercury_Cougar.png"^^xsd:anyURI .
 
 bond:Miami_Beach a movie:FilmLocation ;
     rdfs:label "Miami Beach" ;
@@ -2149,12 +2146,12 @@ bond:Middlesex a movie:FilmLocation ;
 bond:Mil_Mi-2 a bond:Vehicle ;
     rdfs:label "Mil Mi-2" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fe/Vehicle_-_Mil_Mi-2_FYEO.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fe/Vehicle_-_Mil_Mi-2_FYEO.png"^^xsd:anyURI .
 
 bond:Mil_Mi-8 a bond:Vehicle ;
     rdfs:label "Mil Mi-8" ;
     bond:isVehicleOf bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/cf/Vehicle_-_Mil_Mi-8.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/cf/Vehicle_-_Mil_Mi-8.png"^^xsd:anyURI .
 
 bond:Mill_Lane_Bridge a movie:FilmLocation ;
     rdfs:label "Mill Lane Bridge" ;
@@ -2195,12 +2192,12 @@ bond:Montenegro a movie:FilmLocation ;
 bond:Moon_buggy a bond:Vehicle ;
     rdfs:label "Moon buggy" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/Vehicle_-_Moon_Buggy.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/Vehicle_-_Moon_Buggy.png"^^xsd:anyURI .
 
 bond:Moonraker_Shuttle a bond:Vehicle ;
     rdfs:label "Moonraker Shuttle" ;
     bond:isVehicleOf bond:Moonraker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/52/Vehicle_-_Moonraker_Shuttle.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/52/Vehicle_-_Moonraker_Shuttle.png"^^xsd:anyURI .
 
 bond:Natalya_Simonova a bond:BondGirl ;
     bond:isCharacterIn bond:GoldenEye ;
@@ -2222,7 +2219,7 @@ bond:Nene_Valley_Railway a movie:FilmLocation ;
 bond:Neptune_Submarine a bond:Vehicle ;
     rdfs:label "Neptune Submarine" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6b/Vehicle_-_Neptune_Sub.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6b/Vehicle_-_Neptune_Sub.png"^^xsd:anyURI .
 
 bond:Netherlands a movie:FilmLocation ;
     rdfs:label "Netherlands" ;
@@ -2268,13 +2265,13 @@ bond:Nick_Nack a bond:Villain ;
 bond:Ning-Po a bond:Vehicle ;
     rdfs:label "Ning-Po" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a7/Vehicle_-_NingPo.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a7/Vehicle_-_NingPo.png"^^xsd:anyURI .
 
 bond:Nobody_Does_It_Better a dbo:Song ;
     rdfs:label "Nobody Does It Better" ;
     bond:isPerformedBy bond:Carly_Simon ;
     bond:isThemeSongOf bond:The_Spy_Who_Loved_Me ;
-    schema1:url "https://youtu.be/isAUOa50wdA?si=DWFVFD8GU7826luA" .
+    schema1:url "https://youtu.be/isAUOa50wdA?si=DWFVFD8GU7826luA"^^xsd:anyURI .
 
 bond:North_Atlantic_Ocean a movie:FilmLocation ;
     rdfs:label "North Atlantic Ocean" ;
@@ -2309,7 +2306,7 @@ bond:On_Her_Majestys_Secret_Service_We_Have_All_The_Time_In_The_World a dbo:Song
     rdfs:label "On Her Majesty's Secret Service, We Have All The Time In The World" ;
     bond:isPerformedBy bond:Louis_Armstrong ;
     bond:isThemeSongOf bond:On_Her_Majestys_Secret_Service ;
-    schema1:url "https://youtu.be/WYRf_S9DLfk?si=tDaNqMy0WlychzGl" .
+    schema1:url "https://youtu.be/WYRf_S9DLfk?si=tDaNqMy0WlychzGl"^^xsd:anyURI .
 
 bond:Opel_Senator a bond:Vehicle ;
     rdfs:label "Opel Senator" ;
@@ -2336,7 +2333,7 @@ bond:Oxfordshire a movie:FilmLocation ;
 bond:PIG_Pod a bond:Vehicle ;
     rdfs:label "PIG Pod" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4a/PIG_-_Pipeline_Inspection_Gauge_%28The_Living_Daylights%29_National_Motor_Museum%2C_Beaulieu.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4a/PIG_-_Pipeline_Inspection_Gauge_%28The_Living_Daylights%29_National_Motor_Museum%2C_Beaulieu.jpg"^^xsd:anyURI .
 
 bond:Palais_Schwarzenberg a movie:FilmLocation ;
     rdfs:label "Palais Schwarzenberg" ;
@@ -2382,7 +2379,7 @@ bond:Panama a movie:FilmLocation ;
 bond:Panhard_AML a bond:Vehicle ;
     rdfs:label "Panhard AML" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Vehicle_-_Panhard_AML_90.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Vehicle_-_Panhard_AML_90.png"^^xsd:anyURI .
 
 bond:Paradise_Island a movie:FilmLocation ;
     rdfs:label "Paradise Island" ;
@@ -2393,7 +2390,7 @@ bond:Paradise_Island a movie:FilmLocation ;
 bond:Parahawk a bond:Vehicle ;
     rdfs:label "Parahawk" ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_Parahawk.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Vehicle_-_Parahawk.png"^^xsd:anyURI .
 
 bond:Pearly_Beach a movie:FilmLocation ;
     rdfs:label "Pearly Beach" ;
@@ -2420,7 +2417,7 @@ bond:Petersburg_Railway a movie:FilmLocation ;
 bond:Peugeot_504 a bond:Vehicle ;
     rdfs:label "Peugeot 504" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Peugeot_504.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Peugeot_504.png"^^xsd:anyURI .
 
 bond:Phoenix a movie:FilmLocation ;
     rdfs:label "Phoenix" ;
@@ -2437,12 +2434,12 @@ bond:Phuket a movie:FilmLocation ;
 bond:Piper_PA-18-150_Super_Cub a bond:Vehicle ;
     rdfs:label "Piper PA-18-150 Super Cub" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f7/Vehicle_-_Piper_PA-18-150_Super_Cub_Plane.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f7/Vehicle_-_Piper_PA-18-150_Super_Cub_Plane.png"^^xsd:anyURI .
 
 bond:Piper_PA-28_Cherokee a bond:Vehicle ;
     rdfs:label "Piper PA-28 Cherokee" ;
     bond:isVehicleOf bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0c/Vehicle_-_Piper_PA-28_Cherokee.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0c/Vehicle_-_Piper_PA-28_Cherokee.png"^^xsd:anyURI .
 
 bond:Poppy_Field a movie:FilmLocation ;
     rdfs:label "Poppy Field" ;
@@ -2528,12 +2525,12 @@ bond:Pussy_Galore a bond:BondGirl ;
 bond:Q-Boat a bond:Vehicle ;
     rdfs:label "Q-Boat" ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Q_Boat.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Q_Boat.png"^^xsd:anyURI .
 
 bond:Qs_Hydrofoil_Boat a bond:Vehicle ;
     rdfs:label "Q's Hydrofoil Boat" ;
     bond:isVehicleOf bond:Moonraker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Glastron_Boat.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9b/Vehicle_-_Glastron_Boat.png"^^xsd:anyURI .
 
 bond:Queens a movie:FilmLocation ;
     rdfs:label "Queens" ;
@@ -2544,7 +2541,7 @@ bond:Queens a movie:FilmLocation ;
 bond:RMS_Queen_Elizabeth a bond:Vehicle ;
     rdfs:label "RMS Queen Elizabeth" ;
     bond:isVehicleOf bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7e/Vehicle_-_RMS_Queen_Elizabeth.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7e/Vehicle_-_RMS_Queen_Elizabeth.png"^^xsd:anyURI .
 
 bond:Raoul_Silva a bond:Villain ;
     bond:isCharacterIn bond:Skyfall ;
@@ -2554,17 +2551,17 @@ bond:Raoul_Silva a bond:Villain ;
 bond:Renault_11 a bond:Vehicle ;
     rdfs:label "Renault 11" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b8/Vehicle_-_Renault_Taxi.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b8/Vehicle_-_Renault_Taxi.png"^^xsd:anyURI .
 
 bond:Renault_Fuego_Turbo a bond:Vehicle ;
     rdfs:label "Renault Fuego Turbo" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c8/Vehicle_-_VTAK_Renault_Fuego_Turbo.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c8/Vehicle_-_VTAK_Renault_Fuego_Turbo.png"^^xsd:anyURI .
 
 bond:Republic_RC-3_Seabee a bond:Vehicle ;
     rdfs:label "Republic RC-3 Seabee" ;
     bond:isVehicleOf bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8e/Vehicle_-_Republic_RC-3_Seabee.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8e/Vehicle_-_Republic_RC-3_Seabee.png"^^xsd:anyURI .
 
 <http://example.org/bond/Richard_Maibaum_&_John_Hopkins> a movie:Producer ;
     bond:isProducerOf bond:Thunderball ;
@@ -2595,27 +2592,27 @@ bond:Roger_Spottiswoode a movie:Director ;
 bond:Rolls-Royce_Phantom_III a bond:Vehicle ;
     rdfs:label "Rolls-Royce Phantom III" ;
     bond:isVehicleOf bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Vehicle_-_Rolls-Royce_Phantom_III.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Vehicle_-_Rolls-Royce_Phantom_III.png"^^xsd:anyURI .
 
 bond:Rolls-Royce_Phantom_II_Sedanca_de_Ville a bond:Vehicle ;
     rdfs:label "Rolls-Royce Phantom II Sedanca de Ville" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d6/Vehicle_-_Octopussy_RR_Phantom_II.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d6/Vehicle_-_Octopussy_RR_Phantom_II.png"^^xsd:anyURI .
 
 bond:Rolls-Royce_Phantom_V a bond:Vehicle ;
     rdfs:label "Rolls-Royce Phantom V" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/37/Vehicle_-_LTK_RR_PhantomV.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/37/Vehicle_-_LTK_RR_PhantomV.png"^^xsd:anyURI .
 
 bond:Rolls-Royce_Silver_Cloud_II a bond:Vehicle ;
     rdfs:label "Rolls-Royce Silver Cloud II" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Vehicle_-_Rolls-Royce_Silver_Cloud_2.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Vehicle_-_Rolls-Royce_Silver_Cloud_2.png"^^xsd:anyURI .
 
 bond:Rolls-Royce_Silver_Wraith a bond:Vehicle ;
     rdfs:label "Rolls-Royce Silver Wraith" ;
     bond:isVehicleOf bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Wraith_I.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Wraith_I.png"^^xsd:anyURI .
 
 bond:Rome a movie:FilmLocation ;
     rdfs:label "Rome" ;
@@ -2632,12 +2629,12 @@ bond:Rose_Hall_Resort a movie:FilmLocation ;
 bond:SS_Canberra a bond:Vehicle ;
     rdfs:label "SS Canberra" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b7/Canberra_%2838978832350%29.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b7/Canberra_%2838978832350%29.jpg"^^xsd:anyURI .
 
 bond:SS_Columbina a bond:Vehicle ;
     rdfs:label "SS Columbina" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_Columbina_FYEO_Movie.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_Columbina_FYEO_Movie.png"^^xsd:anyURI .
 
 bond:Safari_Village a movie:FilmLocation ;
     rdfs:label "Safari Village" ;
@@ -2672,7 +2669,7 @@ bond:San_Francisco_City a movie:FilmLocation ;
 bond:Santa_Mavra a bond:Vehicle ;
     rdfs:label "Santa Mavra" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/73/Santamavra1.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/73/Santamavra1.jpg"^^xsd:anyURI .
 
 bond:Sardinia a movie:FilmLocation ;
     rdfs:label "Sardinia" ;
@@ -2689,7 +2686,7 @@ bond:Scaramanga a movie:FilmLocation ;
 bond:Scaramangas_Junk a bond:Vehicle ;
     rdfs:label "Scaramanga's Junk" ;
     bond:isVehicleOf bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/31/Vehicle_-_Scaramanga_Junk_Ship.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/31/Vehicle_-_Scaramanga_Junk_Ship.png"^^xsd:anyURI .
 
 bond:Schilthorn a movie:FilmLocation ;
     rdfs:label "Schilthorn" ;
@@ -2724,7 +2721,7 @@ bond:Setubal a movie:FilmLocation ;
 bond:Seven_Heaven a bond:Vehicle ;
     rdfs:label "Seven Heaven" ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Princess_40.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fb/Vehicle_-_Princess_40.png"^^xsd:anyURI .
 
 bond:Severnaya a movie:FilmLocation ;
     rdfs:label "Severnaya" ;
@@ -2759,12 +2756,12 @@ bond:Signal_Station_Road a movie:FilmLocation ;
 bond:Skyship_500 a bond:Vehicle ;
     rdfs:label "Skyship 500" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/aa/Vehicle_-_Blimp.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/aa/Vehicle_-_Blimp.png"^^xsd:anyURI .
 
 bond:Skyship_6000 a bond:Vehicle ;
     rdfs:label "Skyship 6000" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/82/Skyship_6000.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/82/Skyship_6000.png"^^xsd:anyURI .
 
 bond:Slovakia a movie:FilmLocation ;
     rdfs:label "Slovakia" ;
@@ -2822,7 +2819,7 @@ bond:Soviet_Union a movie:FilmLocation ;
 bond:Spectral_Marine_2_20 a bond:Vehicle ;
     rdfs:label "Spectral Marine 2:20" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/67/Spectral_Marine_220.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/67/Spectral_Marine_220.png"^^xsd:anyURI .
 
 bond:Square a movie:FilmLocation ;
     rdfs:label "Square" ;
@@ -2833,7 +2830,7 @@ bond:Square a movie:FilmLocation ;
 bond:St._Georges a bond:Vehicle ;
     rdfs:label "St. Georges" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a3/Vehicle_-_StGeorges_FYEO81.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a3/Vehicle_-_StGeorges_FYEO81.png"^^xsd:anyURI .
 
 bond:St._Michael_Road a movie:FilmLocation ;
     rdfs:label "St. Michael Road" ;
@@ -2867,7 +2864,7 @@ bond:Stansted_Airport a movie:FilmLocation ;
 bond:Stealth_Ship a bond:Vehicle ;
     rdfs:label "Stealth Ship" ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/Vehicle_-_Stealth_Ship.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/Vehicle_-_Stealth_Ship.png"^^xsd:anyURI .
 
 bond:Stechelberg a movie:FilmLocation ;
     rdfs:label "Stechelberg" ;
@@ -2908,17 +2905,17 @@ bond:Sugarloaf_Key a movie:FilmLocation ;
 bond:Sunbeam_Alpine a bond:Vehicle ;
     rdfs:label "Sunbeam Alpine" ;
     bond:isVehicleOf bond:Dr._No ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/98/Vehicle_-_Sunbeam_Alpine.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/98/Vehicle_-_Sunbeam_Alpine.png"^^xsd:anyURI .
 
 bond:Sunseeker_Superhawk_34 a bond:Vehicle ;
     rdfs:label "Sunseeker Superhawk 34" ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/97/Vehicle_-_Sunseeker_Superhawk_34.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/97/Vehicle_-_Sunseeker_Superhawk_34.png"^^xsd:anyURI .
 
 bond:Supra_Pirata a bond:Vehicle ;
     rdfs:label "Supra Pirata" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2b/Vehicle_-_Super_Pirata.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2b/Vehicle_-_Super_Pirata.png"^^xsd:anyURI .
 
 bond:Svalbard a movie:FilmLocation ;
     rdfs:label "Svalbard" ;
@@ -2935,7 +2932,7 @@ bond:Swindon a movie:FilmLocation ;
 bond:Switchblade a bond:Vehicle ;
     rdfs:label "Switchblade" ;
     bond:isVehicleOf bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Switchblade.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Switchblade.png"^^xsd:anyURI .
 
 bond:Sévérine a bond:BondGirl ;
     bond:isCharacterIn bond:Skyfall ;
@@ -2986,7 +2983,7 @@ bond:Tatiana_Romanova a bond:BondGirl ;
 bond:Taylor-Dunn_Tee-Bird a bond:Vehicle ;
     rdfs:label "Taylor-Dunn Tee-Bird" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/be/Vehicles_-_Taylor-Dunn_Tee-Bird.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/be/Vehicles_-_Taylor-Dunn_Tee-Bird.png"^^xsd:anyURI .
 
 bond:Thames a movie:FilmLocation ;
     rdfs:label "Thames" ;
@@ -3050,17 +3047,17 @@ bond:Town a movie:FilmLocation ;
 bond:Toyopet_Crown_Deluxe a bond:Vehicle ;
     rdfs:label "Toyopet Crown Deluxe" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Vehicle_-_Toyota_Crown_Deluxe.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Vehicle_-_Toyota_Crown_Deluxe.png"^^xsd:anyURI .
 
 bond:Toyota_2000GT_convertible a bond:Vehicle ;
     rdfs:label "Toyota 2000GT convertible" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2c/Vehicle_-_Toyota_2000GT.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/2c/Vehicle_-_Toyota_2000GT.png"^^xsd:anyURI .
 
 bond:Tracma_1500 a bond:Vehicle ;
     rdfs:label "Tracma 1500" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/47/Vehicle_-_Tracma_1500.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/47/Vehicle_-_Tracma_1500.png"^^xsd:anyURI .
 
 bond:Tracy_Bond_Teresa_di_Vicenzo a bond:BondGirl ;
     bond:isCharacterIn bond:On_Her_Majestys_Secret_Service ;
@@ -3076,12 +3073,12 @@ bond:Trafalgar_Square a movie:FilmLocation ;
 bond:Triana a bond:Vehicle ;
     rdfs:label "Triana" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_Triana.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Vehicle_-_Triana.png"^^xsd:anyURI .
 
 bond:Triumph_Stag a bond:Vehicle ;
     rdfs:label "Triumph Stag" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Vehicle_-_Triumph_Stag.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Vehicle_-_Triumph_Stag.png"^^xsd:anyURI .
 
 bond:Truman_Avenue a movie:FilmLocation ;
     rdfs:label "Truman Avenue" ;
@@ -3132,12 +3129,12 @@ bond:Underground_Complex a movie:FilmLocation ;
 bond:Underwater_Attack_Sledge a bond:Vehicle ;
     rdfs:label "Underwater Attack Sledge" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/55/Vehicle_-_Attack_Sledge.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/55/Vehicle_-_Attack_Sledge.png"^^xsd:anyURI .
 
 bond:Underwater_Bomb_Sledge a bond:Vehicle ;
     rdfs:label "Underwater Bomb Sledge" ;
     bond:isVehicleOf bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/ff/Unknown_-_Bomb_Sledge.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/ff/Unknown_-_Bomb_Sledge.png"^^xsd:anyURI .
 
 bond:United_Kingdom a movie:FilmLocation ;
     rdfs:label "United Kingdom" ;
@@ -3148,7 +3145,7 @@ bond:United_Kingdom a movie:FilmLocation ;
 bond:Utilimaster_Aeromaster a bond:Vehicle ;
     rdfs:label "Utilimaster Aeromaster" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_LTK_Armored_Van.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_LTK_Armored_Van.png"^^xsd:anyURI .
 
 bond:Vatican a movie:FilmLocation ;
     rdfs:label "Vatican" ;
@@ -3170,7 +3167,7 @@ bond:Vesper_Lynd a bond:BondGirl ;
 bond:Victor-III_Class_Submarine a bond:Vehicle ;
     rdfs:label "Victor-III Class Submarine" ;
     bond:isVehicleOf bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/TWINE_-_Victor-III_submarine_crashes.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/TWINE_-_Victor-III_submarine_crashes.png"^^xsd:anyURI .
 
 bond:Victor_Renard_Zokas a bond:Villain ;
     bond:isCharacterIn bond:The_World_Is_Not_Enough ;
@@ -3198,7 +3195,7 @@ bond:Vietnam a movie:FilmLocation ;
 bond:Volga_M-24 a bond:Vehicle ;
     rdfs:label "Volga M-24" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5e/Vehicle_-_Orlov_Volga_1983.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5e/Vehicle_-_Orlov_Volga_1983.png"^^xsd:anyURI .
 
 bond:Volksoper a movie:FilmLocation ;
     rdfs:label "Volksoper" ;
@@ -3209,12 +3206,12 @@ bond:Volksoper a movie:FilmLocation ;
 bond:Volkswagen_Type_1_Beetle a bond:Vehicle ;
     rdfs:label "Volkswagen Type 1 \"Beetle\"" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6d/Vehicles_-_VW_Beetle_Octopussy.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6d/Vehicles_-_VW_Beetle_Octopussy.png"^^xsd:anyURI .
 
 bond:Vostok_16 a bond:Vehicle ;
     rdfs:label "Vostok 16" ;
     bond:isVehicleOf bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_Vostok_16.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Vehicle_-_Vostok_16.png"^^xsd:anyURI .
 
 bond:Wai_Lin a bond:BondGirl ;
     bond:isCharacterIn bond:Tomorrow_Never_Dies ;
@@ -3230,12 +3227,12 @@ bond:Wales a movie:FilmLocation ;
 <http://example.org/bond/Wales_&_Edwards_Rangemaster> a bond:Vehicle ;
     rdfs:label "Wales & Edwards Rangemaster" ;
     bond:isVehicleOf bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5d/Vehicle_-_TLD87_MilkFloat.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5d/Vehicle_-_TLD87_MilkFloat.png"^^xsd:anyURI .
 
 bond:Wavekrest a bond:Vehicle ;
     rdfs:label "Wavekrest" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/05/Vehicle_-_Wavekrest_Movie.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/05/Vehicle_-_Wavekrest_Movie.png"^^xsd:anyURI .
 
 bond:Wengen a movie:FilmLocation ;
     rdfs:label "Wengen" ;
@@ -3280,7 +3277,7 @@ bond:Westland_WS-58_Wessex a bond:Vehicle ;
 bond:Westland_WS-61_Sea_King a bond:Vehicle ;
     rdfs:label "Westland WS-61 Sea King" ;
     bond:isVehicleOf bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Bondwiki_Westland_WS-61_SeaKing.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Bondwiki_Westland_WS-61_SeaKing.jpg"^^xsd:anyURI .
 
 bond:Westminster_Bridge a movie:FilmLocation ;
     rdfs:label "Westminster Bridge" ;
@@ -3291,7 +3288,7 @@ bond:Westminster_Bridge a movie:FilmLocation ;
 bond:Wetbike a bond:Vehicle ;
     rdfs:label "Wetbike" ;
     bond:isVehicleOf bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Gadgets_-_TSWLM_-_Jetski.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Gadgets_-_TSWLM_-_Jetski.png"^^xsd:anyURI .
 
 bond:Whitehead_Street a movie:FilmLocation ;
     rdfs:label "Whitehead Street" ;
@@ -3302,12 +3299,12 @@ bond:Whitehead_Street a movie:FilmLocation ;
 bond:Willys_M38 a bond:Vehicle ;
     rdfs:label "Willys M38" ;
     bond:isVehicleOf bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d3/Vehicle_-_Willys_MC_M38.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d3/Vehicle_-_Willys_MC_M38.png"^^xsd:anyURI .
 
 bond:Willys_MB_Jeep a bond:Vehicle ;
     rdfs:label "Willys MB \"Jeep\"" ;
     bond:isVehicleOf bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Octopussy_Jeep_India_A.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bc/Vehicle_-_Octopussy_Jeep_India_A.png"^^xsd:anyURI .
 
 bond:Wiltshire a movie:FilmLocation ;
     rdfs:label "Wiltshire" ;
@@ -3337,18 +3334,18 @@ bond:Writings_on_the_Wall a dbo:Song ;
     rdfs:label "Writing's on the Wall" ;
     bond:isPerformedBy bond:Sam_Smith ;
     bond:isThemeSongOf bond:Spectre ;
-    schema1:url "https://youtu.be/G9LxUQL_Ucg?si=4N9YBt6lGD2H8ZSA" .
+    schema1:url "https://youtu.be/G9LxUQL_Ucg?si=4N9YBt6lGD2H8ZSA"^^xsd:anyURI .
 
 bond:Yamaha_XT_500 a bond:Vehicle ;
     rdfs:label "Yamaha XT 500" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Vehicle_-_Yamaha_XT500.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Vehicle_-_Yamaha_XT500.png"^^xsd:anyURI .
 
 bond:You_Know_My_Name a dbo:Song ;
     rdfs:label "You Know My Name" ;
     bond:isPerformedBy bond:Chris_Cornell ;
     bond:isThemeSongOf bond:Casino_Royale ;
-    schema1:url "https://youtu.be/A1AMUmkj-ck?si=YBgYd8nF8rAEn06C" .
+    schema1:url "https://youtu.be/A1AMUmkj-ck?si=YBgYd8nF8rAEn06C"^^xsd:anyURI .
 
 bond:Yugoslavia a movie:FilmLocation ;
     rdfs:label "Yugoslavia" ;
@@ -3365,7 +3362,7 @@ bond:Zagreb a movie:FilmLocation ;
 bond:Zamboni a bond:Vehicle ;
     rdfs:label "Zamboni" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Vehicle_-_FYEO_Zamboni.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Vehicle_-_FYEO_Zamboni.png"^^xsd:anyURI .
 
 bond:actedIn a owl:ObjectProperty ;
     rdfs:domain movie:Actor ;
@@ -3440,12 +3437,12 @@ bond:Adele a movie:MusicContributor ;
 
 bond:Adolfo_Celi a movie:Actor ;
     bond:actedIn bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/78/Emilio_Largo_%28Adolfo_Celi%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/78/Emilio_Largo_%28Adolfo_Celi%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Adolfo Celi" .
 
 bond:Andrew_Scott a movie:Actor ;
     bond:actedIn bond:Spectre ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Max_Denbigh_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Max_Denbigh_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Andrew Scott" .
 
 bond:Bangkok a movie:FilmLocation ;
@@ -3457,19 +3454,19 @@ bond:Bangkok a movie:FilmLocation ;
 
 bond:Barbara_Bach a movie:Actor ;
     bond:actedIn bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6b/Anya_Amasova_%28Barbara_Bach%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6b/Anya_Amasova_%28Barbara_Bach%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Barbara Bach" .
 
 bond:Bell_UH-1_Iroquois a bond:Vehicle ;
     rdfs:label "Bell UH-1 Iroquois" ;
     bond:isVehicleOf bond:Diamonds_Are_Forever,
         bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/db/Vehicle_-_Medical_UH1.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/e/e7/JGSDF_UH-1H%28front%29_%28recortada%29.jpg" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/db/Vehicle_-_Medical_UH1.png"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/e/e7/JGSDF_UH-1H%28front%29_%28recortada%29.jpg"^^xsd:anyURI .
 
 bond:Berenice_Marlohe a movie:Actor ;
     bond:actedIn bond:Skyfall ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/35/S%C3%A9v%C3%A9rine_%28Berenice_Marlohe%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/35/S%C3%A9v%C3%A9rine_%28Berenice_Marlohe%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Berenice Marlohe" .
 
 bond:Billie_Eilish a movie:MusicContributor ;
@@ -3484,7 +3481,7 @@ bond:Brazil a movie:FilmLocation ;
 
 bond:Britt_Ekland a movie:Actor ;
     bond:actedIn bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c4/Mary_Goodnight_%28Britt_Ekland%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c4/Mary_Goodnight_%28Britt_Ekland%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Britt Ekland" .
 
 bond:Cairo a movie:FilmLocation ;
@@ -3496,7 +3493,7 @@ bond:Cairo a movie:FilmLocation ;
 
 bond:Carey_Lowell a movie:Actor ;
     bond:actedIn bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/96/Pam_Bouvier_%28Carey_Lowell%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/96/Pam_Bouvier_%28Carey_Lowell%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Carey Lowell" .
 
 bond:Carly_Simon a movie:MusicContributor ;
@@ -3504,24 +3501,24 @@ bond:Carly_Simon a movie:MusicContributor ;
 
 bond:Carole_Bouquet a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Melina_Havelock_%28Carole_Bouquet%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Melina_Havelock_%28Carole_Bouquet%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Carole Bouquet" .
 
 bond:Cec_Linder a movie:Actor ;
     bond:actedIn bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/dc/Felix_Leiter_%28Cec_Linder%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/dc/Felix_Leiter_%28Cec_Linder%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Cec Linder" .
 
 bond:Cessna_A185F a bond:Vehicle ;
     rdfs:label "Cessna A185F" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only,
         bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/39/Vehicle_-_LTK_A185F.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/9/96/Vehicle_-_Cessna_A185F.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/39/Vehicle_-_LTK_A185F.png"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/9/96/Vehicle_-_Cessna_A185F.png"^^xsd:anyURI .
 
 bond:Charles_Gray a movie:Actor ;
     bond:actedIn bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/95/Blofeld_Profile_%28Charles_Gray%29.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/95/Blofeld_Profile_%28Charles_Gray%29.png"^^xsd:anyURI ;
     foaf:name "Charles Gray" .
 
 bond:Chris_Cornell a movie:MusicContributor ;
@@ -3529,42 +3526,42 @@ bond:Chris_Cornell a movie:MusicContributor ;
 
 bond:Christopher_Lee a movie:Actor ;
     bond:actedIn bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b9/Francisco_Scaramanga_%28Christopher_Lee%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b9/Francisco_Scaramanga_%28Christopher_Lee%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Christopher Lee" .
 
 bond:Christopher_Walken a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bb/Max_Zorin_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bb/Max_Zorin_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Christopher Walken" .
 
 bond:Claudine_Auger a movie:Actor ;
     bond:actedIn bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/82/Domino_Derval_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/82/Domino_Derval_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Claudine Auger" .
 
 bond:Curd_Jürgens a movie:Actor ;
     bond:actedIn bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/58/Karl-stromberg-portrait.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/58/Karl-stromberg-portrait.png"^^xsd:anyURI ;
     foaf:name "Curd Jürgens" .
 
 bond:Daniela_Bianchi a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/Tatiana_Romanova_%28Daniela_Bianchi%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/Tatiana_Romanova_%28Daniela_Bianchi%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Daniela Bianchi" .
 
 bond:Denise_Richards a movie:Actor ;
     bond:actedIn bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Christmas_Jones_%28Denise_Richards%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Christmas_Jones_%28Denise_Richards%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Denise Richards" .
 
 bond:Diana_Rigg a movie:Actor ;
     bond:actedIn bond:On_Her_Majestys_Secret_Service ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/Tracy_Bond_%28Diana_Rigg%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/Tracy_Bond_%28Diana_Rigg%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Diana Rigg" .
 
 bond:Donald_Pleasence a movie:Actor ;
     bond:actedIn bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Blofeld_%28You_Only_Live_Twice%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Blofeld_%28You_Only_Live_Twice%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Donald Pleasence" .
 
 bond:Duran_Duran a movie:MusicContributor ;
@@ -3581,12 +3578,12 @@ bond:Eurocopter_AS365_Dauphin a bond:Vehicle ;
     rdfs:label "Eurocopter AS365 Dauphin" ;
     bond:isVehicleOf bond:Octopussy,
         bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Vehicle_-_AS365_Dauphin.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/c/cc/Vehicle_-_1983_Red_AS365_Dauphin.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Vehicle_-_AS365_Dauphin.png"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/c/cc/Vehicle_-_1983_Red_AS365_Dauphin.png"^^xsd:anyURI .
 
 bond:Eva_Green a movie:Actor ;
     bond:actedIn bond:Casino_Royale ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/ca/Vesper_Lynd_%28Eva_Green%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/ca/Vesper_Lynd_%28Eva_Green%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Eva Green" .
 
 bond:Fontainebleau a movie:FilmLocation ;
@@ -3601,12 +3598,12 @@ bond:Garbage a movie:MusicContributor ;
 
 bond:Gemma_Arterton a movie:Actor ;
     bond:actedIn bond:Quantum_of_Solace ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Camille_Montes_%28Olga_Kurylenko%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Camille_Montes_%28Olga_Kurylenko%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Gemma Arterton" .
 
 bond:Gert_Fröbe a movie:Actor ;
     bond:actedIn bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Auric_Goldfinger_%28Gert_Fr%C3%B6be%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Auric_Goldfinger_%28Gert_Fr%C3%B6be%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Gert Fröbe" .
 
 bond:Gladys_Knight a movie:MusicContributor ;
@@ -3614,7 +3611,7 @@ bond:Gladys_Knight a movie:MusicContributor ;
 
 bond:Grace_Jones a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9a/May_Day_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9a/May_Day_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Grace Jones" .
 
 bond:HMS_Devonshire a bond:Vehicle,
@@ -3622,18 +3619,18 @@ bond:HMS_Devonshire a bond:Vehicle,
     rdfs:label "HMS Devonshire" ;
     bond:isLocationOf bond:Tomorrow_Never_Dies ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Vehicle_-_HMS_Devonshire.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Vehicle_-_HMS_Devonshire.png"^^xsd:anyURI ;
     geo1:lat 50.2372034 ;
     geo1:long -3.8643898 .
 
 bond:Halle_Berry a movie:Actor ;
     bond:actedIn bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/25/Jinx_%28Halle_Berry%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/25/Jinx_%28Halle_Berry%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Halle Berry" .
 
 bond:Harold_Sakata a movie:Actor ;
     bond:actedIn bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a5/Oddjob_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a5/Oddjob_Profile.png"^^xsd:anyURI ;
     foaf:name "Harold Sakata" .
 
 bond:Hawaii a movie:FilmLocation ;
@@ -3652,12 +3649,12 @@ bond:Hertfordshire a movie:FilmLocation ;
 
 bond:Hervé_Villechaize a movie:Actor ;
     bond:actedIn bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Nick_Nack_%28Herv%C3%A9_Villechaize%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Nick_Nack_%28Herv%C3%A9_Villechaize%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Hervé Villechaize" .
 
 bond:Honor_Blackman a movie:Actor ;
     bond:actedIn bond:Goldfinger ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/cf/Pussy_Galore_%28Honor_Blackman%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/cf/Pussy_Galore_%28Honor_Blackman%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Honor Blackman" .
 
 bond:Iceland a movie:FilmLocation ;
@@ -3676,12 +3673,12 @@ bond:Iguaçu_Falls a movie:FilmLocation ;
 
 bond:Izabella_Scorupco a movie:Actor ;
     bond:actedIn bond:GoldenEye ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/02%2BIzabella%2BScorupco%2Bas%2BNatalya%2BSimonova.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/02%2BIzabella%2BScorupco%2Bas%2BNatalya%2BSimonova.jpg"^^xsd:anyURI ;
     foaf:name "Izabella Scorupco" .
 
 bond:Jack_Lord a movie:Actor ;
     bond:actedIn bond:Dr._No ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/44/Felix_Leiter_%28Jack_Lord%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/44/Felix_Leiter_%28Jack_Lord%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Jack Lord" .
 
 bond:Jack_Wade a movie:FilmCharacter ;
@@ -3702,62 +3699,62 @@ bond:Jamaica a movie:FilmLocation ;
 
 bond:James_Villiers a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/84/Bill_Tanner_%28James_Villiers%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/84/Bill_Tanner_%28James_Villiers%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "James Villiers" .
 
 bond:Jane_Seymour a movie:Actor ;
     bond:actedIn bond:Live_and_Let_Die ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ef/Solitaire_%28Jane_Seymour%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ef/Solitaire_%28Jane_Seymour%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Jane Seymour" .
 
 bond:Javier_Bardem a movie:Actor ;
     bond:actedIn bond:Skyfall ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1b/Raoul_Silva_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1b/Raoul_Silva_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Javier Bardem" .
 
 bond:Jeroen_Krabbé a movie:Actor ;
     bond:actedIn bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Jeroen Krabbé" .
 
 bond:John_Cleese a movie:Actor ;
     bond:actedIn bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/R_-_TWiNE_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/99/R_-_TWiNE_-_Profile.png"^^xsd:anyURI ;
     foaf:name "John Cleese" .
 
 bond:John_Terry a movie:Actor ;
     bond:actedIn bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Leiter_%28John_Terry%29_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Leiter_%28John_Terry%29_Profile.png"^^xsd:anyURI ;
     foaf:name "John Terry" .
 
 bond:John_Wyman a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/80/Erich_Kriegler_%28John_Wyman%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/80/Erich_Kriegler_%28John_Wyman%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "John Wyman" .
 
 bond:Jonathan_Pryce a movie:Actor ;
     bond:actedIn bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/45/Elliot_Carver_%28Jonathan_Pryce%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/45/Elliot_Carver_%28Jonathan_Pryce%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Jonathan Pryce" .
 
 bond:Joseph_Wiseman a movie:Actor ;
     bond:actedIn bond:Dr._No ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/db/Dr_No_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/db/Dr_No_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Joseph Wiseman" .
 
 bond:Julian_Glover a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/61/Aris_Kristatos_%28Julian_Glover%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/61/Aris_Kristatos_%28Julian_Glover%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Julian Glover" .
 
 bond:Lana_Wood a movie:Actor ;
     bond:actedIn bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/30/Tiffany_Case_%28Jill_St_John%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/30/Tiffany_Case_%28Jill_St_John%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Lana Wood" .
 
 bond:Lois_Chiles a movie:Actor ;
     bond:actedIn bond:Moonraker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Holly_Goodhead_%28Lois_Chiles%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Holly_Goodhead_%28Lois_Chiles%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Lois Chiles" .
 
 bond:Los_Angeles a movie:FilmLocation ;
@@ -3769,7 +3766,7 @@ bond:Los_Angeles a movie:FilmLocation ;
 
 bond:Lotte_Lenya a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/de/Rosa-klebb-from-russia-with-love.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/de/Rosa-klebb-from-russia-with-love.png"^^xsd:anyURI ;
     foaf:name "Lotte Lenya" .
 
 bond:Louis_Armstrong a movie:MusicContributor ;
@@ -3777,7 +3774,7 @@ bond:Louis_Armstrong a movie:MusicContributor ;
 
 bond:Louis_Jourdan a movie:Actor ;
     bond:actedIn bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/26/Kamal_Khan_%28Louis_Jourdan%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/2/26/Kamal_Khan_%28Louis_Jourdan%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Louis Jourdan" .
 
 bond:Lulu a movie:MusicContributor ;
@@ -3801,7 +3798,7 @@ bond:Madonna a movie:MusicContributor ;
 
 bond:Mads_Mikkelsen a movie:Actor ;
     bond:actedIn bond:Casino_Royale ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Le_Chiffre_%28Mads_Mikkelsen%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/9c/Le_Chiffre_%28Mads_Mikkelsen%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Mads Mikkelsen" .
 
 bond:Martin_Campbell a movie:Director ;
@@ -3811,12 +3808,12 @@ bond:Martin_Campbell a movie:Director ;
 
 bond:Maryam_dAbo a movie:Actor ;
     bond:actedIn bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/18/Kara_Milovy_%28Maryam_d%27Abo%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/18/Kara_Milovy_%28Maryam_d%27Abo%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Maryam d'Abo" .
 
 bond:Mathieu_Amalric a movie:Actor ;
     bond:actedIn bond:Quantum_of_Solace ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Profile_-_Dominic_Greene.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/Profile_-_Dominic_Greene.png"^^xsd:anyURI ;
     foaf:name "Mathieu Amalric" .
 
 bond:Matt_Monro a movie:MusicContributor ;
@@ -3824,7 +3821,7 @@ bond:Matt_Monro a movie:MusicContributor ;
 
 bond:Maud_Adams a movie:Actor ;
     bond:actedIn bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/84/Octopussy_%28Maud_Adams%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/84/Octopussy_%28Maud_Adams%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Maud Adams" .
 
 bond:Mexico_City a movie:FilmLocation ;
@@ -3843,22 +3840,22 @@ bond:Miami a movie:FilmLocation ;
 
 bond:Michael_Gothard a movie:Actor ;
     bond:actedIn bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Emile_Leopold_Locque_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Emile_Leopold_Locque_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Michael Gothard" .
 
 bond:Michael_Lonsdale a movie:Actor ;
     bond:actedIn bond:Moonraker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/97/Hugo_Drax_%28Michael_Lonsdale%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/97/Hugo_Drax_%28Michael_Lonsdale%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Michael Lonsdale" .
 
 bond:Michelle_Yeoh a movie:Actor ;
     bond:actedIn bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Wai_Lin_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Wai_Lin_Profile.png"^^xsd:anyURI ;
     foaf:name "Michelle Yeoh" .
 
 bond:Mie_Hama a movie:Actor ;
     bond:actedIn bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a2/Kissy_Suzuki_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a2/Kissy_Suzuki_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Mie Hama" .
 
 bond:Morocco a movie:FilmLocation ;
@@ -3880,7 +3877,7 @@ bond:Nassau a movie:FilmLocation ;
 
 bond:Norman_Burton a movie:Actor ;
     bond:actedIn bond:Diamonds_Are_Forever ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c3/Felix_Leiter_%28Norman_Burton%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c3/Felix_Leiter_%28Norman_Burton%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Norman Burton" .
 
 bond:Norway a movie:FilmLocation ;
@@ -3909,12 +3906,12 @@ bond:Outer_Space a movie:FilmLocation ;
 
 bond:Peter_Burton a movie:Actor ;
     bond:actedIn bond:Dr._No ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Q_%28Peter_Burton%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Q_%28Peter_Burton%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Peter Burton" .
 
 bond:Rami_Malek a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Lyutsifer_Safin_-_Profile_V2.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Lyutsifer_Safin_-_Profile_V2.jpg"^^xsd:anyURI ;
     foaf:name "Rami Malek" .
 
 bond:René_Mathis a movie:FilmCharacter ;
@@ -3925,7 +3922,7 @@ bond:René_Mathis a movie:FilmCharacter ;
 
 bond:Rik_Van_Nutter a movie:Actor ;
     bond:actedIn bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Leiter_%28Van_Nutter%29_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Leiter_%28Van_Nutter%29_Profile.png"^^xsd:anyURI ;
     foaf:name "Rik Van Nutter" .
 
 bond:Rita_Coolidge a movie:MusicContributor ;
@@ -3940,30 +3937,30 @@ bond:Road a movie:FilmLocation ;
 
 bond:Robert_Carlyle a movie:Actor ;
     bond:actedIn bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Profile_-_Renard.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Profile_-_Renard.png"^^xsd:anyURI ;
     foaf:name "Robert Carlyle" .
 
 bond:Robert_Davi a movie:Actor ;
     bond:actedIn bond:Licence_to_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/48/Franz_Sanchez_%28Robert_Davi%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/48/Franz_Sanchez_%28Robert_Davi%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Robert Davi" .
 
 bond:Robert_Shaw a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Robert Shaw" .
 
 bond:Rolls-Royce_Silver_Shadow_II a bond:Vehicle ;
     rdfs:label "Rolls-Royce Silver Shadow II" ;
     bond:isVehicleOf bond:Licence_to_Kill,
         bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Shadow_II.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7f/Vehicle_-_Rolls-Royce_Silver_Shadow_II.png"^^xsd:anyURI .
 
 bond:Rolls-Royce_Silver_Shadow_I_LWB a bond:Vehicle ;
     rdfs:label "Rolls-Royce Silver Shadow I LWB" ;
     bond:isVehicleOf bond:For_Your_Eyes_Only,
         bond:Moonraker ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/30/Vehicle_-_Rolls-Royce_Silver_Wraith_II.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/30/Vehicle_-_Rolls-Royce_Silver_Wraith_II.png"^^xsd:anyURI .
 
 bond:Rubelvitch a movie:FilmCharacter ;
     bond:isCharacterIn bond:Octopussy,
@@ -3981,15 +3978,15 @@ bond:Sam_Smith a movie:MusicContributor ;
 
 bond:Sean_Bean a movie:Actor ;
     bond:actedIn bond:GoldenEye ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/76/Alec_Trevelyan_%28Sean_Bean%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/76/Alec_Trevelyan_%28Sean_Bean%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Sean Bean" .
 
 bond:Shark_Hunter_II_Submersible a bond:Vehicle ;
     rdfs:label "Shark Hunter II Submersible" ;
     bond:isVehicleOf bond:Licence_to_Kill,
         bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/61/Stromberg_Shark_Hunter_II_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/e/e3/Shark_Hunter_II_%281%29.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/61/Stromberg_Shark_Hunter_II_-_Profile.png"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/e/e3/Shark_Hunter_II_%281%29.png"^^xsd:anyURI .
 
 bond:Sheena_Easton a movie:MusicContributor ;
     foaf:name "Sheena Easton" .
@@ -4005,7 +4002,7 @@ bond:Sheryl_Crow a movie:MusicContributor ;
 
 bond:Sophie_Marceau a movie:Actor ;
     bond:actedIn bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Elektra_King_%28Sophie_Marceau%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Elektra_King_%28Sophie_Marceau%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Sophie Marceau" .
 
 bond:St._Petersburg a movie:FilmLocation ;
@@ -4017,7 +4014,7 @@ bond:St._Petersburg a movie:FilmLocation ;
 
 bond:Steven_Berkoff a movie:Actor ;
     bond:actedIn bond:Octopussy ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/General_Orlov_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/16/General_Orlov_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Steven Berkoff" .
 
 bond:Stoke_Park a movie:FilmLocation ;
@@ -4049,12 +4046,12 @@ bond:Tangier a movie:FilmLocation ;
 
 bond:Tanya_Roberts a movie:Actor ;
     bond:actedIn bond:A_View_to_a_Kill ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7e/Stacy_Sutton_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7e/Stacy_Sutton_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Tanya Roberts" .
 
 bond:Telly_Savalas a movie:Actor ;
     bond:actedIn bond:On_Her_Majestys_Secret_Service ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/78/Blofeld_%28Telly_Savalas%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/78/Blofeld_%28Telly_Savalas%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Telly Savalas" .
 
 bond:Thailand a movie:FilmLocation ;
@@ -4072,7 +4069,7 @@ bond:Tina_Turner a movie:MusicContributor ;
 
 bond:Toby_Stephens_Will_Yun_Lee a movie:Actor ;
     bond:actedIn bond:Die_Another_Day ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Tan-Sun_Moon_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Tan-Sun_Moon_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Toby Stephens / Will Yun Lee" .
 
 bond:Tokyo a movie:FilmLocation ;
@@ -4087,7 +4084,7 @@ bond:Tom_Jones a movie:MusicContributor ;
 
 bond:Ursula_Andress a movie:Actor ;
     bond:actedIn bond:Dr._No ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Honey_Ryder_%28Ursula_Andress%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Honey_Ryder_%28Ursula_Andress%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Ursula Andress" .
 
 bond:Valentin_Zukovsky a movie:FilmCharacter ;
@@ -4098,12 +4095,12 @@ bond:Valentin_Zukovsky a movie:FilmCharacter ;
 
 bond:Vladek_Sheybal a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/45/Kronsteen_%28Vladek_Sheybal%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/45/Kronsteen_%28Vladek_Sheybal%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Vladek Sheybal" .
 
 bond:Yaphet_Kotto a movie:Actor ;
     bond:actedIn bond:Live_and_Let_Die ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Dr._Kananga_%28Yaphet_Kotto%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Dr._Kananga_%28Yaphet_Kotto%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Yaphet Kotto" .
 
 bond:a-ha a movie:MusicContributor ;
@@ -4120,13 +4117,13 @@ bond:a-ha a movie:MusicContributor ;
 bond:Anthony_Dawson a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love,
         bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Anthony Dawson" .
 
 bond:Anthony_Dawson_body_Eric_Pohlmann_voice a movie:Actor ;
     bond:actedIn bond:From_Russia_with_Love,
         bond:Thunderball ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Anthony Dawson (body), Eric Pohlmann (voice)" .
 
 bond:Aston_Martin_DB5 a bond:Vehicle ;
@@ -4134,7 +4131,7 @@ bond:Aston_Martin_DB5 a bond:Vehicle ;
     bond:isVehicleOf bond:Goldfinger,
         bond:Thunderball,
         bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Aston_Martin_DB5.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Vehicle_-_Aston_Martin_DB5.png"^^xsd:anyURI .
 
 bond:Austria a movie:FilmLocation ;
     rdfs:label "Austria" ;
@@ -4155,7 +4152,7 @@ bond:California a movie:FilmLocation ;
 bond:Caroline_Bliss a movie:Actor ;
     bond:actedIn bond:Licence_to_Kill,
         bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b3/Moneypenny_-_Caroline_Bliss_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b3/Moneypenny_-_Caroline_Bliss_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Caroline Bliss" .
 
 bond:Charles_Robinson a movie:FilmCharacter ;
@@ -4168,8 +4165,8 @@ bond:Charles_Robinson a movie:FilmCharacter ;
 bond:Clifton_James a movie:Actor ;
     bond:actedIn bond:Live_and_Let_Die,
         bond:The_Man_with_the_Golden_Gun ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b7/J.W._Pepper_%28Clifton_James%29_-_Profile.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/c/cd/J.W._Pepper_%28The_Man_With_The_Golden_Gun%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b7/J.W._Pepper_%28Clifton_James%29_-_Profile.jpg"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/c/cd/J.W._Pepper_%28The_Man_With_The_Golden_Gun%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Clifton James" .
 
 bond:Cuba a movie:FilmLocation ;
@@ -4183,13 +4180,13 @@ bond:Cuba a movie:FilmLocation ;
 bond:David_Hedison a movie:Actor ;
     bond:actedIn bond:Licence_to_Kill,
         bond:Live_and_Let_Die ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Leiter_%28Hedison%29_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/6e/Leiter_%28Hedison%29_Profile.png"^^xsd:anyURI ;
     foaf:name "David Hedison" .
 
 bond:Eunice_Gayson a movie:Actor ;
     bond:actedIn bond:Dr._No,
         bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/14/Sylvia_Trench_%28Eunice_Gayson%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/14/Sylvia_Trench_%28Eunice_Gayson%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Eunice Gayson" .
 
 bond:Eurocopter_AS355 a bond:Vehicle ;
@@ -4197,13 +4194,13 @@ bond:Eurocopter_AS355 a bond:Vehicle ;
     bond:isVehicleOf bond:A_View_to_a_Kill,
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1c/The_World_Is_Not_Enough_-_Eurocopter_AS-355-F1_%26_BMW_Z8_Miniature.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Eurocopter_AS355.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1c/The_World_Is_Not_Enough_-_Eurocopter_AS-355-F1_%26_BMW_Z8_Miniature.jpg"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/8/89/Vehicle_-_Eurocopter_AS355.png"^^xsd:anyURI .
 
 bond:Eva_Rueber-Staier a movie:Actor ;
     bond:actedIn bond:Octopussy,
         bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Screenshot_2015-06-20_19.14.00.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b0/Screenshot_2015-06-20_19.14.00.png"^^xsd:anyURI ;
     foaf:name "Eva Rueber-Staier" .
 
 bond:Eve_Moneypenny a movie:FilmCharacter ;
@@ -4216,7 +4213,7 @@ bond:Eve_Moneypenny a movie:FilmCharacter ;
 bond:Giancarlo_Giannini a movie:Actor ;
     bond:actedIn bond:Casino_Royale,
         bond:Quantum_of_Solace ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fc/Ren%C3%A9_Mathis_%28Giancarlo_Giannini%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fc/Ren%C3%A9_Mathis_%28Giancarlo_Giannini%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Giancarlo Giannini" .
 
 bond:Hong_Kong a movie:FilmLocation ;
@@ -4252,13 +4249,13 @@ bond:Lewis_Gilbert a movie:Director ;
 bond:Léa_Seydoux a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Spectre ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d4/Profile_-_Madeleine_Swann.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/d4/Profile_-_Madeleine_Swann.png"^^xsd:anyURI ;
     foaf:name "Léa Seydoux" .
 
 bond:Michael_Kitchen a movie:Actor ;
     bond:actedIn bond:GoldenEye,
         bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Bill_Tanner_%28Michael_Kitchen%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/51/Bill_Tanner_%28Michael_Kitchen%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Michael Kitchen" .
 
 bond:Paris a movie:FilmLocation ;
@@ -4278,7 +4275,7 @@ bond:Q205599 a bond:BondActor,
     dbo:citizenship <http://www.wikidata.org/entity/Q408> ;
     bond:actedIn bond:On_Her_Majestys_Secret_Service ;
     bond:isJamesBondIn bond:On_Her_Majestys_Secret_Service ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Bond_-_George_Lazenby_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/19/Bond_-_George_Lazenby_-_Profile.jpg"^^xsd:anyURI ;
     schema1:sameAs <http://www.wikidata.org/entity/Q205599> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "George Lazenby" .
@@ -4286,19 +4283,19 @@ bond:Q205599 a bond:BondActor,
 bond:Ralph_Fiennes a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Spectre ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/65/Gareth_Mallory_%28Ralph_Fiennes%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/65/Gareth_Mallory_%28Ralph_Fiennes%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Ralph Fiennes" .
 
 bond:Richard_Kiel a movie:Actor ;
     bond:actedIn bond:Moonraker,
         bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Richard Kiel" .
 
 bond:Robbie_Coltrane a movie:Actor ;
     bond:actedIn bond:GoldenEye,
         bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/69/Valentin_Zukovsky_-_Profile_%282%29.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/69/Valentin_Zukovsky_-_Profile_%282%29.jpg"^^xsd:anyURI ;
     foaf:name "Robbie Coltrane" .
 
 bond:Spain a movie:FilmLocation ;
@@ -4344,29 +4341,29 @@ bond:Bell_206_JetRanger a bond:Vehicle ;
         bond:For_Your_Eyes_Only,
         bond:Moonraker,
         bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Bondwiki_DAF71_Bell206_Whyte1.jpg",
-        "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Bell_206_JetRanger_OHMSS.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/6/65/Vehicle_-_Bell_206_JetRanger.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/9/90/Vehicle_-_206JetRanger_Moonraker.png" .
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Bondwiki_DAF71_Bell206_Whyte1.jpg"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/2/2e/Vehicle_-_Bell_206_JetRanger_OHMSS.png"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/6/65/Vehicle_-_Bell_206_JetRanger.png"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/9/90/Vehicle_-_206JetRanger_Moonraker.png"^^xsd:anyURI .
 
 bond:Ben_Whishaw a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Skyfall,
         bond:Spectre ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Q_%28Ben_Whishaw%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Q_%28Ben_Whishaw%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Ben Whishaw" .
 
 bond:Christoph_Waltz a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Spectre ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Blofeld_%28Christoph_Waltz%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/42/Blofeld_%28Christoph_Waltz%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Christoph Waltz" .
 
 bond:Colin_Salmon a movie:Actor ;
     bond:actedIn bond:Die_Another_Day,
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Charles_Robinson_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Charles_Robinson_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Colin Salmon" .
 
 bond:Florida a movie:FilmLocation ;
@@ -4405,14 +4402,14 @@ bond:Jeffrey_Wright a movie:Actor ;
     bond:actedIn bond:Casino_Royale,
         bond:No_Time_to_Die,
         bond:Quantum_of_Solace ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/03/Felix_Leiter_%28Jeffrey_Wright%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/03/Felix_Leiter_%28Jeffrey_Wright%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Jeffrey Wright" .
 
 bond:Jesper_Christensen a movie:Actor ;
     bond:actedIn bond:Casino_Royale,
         bond:Quantum_of_Solace,
         bond:Spectre ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Jesper Christensen" .
 
 bond:Moscow a movie:FilmLocation ;
@@ -4428,7 +4425,7 @@ bond:Naomie_Harris a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die,
         bond:Skyfall,
         bond:Spectre ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/96/Eve_Moneypenny_%28Naomie_Harris%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/9/96/Eve_Moneypenny_%28Naomie_Harris%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Naomie Harris" .
 
 bond:Scotland a movie:FilmLocation ;
@@ -4474,8 +4471,8 @@ bond:Joe_Don_Baker a movie:Actor ;
     bond:actedIn bond:GoldenEye,
         bond:The_Living_Daylights,
         bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Brad_Whitaker_%28Joe_Don_Baker%29_-_Profile.png",
-        "https://static.wikia.nocookie.net/jamesbond/images/1/12/Jack_Wade_%28Joe_Don_Baker%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0f/Brad_Whitaker_%28Joe_Don_Baker%29_-_Profile.png"^^xsd:anyURI,
+        "https://static.wikia.nocookie.net/jamesbond/images/1/12/Jack_Wade_%28Joe_Don_Baker%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Joe Don Baker" .
 
 bond:John_Glen a movie:Director ;
@@ -4513,7 +4510,7 @@ bond:Q41233 a bond:BondActor,
         bond:The_Living_Daylights ;
     bond:isJamesBondIn bond:Licence_to_Kill,
         bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/59/James_Bond_%28Timothy_Dalton%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/59/James_Bond_%28Timothy_Dalton%29_-_Profile.jpg"^^xsd:anyURI ;
     schema1:sameAs <http://www.wikidata.org/entity/Q41233> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Timothy Dalton" .
@@ -4523,7 +4520,7 @@ bond:Robert_Brown a movie:Actor ;
         bond:Licence_to_Kill,
         bond:Octopussy,
         bond:The_Living_Daylights ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fe/M_%28Octopussy%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/f/fe/M_%28Octopussy%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Robert Brown" .
 
 bond:Rory_Kinnear a movie:Actor ;
@@ -4531,7 +4528,7 @@ bond:Rory_Kinnear a movie:Actor ;
         bond:Quantum_of_Solace,
         bond:Skyfall,
         bond:Spectre ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bf/Bill_Tanner_%28Quantum_of_Solace%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/bf/Bill_Tanner_%28Quantum_of_Solace%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Rory Kinnear" .
 
 bond:Samantha_Bond a movie:Actor ;
@@ -4539,7 +4536,7 @@ bond:Samantha_Bond a movie:Actor ;
         bond:GoldenEye,
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Miss_Moneypenny_%28Samantha_Bond%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Miss_Moneypenny_%28Samantha_Bond%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Samantha Bond" .
 
 bond:USA a movie:FilmLocation ;
@@ -4621,7 +4618,7 @@ bond:Geoffrey_Keen a movie:Actor ;
         bond:Octopussy,
         bond:The_Living_Daylights,
         bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e6/Fredrick_Gray_%28The_Spy_Who_Loved_Me%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e6/Fredrick_Gray_%28The_Spy_Who_Loved_Me%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Geoffrey Keen" .
 
 bond:Walter_Gotell a movie:Actor ;
@@ -4631,7 +4628,7 @@ bond:Walter_Gotell a movie:Actor ;
         bond:Octopussy,
         bond:The_Living_Daylights,
         bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Walter Gotell" .
 
 movie:Producer a owl:Class ;
@@ -4672,7 +4669,7 @@ bond:Judi_Dench a movie:Actor ;
         bond:Skyfall,
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/M_%28Casino_Royale%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/5b/M_%28Casino_Royale%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Judi Dench" .
 
 bond:United_States a movie:FilmLocation ;
@@ -4729,7 +4726,7 @@ bond:Q81520 a bond:BondActor,
         bond:GoldenEye,
         bond:The_World_Is_Not_Enough,
         bond:Tomorrow_Never_Dies ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/dc/James_Bond_%28Pierce_Brosnan%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/dc/James_Bond_%28Pierce_Brosnan%29_-_Profile.jpg"^^xsd:anyURI ;
     schema1:sameAs <http://www.wikidata.org/entity/Q81520> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Pierce Brosnan" .
@@ -4770,7 +4767,7 @@ bond:Q4547 a bond:BondActor,
         bond:Quantum_of_Solace,
         bond:Skyfall,
         bond:Spectre ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/81/James_Bond_%28Daniel_Craig%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/81/James_Bond_%28Daniel_Craig%29_-_Profile.jpg"^^xsd:anyURI ;
     schema1:sameAs <http://www.wikidata.org/entity/Q4547> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Daniel Craig" .
@@ -4803,7 +4800,7 @@ bond:Bernard_Lee a movie:Actor ;
         bond:The_Spy_Who_Loved_Me,
         bond:Thunderball,
         bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7c/M_%28Bernard_Lee%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/7c/M_%28Bernard_Lee%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Bernard Lee" .
 
 movie:Person a owl:Class .
@@ -4843,7 +4840,7 @@ bond:Q4573 a bond:BondActor,
         bond:Goldfinger,
         bond:Thunderball,
         bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b2/James_Bond_%28Sean_Connery%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/b/b2/James_Bond_%28Sean_Connery%29_-_Profile.jpg"^^xsd:anyURI ;
     schema1:sameAs <http://www.wikidata.org/entity/Q4573> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Sean Connery" .
@@ -4866,7 +4863,7 @@ bond:Lois_Maxwell a movie:Actor ;
         bond:The_Spy_Who_Loved_Me,
         bond:Thunderball,
         bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Moneypenny_-_Lois_Maxwell_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1d/Moneypenny_-_Lois_Maxwell_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Lois Maxwell" .
 
 bond:Q134333 a bond:BondActor,
@@ -4889,7 +4886,7 @@ bond:Q134333 a bond:BondActor,
         bond:Octopussy,
         bond:The_Man_with_the_Golden_Gun,
         bond:The_Spy_Who_Loved_Me ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/de/James_Bond_%28Roger_Moore%29_-_Profile.jpg" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/de/James_Bond_%28Roger_Moore%29_-_Profile.jpg"^^xsd:anyURI ;
     schema1:sameAs <http://www.wikidata.org/entity/Q134333> ;
     foaf:gender <http://www.wikidata.org/entity/Q6581097> ;
     foaf:name "Roger Moore" .
@@ -4912,7 +4909,7 @@ bond:Desmond_Llewelyn a movie:Actor ;
         bond:Thunderball,
         bond:Tomorrow_Never_Dies,
         bond:You_Only_Live_Twice ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/49/Q_%28Desmond_Llewelyn%29_-_Profile.png" ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/49/Q_%28Desmond_Llewelyn%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Desmond Llewelyn" .
 
 bond:Miss_Moneypenny a movie:FilmCharacter ;
@@ -5032,7 +5029,7 @@ bond:No_Time_to_Die a dbo:Song,
     bond:isThemeSongOf bond:No_Time_to_Die ;
     bond:rtmRating 8.3 ;
     schema1:name "No Time to Die" ;
-    schema1:url "https://youtu.be/83YuaW09ueI?si=0jeUBYMHHF9ZRh61" ;
+    schema1:url "https://youtu.be/83YuaW09ueI?si=0jeUBYMHHF9ZRh61"^^xsd:anyURI ;
     time:year "2020"^^xsd:gYear .
 
 bond:London a movie:FilmLocation ;
@@ -5177,7 +5174,7 @@ bond:Skyfall a dbo:Song,
     bond:isThemeSongOf bond:Skyfall ;
     bond:rtmRating 8.2 ;
     schema1:name "Skyfall" ;
-    schema1:url "https://youtu.be/DeumyOzKqgI?si=5aH1fvbGm0D0uwzT" ;
+    schema1:url "https://youtu.be/DeumyOzKqgI?si=5aH1fvbGm0D0uwzT"^^xsd:anyURI ;
     time:year "2012"^^xsd:gYear .
 
 dbo:Song a owl:Class .
@@ -5411,7 +5408,7 @@ bond:The_Man_with_the_Golden_Gun a dbo:Song,
     bond:isThemeSongOf bond:The_Man_with_the_Golden_Gun ;
     bond:rtmRating 5.1 ;
     schema1:name "The Man with the Golden Gun" ;
-    schema1:url "https://youtu.be/PSbj2Mx2By8?si=lSTEzJTfxcNSlcdv" ;
+    schema1:url "https://youtu.be/PSbj2Mx2By8?si=lSTEzJTfxcNSlcdv"^^xsd:anyURI ;
     time:year "1974"^^xsd:gYear .
 
 bond:From_Russia_with_Love a dbo:Song,
@@ -5472,7 +5469,7 @@ bond:From_Russia_with_Love a dbo:Song,
     bond:isThemeSongOf bond:From_Russia_with_Love ;
     bond:rtmRating 8.0 ;
     schema1:name "From Russia with Love" ;
-    schema1:url "https://youtu.be/RIY8KDrx-E8?si=enJ7nKJGq1Y2l-4o" ;
+    schema1:url "https://youtu.be/RIY8KDrx-E8?si=enJ7nKJGq1Y2l-4o"^^xsd:anyURI ;
     time:year "1963"^^xsd:gYear .
 
 bond:Thunderball a dbo:Song,
@@ -5533,7 +5530,7 @@ bond:Thunderball a dbo:Song,
     bond:isThemeSongOf bond:Thunderball ;
     bond:rtmRating 6.8 ;
     schema1:name "Thunderball" ;
-    schema1:url "https://youtu.be/Ia6-5gC5ArM?si=9UalFYNXPHhPaq1L" ;
+    schema1:url "https://youtu.be/Ia6-5gC5ArM?si=9UalFYNXPHhPaq1L"^^xsd:anyURI ;
     time:year "1965"^^xsd:gYear .
 
 bond:On_Her_Majestys_Secret_Service a movie:Film ;
@@ -5656,7 +5653,7 @@ bond:Moonraker a dbo:Song,
     bond:isThemeSongOf bond:Moonraker ;
     bond:rtmRating 5.7 ;
     schema1:name "Moonraker" ;
-    schema1:url "https://youtu.be/gt3oQN0cAv0?si=sBE9o7fKiXP-YgOi" ;
+    schema1:url "https://youtu.be/gt3oQN0cAv0?si=sBE9o7fKiXP-YgOi"^^xsd:anyURI ;
     time:year "1979"^^xsd:gYear .
 
 movie:Film a owl:Class .
@@ -5726,7 +5723,7 @@ bond:You_Only_Live_Twice a dbo:Song,
     bond:isThemeSongOf bond:You_Only_Live_Twice ;
     bond:rtmRating 6.3 ;
     schema1:name "You Only Live Twice" ;
-    schema1:url "https://youtu.be/hs8uYxTJ530?si=D7V00R6Skoe1vicl" ;
+    schema1:url "https://youtu.be/hs8uYxTJ530?si=D7V00R6Skoe1vicl"^^xsd:anyURI ;
     time:year "1967"^^xsd:gYear .
 
 bond:Octopussy a bond:BondGirl,
@@ -5862,7 +5859,7 @@ bond:Goldfinger a dbo:Song,
     bond:isThemeSongOf bond:Goldfinger ;
     bond:rtmRating 8.4 ;
     schema1:name "Goldfinger" ;
-    schema1:url "https://youtu.be/6D1nK7q2i8I?si=7f-l_tJqg-riV2tO" ;
+    schema1:url "https://youtu.be/6D1nK7q2i8I?si=7f-l_tJqg-riV2tO"^^xsd:anyURI ;
     time:year "1964"^^xsd:gYear .
 
 bond:Live_and_Let_Die a dbo:Song,
@@ -5932,7 +5929,7 @@ bond:Live_and_Let_Die a dbo:Song,
     bond:isThemeSongOf bond:Live_and_Let_Die ;
     bond:rtmRating 5.9 ;
     schema1:name "Live and Let Die" ;
-    schema1:url "https://youtu.be/sn8alMYSu44?si=a6Q7bd-rNj4ZtvUM" ;
+    schema1:url "https://youtu.be/sn8alMYSu44?si=a6Q7bd-rNj4ZtvUM"^^xsd:anyURI ;
     time:year "1973"^^xsd:gYear .
 
 bond:A_View_to_a_Kill a dbo:Song,
@@ -6003,7 +6000,7 @@ bond:A_View_to_a_Kill a dbo:Song,
     bond:isThemeSongOf bond:A_View_to_a_Kill ;
     bond:rtmRating 4.7 ;
     schema1:name "A View to a Kill" ;
-    schema1:url "https://youtu.be/hWVbVT3igdw?si=Ndam6Q-IDECf9RCW" ;
+    schema1:url "https://youtu.be/hWVbVT3igdw?si=Ndam6Q-IDECf9RCW"^^xsd:anyURI ;
     time:year "1985"^^xsd:gYear .
 
 bond:For_Your_Eyes_Only a dbo:Song,
@@ -6074,7 +6071,7 @@ bond:For_Your_Eyes_Only a dbo:Song,
     bond:isThemeSongOf bond:For_Your_Eyes_Only ;
     bond:rtmRating 6.3 ;
     schema1:name "For Your Eyes Only" ;
-    schema1:url "https://youtu.be/8kNksLL0sv4?si=RcjZ713gXyavBz4Q" ;
+    schema1:url "https://youtu.be/8kNksLL0sv4?si=RcjZ713gXyavBz4Q"^^xsd:anyURI ;
     time:year "1981"^^xsd:gYear .
 
 bond:The_Spy_Who_Loved_Me a movie:Film ;
@@ -6214,7 +6211,7 @@ bond:GoldenEye a dbo:Song,
     bond:isThemeSongOf bond:GoldenEye ;
     bond:rtmRating 6.9 ;
     schema1:name "GoldenEye" ;
-    schema1:url "https://youtu.be/qGPBFvDz_HM?si=OJlOnDWRcRWeZMTG" ;
+    schema1:url "https://youtu.be/qGPBFvDz_HM?si=OJlOnDWRcRWeZMTG"^^xsd:anyURI ;
     time:year "1995"^^xsd:gYear .
 
 bond:The_World_Is_Not_Enough a dbo:Song,
@@ -6286,7 +6283,7 @@ bond:The_World_Is_Not_Enough a dbo:Song,
     bond:isThemeSongOf bond:The_World_Is_Not_Enough ;
     bond:rtmRating 5.7 ;
     schema1:name "The World Is Not Enough" ;
-    schema1:url "https://youtu.be/LzvNDR5OrqM?si=cIzQiwbeyxNOCrDs" ;
+    schema1:url "https://youtu.be/LzvNDR5OrqM?si=cIzQiwbeyxNOCrDs"^^xsd:anyURI ;
     time:year "1999"^^xsd:gYear .
 
 bond:Die_Another_Day a dbo:Song,
@@ -6363,7 +6360,7 @@ bond:Die_Another_Day a dbo:Song,
     bond:isThemeSongOf bond:Die_Another_Day ;
     bond:rtmRating 6.1 ;
     schema1:name "Die Another Day" ;
-    schema1:url "https://youtu.be/ZVFDshqlmOQ?si=FjvbqAWargVkyU3F" ;
+    schema1:url "https://youtu.be/ZVFDshqlmOQ?si=FjvbqAWargVkyU3F"^^xsd:anyURI ;
     time:year "2002"^^xsd:gYear .
 
 bond:Licence_to_Kill a dbo:Song,
@@ -6448,7 +6445,7 @@ _Overseas_Highway>,
     bond:isThemeSongOf bond:Licence_to_Kill ;
     bond:rtmRating 6.0 ;
     schema1:name "Licence to Kill" ;
-    schema1:url "https://youtu.be/Ju_by-sC79c?si=kO0Rn-FoJ9YVgTUA" ;
+    schema1:url "https://youtu.be/Ju_by-sC79c?si=kO0Rn-FoJ9YVgTUA"^^xsd:anyURI ;
     time:year "1989"^^xsd:gYear .
 
 bond:Tomorrow_Never_Dies a dbo:Song,
@@ -6532,7 +6529,7 @@ bond:Tomorrow_Never_Dies a dbo:Song,
     bond:isThemeSongOf bond:Tomorrow_Never_Dies ;
     bond:rtmRating 6.0 ;
     schema1:name "Tomorrow Never Dies" ;
-    schema1:url "https://youtu.be/SDe1xi4tGUA?si=HgeN7UlCN8dA7v7i" ;
+    schema1:url "https://youtu.be/SDe1xi4tGUA?si=HgeN7UlCN8dA7v7i"^^xsd:anyURI ;
     time:year "1997"^^xsd:gYear .
 
 bond:Diamonds_Are_Forever a dbo:Song,
@@ -6619,7 +6616,7 @@ bond:Diamonds_Are_Forever a dbo:Song,
     bond:isThemeSongOf bond:Diamonds_Are_Forever ;
     bond:rtmRating 6.3 ;
     schema1:name "Diamonds Are Forever" ;
-    schema1:url "https://youtu.be/ZwbEuzJCnqI?si=xH-BoyxMvlyF6knx" ;
+    schema1:url "https://youtu.be/ZwbEuzJCnqI?si=xH-BoyxMvlyF6knx"^^xsd:anyURI ;
     time:year "1971"^^xsd:gYear .
 
 bond:The_Living_Daylights a dbo:Song,
@@ -6715,7 +6712,7 @@ Gibraltar>,
     bond:isThemeSongOf bond:The_Living_Daylights ;
     bond:rtmRating 6.3 ;
     schema1:name "The Living Daylights" ;
-    schema1:url "https://youtu.be/y9p0FJnk2vM?si=Wm2IJrNLqdfZsonm" ;
+    schema1:url "https://youtu.be/y9p0FJnk2vM?si=Wm2IJrNLqdfZsonm"^^xsd:anyURI ;
     time:year "1987"^^xsd:gYear .
 
 movie:Actor a owl:Class ;

@@ -271,9 +271,6 @@ def create_ttl_knowledge_graph(json_file, output_file):
 
     # ----- 4: Define Data Properties (attributes with literal values) -----
 
-    g.add((RDFS.label, RDF.type, OWL.DatatypeProperty))
-    g.add((RDFS.label, RDFS.range, XSD.string))
-
     g.add((SCHEMA.name, RDF.type, OWL.DatatypeProperty))
     g.add((SCHEMA.name, RDFS.domain, MOVIE.Film))
     g.add((SCHEMA.name, RDFS.range, XSD.string))
@@ -474,7 +471,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
 
             # Add image to actress (not character)
             if bond_girl.get('image_url'):
-                g.add((actress_uri, SCHEMA.image, Literal(bond_girl['image_url'])))
+                g.add((actress_uri, SCHEMA.image, Literal(bond_girl['image_url'], datatype=XSD.anyURI)))
 
         # Process Villains
         for villain in movie_data.get('villains', []):
@@ -503,7 +500,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
 
             # Add image to actor (not character)
             if villain.get('image_url'):
-                g.add((actor_uri, SCHEMA.image, Literal(villain['image_url'])))
+                g.add((actor_uri, SCHEMA.image, Literal(villain['image_url'], datatype=XSD.anyURI)))
 
         # Process Characters (other than bond girls and villains)
         for character in movie_data.get('characters', []):
@@ -542,7 +539,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
 
             # Add image to actor (not character)
             if character.get('image_url'):
-                g.add((actor_uri, SCHEMA.image, Literal(character['image_url'])))
+                g.add((actor_uri, SCHEMA.image, Literal(character['image_url'], datatype=XSD.anyURI)))
 
         # Process Locations
         for location in movie_data.get('locations', []):
@@ -583,7 +580,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
                 g.add((movie_uri, BOND.hasMusicContributor, performer_uri))
 
             if song.get('youtube_link'):
-                g.add((song_uri, SCHEMA.url, Literal(song['youtube_link'])))
+                g.add((song_uri, SCHEMA.url, Literal(song['youtube_link'], datatype=XSD.anyURI)))
 
         # Process Vehicles
         for vehicle in movie_data.get('vehicles', []):
@@ -597,7 +594,7 @@ def create_ttl_knowledge_graph(json_file, output_file):
             g.add((vehicle_uri, BOND.isVehicleOf, movie_uri))
 
             if vehicle.get('image_url'):
-                g.add((vehicle_uri, SCHEMA.image, Literal(vehicle['image_url'])))
+                g.add((vehicle_uri, SCHEMA.image, Literal(vehicle['image_url'], datatype=XSD.anyURI)))
 
     # Serialize to TTL
     print(f"Serializing {len(g)} triples to Turtle format...")
