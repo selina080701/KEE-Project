@@ -425,9 +425,9 @@ def create_rdf_graph(df_ttl):
         Node(id=str(row[0]),
                 label=str(row[1]),
                 color='#7CCCC7',
-                shape='circularImage' if row[2] else 'ellipse',
-                size=18,
-                image=str(row[2]) if row[2] else None)
+                shape='ellipse',
+                size=18)
+                #image=str(row[2]) if row[2] else None)
         for row in g.query(vehicle_query)
     ]
 
