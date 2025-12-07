@@ -72,7 +72,7 @@ def create_scatterplot(df_filtered):
         aggfunc='first',
         fill_value=""
     )
-    pivot_binary = pivot.applymap(lambda x: 1 if x else 0)
+    pivot_binary = pivot.map(lambda x: 1 if x else 0)
 
     # Create scatter data
     scatter_df = pivot_binary.reset_index().melt(
