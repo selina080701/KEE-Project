@@ -130,9 +130,8 @@ person:Q134333 a movie:Actor ;
    - [x] RDF-Graph serialisieren (ttl-Format)
    - [x] RDF-Graph visualisieren (streamlit)
    - [x] RDF-Graph neu generieren: Wenn neue Triples vorhanden sind (zb. „hat Ort“, „hat Auto“, „hat Antagonisten“)
-4. [] Hinzufügen einer Ontologie, um das Modell zu beschreiben und Schlussfolgerungen zu ermöglichen:
-   - [] Ontologie in Protegé erstellen
-   - [] Reasoning-Regeln für wiederkehrende Locations, Charaktere, Autos, etc. 
+4. [x] Hinzufügen einer Ontologie, um das Modell zu beschreiben und Schlussfolgerungen zu ermöglichen:
+   - [x] Ontologie in Protegé & Python (owlready2) testen
 
 ----
 
