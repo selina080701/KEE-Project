@@ -20,7 +20,7 @@ def show_movie_page():
     movie_overview['Movie_Combined'] = movie_overview['Movie'] + " - " + movie_overview['Movie_de']
 
     # Header
-    st.write("### Movie Collection Overview")
+    st.header(":clapper: Movie Collection Overview")
     st.metric("Total Movies", len(movie_overview))
 
     # Search functionality

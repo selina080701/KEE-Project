@@ -29,10 +29,10 @@ def show_image_gallery_page():
     df_villains = load_villains_data()
     villains_overview = generate_villains_image_overview(df_villains, df_german_titles)
 
-    st.write("### Image Gallery Overview")
+    st.header(":camera: Image Gallery Overview")
 
     # ---- Tabs for different categories ----
-    tab1, tab2, tab3 = st.tabs(["🚗 Vehicles", "💃 Bond Girls", "👹 Villains"])
+    tab1, tab2, tab3 = st.tabs([":red_car: Vehicles", ":dancer: Bond Girls", ":japanese_ogre: Villains"])
 
     with tab1:
         st.write("#### Vehicle Gallery")

@@ -17,7 +17,7 @@ The below functions are displayed in the characters page.
 
 def show_characters_page():
     st.sidebar.info("You are on the characters analysis page.")
-    st.header("Recurring Character Analysis")
+    st.header(":busts_in_silhouette: Recurring Character Analysis")
 
     # ---- Load and Prepare Data ----
     df_char = load_character_actor_data()

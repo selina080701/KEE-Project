@@ -7,10 +7,10 @@ from pages.image_gallery_page import show_image_gallery_page
 from pages.map_page import show_map_page
 
 PAGE_CONFIG = {
-    "▶️ Introduction": show_intro_page,
-    "🎬 Movie Collection": show_movie_page,
-    "🔗 RDF-Graph": show_rdf_page,
-    "👥 Recurring Characters": show_characters_page,
-    "📷 Image Collection": show_image_gallery_page,
-    "🌍 Film Locations": show_map_page
+    ":arrow_forward: Introduction": show_intro_page,
+    ":clapper: Movie Collection": show_movie_page,
+    ":link: RDF-Graph": show_rdf_page,
+    ":busts_in_silhouette: Recurring Characters": show_characters_page,
+    ":camera: Image Collection": show_image_gallery_page,
+    ":earth_africa: Film Locations": show_map_page
 }

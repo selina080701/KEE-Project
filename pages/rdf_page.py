@@ -7,7 +7,7 @@ from utils.rdf_graph import create_rdf_graph, get_movies_with_titles
 
 def show_rdf_page():
     st.sidebar.info("You are on the RDF graph page.")
-    st.header("James Bond Knowledge Graph")
+    st.header(":link: James Bond Knowledge Graph")
 
     st.write('The RDF graph represents the relationships between various entities in the James Bond universe, '
     'including movies, directors, actors, bond girls, villains, locations, vehicles, songs, and music contributors. '
