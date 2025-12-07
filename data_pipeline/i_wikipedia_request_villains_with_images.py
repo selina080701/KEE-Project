@@ -360,6 +360,33 @@ def clean_villain_data(df, characters_csv_path):
             "Outcome": "After being betrayed by Zorin, switched allegiances and helped Bond stop the plan. Silicon Valley was saved.",
             "Status": "Sacrificed herself by riding a bomb-laden mine cart out of the mine, dying in the explosion but preventing Zorin's plan from succeeding.",
             "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9a/May_Day_-_Profile.png"
+        },
+        {
+            "Film": "Licence to Kill",
+            "Villain": "Dario",
+            "Portrayed by": "Benicio del Toro",
+            "Objective": "Serve as one of Franz Sanchez's chief enforcers in the drug cartel, tasked with eliminating threats and executing violent orders, including assassinating CIA informant Pam Bouvier and preventing Bond from sabotaging Sanchez's cocaine processing operation.",
+            "Outcome": "Failed to stop Bond from sabotaging the cocaine operation. His operations were exposed and stopped.",
+            "Status": "Killed by Bond during a confrontation at the processing plant. Bond pulled him into industrial cocaine processing machinery, where he was crushed and shredded to death.",
+            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/55/Dario_%28Benicio_del_Toro%29_-_Profile.jpg"
+        },
+        {
+            "Film": "Diamonds Are Forever",
+            "Villain": "Mr. Wint",
+            "Portrayed by": "Bruce Glover",
+            "Objective": "Working as an assassin duo with Mr. Kidd for Ernst Stavro Blofeld, eliminate anyone involved in the diamond smuggling pipeline to prevent them from revealing information about the operation.",
+            "Outcome": "Failed to kill Bond and Tiffany Case. Their attempt to assassinate Bond on an ocean liner was thwarted.",
+            "Status": "Killed by Bond aboard the ocean liner. Bond tied his hands together with his coat-tails alongside a time-bomb before throwing him overboard. The bomb exploded and killed him before he hit the water.",
+            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/67/Mr._Wint_%28Bruce_Glover%29_-_Profile.png"
+        },
+        {
+            "Film": "Diamonds Are Forever",
+            "Villain": "Mr. Kidd",
+            "Portrayed by": "Putter Smith",
+            "Objective": "Working as an assassin duo with Mr. Wint for Ernst Stavro Blofeld, eliminate anyone involved in the diamond smuggling pipeline to prevent them from revealing information about the operation.",
+            "Outcome": "Failed to kill Bond and Tiffany Case. Their attempt to assassinate Bond on an ocean liner was thwarted.",
+            "Status": "Killed by Bond aboard the ocean liner. Bond splashed flaming cognac onto him, setting him on fire. In desperation, he jumped overboard from the high deck into the ocean, presumably killing him on impact.",
+            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/82/Mr._Kidd_%28Putter_Smith%29_-_Profile.png"
         }
     ]
 

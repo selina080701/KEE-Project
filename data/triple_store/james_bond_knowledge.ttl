@@ -875,6 +875,11 @@ bond:Daimler_Limousine a bond:Vehicle ;
     bond:isVehicleOf bond:Tomorrow_Never_Dies ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/1/1f/Tnd_daimler1.jpg"^^xsd:anyURI .
 
+bond:Dario a bond:Villain ;
+    bond:isCharacterIn bond:Licence_to_Kill ;
+    bond:portrayedBy bond:Benicio_del_Toro ;
+    foaf:name "Dario" .
+
 bond:Disco_Volante a bond:Vehicle ;
     rdfs:label "Disco Volante" ;
     bond:isVehicleOf bond:Thunderball ;
@@ -2199,6 +2204,16 @@ bond:Moonraker_Shuttle a bond:Vehicle ;
     bond:isVehicleOf bond:Moonraker ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/52/Vehicle_-_Moonraker_Shuttle.png"^^xsd:anyURI .
 
+bond:Mr._Kidd a bond:Villain ;
+    bond:isCharacterIn bond:Diamonds_Are_Forever ;
+    bond:portrayedBy bond:Putter_Smith ;
+    foaf:name "Mr. Kidd" .
+
+bond:Mr._Wint a bond:Villain ;
+    bond:isCharacterIn bond:Diamonds_Are_Forever ;
+    bond:portrayedBy bond:Bruce_Glover ;
+    foaf:name "Mr. Wint" .
+
 bond:Natalya_Simonova a bond:BondGirl ;
     bond:isCharacterIn bond:GoldenEye ;
     bond:portrayedBy bond:Izabella_Scorupco ;
@@ -3464,6 +3479,11 @@ bond:Bell_UH-1_Iroquois a bond:Vehicle ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/db/Vehicle_-_Medical_UH1.png"^^xsd:anyURI,
         "https://static.wikia.nocookie.net/jamesbond/images/e/e7/JGSDF_UH-1H%28front%29_%28recortada%29.jpg"^^xsd:anyURI .
 
+bond:Benicio_del_Toro a movie:Actor ;
+    bond:actedIn bond:Licence_to_Kill ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/5/55/Dario_%28Benicio_del_Toro%29_-_Profile.jpg"^^xsd:anyURI ;
+    foaf:name "Benicio del Toro" .
+
 bond:Berenice_Marlohe a movie:Actor ;
     bond:actedIn bond:Skyfall ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/35/S%C3%A9v%C3%A9rine_%28Berenice_Marlohe%29_-_Profile.jpg"^^xsd:anyURI ;
@@ -3483,6 +3503,11 @@ bond:Britt_Ekland a movie:Actor ;
     bond:actedIn bond:The_Man_with_the_Golden_Gun ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c4/Mary_Goodnight_%28Britt_Ekland%29_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Britt Ekland" .
+
+bond:Bruce_Glover a movie:Actor ;
+    bond:actedIn bond:Diamonds_Are_Forever ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/67/Mr._Wint_%28Bruce_Glover%29_-_Profile.png"^^xsd:anyURI ;
+    foaf:name "Bruce Glover" .
 
 bond:Cairo a movie:FilmLocation ;
     rdfs:label "Cairo" ;
@@ -3908,6 +3933,11 @@ bond:Peter_Burton a movie:Actor ;
     bond:actedIn bond:Dr._No ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/3/34/Q_%28Peter_Burton%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Peter Burton" .
+
+bond:Putter_Smith a movie:Actor ;
+    bond:actedIn bond:Diamonds_Are_Forever ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/8/82/Mr._Kidd_%28Putter_Smith%29_-_Profile.png"^^xsd:anyURI ;
+    foaf:name "Putter Smith" .
 
 bond:Rami_Malek a movie:Actor ;
     bond:actedIn bond:No_Time_to_Die ;
@@ -5355,10 +5385,6 @@ bond:Dr._No a movie:Film ;
     schema1:name "Dr. No" ;
     time:year 1962 .
 
-bond:Villain a owl:Class ;
-    rdfs:subClassOf movie:FilmCharacter,
-        movie:Person .
-
 bond:The_Man_with_the_Golden_Gun a dbo:Song,
         movie:Film ;
     rdfs:label "The Man with the Golden Gun",
@@ -5410,6 +5436,10 @@ bond:The_Man_with_the_Golden_Gun a dbo:Song,
     schema1:name "The Man with the Golden Gun" ;
     schema1:url "https://youtu.be/PSbj2Mx2By8?si=lSTEzJTfxcNSlcdv"^^xsd:anyURI ;
     time:year 1974 .
+
+bond:Villain a owl:Class ;
+    rdfs:subClassOf movie:FilmCharacter,
+        movie:Person .
 
 bond:From_Russia_with_Love a dbo:Song,
         movie:Film ;
@@ -6363,91 +6393,6 @@ bond:Die_Another_Day a dbo:Song,
     schema1:url "https://youtu.be/ZVFDshqlmOQ?si=FjvbqAWargVkyU3F"^^xsd:anyURI ;
     time:year 2002 .
 
-bond:Licence_to_Kill a dbo:Song,
-        movie:Film ;
-    rdfs:label "Licence to Kill",
-        "James Bond 007 – Lizenz zum Töten"@de,
-        "Licence to Kill"@en ;
-    bond:hasActor bond:Carey_Lowell,
-        bond:Caroline_Bliss,
-        bond:David_Hedison,
-        bond:Desmond_Llewelyn,
-        bond:Q41233,
-        bond:Robert_Brown,
-        bond:Robert_Davi ;
-    bond:hasAntagonist bond:Franz_Sanchez ;
-    bond:hasBondGirl bond:Pam_Bouvier ;
-    bond:hasCharacter bond:Felix_Leiter,
-        bond:James_Bond,
-        bond:M,
-        bond:Miss_Moneypenny,
-        bond:Q ;
-    bond:hasDirector bond:John_Glen ;
-    bond:hasJamesBond bond:Q41233 ;
-    bond:hasLocation bond:Bahamas,
-        bond:Bat_Tower_Road,
-        bond:Bimini,
-        <http://example.org/bond/Bridge
-_Overseas_Highway>,
-        bond:Calle_16_de_Septiembre,
-        bond:Colonia_Centro,
-        bond:El_Teatro_de_la_Ciudad,
-        bond:Florida,
-        bond:Gran_Hotel_Ciudad_De_Mexico,
-        bond:Harbor_Lights_Bar,
-        bond:Isthmus,
-        bond:Key_West,
-        bond:Key_West_International_Airport,
-        bond:Kong,
-        bond:London,
-        bond:Mexico,
-        bond:Mexico_City,
-        bond:Palm_Avenue,
-        bond:Panama,
-        bond:South_America,
-        <http://example.org/bond/St_Mary’s>,
-        bond:Sugarloaf_Key,
-        bond:Truman_Avenue,
-        bond:UK,
-        bond:USA,
-        bond:US_Route_1,
-        bond:United_States,
-        bond:Whitehead_Street,
-        bond:Windsor_Lane,
-        bond:de_Isthmus ;
-    bond:hasMusicContributor bond:Gladys_Knight ;
-    bond:hasProducer <http://example.org/bond/Albert_R._Broccoli_&_Michael_G._Wilson> ;
-    bond:hasThemeSong bond:Licence_to_Kill ;
-    bond:hasVehicle bond:Aerospatiale_AS350B_AStar,
-        bond:Cessna_172P_Skyhawk,
-        bond:Cessna_A185F,
-        bond:Cigarette_Racing_Café_Racer,
-        bond:Dodge_Ram,
-        bond:HH-65A_Dolphin,
-        bond:Jeep_CJ-7,
-        bond:Kenworth_W-900,
-        bond:Learjet_35,
-        bond:Lincoln_Mark_VII_LSC,
-        bond:Lincoln_Town_Car_Stretched_Limousine,
-        bond:M5_Stuart_Tank,
-        bond:Maserati_Biturbo_425i,
-        bond:Piper_PA-18-150_Super_Cub,
-        bond:Rolls-Royce_Phantom_V,
-        bond:Rolls-Royce_Silver_Shadow_II,
-        bond:Shark_Hunter_II_Submersible,
-        bond:Supra_Pirata,
-        bond:Taylor-Dunn_Tee-Bird,
-        bond:Utilimaster_Aeromaster,
-        bond:Wavekrest,
-        bond:Willys_M38 ;
-    bond:imdbRating 6.5 ;
-    bond:isPerformedBy bond:Gladys_Knight ;
-    bond:isThemeSongOf bond:Licence_to_Kill ;
-    bond:rtmRating 6.0 ;
-    schema1:name "Licence to Kill" ;
-    schema1:url "https://youtu.be/Ju_by-sC79c?si=kO0Rn-FoJ9YVgTUA"^^xsd:anyURI ;
-    time:year 1989 .
-
 bond:Tomorrow_Never_Dies a dbo:Song,
         movie:Film ;
     rdfs:label "Tomorrow Never Dies",
@@ -6532,19 +6477,110 @@ bond:Tomorrow_Never_Dies a dbo:Song,
     schema1:url "https://youtu.be/SDe1xi4tGUA?si=HgeN7UlCN8dA7v7i"^^xsd:anyURI ;
     time:year 1997 .
 
+bond:Licence_to_Kill a dbo:Song,
+        movie:Film ;
+    rdfs:label "Licence to Kill",
+        "James Bond 007 – Lizenz zum Töten"@de,
+        "Licence to Kill"@en ;
+    bond:hasActor bond:Benicio_del_Toro,
+        bond:Carey_Lowell,
+        bond:Caroline_Bliss,
+        bond:David_Hedison,
+        bond:Desmond_Llewelyn,
+        bond:Q41233,
+        bond:Robert_Brown,
+        bond:Robert_Davi ;
+    bond:hasAntagonist bond:Dario,
+        bond:Franz_Sanchez ;
+    bond:hasBondGirl bond:Pam_Bouvier ;
+    bond:hasCharacter bond:Felix_Leiter,
+        bond:James_Bond,
+        bond:M,
+        bond:Miss_Moneypenny,
+        bond:Q ;
+    bond:hasDirector bond:John_Glen ;
+    bond:hasJamesBond bond:Q41233 ;
+    bond:hasLocation bond:Bahamas,
+        bond:Bat_Tower_Road,
+        bond:Bimini,
+        <http://example.org/bond/Bridge
+_Overseas_Highway>,
+        bond:Calle_16_de_Septiembre,
+        bond:Colonia_Centro,
+        bond:El_Teatro_de_la_Ciudad,
+        bond:Florida,
+        bond:Gran_Hotel_Ciudad_De_Mexico,
+        bond:Harbor_Lights_Bar,
+        bond:Isthmus,
+        bond:Key_West,
+        bond:Key_West_International_Airport,
+        bond:Kong,
+        bond:London,
+        bond:Mexico,
+        bond:Mexico_City,
+        bond:Palm_Avenue,
+        bond:Panama,
+        bond:South_America,
+        <http://example.org/bond/St_Mary’s>,
+        bond:Sugarloaf_Key,
+        bond:Truman_Avenue,
+        bond:UK,
+        bond:USA,
+        bond:US_Route_1,
+        bond:United_States,
+        bond:Whitehead_Street,
+        bond:Windsor_Lane,
+        bond:de_Isthmus ;
+    bond:hasMusicContributor bond:Gladys_Knight ;
+    bond:hasProducer <http://example.org/bond/Albert_R._Broccoli_&_Michael_G._Wilson> ;
+    bond:hasThemeSong bond:Licence_to_Kill ;
+    bond:hasVehicle bond:Aerospatiale_AS350B_AStar,
+        bond:Cessna_172P_Skyhawk,
+        bond:Cessna_A185F,
+        bond:Cigarette_Racing_Café_Racer,
+        bond:Dodge_Ram,
+        bond:HH-65A_Dolphin,
+        bond:Jeep_CJ-7,
+        bond:Kenworth_W-900,
+        bond:Learjet_35,
+        bond:Lincoln_Mark_VII_LSC,
+        bond:Lincoln_Town_Car_Stretched_Limousine,
+        bond:M5_Stuart_Tank,
+        bond:Maserati_Biturbo_425i,
+        bond:Piper_PA-18-150_Super_Cub,
+        bond:Rolls-Royce_Phantom_V,
+        bond:Rolls-Royce_Silver_Shadow_II,
+        bond:Shark_Hunter_II_Submersible,
+        bond:Supra_Pirata,
+        bond:Taylor-Dunn_Tee-Bird,
+        bond:Utilimaster_Aeromaster,
+        bond:Wavekrest,
+        bond:Willys_M38 ;
+    bond:imdbRating 6.5 ;
+    bond:isPerformedBy bond:Gladys_Knight ;
+    bond:isThemeSongOf bond:Licence_to_Kill ;
+    bond:rtmRating 6.0 ;
+    schema1:name "Licence to Kill" ;
+    schema1:url "https://youtu.be/Ju_by-sC79c?si=kO0Rn-FoJ9YVgTUA"^^xsd:anyURI ;
+    time:year 1989 .
+
 bond:Diamonds_Are_Forever a dbo:Song,
         movie:Film ;
     rdfs:label "Diamonds Are Forever",
         "James Bond 007 – Diamantenfieber"@de,
         "Diamonds Are Forever"@en ;
     bond:hasActor bond:Bernard_Lee,
+        bond:Bruce_Glover,
         bond:Charles_Gray,
         bond:Desmond_Llewelyn,
         bond:Lana_Wood,
         bond:Lois_Maxwell,
         bond:Norman_Burton,
+        bond:Putter_Smith,
         bond:Q4573 ;
-    bond:hasAntagonist bond:Ernst_Stavro_Blofeld ;
+    bond:hasAntagonist bond:Ernst_Stavro_Blofeld,
+        bond:Mr._Kidd,
+        bond:Mr._Wint ;
     bond:hasBondGirl bond:Tiffany_Case ;
     bond:hasCharacter bond:Ernst_Stavro_Blofeld,
         bond:Felix_Leiter,

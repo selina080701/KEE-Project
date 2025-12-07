@@ -1084,6 +1084,22 @@
           "Objective": "Steal diamonds to fabricate a laser satellite which can remotely detonate nuclear stockpiles, then use said laser to extort the world's nuclear powers.",
           "Outcome": "Bond smashes Blofeld's mini-sub against the control room of his lair, disabling the satellite and causing severe damage to his lair.",
           "Status": "Survived the fiery demolition of the control room of his oil rig headquarters as he returns in the opening of For Your Eyes Only, where Bond drops him down an industrial chimney."
+        },
+        {
+          "name": "Mr. Wint",
+          "actor": "Bruce Glover",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/67/Mr._Wint_%28Bruce_Glover%29_-_Profile.png",
+          "Objective": "Working as an assassin duo with Mr. Kidd for Ernst Stavro Blofeld, eliminate anyone involved in the diamond smuggling pipeline to prevent them from revealing information about the operation.",
+          "Outcome": "Failed to kill Bond and Tiffany Case. Their attempt to assassinate Bond on an ocean liner was thwarted.",
+          "Status": "Killed by Bond aboard the ocean liner. Bond tied his hands together with his coat-tails alongside a time-bomb before throwing him overboard. The bomb exploded and killed him before he hit the water."
+        },
+        {
+          "name": "Mr. Kidd",
+          "actor": "Putter Smith",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/82/Mr._Kidd_%28Putter_Smith%29_-_Profile.png",
+          "Objective": "Working as an assassin duo with Mr. Wint for Ernst Stavro Blofeld, eliminate anyone involved in the diamond smuggling pipeline to prevent them from revealing information about the operation.",
+          "Outcome": "Failed to kill Bond and Tiffany Case. Their attempt to assassinate Bond on an ocean liner was thwarted.",
+          "Status": "Killed by Bond aboard the ocean liner. Bond splashed flaming cognac onto him, setting him on fire. In desperation, he jumped overboard from the high deck into the ocean, presumably killing him on impact."
         }
       ]
     },
@@ -3419,6 +3435,14 @@
           "Objective": "Smuggle a large shipment of cocaine into Asia by dissolving the substance in petrol.",
           "Outcome": "Bond destroys the refinery used to dissolve the cocaine and later the four tankers that are already filled.",
           "Status": "Bond sets Sanchez, who is soaked in gasoline due to a tanker crash, on fire with a lighter gifted by Felix Leiter. Burning Sanchez stumbles into a leaking tank truck, causing the leaked gasoline to catch on fire and make the tanker explode, killing Sanchez."
+        },
+        {
+          "name": "Dario",
+          "actor": "Benicio del Toro",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/55/Dario_%28Benicio_del_Toro%29_-_Profile.jpg",
+          "Objective": "Serve as one of Franz Sanchez's chief enforcers in the drug cartel, tasked with eliminating threats and executing violent orders, including assassinating CIA informant Pam Bouvier and preventing Bond from sabotaging Sanchez's cocaine processing operation.",
+          "Outcome": "Failed to stop Bond from sabotaging the cocaine operation. His operations were exposed and stopped.",
+          "Status": "Killed by Bond during a confrontation at the processing plant. Bond pulled him into industrial cocaine processing machinery, where he was crushed and shredded to death."
         }
       ]
     },
