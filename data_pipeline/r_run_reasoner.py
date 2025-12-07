@@ -14,8 +14,12 @@ if __name__ == "__main__":
     base_dir = Path(__file__).resolve().parent.parent
     owl_path = base_dir / "data/triple_store/james_bond_knowledge.owl"
 
-    # load ontology and namespaces
-    onto = get_ontology(owl_path.as_uri()).load()
+    # ---- load ontology and namespaces ----
+    # --> uncomment depending on your compatibility needs:
+    
+    onto = get_ontology(f"file://{owl_path}").load()    # --> 1 windows: compatible file URI
+    #onto = get_ontology(owl_path.as_uri()).load()      # --> 2 OS: alternative way using as_uri()
+
     bond = onto.get_namespace("http://example.org/bond/")
 
     billie = bond.Billie_Eilish
