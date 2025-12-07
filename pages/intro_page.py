@@ -4,34 +4,40 @@ import streamlit as st
 
 def show_intro_page():
     st.sidebar.info("You are on the introduction page.")
-    
+
     # ---- James Bond Banner ----
     st.image("utils/banner.png", width=300)
 
     # ---- Title ----
     st.title("Welcome to the James Bond Universe")
     st.subheader("Dive into the world of 007 - Explore Movies, Actors & More")
-    
-    # ---- Description on Main Page ----
-    st.markdown("""  
-    This application visualizes data about James Bond movies:
 
-    - :clapper: From an overview of a **full movie collection**,
-    - :link: to a **knowledge graph of relationships**,
-    - :busts_in_silhouette: a **recurring characters analysis** and
-    - :camera: an **image gallery** of vehicles, bond-girls & villains,
-    - :earth_africa: right up to a **global map of filming locations**.  
+    # ---- Tabs for Key Features and Key Findings ----
+    tab1, tab2 = st.tabs(["Key Features", "Key Findings"])
+
+    with tab1:
+        st.markdown("""
+        This application visualizes data about James Bond movies:
+
+        - :clapper: From an overview of a **full movie collection**,
+        - :link: to a **knowledge graph of relationships**,
+        - :busts_in_silhouette: a **recurring characters analysis** and
+        - :camera: an **image gallery** of vehicles, bond-girls & villains,
+        - :earth_africa: right up to a **global map of filming locations**.
 
 
-    Start your journey by navigating through the sidebar – We wish you lots of fun!
-                
-    Selina Steiner & Tamara Nyffeler
-                
-    :copyright: 2025  
+        Start your journey by navigating through the sidebar – We wish you lots of fun!\n
+        Selina Steiner & Tamara Nyffeler\n
+        :copyright: 2025
 
-    ---       
-    *Created for the \"Knowledge Engineering and Extraction\" module at FHGR (MSc in Data Visualization)*
-    """)
+        ---
+        *Created for the \"Knowledge Engineering and Extraction\" module at FHGR (MSc in Data Visualization)*
+        """)                 
+
+    with tab2:
+        st.markdown("""
+        ...will follow...
+        """)
 
     with st.expander("ℹ️ Data Sources", expanded=False):
         st.markdown("""
