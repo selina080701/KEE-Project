@@ -427,7 +427,6 @@ def create_rdf_graph(df_ttl):
                 color='#7CCCC7',
                 shape='ellipse',
                 size=18)
-                #image=str(row[2]) if row[2] else None)
         for row in g.query(vehicle_query)
     ]
 
