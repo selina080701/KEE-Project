@@ -115,7 +115,7 @@ def load_song_data():
 @st.cache_data
 def load_villains_data():
     try:
-        df_villains = pd.read_csv('extract_knowledge/villains/villains_with_images.csv', sep=';', encoding='utf-8')
+        df_villains = pd.read_csv('extract_knowledge/villains/all_villains_with_images.csv', sep=';', encoding='utf-8')
         return df_villains
     except FileNotFoundError:
         st.warning("Villains File not found.")

@@ -17,7 +17,7 @@ CSV/JSON files processed:
 - movie_title_en_de.csv
 - all_movie_songs.csv
 - all_movie_vehicles_with_image.csv
-- villains_with_images.csv
+- all_villains_with_images.csv
 - bond_info.json
 """
 
@@ -182,7 +182,7 @@ def merge_csvs_to_json(output_file):
             })
 
     # ---- 8. Read villains ----
-    villains_path = base_dir / "extract_knowledge/villains/villains_with_images.csv"
+    villains_path = base_dir / "extract_knowledge/villains/all_villains_with_images.csv"
     villains = read_csv_with_semicolon(villains_path)
 
     for villain in villains:
