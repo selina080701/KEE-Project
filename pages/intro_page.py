@@ -40,6 +40,7 @@ def show_intro_page():
             - [James Bond Wiki](https://jamesbond.fandom.com/wiki/James_Bond_Wiki)
             - [Wikipedia - List of James Bond villains](https://en.wikipedia.org/wiki/List_of_James_Bond_villains)
             - [Wikidata](https://www.wikidata.org/)
+            - [Groq-LLM](https://groq.com/groq-llm/)
             - [YouTube](https://www.youtube.com/)
             - [007 Logo Intro Page](https://www.pngegg.com/en/png-ecmnv)
             """)              
@@ -56,8 +57,8 @@ def show_intro_page():
         #### Knowledge Extraction with Unstructured Data
         - ✅ The James Bond Fandom Wiki served as the primary source for all unstructured data, providing information on characters, Bond girls, vehicles, and filming locations.
 
-        - ⚠️ **Exception:** Villain data was sourced from Wikipedia, as the Fandom Wiki lacked a 
-          section clearly designating characters as villains.
+        - 💡 **Exception:** 36 main villains were sourced from Wikipedia, as the Fandom Wiki lacked a 
+          section clearly designating characters as villains. In addition, by using Groq-LLM 75 more villain-characters could be identified.
 
         - ⚠️ **Inconsistency:** SpaCy NER was used to extract location names from unstructured text. However, some
           duplicate location names (e.g., "San Francisco" and "San Francisco City") remain in the geocoded data due
