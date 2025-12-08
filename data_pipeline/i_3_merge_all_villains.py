@@ -54,11 +54,30 @@ def merge_villains():
     df_merged['_film_lower'] = df_merged['Film'].str.strip().str.lower()
     df_merged['_villain_lower'] = df_merged['Villain'].str.strip().str.lower()
 
+    # Handle specific known duplicate cases
+    specific_duplicates = {
+        'aris kristatos': 'aristotle kristatos',        # Keep full name
+        'alec trevelyan': "alec trevelyan / 'janus'",   # Keep version with alias
+        "donald grant": "red grant",                    # Keep red grant
+        "renard": "victor 'renard' zokas"               # Keep full name with nickname
+    }
+
+    df_merged['_villain_normalized'] = df_merged['_villain_lower'].replace(specific_duplicates)
+
+    # Apply the normalized names to the actual Villain column for selected cases
+    # This ensures the preferred name (right side of mapping) is used in the final output
+    name_replacements = {
+        'Donald Grant': 'Red Grant',
+        'Aris Kristatos': 'Aristotle Kristatos',
+        'Alec Trevelyan': "Alec Trevelyan / 'Janus'",
+    }
+    df_merged['Villain'] = df_merged['Villain'].replace(name_replacements)
+
     # Remove duplicates, keeping the first occurrence (Wikipedia takes precedence)
-    df_merged = df_merged.drop_duplicates(subset=['_film_lower', '_villain_lower'], keep='first')
+    df_merged = df_merged.drop_duplicates(subset=['_film_lower', '_villain_normalized'], keep='first')
 
     # Drop temporary columns
-    df_merged = df_merged.drop(columns=['_film_lower', '_villain_lower'])
+    df_merged = df_merged.drop(columns=['_film_lower', '_villain_lower', '_villain_normalized'])
 
     duplicates_removed = initial_count - len(df_merged)
     print(f"Removed {duplicates_removed} duplicate entries")

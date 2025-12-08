@@ -265,11 +265,6 @@ bond:Aldershot a movie:FilmLocation ;
     geo1:lat 51.2494169 ;
     geo1:long -0.7630148 .
 
-bond:Alec_Trevelyan a bond:Villain ;
-    bond:isCharacterIn bond:GoldenEye ;
-    bond:portrayedBy bond:Sean_Bean ;
-    foaf:name "Alec Trevelyan" .
-
 bond:Alec_Trevelyan_Janus a bond:Villain ;
     bond:isCharacterIn bond:GoldenEye ;
     bond:portrayedBy bond:Sean_Bean ;
@@ -366,11 +361,6 @@ bond:Argyll a movie:FilmLocation ;
     bond:isLocationOf bond:From_Russia_with_Love ;
     geo1:lat 53.5024174 ;
     geo1:long -113.461132 .
-
-bond:Aris_Kristatos a bond:Villain ;
-    bond:isCharacterIn bond:For_Your_Eyes_Only ;
-    bond:portrayedBy bond:Julian_Glover ;
-    foaf:name "Aris Kristatos" .
 
 bond:Aristotle_Kristatos a bond:Villain ;
     bond:isCharacterIn bond:For_Your_Eyes_Only ;
@@ -1007,11 +997,6 @@ bond:Domino_Derval a bond:BondGirl ;
     bond:isCharacterIn bond:Thunderball ;
     bond:portrayedBy bond:Claudine_Auger ;
     foaf:name "Domino Derval" .
-
-bond:Donald_Grant a bond:Villain ;
-    bond:isCharacterIn bond:From_Russia_with_Love ;
-    bond:portrayedBy bond:Robert_Shaw ;
-    foaf:name "Donald Grant" .
 
 bond:Dover a movie:FilmLocation ;
     rdfs:label "Dover" ;
@@ -2788,11 +2773,6 @@ bond:Red_Grant a bond:Villain ;
     bond:portrayedBy bond:Robert_Shaw ;
     foaf:name "Red Grant" .
 
-bond:Renard a bond:Villain ;
-    bond:isCharacterIn bond:The_World_Is_Not_Enough ;
-    bond:portrayedBy bond:Robert_Carlyle ;
-    foaf:name "Renard" .
-
 bond:Renault_11 a bond:Vehicle ;
     rdfs:label "Renault 11" ;
     bond:isVehicleOf bond:A_View_to_a_Kill ;
@@ -4232,6 +4212,11 @@ bond:Joseph_Wiseman a movie:Actor ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/d/db/Dr_No_-_Profile.jpg"^^xsd:anyURI ;
     foaf:name "Joseph Wiseman" .
 
+bond:Julian_Glover a movie:Actor ;
+    bond:actedIn bond:For_Your_Eyes_Only ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/61/Aris_Kristatos_%28Julian_Glover%29_-_Profile.jpg"^^xsd:anyURI ;
+    foaf:name "Julian Glover" .
+
 bond:Julius_Harris a movie:Actor ;
     bond:actedIn bond:Live_and_Let_Die ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/e/e9/Tee_Hee_%28Julius_Harris%29_-_Profile.jpg"^^xsd:anyURI ;
@@ -4485,10 +4470,20 @@ bond:Road a movie:FilmLocation ;
     geo1:lat 53.346792 ;
     geo1:long -7.2047351 .
 
+bond:Robert_Carlyle a movie:Actor ;
+    bond:actedIn bond:The_World_Is_Not_Enough ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Profile_-_Renard.png"^^xsd:anyURI ;
+    foaf:name "Robert Carlyle" .
+
 bond:Robert_Davi a movie:Actor ;
     bond:actedIn bond:Licence_to_Kill ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/4/48/Franz_Sanchez_%28Robert_Davi%29_-_Profile.png"^^xsd:anyURI ;
     foaf:name "Robert Davi" .
+
+bond:Robert_Shaw a movie:Actor ;
+    bond:actedIn bond:From_Russia_with_Love ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg"^^xsd:anyURI ;
+    foaf:name "Robert Shaw" .
 
 bond:Rolls-Royce_Silver_Shadow_II a bond:Vehicle ;
     rdfs:label "Rolls-Royce Silver Shadow II" ;
@@ -4520,6 +4515,11 @@ bond:Sam_Mendes a movie:Director ;
 
 bond:Sam_Smith a movie:MusicContributor ;
     foaf:name "Sam Smith" .
+
+bond:Sean_Bean a movie:Actor ;
+    bond:actedIn bond:GoldenEye ;
+    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/76/Alec_Trevelyan_%28Sean_Bean%29_-_Profile.jpg"^^xsd:anyURI ;
+    foaf:name "Sean Bean" .
 
 bond:Shark_Hunter_II_Submersible a bond:Vehicle ;
     rdfs:label "Shark Hunter II Submersible" ;
@@ -4798,11 +4798,6 @@ bond:Japan a movie:FilmLocation ;
     geo1:lat 36.5748441 ;
     geo1:long 139.2394179 .
 
-bond:Julian_Glover a movie:Actor ;
-    bond:actedIn bond:For_Your_Eyes_Only ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/61/Aris_Kristatos_%28Julian_Glover%29_-_Profile.jpg"^^xsd:anyURI ;
-    foaf:name "Julian Glover" .
-
 bond:Lewis_Gilbert a movie:Director ;
     bond:isDirectorOf bond:Moonraker,
         bond:The_Spy_Who_Loved_Me,
@@ -4860,21 +4855,6 @@ bond:Robbie_Coltrane a movie:Actor ;
         bond:The_World_Is_Not_Enough ;
     schema1:image "https://static.wikia.nocookie.net/jamesbond/images/6/69/Valentin_Zukovsky_-_Profile_%282%29.jpg"^^xsd:anyURI ;
     foaf:name "Robbie Coltrane" .
-
-bond:Robert_Carlyle a movie:Actor ;
-    bond:actedIn bond:The_World_Is_Not_Enough ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Profile_-_Renard.png"^^xsd:anyURI ;
-    foaf:name "Robert Carlyle" .
-
-bond:Robert_Shaw a movie:Actor ;
-    bond:actedIn bond:From_Russia_with_Love ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg"^^xsd:anyURI ;
-    foaf:name "Robert Shaw" .
-
-bond:Sean_Bean a movie:Actor ;
-    bond:actedIn bond:GoldenEye ;
-    schema1:image "https://static.wikia.nocookie.net/jamesbond/images/7/76/Alec_Trevelyan_%28Sean_Bean%29_-_Profile.jpg"^^xsd:anyURI ;
-    foaf:name "Sean Bean" .
 
 bond:Spain a movie:FilmLocation ;
     rdfs:label "Spain" ;
@@ -6019,6 +5999,69 @@ bond:Casino_Royale a movie:Film ;
     schema1:name "Casino Royale" ;
     time:year 2006 .
 
+bond:From_Russia_with_Love a dbo:Song,
+        movie:Film ;
+    rdfs:label "From Russia with Love",
+        "James Bond 007 – Liebesgrüße aus Moskau"@de,
+        "From Russia with Love"@en ;
+    bond:hasActor bond:Anthony_Dawson,
+        bond:Anthony_Dawson_body_Eric_Pohlmann_voice,
+        bond:Bernard_Lee,
+        bond:Daniela_Bianchi,
+        bond:Desmond_Llewelyn,
+        bond:Eunice_Gayson,
+        bond:Lois_Maxwell,
+        bond:Lotte_Lenya,
+        bond:Q4573,
+        bond:Robert_Shaw,
+        bond:Vladek_Sheybal,
+        bond:Walter_Gotell ;
+    bond:hasAntagonist bond:Colonel_Rosa_Klebb,
+        bond:Ernst_Stavro_Blofeld,
+        bond:Kronsteen,
+        bond:Morzeny,
+        bond:Red_Grant ;
+    bond:hasBondGirl bond:Tatiana_Romanova ;
+    bond:hasCharacter bond:Ernst_Stavro_Blofeld,
+        bond:James_Bond,
+        bond:M,
+        bond:Miss_Moneypenny,
+        bond:Q,
+        bond:Sylvia_Trench ;
+    bond:hasDirector bond:Terence_Young ;
+    bond:hasJamesBond bond:Q4573 ;
+    bond:hasLocation bond:Argyll,
+        bond:Belgrade,
+        bond:Croatia,
+        bond:England,
+        bond:Istanbul,
+        bond:Italy,
+        bond:London,
+        bond:Scotland,
+        bond:Serbia,
+        bond:Switzerland,
+        bond:Turkey,
+        bond:Venice,
+        bond:Yugoslavia,
+        bond:Zagreb ;
+    bond:hasMusicContributor bond:Matt_Monro ;
+    bond:hasProducer <http://example.org/bond/Harry_Saltzman_&_Albert_R._Broccoli> ;
+    bond:hasThemeSong bond:From_Russia_with_Love ;
+    bond:hasVehicle <http://example.org/bond/Bentley_3½_Litre>,
+        bond:Blofelds_Yacht,
+        bond:Chevrolet_Apache_C30_One-Ton_Truck,
+        bond:Citroën_Traction_Avant,
+        bond:Fairey_Huntress_23,
+        bond:Hiller_UH-12,
+        bond:Rolls-Royce_Silver_Wraith ;
+    bond:imdbRating 7.5 ;
+    bond:isPerformedBy bond:Matt_Monro ;
+    bond:isThemeSongOf bond:From_Russia_with_Love ;
+    bond:rtmRating 8.0 ;
+    schema1:name "From Russia with Love" ;
+    schema1:url "https://youtu.be/RIY8KDrx-E8?si=enJ7nKJGq1Y2l-4o"^^xsd:anyURI ;
+    time:year 1963 .
+
 bond:Thunderball a dbo:Song,
         movie:Film ;
     rdfs:label "Thunderball",
@@ -6081,70 +6124,6 @@ bond:Thunderball a dbo:Song,
     schema1:name "Thunderball" ;
     schema1:url "https://youtu.be/Ia6-5gC5ArM?si=9UalFYNXPHhPaq1L"^^xsd:anyURI ;
     time:year 1965 .
-
-bond:From_Russia_with_Love a dbo:Song,
-        movie:Film ;
-    rdfs:label "From Russia with Love",
-        "James Bond 007 – Liebesgrüße aus Moskau"@de,
-        "From Russia with Love"@en ;
-    bond:hasActor bond:Anthony_Dawson,
-        bond:Anthony_Dawson_body_Eric_Pohlmann_voice,
-        bond:Bernard_Lee,
-        bond:Daniela_Bianchi,
-        bond:Desmond_Llewelyn,
-        bond:Eunice_Gayson,
-        bond:Lois_Maxwell,
-        bond:Lotte_Lenya,
-        bond:Q4573,
-        bond:Robert_Shaw,
-        bond:Vladek_Sheybal,
-        bond:Walter_Gotell ;
-    bond:hasAntagonist bond:Colonel_Rosa_Klebb,
-        bond:Donald_Grant,
-        bond:Ernst_Stavro_Blofeld,
-        bond:Kronsteen,
-        bond:Morzeny,
-        bond:Red_Grant ;
-    bond:hasBondGirl bond:Tatiana_Romanova ;
-    bond:hasCharacter bond:Ernst_Stavro_Blofeld,
-        bond:James_Bond,
-        bond:M,
-        bond:Miss_Moneypenny,
-        bond:Q,
-        bond:Sylvia_Trench ;
-    bond:hasDirector bond:Terence_Young ;
-    bond:hasJamesBond bond:Q4573 ;
-    bond:hasLocation bond:Argyll,
-        bond:Belgrade,
-        bond:Croatia,
-        bond:England,
-        bond:Istanbul,
-        bond:Italy,
-        bond:London,
-        bond:Scotland,
-        bond:Serbia,
-        bond:Switzerland,
-        bond:Turkey,
-        bond:Venice,
-        bond:Yugoslavia,
-        bond:Zagreb ;
-    bond:hasMusicContributor bond:Matt_Monro ;
-    bond:hasProducer <http://example.org/bond/Harry_Saltzman_&_Albert_R._Broccoli> ;
-    bond:hasThemeSong bond:From_Russia_with_Love ;
-    bond:hasVehicle <http://example.org/bond/Bentley_3½_Litre>,
-        bond:Blofelds_Yacht,
-        bond:Chevrolet_Apache_C30_One-Ton_Truck,
-        bond:Citroën_Traction_Avant,
-        bond:Fairey_Huntress_23,
-        bond:Hiller_UH-12,
-        bond:Rolls-Royce_Silver_Wraith ;
-    bond:imdbRating 7.5 ;
-    bond:isPerformedBy bond:Matt_Monro ;
-    bond:isThemeSongOf bond:From_Russia_with_Love ;
-    bond:rtmRating 8.0 ;
-    schema1:name "From Russia with Love" ;
-    schema1:url "https://youtu.be/RIY8KDrx-E8?si=enJ7nKJGq1Y2l-4o"^^xsd:anyURI ;
-    time:year 1963 .
 
 bond:On_Her_Majestys_Secret_Service a movie:Film ;
     rdfs:label "James Bond 007 – Im Geheimdienst Ihrer Majestät"@de,
@@ -6275,6 +6254,152 @@ bond:Moonraker a dbo:Song,
     schema1:url "https://youtu.be/gt3oQN0cAv0?si=sBE9o7fKiXP-YgOi"^^xsd:anyURI ;
     time:year 1979 .
 
+bond:The_World_Is_Not_Enough a dbo:Song,
+        movie:Film ;
+    rdfs:label "The World Is Not Enough",
+        "James Bond 007 – Die Welt ist nicht genug"@de,
+        "The World Is Not Enough"@en ;
+    bond:hasActor bond:Colin_Salmon,
+        bond:Denise_Richards,
+        bond:Desmond_Llewelyn,
+        bond:Judi_Dench,
+        bond:Michael_Kitchen,
+        bond:Q81520,
+        bond:Robbie_Coltrane,
+        bond:Robert_Carlyle,
+        bond:Samantha_Bond,
+        bond:Sophie_Marceau ;
+    bond:hasAntagonist bond:Charles_Robinson,
+        bond:Elektra_King,
+        bond:Victor_Renard_Zokas ;
+    bond:hasBondGirl bond:Dr._Christmas_Jones ;
+    bond:hasCharacter bond:Bill_Tanner,
+        bond:Charles_Robinson,
+        bond:James_Bond,
+        bond:M,
+        bond:Miss_Moneypenny,
+        bond:Q,
+        bond:Valentin_Zukovsky ;
+    bond:hasDirector bond:Michael_Apted ;
+    bond:hasJamesBond bond:Q81520 ;
+    bond:hasLocation bond:Azerbaijan,
+        bond:Bahamas,
+        bond:Baku,
+        bond:Bilbao,
+        bond:Buckinghamshire,
+        bond:Caucasus_Mountains,
+        bond:Chamonix,
+        bond:England,
+        bond:France,
+        bond:Hotel,
+        bond:Istanbul,
+        bond:Kazakhstan,
+        bond:London,
+        bond:Millennium_Dome,
+        bond:Navarre,
+        bond:Scotland,
+        bond:Spain,
+        bond:Swindon,
+        bond:Thames_River,
+        bond:The_O2_Arena,
+        bond:Turkey,
+        bond:UK,
+        bond:Wiltshire ;
+    bond:hasMusicContributor bond:Garbage ;
+    bond:hasProducer <http://example.org/bond/Michael_G._Wilson_&_Barbara_Broccoli> ;
+    bond:hasThemeSong bond:The_World_Is_Not_Enough ;
+    bond:hasVehicle bond:BMW_Z8,
+        bond:CASA_C-212CB_Aviocar,
+        bond:Eurocopter_AS355,
+        bond:Eurocopter_AS365_Dauphin,
+        bond:Lada_Niva_VAZ-2121,
+        bond:Parahawk,
+        bond:Q-Boat,
+        bond:Rolls-Royce_Silver_Shadow_II,
+        bond:Seven_Heaven,
+        bond:Sunseeker_Superhawk_34,
+        bond:Victor-III_Class_Submarine ;
+    bond:imdbRating 6.3 ;
+    bond:isPerformedBy bond:Garbage ;
+    bond:isThemeSongOf bond:The_World_Is_Not_Enough ;
+    bond:rtmRating 5.7 ;
+    schema1:name "The World Is Not Enough" ;
+    schema1:url "https://youtu.be/LzvNDR5OrqM?si=cIzQiwbeyxNOCrDs"^^xsd:anyURI ;
+    time:year 1999 .
+
+bond:For_Your_Eyes_Only a dbo:Song,
+        movie:Film ;
+    rdfs:label "For Your Eyes Only",
+        "James Bond 007 – In tödlicher Mission"@de,
+        "For Your Eyes Only"@en ;
+    bond:hasActor bond:Carole_Bouquet,
+        bond:Chaim_Topol,
+        bond:Charles_Dance,
+        bond:Desmond_Llewelyn,
+        bond:Geoffrey_Keen,
+        bond:James_Villiers,
+        bond:Julian_Glover,
+        bond:Lois_Maxwell,
+        bond:Michael_Gothard,
+        bond:Q134333,
+        bond:Walter_Gotell ;
+    bond:hasAntagonist bond:Aristotle_Kristatos,
+        bond:Claus,
+        bond:Emile_Leopold_Locque,
+        bond:Milos_Columbo ;
+    bond:hasBondGirl bond:Melina_Havelock ;
+    bond:hasCharacter bond:Bill_Tanner,
+        bond:General_Gogol,
+        bond:James_Bond,
+        bond:Miss_Moneypenny,
+        bond:Q,
+        bond:Sir_Fredrick_Gray ;
+    bond:hasDirector bond:John_Glen ;
+    bond:hasJamesBond bond:Q134333 ;
+    bond:hasLocation bond:Albania,
+        bond:Bahamas,
+        bond:Brazil,
+        bond:Corfu,
+        bond:England,
+        bond:Greece,
+        bond:Iguaçu_Falls,
+        bond:Italy,
+        bond:London,
+        bond:Madrid,
+        bond:Moscow,
+        bond:Spain ;
+    bond:hasMusicContributor bond:Sheena_Easton ;
+    bond:hasProducer bond:Albert_R._Broccoli ;
+    bond:hasThemeSong bond:For_Your_Eyes_Only ;
+    bond:hasVehicle bond:Bell_206_JetRanger,
+        bond:Cessna_A185F,
+        bond:Citroën_2CV,
+        bond:GP_Super_Buggy_Series_III,
+        bond:Lotus_Turbo_Esprit_1980,
+        bond:Mantis_Submarine,
+        bond:Mercedes-Benz_200_D,
+        bond:Mercedes-Benz_280_SE,
+        bond:Mercedes-Benz_LP,
+        bond:Mercedes-Benz_L_1413,
+        bond:Mercedes-Benz_O_322,
+        bond:Mil_Mi-2,
+        bond:Neptune_Submarine,
+        bond:Peugeot_504,
+        bond:Rolls-Royce_Silver_Shadow_I_LWB,
+        bond:SS_Columbina,
+        bond:Santa_Mavra,
+        bond:St._Georges,
+        bond:Triana,
+        bond:Yamaha_XT_500,
+        bond:Zamboni ;
+    bond:imdbRating 6.8 ;
+    bond:isPerformedBy bond:Sheena_Easton ;
+    bond:isThemeSongOf bond:For_Your_Eyes_Only ;
+    bond:rtmRating 6.3 ;
+    schema1:name "For Your Eyes Only" ;
+    schema1:url "https://youtu.be/8kNksLL0sv4?si=RcjZ713gXyavBz4Q"^^xsd:anyURI ;
+    time:year 1981 .
+
 bond:The_Spy_Who_Loved_Me a movie:Film ;
     rdfs:label "James Bond 007 – Der Spion, der mich liebte"@de,
         "The Spy Who Loved Me"@en ;
@@ -6345,80 +6470,6 @@ bond:The_Spy_Who_Loved_Me a movie:Film ;
     bond:rtmRating 6.8 ;
     schema1:name "The Spy Who Loved Me" ;
     time:year 1977 .
-
-bond:The_World_Is_Not_Enough a dbo:Song,
-        movie:Film ;
-    rdfs:label "The World Is Not Enough",
-        "James Bond 007 – Die Welt ist nicht genug"@de,
-        "The World Is Not Enough"@en ;
-    bond:hasActor bond:Colin_Salmon,
-        bond:Denise_Richards,
-        bond:Desmond_Llewelyn,
-        bond:Judi_Dench,
-        bond:Michael_Kitchen,
-        bond:Q81520,
-        bond:Robbie_Coltrane,
-        bond:Robert_Carlyle,
-        bond:Samantha_Bond,
-        bond:Sophie_Marceau ;
-    bond:hasAntagonist bond:Charles_Robinson,
-        bond:Elektra_King,
-        bond:Renard,
-        bond:Victor_Renard_Zokas ;
-    bond:hasBondGirl bond:Dr._Christmas_Jones ;
-    bond:hasCharacter bond:Bill_Tanner,
-        bond:Charles_Robinson,
-        bond:James_Bond,
-        bond:M,
-        bond:Miss_Moneypenny,
-        bond:Q,
-        bond:Valentin_Zukovsky ;
-    bond:hasDirector bond:Michael_Apted ;
-    bond:hasJamesBond bond:Q81520 ;
-    bond:hasLocation bond:Azerbaijan,
-        bond:Bahamas,
-        bond:Baku,
-        bond:Bilbao,
-        bond:Buckinghamshire,
-        bond:Caucasus_Mountains,
-        bond:Chamonix,
-        bond:England,
-        bond:France,
-        bond:Hotel,
-        bond:Istanbul,
-        bond:Kazakhstan,
-        bond:London,
-        bond:Millennium_Dome,
-        bond:Navarre,
-        bond:Scotland,
-        bond:Spain,
-        bond:Swindon,
-        bond:Thames_River,
-        bond:The_O2_Arena,
-        bond:Turkey,
-        bond:UK,
-        bond:Wiltshire ;
-    bond:hasMusicContributor bond:Garbage ;
-    bond:hasProducer <http://example.org/bond/Michael_G._Wilson_&_Barbara_Broccoli> ;
-    bond:hasThemeSong bond:The_World_Is_Not_Enough ;
-    bond:hasVehicle bond:BMW_Z8,
-        bond:CASA_C-212CB_Aviocar,
-        bond:Eurocopter_AS355,
-        bond:Eurocopter_AS365_Dauphin,
-        bond:Lada_Niva_VAZ-2121,
-        bond:Parahawk,
-        bond:Q-Boat,
-        bond:Rolls-Royce_Silver_Shadow_II,
-        bond:Seven_Heaven,
-        bond:Sunseeker_Superhawk_34,
-        bond:Victor-III_Class_Submarine ;
-    bond:imdbRating 6.3 ;
-    bond:isPerformedBy bond:Garbage ;
-    bond:isThemeSongOf bond:The_World_Is_Not_Enough ;
-    bond:rtmRating 5.7 ;
-    schema1:name "The World Is Not Enough" ;
-    schema1:url "https://youtu.be/LzvNDR5OrqM?si=cIzQiwbeyxNOCrDs"^^xsd:anyURI ;
-    time:year 1999 .
 
 bond:You_Only_Live_Twice a dbo:Song,
         movie:Film ;
@@ -6493,80 +6544,6 @@ bond:You_Only_Live_Twice a dbo:Song,
     schema1:name "You Only Live Twice" ;
     schema1:url "https://youtu.be/hs8uYxTJ530?si=D7V00R6Skoe1vicl"^^xsd:anyURI ;
     time:year 1967 .
-
-bond:For_Your_Eyes_Only a dbo:Song,
-        movie:Film ;
-    rdfs:label "For Your Eyes Only",
-        "James Bond 007 – In tödlicher Mission"@de,
-        "For Your Eyes Only"@en ;
-    bond:hasActor bond:Carole_Bouquet,
-        bond:Chaim_Topol,
-        bond:Charles_Dance,
-        bond:Desmond_Llewelyn,
-        bond:Geoffrey_Keen,
-        bond:James_Villiers,
-        bond:Julian_Glover,
-        bond:Lois_Maxwell,
-        bond:Michael_Gothard,
-        bond:Q134333,
-        bond:Walter_Gotell ;
-    bond:hasAntagonist bond:Aris_Kristatos,
-        bond:Aristotle_Kristatos,
-        bond:Claus,
-        bond:Emile_Leopold_Locque,
-        bond:Milos_Columbo ;
-    bond:hasBondGirl bond:Melina_Havelock ;
-    bond:hasCharacter bond:Bill_Tanner,
-        bond:General_Gogol,
-        bond:James_Bond,
-        bond:Miss_Moneypenny,
-        bond:Q,
-        bond:Sir_Fredrick_Gray ;
-    bond:hasDirector bond:John_Glen ;
-    bond:hasJamesBond bond:Q134333 ;
-    bond:hasLocation bond:Albania,
-        bond:Bahamas,
-        bond:Brazil,
-        bond:Corfu,
-        bond:England,
-        bond:Greece,
-        bond:Iguaçu_Falls,
-        bond:Italy,
-        bond:London,
-        bond:Madrid,
-        bond:Moscow,
-        bond:Spain ;
-    bond:hasMusicContributor bond:Sheena_Easton ;
-    bond:hasProducer bond:Albert_R._Broccoli ;
-    bond:hasThemeSong bond:For_Your_Eyes_Only ;
-    bond:hasVehicle bond:Bell_206_JetRanger,
-        bond:Cessna_A185F,
-        bond:Citroën_2CV,
-        bond:GP_Super_Buggy_Series_III,
-        bond:Lotus_Turbo_Esprit_1980,
-        bond:Mantis_Submarine,
-        bond:Mercedes-Benz_200_D,
-        bond:Mercedes-Benz_280_SE,
-        bond:Mercedes-Benz_LP,
-        bond:Mercedes-Benz_L_1413,
-        bond:Mercedes-Benz_O_322,
-        bond:Mil_Mi-2,
-        bond:Neptune_Submarine,
-        bond:Peugeot_504,
-        bond:Rolls-Royce_Silver_Shadow_I_LWB,
-        bond:SS_Columbina,
-        bond:Santa_Mavra,
-        bond:St._Georges,
-        bond:Triana,
-        bond:Yamaha_XT_500,
-        bond:Zamboni ;
-    bond:imdbRating 6.8 ;
-    bond:isPerformedBy bond:Sheena_Easton ;
-    bond:isThemeSongOf bond:For_Your_Eyes_Only ;
-    bond:rtmRating 6.3 ;
-    schema1:name "For Your Eyes Only" ;
-    schema1:url "https://youtu.be/8kNksLL0sv4?si=RcjZ713gXyavBz4Q"^^xsd:anyURI ;
-    time:year 1981 .
 
 bond:Octopussy a bond:BondGirl,
         movie:Film ;
@@ -6716,6 +6693,82 @@ bond:Goldfinger a dbo:Song,
     schema1:url "https://youtu.be/6D1nK7q2i8I?si=7f-l_tJqg-riV2tO"^^xsd:anyURI ;
     time:year 1964 .
 
+bond:GoldenEye a dbo:Song,
+        movie:Film ;
+    rdfs:label "GoldenEye",
+        "James Bond 007 – GoldenEye"@de,
+        "GoldenEye"@en ;
+    bond:hasActor bond:Alan_Cumming,
+        bond:Desmond_Llewelyn,
+        bond:Gottfried_John,
+        bond:Izabella_Scorupco,
+        bond:Joe_Don_Baker,
+        bond:Judi_Dench,
+        bond:Michael_Kitchen,
+        bond:Q81520,
+        bond:Robbie_Coltrane,
+        bond:Samantha_Bond,
+        bond:Sean_Bean ;
+    bond:hasAntagonist bond:Alec_Trevelyan_Janus,
+        bond:Boris_Grishenko,
+        bond:General_Ourumov ;
+    bond:hasBondGirl bond:Natalya_Simonova ;
+    bond:hasCharacter bond:Bill_Tanner,
+        bond:Jack_Wade,
+        bond:James_Bond,
+        bond:M,
+        bond:Miss_Moneypenny,
+        bond:Q,
+        bond:Valentin_Zukovsky ;
+    bond:hasDirector bond:Martin_Campbell ;
+    bond:hasJamesBond bond:Q81520 ;
+    bond:hasLocation bond:Arecibo_Observatory,
+        bond:Arkhangelsk_Oblast,
+        bond:Beach,
+        bond:Contra_Dam,
+        bond:Cuba,
+        bond:Downs_Racecourse,
+        bond:England,
+        bond:France,
+        bond:Hertfordshire,
+        bond:Herts,
+        bond:La_Fayette,
+        bond:Leavesden,
+        bond:Leavesden_Aerodrome,
+        bond:London,
+        bond:Mill_Lane_Bridge,
+        bond:Monaco,
+        bond:Nene_Valley_Railway,
+        bond:Peterborough,
+        bond:Petersburg_Railway,
+        bond:Port_Hercules,
+        bond:Provence-Alpes-Côte_dAzur,
+        bond:Puerto_Rico,
+        bond:Punta_Garza,
+        bond:Road,
+        bond:Russia,
+        bond:Saint_Sophia_Cathedral,
+        bond:Severnaya,
+        bond:Soviet_Union,
+        bond:Square,
+        bond:St._Petersburg,
+        bond:St_Pancras_Station,
+        bond:Switzerland,
+        bond:Tortuguero_Lagoon,
+        bond:UK,
+        bond:Verzasca_Dam,
+        bond:Winter_Palace ;
+    bond:hasMusicContributor bond:Tina_Turner ;
+    bond:hasProducer <http://example.org/bond/Michael_G._Wilson_&_Barbara_Broccoli> ;
+    bond:hasThemeSong bond:GoldenEye ;
+    bond:imdbRating 7.2 ;
+    bond:isPerformedBy bond:Tina_Turner ;
+    bond:isThemeSongOf bond:GoldenEye ;
+    bond:rtmRating 6.9 ;
+    schema1:name "GoldenEye" ;
+    schema1:url "https://youtu.be/qGPBFvDz_HM?si=OJlOnDWRcRWeZMTG"^^xsd:anyURI ;
+    time:year 1995 .
+
 bond:A_View_to_a_Kill a dbo:Song,
         movie:Film ;
     rdfs:label "A View to a Kill",
@@ -6793,83 +6846,6 @@ bond:A_View_to_a_Kill a dbo:Song,
     schema1:name "A View to a Kill" ;
     schema1:url "https://youtu.be/hWVbVT3igdw?si=Ndam6Q-IDECf9RCW"^^xsd:anyURI ;
     time:year 1985 .
-
-bond:GoldenEye a dbo:Song,
-        movie:Film ;
-    rdfs:label "GoldenEye",
-        "James Bond 007 – GoldenEye"@de,
-        "GoldenEye"@en ;
-    bond:hasActor bond:Alan_Cumming,
-        bond:Desmond_Llewelyn,
-        bond:Gottfried_John,
-        bond:Izabella_Scorupco,
-        bond:Joe_Don_Baker,
-        bond:Judi_Dench,
-        bond:Michael_Kitchen,
-        bond:Q81520,
-        bond:Robbie_Coltrane,
-        bond:Samantha_Bond,
-        bond:Sean_Bean ;
-    bond:hasAntagonist bond:Alec_Trevelyan,
-        bond:Alec_Trevelyan_Janus,
-        bond:Boris_Grishenko,
-        bond:General_Ourumov ;
-    bond:hasBondGirl bond:Natalya_Simonova ;
-    bond:hasCharacter bond:Bill_Tanner,
-        bond:Jack_Wade,
-        bond:James_Bond,
-        bond:M,
-        bond:Miss_Moneypenny,
-        bond:Q,
-        bond:Valentin_Zukovsky ;
-    bond:hasDirector bond:Martin_Campbell ;
-    bond:hasJamesBond bond:Q81520 ;
-    bond:hasLocation bond:Arecibo_Observatory,
-        bond:Arkhangelsk_Oblast,
-        bond:Beach,
-        bond:Contra_Dam,
-        bond:Cuba,
-        bond:Downs_Racecourse,
-        bond:England,
-        bond:France,
-        bond:Hertfordshire,
-        bond:Herts,
-        bond:La_Fayette,
-        bond:Leavesden,
-        bond:Leavesden_Aerodrome,
-        bond:London,
-        bond:Mill_Lane_Bridge,
-        bond:Monaco,
-        bond:Nene_Valley_Railway,
-        bond:Peterborough,
-        bond:Petersburg_Railway,
-        bond:Port_Hercules,
-        bond:Provence-Alpes-Côte_dAzur,
-        bond:Puerto_Rico,
-        bond:Punta_Garza,
-        bond:Road,
-        bond:Russia,
-        bond:Saint_Sophia_Cathedral,
-        bond:Severnaya,
-        bond:Soviet_Union,
-        bond:Square,
-        bond:St._Petersburg,
-        bond:St_Pancras_Station,
-        bond:Switzerland,
-        bond:Tortuguero_Lagoon,
-        bond:UK,
-        bond:Verzasca_Dam,
-        bond:Winter_Palace ;
-    bond:hasMusicContributor bond:Tina_Turner ;
-    bond:hasProducer <http://example.org/bond/Michael_G._Wilson_&_Barbara_Broccoli> ;
-    bond:hasThemeSong bond:GoldenEye ;
-    bond:imdbRating 7.2 ;
-    bond:isPerformedBy bond:Tina_Turner ;
-    bond:isThemeSongOf bond:GoldenEye ;
-    bond:rtmRating 6.9 ;
-    schema1:name "GoldenEye" ;
-    schema1:url "https://youtu.be/qGPBFvDz_HM?si=OJlOnDWRcRWeZMTG"^^xsd:anyURI ;
-    time:year 1995 .
 
 bond:Live_and_Let_Die a dbo:Song,
         movie:Film ;

@@ -335,44 +335,20 @@
       ],
       "villains": [
         {
-          "name": "Pan Ho",
-          "actor": "Papillon Soo Soo",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Pan_Ho_%28Papillon_Soo_Soo%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
           "name": "May Day",
           "actor": "Grace Jones",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9a/May_Day_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Scarpine",
-          "actor": "Patrick Bauchau",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/af/Scarpine_%28Patrick_Bauchau%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "May Day plans to blow up Silicon Valley's computer chip factories, crippling the US economy and making her boss, Max Zorin, the world's leading microchip manufacturer.",
+          "Outcome": "Bond foils May Day's plan by stopping her and Max Zorin's accomplices, and preventing the destruction of the factories.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Chuck Lee",
           "actor": "David Yip",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a9/Chuck_Lee_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "General Gogol",
-          "actor": "Walter Gotell",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Chuck Lee is a henchman working for Max Zorin, and his objective is to help Zorin's plan to corner the world microchip market by destroying Silicon Valley.",
+          "Outcome": "Bond foils Zorin's plan, and Chuck Lee is killed in the process.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Max Zorin",
@@ -381,6 +357,30 @@
           "Objective": "Trigger an earthquake along the San Andreas fault to destroy Silicon Valley, thus wiping out his competitors in the microchip market and giving him a monopoly.",
           "Outcome": "Zorin leaves May Day to die. Enraged, she smuggles the bomb out of the blast radius, sacrificing herself.",
           "Status": "Falls from the top of the Golden Gate Bridge during a fight with Bond."
+        },
+        {
+          "name": "General Gogol",
+          "actor": "Walter Gotell",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg",
+          "Objective": "General Gogol is working to develop a new microchip for the Soviet Union, but the true goal is to use it to gain control over the world's computer systems.",
+          "Outcome": "Bond foils the plan by destroying the microchip and preventing its theft, but General Gogol survives.",
+          "Status": "Survives"
+        },
+        {
+          "name": "Pan Ho",
+          "actor": "Papillon Soo Soo",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/8a/Pan_Ho_%28Papillon_Soo_Soo%29_-_Profile.jpg",
+          "Objective": "Pan Ho's objective is to steal a microchip from Zorin's headquarters, which contains the design for a new computer chip that will give Zorin a monopoly on the world's computer microchip market.",
+          "Outcome": "Bond foils Pan Ho's plan when he discovers that Ho is working for Max Zorin, and that the microchip is actually a fake, which Bond then destroys.",
+          "Status": "Killed by Bond"
+        },
+        {
+          "name": "Scarpine",
+          "actor": "Patrick Bauchau",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/af/Scarpine_%28Patrick_Bauchau%29_-_Profile.png",
+          "Objective": "Scarpine's objective is to steal a microchip that contains the plans for a new satellite-based computer system, which will give its owner control over the world's computer systems.",
+          "Outcome": "Bond foils Scarpine's plan by stopping him from stealing the microchip, and Scarpine ultimately meets his demise in a fight with Bond.",
+          "Status": "Killed by Bond"
         }
       ]
     },
@@ -668,28 +668,20 @@
       "vehicles": [],
       "villains": [
         {
+          "name": "Carlos Nikolic",
+          "actor": "Claudio Santamaria",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bd/Carlos_Nikolic_%28Claudio_Santamaria%29_-_Profile.png",
+          "Objective": "Carlos Nikolic is a private banker who is secretly working for the terrorist organization known as the Quantum group, and his main goal is to fund their operations through a series of high-stakes poker games.",
+          "Outcome": "Bond is able to infiltrate the poker game and gather information about Nikolic's true intentions, ultimately foiling his plan to fund the Quantum group.",
+          "Status": "Killed by Bond"
+        },
+        {
           "name": "Steven Obanno",
           "actor": "Isaach De Bankolé",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/76/Steven_Obanno_%28Casino_Royale%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Mollaka Danso",
-          "actor": "Sébastian Foucan",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/3c/Mollaka_%28S%C3%A9bastian_Foucan%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Adolph Gettler",
-          "actor": "Richard Sammel",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a4/Gettler.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Steven Obanno is a key player in a global terrorist network, financing the group's operations through a large heroin shipment.",
+          "Outcome": "Bond foils the heroin shipment, killing Obanno in the process.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Le Chiffre",
@@ -700,28 +692,28 @@
           "Status": "Shot in the forehead by Mr. White."
         },
         {
-          "name": "Felix Leiter's nemesis, Mr. Fisher",
-          "actor": "Darwin Shaw",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/11/Fisher_%28Darwin_Shaw%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "name": "Adolph Gettler",
+          "actor": "Richard Sammel",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a4/Gettler.png",
+          "Objective": "To deliver a briefcase containing a large sum of money to a contact, Le Chiffre, in exchange for information about a terrorist plot.",
+          "Outcome": "Bond intercepts the briefcase, foiling Gettler's plan, and later kills him in a fight.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Kratt",
           "actor": "Clemens Schick",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a6/Kratt_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Le Chiffre's private banker, Kratt, is tasked with laundering money for Le Chiffre's terrorist organization.",
+          "Outcome": "Bond foils Kratt's plan by tracking down and killing him in a casino.",
+          "Status": "Killed by Bond"
         },
         {
-          "name": "Carlos Nikolic",
-          "actor": "Claudio Santamaria",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/bd/Carlos_Nikolic_%28Claudio_Santamaria%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "name": "Felix Leiter's nemesis, Mr. Fisher",
+          "actor": "Darwin Shaw",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/11/Fisher_%28Darwin_Shaw%29_-_Profile.jpg",
+          "Objective": "Mr. Fisher is involved in a human trafficking operation.",
+          "Outcome": "Bond foils the operation and rescues the hostages.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Mr. White",
@@ -730,6 +722,14 @@
           "Objective": "Assassinate Le Chiffre and steal back the money.",
           "Outcome": "Succeeds.",
           "Status": "Arrested by Bond."
+        },
+        {
+          "name": "Mollaka Danso",
+          "actor": "Sébastian Foucan",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/3c/Mollaka_%28S%C3%A9bastian_Foucan%29_-_Profile.jpg",
+          "Objective": "Mollaka Danso's objective is to plant a bomb in a Miami hotel, which will detonate during a meeting of a group of wealthy investors, causing a global financial meltdown.",
+          "Outcome": "Bond foils Mollaka's plan by killing him in a parkour chase, preventing the bomb from being planted.",
+          "Status": "Killed by Bond"
         }
       ]
     },
@@ -1161,17 +1161,25 @@
           "name": "Mr. Kidd",
           "actor": "Putter Smith",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/82/Mr._Kidd_%28Putter_Smith%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Mr. Kidd and his partner, J.W. Pepper, attempt to steal a large quantity of diamonds from the Tiffany & Co. store in New York City.",
+          "Outcome": "Their plan is foiled by Bond, but not before they manage to steal the diamonds, which are later recovered by Bond.",
+          "Status": "Arrested"
+        },
+        {
+          "name": "Mr. Wint",
+          "actor": "Bruce Glover",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/67/Mr._Wint_%28Bruce_Glover%29_-_Profile.png",
+          "Objective": "Mr. Wint and his brother Mr. Kidd are hired by Ernst Stavro Blofeld to steal a large quantity of diamonds, specifically the Star of Fortuna, and then kill anyone who gets in their way.",
+          "Outcome": "Their plan is foiled by Bond, who discovers their scheme and thwarts their attempts to steal the diamonds.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Thumper",
           "actor": "Trina Parks",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/32/Thumper_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Thumper is part of a plot to smuggle diamonds from an American mine, and later helps in the theft of a large diamond at an auction.",
+          "Outcome": "Thumper's plan is foiled by Bond, who discovers the smuggling operation and thwarts the diamond heist.",
+          "Status": "Defeated and presumably arrested"
         },
         {
           "name": "Ernst Stavro Blofeld",
@@ -1180,14 +1188,6 @@
           "Objective": "Steal diamonds to fabricate a laser satellite which can remotely detonate nuclear stockpiles, then use said laser to extort the world's nuclear powers.",
           "Outcome": "Bond smashes Blofeld's mini-sub against the control room of his lair, disabling the satellite and causing severe damage to his lair.",
           "Status": "Survived the fiery demolition of the control room of his oil rig headquarters as he returns in the opening of For Your Eyes Only, where Bond drops him down an industrial chimney."
-        },
-        {
-          "name": "Mr. Wint",
-          "actor": "Bruce Glover",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/67/Mr._Wint_%28Bruce_Glover%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
         }
       ]
     },
@@ -1541,36 +1541,36 @@
       ],
       "villains": [
         {
+          "name": "Mr. Kil",
+          "actor": "Lawrence Makoare",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7a/Kil.png",
+          "Objective": "Mr. Kil seeks to sell North Korean missiles to the highest bidder, using a diamond mine as a front.",
+          "Outcome": "Bond foils Kil's plan by destroying the diamond mine and preventing the sale of the missiles.",
+          "Status": "Killed by Bond"
+        },
+        {
+          "name": "Vlad",
+          "actor": "Mikhail Gorevoy",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ef/Vlad_%28Mikhail_Gorevoy%29_-_Profile.png",
+          "Objective": "Vlad is a North Korean agent who seeks to steal a valuable microchip to sell to the highest bidder, while also seeking revenge against Bond for past encounters.",
+          "Outcome": "Bond and Jinx prevent Vlad from selling the microchip, and he is subsequently killed by Jinx.",
+          "Status": "Killed by Jinx"
+        },
+        {
+          "name": "Zao",
+          "actor": "Rick Yune",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/ac/Zao_%28Die_Another_Day%29_-_Profile.png",
+          "Objective": "Zao seeks revenge against Bond for the death of his sister, while also working to sell North Korean technology to the highest bidder.",
+          "Outcome": "Zao's plan is foiled when Bond discovers his true identity and prevents the sale of the technology, but Zao manages to escape.",
+          "Status": "Escapes"
+        },
+        {
           "name": "Gustav Graves",
           "actor": "Toby Stephens / Will Yun Lee",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/5c/Tan-Sun_Moon_-_Profile.png",
           "Objective": "Use the sun-enhancing satellite Icarus to cut a path through the Korean Demilitarized Zone, provoking a war between North and South Korea.",
           "Outcome": "Icarus is rendered harmless when Bond destroys the control device.",
           "Status": "Bond pulls the cord on his parachute, sucking him out off plane, electrocutes him and finally getting sucked into the plane's engine, ripping him to shreds."
-        },
-        {
-          "name": "Vlad",
-          "actor": "Mikhail Gorevoy",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ef/Vlad_%28Mikhail_Gorevoy%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Mr. Kil",
-          "actor": "Lawrence Makoare",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7a/Kil.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Zao",
-          "actor": "Rick Yune",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/ac/Zao_%28Die_Another_Day%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
         }
       ]
     },
@@ -2131,33 +2131,25 @@
           "name": "Milos Columbo",
           "actor": "Chaim Topol",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Milos_Columbo_%28Chaim_Topol%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Milos Columbo is attempting to steal a valuable Fabergé egg, the Lektor device, and a cache of NATO documents.",
+          "Outcome": "Bond foils Columbo's plan by retrieving the Lektor device and preventing the theft of the Fabergé egg.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Emile Leopold Locque",
           "actor": "Michael Gothard",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Emile_Leopold_Locque_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Locque is hired by the villainous General Orlov to steal a Fabergé egg and sell it to a collector, but the real goal is to obtain the stolen ATAC computer system.",
+          "Outcome": "Locque's plan is foiled by Bond, who retrieves the ATAC computer system and prevents the theft of the Fabergé egg.",
+          "Status": "Killed by Bond's accomplice, Milos Columbo"
         },
         {
           "name": "Claus",
           "actor": "Charles Dance",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/ca/Claus_%28Charles_Dance%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Aris Kristatos",
-          "actor": "Julian Glover",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/61/Aris_Kristatos_%28Julian_Glover%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Claus is a smuggler who steals a Fabergé egg, which he plans to sell on the black market.",
+          "Outcome": "Bond retrieves the Fabergé egg, foiling Claus's plan.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Aristotle Kristatos",
@@ -2389,14 +2381,6 @@
       ],
       "villains": [
         {
-          "name": "Donald Grant",
-          "actor": "Robert Shaw",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg",
-          "Objective": "Trick James Bond and MI6 into stealing a Soviet decoder machine called the Lektor so they can steal it from them, while also destroying Bond's reputation in a humiliating sex scandal and eventually killing him as revenge for the death of Dr. No.",
-          "Outcome": "Bond acquires the device for MI6 and evades SPECTRE's attempts on his life.",
-          "Status": "Killed by Bond in fight aboard the Orient Express."
-        },
-        {
           "name": "Kronsteen",
           "actor": "Vladek Sheybal",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/45/Kronsteen_%28Vladek_Sheybal%29_-_Profile.jpg",
@@ -2421,20 +2405,20 @@
           "Status": "Shot in the chest by Tatiana Romanova during an attempt to murder Bond after her last plan failed."
         },
         {
-          "name": "Red Grant",
-          "actor": "Robert Shaw",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
           "name": "Morzeny",
           "actor": "Walter Gotell",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/53/Morzeny_%28Walter_Gotell%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Morzeny is tasked with eliminating James Bond and obtaining the Lektor machine cipher, a highly advanced encryption device.",
+          "Outcome": "Morzeny's plan is foiled when Bond and his allies escape, and he is left to fend off the Turkish henchmen.",
+          "Status": "Survives"
+        },
+        {
+          "name": "Red Grant",
+          "actor": "Robert Shaw",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Red_Grant_%28Robert_Shaw%29_-_Profile.jpg",
+          "Objective": "Trick James Bond and MI6 into stealing a Soviet decoder machine called the Lektor so they can steal it from them, while also destroying Bond's reputation in a humiliating sex scandal and eventually killing him as revenge for the death of Dr. No.",
+          "Outcome": "Bond acquires the device for MI6 and evades SPECTRE's attempts on his life.",
+          "Status": "Killed by Bond in fight aboard the Orient Express."
         }
       ]
     },
@@ -2757,28 +2741,20 @@
       "vehicles": [],
       "villains": [
         {
-          "name": "Alec Trevelyan",
-          "actor": "Sean Bean",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/76/Alec_Trevelyan_%28Sean_Bean%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
           "name": "General Ourumov",
           "actor": "Gottfried John",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/58/General_Ourumov_%28Gottfried_John%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "General Ourumov is working with Alec Trevelyan to steal the GoldenEye satellite and use its electromagnetic pulse to cripple the Russian military and then the West, allowing for a new world order.",
+          "Outcome": "Bond and Natalya Simonova foil the plan by destroying the GoldenEye satellite before it can be activated.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Boris Grishenko",
           "actor": "Alan Cumming",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/64/Boris_Grishenko_%28Alan_Cumming%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Boris Grishenko plans to steal a Russian nuclear warhead and sell it to the highest bidder, using the GoldenEye satellite to control the world's financial markets.",
+          "Outcome": "Bond foils Grishenko's plan by destroying the GoldenEye satellite and preventing the sale of the warhead.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Alec Trevelyan / 'Janus'",
@@ -3133,36 +3109,36 @@
           "Status": "Sucked out of the shattered window of a depressurizing plane, falling to his death."
         },
         {
-          "name": "Simmons",
-          "actor": "Austin Willis",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Simmons_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "name": "Oddjob",
+          "actor": "Harold Sakata",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a5/Oddjob_Profile.png",
+          "Objective": "Oddjob plans to break into Fort Knox and steal all the gold reserves, using his unique hat to deflect bullets and security measures.",
+          "Outcome": "Oddjob's plan is foiled by Bond, who discovers the location of the Fort Knox heist and kills Oddjob in the process.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Mr. Ling",
           "actor": "Burt Kwouk",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1c/Mr._Ling_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Oddjob",
-          "actor": "Harold Sakata",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a5/Oddjob_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Mr. Ling, the henchman of Auric Goldfinger, is tasked with capturing James Bond and preventing him from interfering with Goldfinger's plan to rob Fort Knox.",
+          "Outcome": "Bond manages to escape and foil Goldfinger's plan, with Mr. Ling being defeated and captured.",
+          "Status": "Captured"
         },
         {
           "name": "Colonel Smithers",
           "actor": "Richard Vernon",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/14/Colonel_Smithers_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "To oversee the operation of Auric Goldfinger's plan to rob Fort Knox, ensuring the successful execution of the heist.",
+          "Outcome": "Bond foils the plan by discovering the true target of the operation, which is not Fort Knox but the United States gold reserve at Fort Knox, and Goldfinger's plan is ultimately thwarted.",
+          "Status": "Killed by Bond"
+        },
+        {
+          "name": "Simmons",
+          "actor": "Austin Willis",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Simmons_-_Profile.png",
+          "Objective": "Assisting Auric Goldfinger in his operation to rob Fort Knox.",
+          "Outcome": "Foiled by Bond, Simmons is killed in the process.",
+          "Status": "Killed by Bond"
         }
       ]
     },
@@ -3621,92 +3597,92 @@
       ],
       "villains": [
         {
+          "name": "Milton Krest",
+          "actor": "Anthony Zerbe",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Milton_Krest_%28Anthony_Zerbe%29_-_Profile.jpg",
+          "Objective": "Milton Krest is seeking revenge against Bond for killing his friend and business partner, Franz Sanchez, and plans to kill him by putting him in a shark tank.",
+          "Outcome": "Bond manages to escape the shark tank, and Milton Krest is subsequently killed by Franz Sanchez's henchmen.",
+          "Status": "Killed by Sanchez's henchmen"
+        },
+        {
           "name": "Ed Killifer",
           "actor": "Everett McGill",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/43/Ed_Killifer_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Dario",
-          "actor": "Benicio del Toro",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/55/Dario_%28Benicio_del_Toro%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Ed Killifer is working with Franz Sanchez to smuggle cocaine and kill anyone who gets in their way.",
+          "Outcome": "Ed Killifer's smuggling operation is disrupted by Bond, and he is eventually killed.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Colonel Heller",
           "actor": "Don Stroud",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c5/Heller_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Colonel Heller is working with Franz Sanchez to smuggle cocaine and is responsible for the torture and death of Felix Leiter's wife, which sets off a chain of events leading to Bond's revenge.",
+          "Outcome": "Bond foils Heller's plan by tracking down Sanchez and ultimately killing him in a confrontation.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Hector Lopez",
           "actor": "Pedro Armendáriz Jr.",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d1/Lopez.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Hector Lopez is involved in a cocaine smuggling operation and is responsible for the death of Felix Leiter's wife, which sets off a chain of events that leads to Bond's pursuit of him.",
+          "Outcome": "Bond foils Lopez's operation and kills him in a confrontation.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Sharkey",
           "actor": "Frank McRae",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/58/Sharkey_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Sharkey is a henchman working for Franz Sanchez, tasked with intimidating Felix Leiter and his new wife, Della, into revealing information about Sanchez's operation.",
+          "Outcome": "Sharkey's intimidation attempt fails, and he is ultimately killed by Bond in a fight.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Braun",
           "actor": "Guy De Saint Cyr",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d7/Barun.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Braun is involved in a cocaine trafficking operation and is responsible for the death of Felix Leiter's wife, which sets Bond on his mission.",
+          "Outcome": "Bond discovers Braun's operation and foils it, but Braun is killed by a shark.",
+          "Status": "Killed by a shark"
         },
         {
           "name": "Kwang",
           "actor": "Cary-Hiroyuki Tagawa",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e1/Kwang_%28Cary-Hiroyuki_Tagawa%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Kwang is a member of the crime syndicate led by Franz Sanchez, and his objective is to help Sanchez escape from the authorities.",
+          "Outcome": "Bond foils Kwang's plan by helping Sanchez's associates take revenge on him, and he is subsequently killed.",
+          "Status": "Killed by Sanchez's associates"
         },
         {
           "name": "Hawkins",
           "actor": "Grand L. Bush",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0b/Hawkins_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Hawkins is working with Franz Sanchez to smuggle cocaine and is responsible for the torture and death of Felix Leiter's wife, which sets off Felix's vendetta against Sanchez.",
+          "Outcome": "Bond foils Hawkins' smuggling operation, but not directly, as it is Sanchez who is ultimately defeated by Bond.",
+          "Status": "Killed by Sanchez's men"
         },
         {
           "name": "Montelongo",
           "actor": "Claudio Brook",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b4/Montelongo.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Montelongo's objective is to smuggle cocaine and use the profits to fund his own operations.",
+          "Outcome": "Bond foils Montelongo's plan by stopping the smuggling operation and killing him.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Alvarez",
           "actor": "Gerardo Albarrán",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/7a/Alvarez_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Alvarez is working with Franz Sanchez to smuggle cocaine and exact revenge on those who wronged him.",
+          "Outcome": "Bond foils Alvarez's plan by killing him and dismantling Sanchez's operation.",
+          "Status": "Killed by Bond"
         },
         {
-          "name": "Milton Krest",
-          "actor": "Anthony Zerbe",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/0a/Milton_Krest_%28Anthony_Zerbe%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "name": "Dario",
+          "actor": "Benicio del Toro",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/55/Dario_%28Benicio_del_Toro%29_-_Profile.jpg",
+          "Objective": "Dario's objective is to exact revenge on Felix Leiter for the death of his girlfriend, Della, and to disrupt the cocaine trade in the Caribbean.",
+          "Outcome": "Dario's plan is foiled by Bond, who helps Felix Leiter and ultimately kills Dario.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Franz Sanchez",
@@ -4022,6 +3998,14 @@
       "vehicles": [],
       "villains": [
         {
+          "name": "Baron Samedi",
+          "actor": "Geoffrey Holder",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a6/Baron_Samedi_%28Geoffrey_Holder%29_-_Profile.jpg",
+          "Objective": "Baron Samedi seeks to avenge his master, Mr. Big, by killing James Bond and disrupting the heroin trade in the Caribbean.",
+          "Outcome": "Bond foils Baron Samedi's plans with the help of Solitaire, and Baron Samedi is killed in a fire.",
+          "Status": "Killed by fire"
+        },
+        {
           "name": "Dr. Kananga / Mr. Big",
           "actor": "Yaphet Kotto",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Dr._Kananga_%28Yaphet_Kotto%29_-_Profile.jpg",
@@ -4033,33 +4017,25 @@
           "name": "Whisper",
           "actor": "Earl Jolly Brown",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/19/Whisper_%28Earl_Jolly_Brown%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Whisper is a henchman of Mr. Big, working to smuggle heroin and diamonds.",
+          "Outcome": "Whisper's smuggling operation is disrupted by Bond, but he is not directly involved in foiling the plan.",
+          "Status": "Killed by Bond's allies"
         },
         {
           "name": "Adam",
           "actor": "Tommy Lane",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e4/Adam_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Adam is a henchman working for Mr. Big, tasked with retrieving a stolen shipment of heroin and silencing those involved.",
+          "Outcome": "Adam's plan is foiled when he is killed by Bond, who is able to escape the situation.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Tee Hee",
           "actor": "Julius Harris",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e9/Tee_Hee_%28Julius_Harris%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Baron Samedi",
-          "actor": "Geoffrey Holder",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a6/Baron_Samedi_%28Geoffrey_Holder%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Tee Hee is a henchman working for Mr. Big, helping him to smuggle heroin and diamonds, and later assisting in the plot to kill Solitaire.",
+          "Outcome": "Tee Hee's plans are foiled by Bond, who kills him in a fight.",
+          "Status": "Killed by Bond"
         }
       ]
     },
@@ -4331,17 +4307,17 @@
           "name": "Chang",
           "actor": "Toshirô Suga",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/b/b1/Chang_%28Toshir%C3%B4_Suga%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Chang is a henchman working for Hugo Drax, and his objective is to assist Drax in his plan to wipe out humanity and rebuild society with a new, superior breed.",
+          "Outcome": "Chang's plan is foiled by Bond, who stops Drax's space station from colliding with the Earth.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Jaws",
           "actor": "Richard Kiel",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Jaws, a giant of a man with metal teeth, is working for Hugo Drax to kill astronauts and passengers on the Moonraker space shuttle, which Drax plans to use to wipe out humanity and start anew.",
+          "Outcome": "Bond and Goodhead foil Jaws' plans by using a giant harpoon to kill him in the space shuttle's cargo bay.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Hugo Drax",
@@ -4496,20 +4472,12 @@
       "vehicles": [],
       "villains": [
         {
-          "name": "Lyutsifer Safin",
-          "actor": "Rami Malek",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Lyutsifer_Safin_-_Profile_V2.jpg",
-          "Objective": "Wipe out SPECTRE after Blofeld ordered Mr. White to assassinate his family. Later take revenge on the world at large by using \"Heracles\" – a DNA-based bioweapon which SPECTRE stole from MI6.",
-          "Outcome": "Succeeds in wiping out SPECTRE but fails to spread Heracles worldwide due to the Royal Navy's and Bond's intervention, which destroys the facility producing it.",
-          "Status": "Shot by Bond after a brief fistfight."
-        },
-        {
           "name": "Primo",
           "actor": "Dali Benssalah",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9e/Primo_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Primo is a henchman working for Safin, tasked with capturing and interrogating Bond, and later assisting in the operation to destroy the world's population by unleashing a deadly virus.",
+          "Outcome": "Although Primo is successful in capturing Bond, his plan ultimately fails as Bond is able to escape and prevent the virus from being released.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Ernst Stavro Blofeld",
@@ -4518,6 +4486,14 @@
           "Objective": "Escape prison, restore SPECTRE, and eliminate Bond using Heracles.",
           "Outcome": "Safin uses Heracles to wipe out SPECTRE in Cuba and later coerces Madeleine Swann into killing Blofeld with it.",
           "Status": "Inadvertently infected with Heracles when Bond briefly touches and strangles him—after he touched Swann—during an interrogation and dies as a result."
+        },
+        {
+          "name": "Lyutsifer Safin",
+          "actor": "Rami Malek",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/f/f2/Lyutsifer_Safin_-_Profile_V2.jpg",
+          "Objective": "Wipe out SPECTRE after Blofeld ordered Mr. White to assassinate his family. Later take revenge on the world at large by using \"Heracles\" – a DNA-based bioweapon which SPECTRE stole from MI6.",
+          "Outcome": "Succeeds in wiping out SPECTRE but fails to spread Heracles worldwide due to the Royal Navy's and Bond's intervention, which destroys the facility producing it.",
+          "Status": "Shot by Bond after a brief fistfight."
         }
       ]
     },
@@ -4849,33 +4825,25 @@
           "name": "Gobinda",
           "actor": "Kabir Bedi",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/eb/Gobinda_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Gobinda is working for Kamal Khan to steal a Fabergé egg and use it to detonate a nuclear bomb, forcing the British government to withdraw from Afghanistan.",
+          "Outcome": "Bond foils the plan by stopping the theft of the Fabergé egg and preventing the nuclear explosion.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "General Orlov's Henchman, Jim Fanning",
           "actor": "Douglas Wilmer",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c6/Jim_Fanning_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "To smuggle a nuclear bomb into the United States and sell it to the highest bidder, with the goal of creating chaos and destruction.",
+          "Outcome": "Bond foiled the plan by stopping the sale of the bomb and preventing it from being smuggled into the US.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Smithers",
           "actor": "Jeremy Bulloch",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9f/Smithers_%28Jeremy_Bulloch%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "General Orlov",
-          "actor": "Steven Berkoff",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/General_Orlov_-_Profile.png",
-          "Objective": "Smuggle a nuclear warhead onto a US Air Force Base in West Germany and detonate it to clear a path for the Soviet Bloc to conquer Western Europe.",
-          "Outcome": "Bond, with the help of Octopussy, disarms the bomb.",
-          "Status": "Shot by guards who believe that he is trying to defect."
+          "Objective": "Smithers is working with General Orlov to steal a valuable Fabergé egg and use its gemstones to fund a Soviet-backed rebellion in Afghanistan.",
+          "Outcome": "Bond foils the plan by preventing the theft of the Fabergé egg and exposing General Orlov's scheme.",
+          "Status": "Arrested"
         },
         {
           "name": "Kamal Khan",
@@ -4884,6 +4852,14 @@
           "Objective": "Execute General Orlov's plan in exchange for being paid in jewels stolen from the Kremlin.",
           "Outcome": "The jewels are recovered by the KGB.",
           "Status": "Attempts to escape in his plane, but Bond disables the left engine of the plane, causing Khan to crash it into a mountain, killing him."
+        },
+        {
+          "name": "General Orlov",
+          "actor": "Steven Berkoff",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/General_Orlov_-_Profile.png",
+          "Objective": "Smuggle a nuclear warhead onto a US Air Force Base in West Germany and detonate it to clear a path for the Soviet Bloc to conquer Western Europe.",
+          "Outcome": "Bond, with the help of Octopussy, disarms the bomb.",
+          "Status": "Shot by guards who believe that he is trying to defect."
         }
       ]
     },
@@ -5152,20 +5128,20 @@
       ],
       "villains": [
         {
+          "name": "Irma Bunt",
+          "actor": "Ilse Steppat",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/70/Irma_Bunt_%28Ilse_Steppat%29_-_Profile.png",
+          "Objective": "Irma Bunt is working for Ernst Stavro Blofeld, helping him to abduct and brainwash women to create the perfect female accomplice.",
+          "Outcome": "Bond foils her plan by rescuing the women and stopping Blofeld's operation.",
+          "Status": "Killed by Bond"
+        },
+        {
           "name": "Ernst Stavro Blofeld",
           "actor": "Telly Savalas",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/78/Blofeld_%28Telly_Savalas%29_-_Profile.png",
           "Objective": "Distribute an infertility-based viral plague to destroy livestock and cereals, unless issued a pardon by the United Nations and the title of count by the College of Arms.",
           "Outcome": "Bond and Marc-Ange Draco destroy the laboratory and radio station from which commands to distribute the viruses are issued. Agents supposedly neutralised.",
           "Status": "Survives, despite neck injury. His henchwoman Irma Bunt assassinates Tracy di Vicenzo, Bond's newly married wife, on their honeymoon."
-        },
-        {
-          "name": "Irma Bunt",
-          "actor": "Ilse Steppat",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/70/Irma_Bunt_%28Ilse_Steppat%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
         }
       ]
     },
@@ -5403,20 +5379,20 @@
       "vehicles": [],
       "villains": [
         {
-          "name": "Dominic Greene",
-          "actor": "Mathieu Amalric",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Profile_-_Dominic_Greene.png",
-          "Objective": "Carry out a coup d'état in Bolivia and install his puppet ruler, General Medrano, in exchange for land hiding a massively valuable, undiscovered aquifer. Then sell the new Bolivian government water from the aquifer at massively inflated prices.",
-          "Outcome": "Bond intercepts Greene and Medrano before they can carry out the coup.",
-          "Status": "Bond abandons him in the middle of the Bolivian desert, with nothing but a can of motor oil to drink. He is later reported to have been shot by an anonymous assassin after drinking the oil."
-        },
-        {
           "name": "Mr. White",
           "actor": "Jesper Christensen",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png",
           "Objective": "Escape MI6 custody.",
           "Outcome": "Succeeds.",
           "Status": "Survives (returns in Spectre where he is dying from thallium poisoning and commits suicide using Bond's Walther PPK)."
+        },
+        {
+          "name": "Dominic Greene",
+          "actor": "Mathieu Amalric",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Profile_-_Dominic_Greene.png",
+          "Objective": "Carry out a coup d'état in Bolivia and install his puppet ruler, General Medrano, in exchange for land hiding a massively valuable, undiscovered aquifer. Then sell the new Bolivian government water from the aquifer at massively inflated prices.",
+          "Outcome": "Bond intercepts Greene and Medrano before they can carry out the coup.",
+          "Status": "Bond abandons him in the middle of the Bolivian desert, with nothing but a can of motor oil to drink. He is later reported to have been shot by an anonymous assassin after drinking the oil."
         }
       ]
     },
@@ -5609,28 +5585,28 @@
       "vehicles": [],
       "villains": [
         {
+          "name": "Raoul Silva's henchman Ronson",
+          "actor": "Bill Buckhurst",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/3d/Ronson.png",
+          "Objective": "Part of Silva's plan to destroy MI6's headquarters and exact revenge on M.",
+          "Outcome": "His role in the plan is foiled when Bond and Q destroy the hard drive containing the MI6 personnel list.",
+          "Status": "Killed by Bond"
+        },
+        {
+          "name": "Clair Dowar",
+          "actor": "Helen McCrory",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Clair_Dowar_-_Profile.png",
+          "Objective": "Clair Dowar's objective is to identify and eliminate the double agent within MI6, which she believes is a mole within the organization.",
+          "Outcome": "Her plan is foiled when Bond and M uncover the true identity of the double agent, who is actually Raoul Silva, and she is unable to stop them.",
+          "Status": "Survives"
+        },
+        {
           "name": "Raoul Silva",
           "actor": "Javier Bardem",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/1b/Raoul_Silva_-_Profile.png",
           "Objective": "Take revenge on M by launching a massive cyberattack on MI6 and then personally carry out her assassination.",
           "Outcome": "Indirectly succeeds. Bond foils his first assassination attempt, but later she is fatally wounded by one of his henchmen. (Although, he does not live to realize this or find the closure he sought.)",
           "Status": "Bond throws a hunting knife into his back."
-        },
-        {
-          "name": "Raoul Silva's henchman Ronson",
-          "actor": "Bill Buckhurst",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/3d/Ronson.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Clair Dowar",
-          "actor": "Helen McCrory",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Clair_Dowar_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
         }
       ]
     },
@@ -5851,36 +5827,36 @@
           "Status": "Arrested by M after he survives his escape helicopter being shot down by Bond."
         },
         {
+          "name": "Mr. Hinx",
+          "actor": "David Bautista",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d8/Mr_Hinx_-_Profile_%282%29.png",
+          "Objective": "Mr. Hinx is a henchman working for the villainous organization SPECTRE, tasked with capturing Madeleine Swann, a woman with a connection to Bond's past.",
+          "Outcome": "Hinx's plan is foiled when Bond kills him in a car chase, saving Madeleine.",
+          "Status": "Killed by Bond"
+        },
+        {
+          "name": "Mr. White",
+          "actor": "Jesper Christensen",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png",
+          "Objective": "Mr. White is trying to protect the truth about SPECTRE's existence and its connection to Bond's past.",
+          "Outcome": "Although he fails to stop Bond from uncovering SPECTRE's plans, he manages to escape and remains at large.",
+          "Status": "Escapes"
+        },
+        {
+          "name": "Marco Sciarra",
+          "actor": "Alessandro Cremona",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/db/Marco_Sciarra_-_Profile.png",
+          "Objective": "To take revenge on the world for the death of his father, a former SPECTRE member, and to kill Bond.",
+          "Outcome": "Bond kills him in a shootout at the Vatican.",
+          "Status": "Killed by Bond"
+        },
+        {
           "name": "Max Denbigh / C",
           "actor": "Andrew Scott",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/1/16/Max_Denbigh_-_Profile.png",
           "Objective": "Gain control of a global surveillance program called \"Nine Eyes\".",
           "Outcome": "Bond destroys Blofeld's data center and Q prevents the Nine Eyes program from being activated.",
           "Status": "Engages in a fight with M and falls to his death."
-        },
-        {
-          "name": "Mr. Hinx",
-          "actor": "David Bautista",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d8/Mr_Hinx_-_Profile_%282%29.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Mr. White",
-          "actor": "Jesper Christensen",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/ec/Mr._White_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Marco Sciarra",
-          "actor": "Alessandro Cremona",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/db/Marco_Sciarra_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
         }
       ]
     },
@@ -6334,14 +6310,6 @@
       ],
       "villains": [
         {
-          "name": "Kamran Shah",
-          "actor": "Art Malik",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/ce/Kamran_Shah_%28Art_Malik%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
           "name": "General Georgi Koskov",
           "actor": "Jeroen Krabbé",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6f/General_Koskov_-_Profile.png",
@@ -6353,9 +6321,17 @@
           "name": "Necros",
           "actor": "Andreas Wisniewski",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/3/30/Necros_%28Andreas_Wisniewski%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Necros' objective is to steal a Fabergé egg, which is a valuable and highly sought-after item, and sell it to a wealthy collector.",
+          "Outcome": "Bond foils Necros' plan by preventing him from selling the egg, and Necros is ultimately killed by Bond.",
+          "Status": "Killed by Bond"
+        },
+        {
+          "name": "Kamran Shah",
+          "actor": "Art Malik",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/ce/Kamran_Shah_%28Art_Malik%29_-_Profile.jpg",
+          "Objective": "Kamran Shah's objective is to sell a large shipment of Semtex to the mujahideen in Afghanistan, which would then be used to destabilize the Soviet Union.",
+          "Outcome": "Bond foils Shah's plan by intercepting the Semtex shipment, and Shah is subsequently killed by a Soviet sniper.",
+          "Status": "Killed by a Soviet sniper"
         },
         {
           "name": "Brad Whitaker",
@@ -6572,20 +6548,20 @@
       ],
       "villains": [
         {
-          "name": "Nick Nack",
-          "actor": "Hervé Villechaize",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Nick_Nack_%28Herv%C3%A9_Villechaize%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
           "name": "Chula",
           "actor": "Chan Yiu Lam",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e1/Screenshot_2015-05-23_17.52.11.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Chula is tasked with killing Bond, who has been identified as a threat to Scaramanga's reputation and business.",
+          "Outcome": "Chula fails to kill Bond and is ultimately killed by Scaramanga's henchmen for his failure.",
+          "Status": "Killed by Scaramanga's henchmen"
+        },
+        {
+          "name": "Nick Nack",
+          "actor": "Hervé Villechaize",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Nick_Nack_%28Herv%C3%A9_Villechaize%29_-_Profile.jpg",
+          "Objective": "Nick Nack assists Scaramanga in killing Bond and obtaining the Golden Gun, a powerful laser pistol.",
+          "Outcome": "Nick Nack's plan is foiled when Bond escapes and ultimately kills Scaramanga, rendering Nick Nack's assistance unnecessary.",
+          "Status": "Survives, but is left to fend for himself after Scaramanga's death."
         },
         {
           "name": "Francisco Scaramanga",
@@ -6932,14 +6908,6 @@
       ],
       "villains": [
         {
-          "name": "General Gogol",
-          "actor": "Walter Gotell",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
           "name": "Karl Stromberg",
           "actor": "Curd Jürgens",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/58/Karl-stromberg-portrait.png",
@@ -6948,20 +6916,28 @@
           "Status": "Shot repeatedly by Bond using his own dinner table booby trap."
         },
         {
+          "name": "General Gogol",
+          "actor": "Walter Gotell",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a8/General_Gogol_%28Walter_Gotell%29_-_Profile.jpg",
+          "Objective": "General Gogol's objective is to acquire a nuclear submarine, the Red October, to further Soviet interests.",
+          "Outcome": "Bond foils Gogol's plan by stopping the Red October, but Gogol survives.",
+          "Status": "Survives"
+        },
+        {
           "name": "Sandor",
           "actor": "Milton Reid",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/64/Sandor_%28Milton_Reid%29_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Sandor is a henchman working for Karl Stromberg, tasked with capturing a Soviet submarine, the Red October, to further Stromberg's plan for world domination.",
+          "Outcome": "Bond foils Sandor's plan by preventing the capture of the Red October, and Sandor is subsequently defeated.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Jaws",
           "actor": "Richard Kiel",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Jaws is a henchman working for Karl Stromberg, tasked with sinking the British and American submarines to start a war.",
+          "Outcome": "Jaws' plan is foiled when Bond and Anya Amasova work together to stop him, and he is ultimately killed by a giant metal claw.",
+          "Status": "Killed by a giant metal claw"
         }
       ]
     },
@@ -7260,28 +7236,20 @@
       ],
       "villains": [
         {
-          "name": "Renard",
-          "actor": "Robert Carlyle",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/c/c2/Profile_-_Renard.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Charles Robinson",
-          "actor": "Colin Salmon",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Charles_Robinson_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
           "name": "Elektra King",
           "actor": "Sophie Marceau",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/d/d9/Elektra_King_%28Sophie_Marceau%29_-_Profile.jpg",
           "Objective": "Gain a monopoly on crude oil in Europe by setting off a nuclear explosion in Istanbul, rendering the Bosporus Strait impassable to tankers carrying oil from competing pipelines. Also murder M in retaliation for ordering her father Sir Robert King to not pay the ransom after her kidnapping.",
           "Outcome": "Bond kills her and then stops the detonation of the submarine.",
           "Status": "Shot in the chest by Bond after she refused to order Renard to surrender."
+        },
+        {
+          "name": "Charles Robinson",
+          "actor": "Colin Salmon",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Charles_Robinson_-_Profile.png",
+          "Objective": "Charles Robinson, a former MI6 agent, seeks revenge against Elektra King, the daughter of a wealthy oil tycoon, for his own betrayal and subsequent imprisonment.",
+          "Outcome": "Bond foils Robinson's plan by stopping his attempt to kill Elektra, and Robinson is killed by Elektra's henchmen.",
+          "Status": "Killed by Elektra's henchmen"
         },
         {
           "name": "Victor 'Renard' Zokas",
@@ -7548,14 +7516,6 @@
       ],
       "villains": [
         {
-          "name": "Emilio Largo",
-          "actor": "Adolfo Celi",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/78/Emilio_Largo_%28Adolfo_Celi%29_-_Profile.jpg",
-          "Objective": "Steal two atomic bombs and use them to extort money from various world governments.",
-          "Outcome": "The bombs are recovered and safely destroyed by Bond and the U.S. Coast Guard.",
-          "Status": "Shot in the back with a harpoon by his mistress, Domino Derval."
-        },
-        {
           "name": "Ernst Stavro Blofeld",
           "actor": "Anthony Dawson (body), Eric Pohlmann (voice)",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/87/Blofeld_%28Dawson-Pohlmann%29_-_Profile.jpg",
@@ -7564,12 +7524,20 @@
           "Status": "Survives (no contact between him and Bond)."
         },
         {
+          "name": "Emilio Largo",
+          "actor": "Adolfo Celi",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/7/78/Emilio_Largo_%28Adolfo_Celi%29_-_Profile.jpg",
+          "Objective": "Steal two atomic bombs and use them to extort money from various world governments.",
+          "Outcome": "The bombs are recovered and safely destroyed by Bond and the U.S. Coast Guard.",
+          "Status": "Shot in the back with a harpoon by his mistress, Domino Derval."
+        },
+        {
           "name": "Quist",
           "actor": "Bill Cummings",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/e/e4/Quist_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Quist's objective is not explicitly stated in the film, but he is part of SPECTRE's operation to steal nuclear warheads.",
+          "Outcome": "Quist's plan is foiled by Bond, but the details of his involvement are unclear.",
+          "Status": "No clear fate is stated for Quist in the film."
         }
       ]
     },
@@ -8053,6 +8021,22 @@
       ],
       "villains": [
         {
+          "name": "Jeff Hobbs",
+          "actor": "Hugo Napier",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4d/Jeff_Hobbs_-_Profile.png",
+          "Objective": "Jeff Hobbs' objective is to start a war between the UK and China by manipulating the media and the British government.",
+          "Outcome": "Hobbs' plan is foiled by Bond, who exposes the truth and stops the war from occurring.",
+          "Status": "Killed by Bond"
+        },
+        {
+          "name": "Charles Robinson",
+          "actor": "Colin Salmon",
+          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Charles_Robinson_-_Profile.png",
+          "Objective": "Charles Robinson, a media mogul, aims to start a war between the UK and China by manipulating the media and creating a false crisis.",
+          "Outcome": "Bond and his allies are able to expose Robinson's plan and prevent the war, but not before he is killed in a helicopter crash.",
+          "Status": "Killed in a helicopter crash"
+        },
+        {
           "name": "Elliot Carver",
           "actor": "Jonathan Pryce",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/45/Elliot_Carver_%28Jonathan_Pryce%29_-_Profile.jpg",
@@ -8064,25 +8048,9 @@
           "name": "Stamper",
           "actor": "Götz Otto",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/51/Stamper_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Charles Robinson",
-          "actor": "Colin Salmon",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4c/Charles_Robinson_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
-        },
-        {
-          "name": "Jeff Hobbs",
-          "actor": "Hugo Napier",
-          "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/4d/Jeff_Hobbs_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Stamper's objective is to sell classified information about the British Navy to the highest bidder, using a satellite system.",
+          "Outcome": "Bond foils Stamper's plan by destroying the satellite and stopping the sale of classified information.",
+          "Status": "Killed by Bond"
         }
       ]
     },
@@ -8384,9 +8352,9 @@
           "name": "Hans",
           "actor": "Ronald Rich",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/04/Hans_%28Ronald_Rich%29_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Hans is a Japanese agent working for the villainous organization SPECTRE, tasked with stealing American and Soviet space rockets to create a massive space-based nuclear missile.",
+          "Outcome": "Bond foils Hans' plan by discovering and stopping the theft of the space rockets, and Hans is subsequently killed by the Japanese authorities.",
+          "Status": "Killed by the Japanese authorities"
         },
         {
           "name": "Ernst Stavro Blofeld",
@@ -8400,17 +8368,17 @@
           "name": "Helga Brandt",
           "actor": "Karin Dor",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/50/Helga_Brandt_-_Profile.png",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Helga Brandt seeks revenge against James Bond and the British government for the death of her lover, Ernst Stavro Blofeld's, henchman, and attempts to lure Bond into a trap.",
+          "Outcome": "Bond discovers her plan and ultimately kills her in a fight.",
+          "Status": "Killed by Bond"
         },
         {
           "name": "Ling",
           "actor": "Tsai Chin",
           "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/69/Ling_-_Profile.jpg",
-          "Objective": "",
-          "Outcome": "",
-          "Status": ""
+          "Objective": "Ling is a Japanese double agent working for SPECTRE, her objective is to lure Bond to Japan and have him killed, thereby preventing him from interfering with SPECTRE's plans.",
+          "Outcome": "Bond discovers Ling's true intentions and foils her plan, ultimately leading to her death.",
+          "Status": "Killed by Bond"
         }
       ]
     }
