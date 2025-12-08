@@ -72,11 +72,15 @@ def get_character_image_url(character_name, movie_name, actor_name):
     return None, None
 
 # ---- Fetch images for all character-movie combinations and save to CSV ----
-def save_character_images(csv_file):
+def save_character_images(csv_file, limit=None):
     # Load CSV with semicolon separator
     df = pd.read_csv(csv_file, sep=';')
 
-    print(f"Total entries: {len(df)}\n")
+    if limit:
+        df = df.head(limit)
+        print(f"Processing first {limit} entries (total: {len(df)})\n")
+    else:
+        print(f"Total entries: {len(df)}\n")
 
     results = []
 
@@ -85,7 +89,7 @@ def save_character_images(csv_file):
         actor = row['actor']
         movie = row['movie']
 
-        print(f"[{idx+1}/{len(df)}] {character} → {actor} ({movie})")
+        print(f"[{idx+1}/{len(df)}] {character} - {actor} ({movie})")
 
         # Get image URL for this specific character-movie combination
         img_url, found_title = get_character_image_url(character, movie, actor)
@@ -115,11 +119,12 @@ if __name__ == "__main__":
     base_dir = Path(__file__).resolve().parent.parent
     output_dir = base_dir / "extract_knowledge/characters"
     output_dir.mkdir(parents=True, exist_ok=True)
-    
+
     output_file = output_dir / "all_movie_characters_with_image.csv"
     input_file = output_dir / "all_movie_characters.csv"
 
     if not input_file.exists():
         print(f"Error: {input_file} not found!")
     else:
-        save_character_images(input_file)
+        # Set limit=10 for testing, or None for processing all characters
+        save_character_images(input_file, limit=None)

@@ -101,22 +101,113 @@ def clean_data(df):
     """
     Correct known data issues in the extracted DataFrame.
     """
-    corrections = [
+    # Add actor names, where "Unknown" was returned, and the correct actor is known from other sources
+    actor_corrections = [
         {
             "character": "Ernst Stavro Blofeld",
             "actor": "Unknown",
             "movie": "From Russia with Love",
-            "correct_actor": "Anthony Dawson"
-        }]
-    
-    for correction in corrections:
+            "correct_actor": "Anthony Dawson"       # Blofeld was portrayed by Anthony Dawson in From Russia with Love
+        },
+        {
+            "character": "Erich Kriegler",
+            "actor": "Unknown",
+            "movie": "For Your Eyes Only",
+            "correct_actor": "John Wyman"           # Kriegler was portrayed by John Wyman in For Your Eyes Only
+        },
+        {
+            "character": "Auric Goldfinger",
+            "actor": "Unknown",
+            "movie": "Goldfinger",
+            "correct_actor": "Gert Fröbe"           # Goldfinger was portrayed by Gert Fröbe in Goldfinger
+        },
+        {
+            "character": "Emilio Largo",
+            "actor": "Unknown",
+            "movie": "Thunderball",
+            "correct_actor": "Adolfo Celi"          # Largo was portrayed by Adolfo Celi in Thunderball
+        }
+    ]
+
+    # Apply actor corrections
+    for correction in actor_corrections:
         mask = (
             (df['character'] == correction['character']) &
             (df['actor'] == correction['actor']) &
             (df['movie'] == correction['movie'])
         )
         df.loc[mask, 'actor'] = correction['correct_actor']
-    
+
+    # Harmonize character names for known inconsistencies
+    # Format: {"old_name": "new_name", "actor": "actor_name"} - applies across all movies for that actor
+    character_harmonizations = [
+        {
+            "old_name": "General Anatol Gogol",
+            "new_name": "General Gogol",
+            "actor": "Walter Gotell"                # Harmonize character name of General Gogol throughout all movies
+        },
+        {
+            "old_name": "Dr. Kananga/Mr. Big",
+            "new_name": "Dr. Kananga / Mr. Big",
+            "actor": "Yaphet Kotto"                # Harmonize character name of Dr. Kananga / Mr. Big
+        },
+            
+    ]
+
+    # Apply character name harmonizations
+    for harmonization in character_harmonizations:
+        mask = (
+            (df['character'] == harmonization['old_name']) &
+            (df['actor'] == harmonization['actor'])
+        )
+        df.loc[mask, 'character'] = harmonization['new_name']
+
+    # Rename Blofeld entry in Spectre to include Franz Oberhauser alias
+    blofeld_spectre_rename = [
+        {
+            "old_character": "Ernst Stavro Blofeld",
+            "new_character": "Franz Oberhauser / Ernst Stavro Blofeld",
+            "actor": "Christoph Waltz",
+            "movie": "Spectre"
+        }
+    ]
+
+    for rename in blofeld_spectre_rename:
+        mask = (
+            (df['character'] == rename['old_character']) &
+            (df['actor'] == rename['actor']) &
+            (df['movie'] == rename['movie'])
+        )
+        if mask.any():
+            df.loc[mask, 'character'] = rename['new_character']
+            print(f"Renamed character: {rename['old_character']} to {rename['new_character']} in {rename['movie']}")
+
+    # Remove unwanted characters, as this will show up in multi occurrences of "Captain"
+    df = df[df['character'] != 'Captain']
+
+    # Add missing Blofeld entry in Thunderball
+    missing_entries = [
+        {
+            "character": "Ernst Stavro Blofeld",
+            "actor": "Anthony Dawson",
+            "movie": "Thunderball"
+        }
+    ]
+
+    for entry in missing_entries:
+        # Check if entry already exists
+        mask = (
+            (df['character'] == entry['character']) &
+            (df['actor'] == entry['actor']) &
+            (df['movie'] == entry['movie'])
+        )
+
+        if not mask.any():
+            # Entry doesn't exist, add it
+            new_row = pd.DataFrame([entry])
+            df = pd.concat([df, new_row], ignore_index=True)
+            print(f"Added missing entry: {entry['character']} ({entry['actor']}) in {entry['movie']}")
+
     return df
 
 if __name__ == "__main__":
