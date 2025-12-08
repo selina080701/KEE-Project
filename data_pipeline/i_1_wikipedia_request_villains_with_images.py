@@ -1,4 +1,4 @@
-# i_wikipedia_request_villains_with_images.py
+# i_1_wikipedia_request_villains_with_images.py
 
 import requests
 import pandas as pd
@@ -220,7 +220,7 @@ def clean_villain_data(df, characters_csv_path):
     char_df = pd.read_csv(characters_csv_path, sep=';')
 
     # ---------------------------------------
-    # Step 3a: Manual corrections based on known issues
+    # Step 3a: Manual corrections before filling missing images from character database
     # ---------------------------------------
     corrections = [
         # Fix Dr. Julius No villain name
@@ -292,116 +292,6 @@ def clean_villain_data(df, characters_csv_path):
                 df.at[idx, 'image_url'] = img_url
                 df.at[idx, 'search_title'] = search_title
                 print(f"Added image for {row['Villain']} from character database")
-
-    # ---------------------------------------
-    # Step 3c: Add additional villain entries
-    # ---------------------------------------
-    
-    manual_entries = [
-        {
-            "Film": "Goldfinger",
-            "Villain": "Oddjob",
-            "Portrayed by": "Harold Sakata",
-            "Objective": "Assist Auric Goldfinger in Operation Grand Slam to destroy Fort Knox and its gold supply, increasing the value of Goldfinger's gold.",
-            "Outcome": "Operation Grand Slam was foiled by Bond and the bomb was disarmed.",
-            "Status": "Electrocuted when Bond connected a loose electric cable to metal bars that Oddjob touched while retrieving his hat.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/a/a5/Oddjob_Profile.png"
-        },
-        {
-            "Film": "The Man with the Golden Gun",
-            "Villain": "Nick Nack",
-            "Portrayed by": "Hervé Villechaize",
-            "Objective": "Assist Francisco Scaramanga in his assassination missions and theft of the Solex Agitator, while occasionally hiring assassins to test Scaramanga's skills, as Nick Nack was sole heir to Scaramanga's estate.",
-            "Outcome": "Scaramanga was killed by Bond and the solar plant estate was destroyed, eliminating Nick Nack's inheritance.",
-            "Status": "Captured by Bond during a fight aboard Scaramanga's junk, locked in a suitcase, and placed in a wicker basket hanging from the boat's mast.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/4/42/Nick_Nack_%28Herv%C3%A9_Villechaize%29_-_Profile.jpg"
-        },
-        {
-            "Film": "The Spy Who Loved Me",
-            "Villain": "Jaws",
-            "Portrayed by": "Richard Kiel",
-            "Objective": "Assist Karl Stromberg in eliminating James Bond and Major Anya Amasova to protect Stromberg's plan to destroy humanity and rebuild civilization underwater.",
-            "Outcome": "Failed to kill Bond. Stromberg's plan was foiled and his underwater base Atlantis was destroyed.",
-            "Status": "Survived the destruction of Atlantis. Last seen swimming away in the ocean after defeating a shark.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png"
-        },
-        {
-            "Film": "Moonraker",
-            "Villain": "Jaws",
-            "Portrayed by": "Richard Kiel",
-            "Objective": "Assist Hugo Drax in eliminating James Bond to protect Drax's plan to wipe out humanity with nerve gas and repopulate Earth with a master race.",
-            "Outcome": "After falling in love with Dolly and realizing Drax would kill them as 'imperfect' specimens, switched sides to help Bond defeat Drax and destroy his space station.",
-            "Status": "Redeemed himself by helping Bond. Escaped the disintegrating space station in an escape pod with Dolly and was safely recovered by U.S. Marines.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/0/06/Jaws_%28Richard_Kiel%29_-_Profile.png"
-        },
-        {
-            "Film": "For Your Eyes Only",
-            "Villain": "Emile Leopold Locque",
-            "Portrayed by": "Michael Gothard",
-            "Objective": "Assist Aristotle Kristatos in retrieving the ATAC system for the KGB by eliminating witnesses and framing rival Milos Columbo.",
-            "Outcome": "Failed to obtain the ATAC. His operations were exposed and stopped by Bond.",
-            "Status": "Shot by Bond, causing his car to hang over a cliff edge. Bond kicked the car, sending it plummeting down the cliff to his death.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/6f/Emile_Leopold_Locque_-_Profile.png"
-        },
-        {
-            "Film": "For Your Eyes Only",
-            "Villain": "Erich Kriegler",
-            "Portrayed by": "John Wyman",
-            "Objective": "Assist Kristatos as a KGB operative in obtaining the ATAC system and delivering it to the Soviet Union.",
-            "Outcome": "Failed to deliver the ATAC to the KGB. The device was destroyed by Bond.",
-            "Status": "Pushed out of a window by Bond during a fight at St. Cyril's monastery, falling to his death.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/80/Erich_Kriegler_%28John_Wyman%29_-_Profile.jpg"
-        },
-        {
-            "Film": "A View to a Kill",
-            "Villain": "May Day",
-            "Portrayed by": "Grace Jones",
-            "Objective": "Assist Max Zorin in destroying Silicon Valley through a double earthquake to flood the area and give Zorin monopoly control of the microchip market.",
-            "Outcome": "After being betrayed by Zorin, switched allegiances and helped Bond stop the plan. Silicon Valley was saved.",
-            "Status": "Sacrificed herself by riding a bomb-laden mine cart out of the mine, dying in the explosion but preventing Zorin's plan from succeeding.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/9/9a/May_Day_-_Profile.png"
-        },
-        {
-            "Film": "Licence to Kill",
-            "Villain": "Dario",
-            "Portrayed by": "Benicio del Toro",
-            "Objective": "Serve as one of Franz Sanchez's chief enforcers in the drug cartel, tasked with eliminating threats and executing violent orders, including assassinating CIA informant Pam Bouvier and preventing Bond from sabotaging Sanchez's cocaine processing operation.",
-            "Outcome": "Failed to stop Bond from sabotaging the cocaine operation. His operations were exposed and stopped.",
-            "Status": "Killed by Bond during a confrontation at the processing plant. Bond pulled him into industrial cocaine processing machinery, where he was crushed and shredded to death.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/5/55/Dario_%28Benicio_del_Toro%29_-_Profile.jpg"
-        },
-        {
-            "Film": "Diamonds Are Forever",
-            "Villain": "Mr. Wint",
-            "Portrayed by": "Bruce Glover",
-            "Objective": "Working as an assassin duo with Mr. Kidd for Ernst Stavro Blofeld, eliminate anyone involved in the diamond smuggling pipeline to prevent them from revealing information about the operation.",
-            "Outcome": "Failed to kill Bond and Tiffany Case. Their attempt to assassinate Bond on an ocean liner was thwarted.",
-            "Status": "Killed by Bond aboard the ocean liner. Bond tied his hands together with his coat-tails alongside a time-bomb before throwing him overboard. The bomb exploded and killed him before he hit the water.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/6/67/Mr._Wint_%28Bruce_Glover%29_-_Profile.png"
-        },
-        {
-            "Film": "Diamonds Are Forever",
-            "Villain": "Mr. Kidd",
-            "Portrayed by": "Putter Smith",
-            "Objective": "Working as an assassin duo with Mr. Wint for Ernst Stavro Blofeld, eliminate anyone involved in the diamond smuggling pipeline to prevent them from revealing information about the operation.",
-            "Outcome": "Failed to kill Bond and Tiffany Case. Their attempt to assassinate Bond on an ocean liner was thwarted.",
-            "Status": "Killed by Bond aboard the ocean liner. Bond splashed flaming cognac onto him, setting him on fire. In desperation, he jumped overboard from the high deck into the ocean, presumably killing him on impact.",
-            "image_url": "https://static.wikia.nocookie.net/jamesbond/images/8/82/Mr._Kidd_%28Putter_Smith%29_-_Profile.png"
-        }
-    ]
-
-    print("\n--- Step 3b: Adding manual entries ---")
-
-    # Add each manual entry only if not already present
-    for entry in manual_entries:
-        exists = (
-            (df['Film'] == entry['Film']) &
-            (df['Villain'] == entry['Villain'])
-        ).any()
-
-        if not exists:
-            print(f"Adding manual entry: {entry['Villain']} ({entry['Film']})")
-            df = pd.concat([df, pd.DataFrame([entry])], ignore_index=True)
 
     return df
 
