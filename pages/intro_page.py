@@ -78,7 +78,9 @@ def show_intro_page():
 
         #### Knowledge Engineering
         - ✅ **Data fusion**: The harmonization of structured and unstructured data into a unified RDF knowledge graph was done by merging all datasets to a single json-file before converting it to ttl.
+        
         - ✅ Ontology reasoning successfully validated that relationships between entities were correctly implemented
           and effectively demonstrated the inverse properties.
+        
         - ⚠️ **Challenge:** data transformationm, e.g. specifying image URLs as datatype=XSD.anyURI and not string.
         """)
