@@ -49,10 +49,15 @@ def show_intro_page():
         st.markdown("""
         #### Knowledge Extraction with Structured Data
         - ✅ The Kaggle dataset provided a solid foundation for the movies' structured data, requiring only minor
-          cleaning and manual additions (e.g. adding missing directors and the latest movie "No Time to Die").
-
-        - ✅ The SPARQL queries used to retrieve James Bond actors' information from Wikidata were – due to being
-          limited to 6 actors – quite straightforward and efficient.
+          cleaning and manual additions (e.g. adding missing producers and the latest movie "No Time to Die").
+          
+        - ✅ The SPARQL queries used to retrieve James Bond actors’ Wikidata IDs, their biographical information,
+          and the German movie titles were – due to the limited number of entities – straightforward, efficient, 
+          and easy to maintain.
+        
+        - ⚠️ A dedicated SPARQL query was used to retrieve each movie’s Wikidata ID. This worked well for most titles, 
+          but “Licence to Kill” initially caused matching issues due to the “Licence” vs. “License” spelling. The issue 
+          was resolved by querying both `rdfs:label` and `skos:altLabel` in a case-insensitive way.
 
         #### Knowledge Extraction with Unstructured Data
         - ✅ The James Bond Fandom Wiki served as the primary source for all unstructured data, providing information on characters, Bond girls, vehicles, and filming locations.
@@ -82,5 +87,12 @@ def show_intro_page():
         - ✅ Ontology reasoning successfully validated that relationships between entities were correctly implemented
           and effectively demonstrated the inverse properties.
         
-        - ⚠️ **Challenge:** data transformationm, e.g. specifying image URLs as datatype=XSD.anyURI and not string.
+        - ⚠️ **Challenge: ontology consistency and datatypes.** Initial reasoning runs reported an inconsistent ontology
+          caused by several datatype mismatches:  
+          `schema:image` and `schema:url` were defined with range `xsd:anyURI` while the values were still plain
+          strings, the movie label *"Die Another Day"@en* conflicted with an overly strict `rdfs:label` range
+          (`xsd:string`), and `time:year` was initially modelled as `xsd:date` although only full `xsd:dateTime`
+          values were supported. After normalising URLs to `xsd:anyURI`, relaxing the label constraints and changing
+          `time:year` to an `xsd:integer`, the ontology became consistent and the reasoning behaved as expected.
+
         """)
