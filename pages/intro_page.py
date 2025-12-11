@@ -87,7 +87,7 @@ def show_intro_page():
         - ✅ Ontology reasoning successfully validated that relationships between entities were correctly implemented
           and effectively demonstrated the inverse properties.
         
-        - ⚠️ **Challenge: ontology consistency and datatypes.** Initial reasoning runs reported an inconsistent ontology
+        - ⚠️ **Challenge:** Initial reasoning runs reported an inconsistent ontology
           caused by several datatype mismatches:  
           `schema:image` and `schema:url` were defined with range `xsd:anyURI` while the values were still plain
           strings, the movie label *"Die Another Day"@en* conflicted with an overly strict `rdfs:label` range
