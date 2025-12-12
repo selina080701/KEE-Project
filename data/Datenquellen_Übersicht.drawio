@@ -1,0 +1,671 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.6">
+  <diagram name="Seite-1" id="NyRwYos2RcfskZWOth2t">
+    <mxGraphModel dx="914" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-26" edge="1" parent="1" source="9aYCO1xIoBeXe3shzOmk-14" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" target="9aYCO1xIoBeXe3shzOmk-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1000" y="80" as="sourcePoint" />
+            <mxPoint x="1195" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-10" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="Wikipedia" vertex="1">
+          <mxGeometry height="130" width="360" x="20" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-11" parent="9aYCO1xIoBeXe3shzOmk-10" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#D6B656;" value="&lt;b&gt;HTTP-GET-Anfrage:&lt;/b&gt;&lt;div&gt;URL = &lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;&quot;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;https://en.wikipedia.org/wiki/List_of_James_Bond_villains&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;&quot;&lt;/font&gt;&lt;br&gt;response = requests.get(URL)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-13" parent="9aYCO1xIoBeXe3shzOmk-10" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#D6B656;" value="&lt;b&gt;Tabellen-Extraktion mit Pandas:&lt;br&gt;&lt;/b&gt;tables = pd.read_html(response.text) → Rückgabe: Dataframe" vertex="1">
+          <mxGeometry height="50" width="360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;b&gt;Übersicht der Datenquellen&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="785" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-15" edge="1" parent="1" source="9aYCO1xIoBeXe3shzOmk-14" style="endArrow=classic;html=1;rounded=0;entryX=0.469;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9aYCO1xIoBeXe3shzOmk-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-16" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="Fandom-Wiki API" vertex="1">
+          <mxGeometry height="130" width="350" x="390" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-17" parent="9aYCO1xIoBeXe3shzOmk-16" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fillColor=default;" value="&lt;b&gt;REST-API Aufruf:&lt;/b&gt;&lt;div&gt;URL = &lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;&quot;https://jamesbond.fandom.com/api.php&quot;&lt;/font&gt;&lt;br&gt;response = requests.get(URL, params=params)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-18" parent="9aYCO1xIoBeXe3shzOmk-16" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#d6b656;" value="&lt;b&gt;JSON-Parsing:&lt;br&gt;&lt;/b&gt;data = response.json() → Rückgabe: Strukturierte JSON-Daten" vertex="1">
+          <mxGeometry height="50" width="350" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-19" edge="1" parent="1" source="9aYCO1xIoBeXe3shzOmk-14" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9aYCO1xIoBeXe3shzOmk-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="120" as="sourcePoint" />
+            <mxPoint x="800" y="207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-20" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="Groq-LLM" vertex="1">
+          <mxGeometry height="130" width="250" x="760" y="180" as="geometry">
+            <mxRectangle height="30" width="100" x="760" y="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-21" parent="9aYCO1xIoBeXe3shzOmk-20" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#D6B656;" value="&lt;div&gt;&lt;b&gt;API-Aufruf mit Groq-Client:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;client = Groq(api_key=API_KEY)&lt;/div&gt;&lt;div&gt;response = client.chat.completions.create(&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;model=&lt;/span&gt;&lt;font style=&quot;background-color: transparent; color: rgb(0, 0, 255);&quot;&gt;&quot;llama-3.1-8b-instant&quot;&lt;/font&gt;&lt;font style=&quot;background-color: transparent; color: rgb(0, 0, 0);&quot;&gt;, [...],&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;background-color: transparent; color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;response_format={&quot;type&quot;: &quot;json_object&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;background-color: transparent; color: rgb(0, 0, 0);&quot;&gt;)&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→ Rückgabe: Strukturierte JSON-Daten&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-23" edge="1" parent="1" source="9aYCO1xIoBeXe3shzOmk-14" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9aYCO1xIoBeXe3shzOmk-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="90" as="sourcePoint" />
+            <mxPoint x="990" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-24" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#ffe6cc;strokeColor=#FF9933;" value="Manuelle Ergänzungen" vertex="1">
+          <mxGeometry height="180" width="190" x="190" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-25" parent="9aYCO1xIoBeXe3shzOmk-24" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#FF9933;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;1) YouTube:&lt;/b&gt;&lt;/span&gt;&lt;div&gt;Reguläres Copy/Paste der URLs zu den Filmintro-Sequenzen&lt;br&gt;→ &lt;b&gt;25 Hyperlinks&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b style=&quot;&quot;&gt;2) Fandom-Wiki mit DevTool:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Reguläres Copy/Paste von Image-URLs, die nicht über die API gefunden wurden&lt;/div&gt;&lt;div&gt;&lt;b&gt;→ 15 Hyperlinks&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="154" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;spacingLeft=0;fillColor=#cce5ff;strokeColor=#36393d;" value="Extraktion von &lt;b&gt;36 Main Villains&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="160" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-28" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" target="9aYCO1xIoBeXe3shzOmk-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="370" />
+            </Array>
+            <mxPoint x="120" y="310" as="sourcePoint" />
+            <mxPoint x="630" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;spacingRight=2;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Download von &lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;25 Movie-Seiten&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; mit spezifischen Eigenschaften zu jedem James Bond Film&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="520" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-30" edge="1" parent="1" source="9aYCO1xIoBeXe3shzOmk-18" style="endArrow=async;html=1;rounded=0;endFill=1;exitX=0.258;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9aYCO1xIoBeXe3shzOmk-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="370" />
+            </Array>
+            <mxPoint x="450" y="450" as="sourcePoint" />
+            <mxPoint x="520" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;spacingRight=2;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;Extraktion von &lt;b&gt;541 Locations&lt;/b&gt; (mit Spacy NER)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="590" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-32" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9aYCO1xIoBeXe3shzOmk-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="553" y="450" />
+            </Array>
+            <mxPoint x="553" y="400" as="sourcePoint" />
+            <mxPoint x="570" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;spacingRight=2;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;Extraktion von &lt;b&gt;567&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Characters und Actors&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="590" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;spacingRight=2;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;Extraktion von&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;25&amp;nbsp;Bond Girls&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="590" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;spacingRight=2;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;Extraktion von &lt;b&gt;225&amp;nbsp;Vehicles&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="590" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;spacingRight=2;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;Extraktion von &lt;b&gt;25&amp;nbsp;Theme-songs und Performer&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="590" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;spacingRight=2;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Download von &lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Image-URLs&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;zu Movie-Poster, Schauspieler, Bond Girls, Villains und Vehicles&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="520" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-38" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9aYCO1xIoBeXe3shzOmk-37" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="820" />
+            </Array>
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-40" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9aYCO1xIoBeXe3shzOmk-34" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="553" y="590" />
+            </Array>
+            <mxPoint x="553" y="520" as="sourcePoint" />
+            <mxPoint x="590" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-41" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9aYCO1xIoBeXe3shzOmk-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="553" y="660" />
+            </Array>
+            <mxPoint x="553" y="590" as="sourcePoint" />
+            <mxPoint x="590" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-42" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9aYCO1xIoBeXe3shzOmk-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="553" y="730" />
+            </Array>
+            <mxPoint x="553" y="660" as="sourcePoint" />
+            <mxPoint x="590" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;spacingLeft=7;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Anreicherung von Daten zu weiteren&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;69 Villains&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="820" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-44" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="370" />
+            </Array>
+            <mxPoint x="780" y="310" as="sourcePoint" />
+            <mxPoint x="820" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;spacingRight=2;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Klassifizierung&lt;/b&gt;&lt;br&gt;Villain = True&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="880" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-47" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="843" y="450" />
+            </Array>
+            <mxPoint x="843" y="400" as="sourcePoint" />
+            <mxPoint x="880" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;spacingRight=2;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Text Generierung&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;zu Status, Objective und Outcome&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="880" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-49" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9aYCO1xIoBeXe3shzOmk-48" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="843" y="520" />
+            </Array>
+            <mxPoint x="843" y="450" as="sourcePoint" />
+            <mxPoint x="880" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aYCO1xIoBeXe3shzOmk-50" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="553" y="520" />
+            </Array>
+            <mxPoint x="553" y="450" as="sourcePoint" />
+            <mxPoint x="590" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--1" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="Data Pipeline" vertex="1">
+          <mxGeometry height="690" width="570" x="1760" y="140" as="geometry">
+            <mxRectangle height="30" width="110" x="1180" y="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--79" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1">
+          <mxGeometry height="30" width="570" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--80" parent="aPB8rMr02nGmZcjxweb--79" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" value="#" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--81" parent="aPB8rMr02nGmZcjxweb--79" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="Script Name" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--85" parent="aPB8rMr02nGmZcjxweb--79" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" value="Description" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--82" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--83" parent="aPB8rMr02nGmZcjxweb--82" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" value="a" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--84" parent="aPB8rMr02nGmZcjxweb--82" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" value="&lt;font style=&quot;&quot;&gt;data_preparation.py&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--86" parent="aPB8rMr02nGmZcjxweb--82" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--5" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="570" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--6" parent="aPB8rMr02nGmZcjxweb--5" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="b" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--7" parent="aPB8rMr02nGmZcjxweb--5" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="fandom_request_all_movies.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--87" parent="aPB8rMr02nGmZcjxweb--5" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--8" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="570" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--9" parent="aPB8rMr02nGmZcjxweb--8" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="c" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--10" parent="aPB8rMr02nGmZcjxweb--8" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="fandom_request_movie_posters.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--88" parent="aPB8rMr02nGmZcjxweb--8" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--11" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="570" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--12" parent="aPB8rMr02nGmZcjxweb--11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="d" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--13" parent="aPB8rMr02nGmZcjxweb--11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="extract_locations_all_movies.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--89" parent="aPB8rMr02nGmZcjxweb--11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--22" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--23" parent="aPB8rMr02nGmZcjxweb--22" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="e" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--24" parent="aPB8rMr02nGmZcjxweb--22" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="extract_characters_all_movies.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--90" parent="aPB8rMr02nGmZcjxweb--22" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--25" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;swimlaneLine=1;rounded=0;shadow=1;" vertex="1">
+          <mxGeometry height="30" width="570" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--26" parent="aPB8rMr02nGmZcjxweb--25" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="f" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--27" parent="aPB8rMr02nGmZcjxweb--25" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="fandom_request_character_images.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--91" parent="aPB8rMr02nGmZcjxweb--25" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--31" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--32" parent="aPB8rMr02nGmZcjxweb--31" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="g" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--33" parent="aPB8rMr02nGmZcjxweb--31" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="character_image_url_completion.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--92" parent="aPB8rMr02nGmZcjxweb--31" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--34" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--35" parent="aPB8rMr02nGmZcjxweb--34" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="h" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--36" parent="aPB8rMr02nGmZcjxweb--34" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="fandom_request_bond_girls_with_images.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--93" parent="aPB8rMr02nGmZcjxweb--34" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--37" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--38" parent="aPB8rMr02nGmZcjxweb--37" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="i1" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--39" parent="aPB8rMr02nGmZcjxweb--37" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="wikipedia_request_villains_with_images.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--94" parent="aPB8rMr02nGmZcjxweb--37" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--40" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--41" parent="aPB8rMr02nGmZcjxweb--40" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="i2" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="extract_additional_villains_with_LLM.py" link="extract_additional_villains_with_LLM.py" id="aPB8rMr02nGmZcjxweb--42">
+          <mxCell parent="aPB8rMr02nGmZcjxweb--40" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+            <mxGeometry height="30" width="270" x="30" as="geometry">
+              <mxRectangle height="30" width="270" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="aPB8rMr02nGmZcjxweb--95" parent="aPB8rMr02nGmZcjxweb--40" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--43" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--44" parent="aPB8rMr02nGmZcjxweb--43" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="i3" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--45" parent="aPB8rMr02nGmZcjxweb--43" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="merge_all_villains.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--96" parent="aPB8rMr02nGmZcjxweb--43" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--49" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--50" parent="aPB8rMr02nGmZcjxweb--49" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="i4" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--51" parent="aPB8rMr02nGmZcjxweb--49" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="enrich_villains_data_with_LLM.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--97" parent="aPB8rMr02nGmZcjxweb--49" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--52" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--53" parent="aPB8rMr02nGmZcjxweb--52" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="j" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--54" parent="aPB8rMr02nGmZcjxweb--52" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="extract_vehicles_all_movies.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--98" parent="aPB8rMr02nGmZcjxweb--52" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--55" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--56" parent="aPB8rMr02nGmZcjxweb--55" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="k" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--57" parent="aPB8rMr02nGmZcjxweb--55" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="fandom_request_vehicle_images.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--99" parent="aPB8rMr02nGmZcjxweb--55" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--58" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--59" parent="aPB8rMr02nGmZcjxweb--58" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="l" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--60" parent="aPB8rMr02nGmZcjxweb--58" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" value="extract_songs_all_movies.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--100" parent="aPB8rMr02nGmZcjxweb--58" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#CC0066;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--61" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--62" parent="aPB8rMr02nGmZcjxweb--61" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#0000FF;" value="m" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--63" parent="aPB8rMr02nGmZcjxweb--61" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#0000FF;" value="extract_bond_wikidata_id_sparql.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--101" parent="aPB8rMr02nGmZcjxweb--61" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--64" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--65" parent="aPB8rMr02nGmZcjxweb--64" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#0000FF;" value="n" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--66" parent="aPB8rMr02nGmZcjxweb--64" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#0000FF;" value="extract_bond_info_sparql.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--102" parent="aPB8rMr02nGmZcjxweb--64" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--67" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--68" parent="aPB8rMr02nGmZcjxweb--67" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#0000FF;" value="o" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--69" parent="aPB8rMr02nGmZcjxweb--67" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#0000FF;" value="extract_movie_title_german_sparql.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--103" parent="aPB8rMr02nGmZcjxweb--67" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--70" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--71" parent="aPB8rMr02nGmZcjxweb--70" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" value="p" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--72" parent="aPB8rMr02nGmZcjxweb--70" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" value="merge_all_data_to_json.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--104" parent="aPB8rMr02nGmZcjxweb--70" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--73" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--74" parent="aPB8rMr02nGmZcjxweb--73" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" value="q" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--75" parent="aPB8rMr02nGmZcjxweb--73" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" value="merge_json_to_knowledge_graph.py" vertex="1">
+          <mxGeometry height="30" width="270" x="30" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--105" parent="aPB8rMr02nGmZcjxweb--73" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--76" parent="aPB8rMr02nGmZcjxweb--1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1">
+          <mxGeometry height="30" width="570" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--77" parent="aPB8rMr02nGmZcjxweb--76" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" value="r" vertex="1">
+          <mxGeometry height="30" width="30" as="geometry">
+            <mxRectangle height="30" width="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="run_reasoner.py" link="q_merge_json_to_knowledge_graph.py" id="aPB8rMr02nGmZcjxweb--78">
+          <mxCell parent="aPB8rMr02nGmZcjxweb--76" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" vertex="1">
+            <mxGeometry height="30" width="270" x="30" as="geometry">
+              <mxRectangle height="30" width="270" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="aPB8rMr02nGmZcjxweb--106" parent="aPB8rMr02nGmZcjxweb--76" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#006633;" vertex="1">
+          <mxGeometry height="30" width="270" x="300" as="geometry">
+            <mxRectangle height="30" width="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPB8rMr02nGmZcjxweb--16" parent="1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="30" width="260" x="1770" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-1" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" value="Wikidata" vertex="1">
+          <mxGeometry height="130" width="250" x="1030" y="180" as="geometry">
+            <mxRectangle height="30" width="100" x="760" y="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-2" parent="EGIubLVYbOPmiIF_21Iq-1" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#D6B656;" value="&lt;div&gt;&lt;b&gt;SPARQL-Queries:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;SPARQL Abfragen auf Wikidata zur Extraktion von ...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-3" edge="1" parent="1" source="9aYCO1xIoBeXe3shzOmk-14" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="EGIubLVYbOPmiIF_21Iq-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="80" as="sourcePoint" />
+            <mxPoint x="1310" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;b&gt;Wikidata-ID&lt;/b&gt; der Filme und&lt;br&gt;James Bond Darsteller&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="1090" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-5" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="370" />
+            </Array>
+            <mxPoint x="1050" y="310" as="sourcePoint" />
+            <mxPoint x="1090" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=7;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;deutschen Filmtitel&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="1090" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-7" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="440" />
+            </Array>
+            <mxPoint x="1050" y="370" as="sourcePoint" />
+            <mxPoint x="1090" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;spacingLeft=7;fillColor=#cce5ff;strokeColor=#36393d;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;Geschlecht, Geburtstag, Todestag, Staatsbürgerschaft &lt;/b&gt;der James Bond-Darsteller&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="1090" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-9" edge="1" parent="1" style="endArrow=async;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="520" />
+            </Array>
+            <mxPoint x="1050" y="440" as="sourcePoint" />
+            <mxPoint x="1090" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-10" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#d5e8d4;strokeColor=#67AB9F;" value="Kerndatensatz" vertex="1">
+          <mxGeometry height="130" width="190" x="1300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-11" parent="EGIubLVYbOPmiIF_21Iq-10" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#67AB9F;" value="&lt;b&gt;Kerndatensatz von Kaggle als Ausgangsbasis und bereinigt auf folgende Spalten:&lt;/b&gt;&lt;div&gt;Jahr, Movie-Title, Bond-Darsteller, Director, Producer und Ratings&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EGIubLVYbOPmiIF_21Iq-12" edge="1" parent="1" source="9aYCO1xIoBeXe3shzOmk-14" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="EGIubLVYbOPmiIF_21Iq-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1200" y="70" as="sourcePoint" />
+            <mxPoint x="1705" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

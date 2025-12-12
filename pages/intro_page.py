@@ -13,7 +13,7 @@ def show_intro_page():
     st.subheader("Dive into the world of 007 - Explore Movies, Actors & More")
 
     # ---- Tabs for Key Features and Key Findings ----
-    tab1, tab2 = st.tabs(["Key Features", "Key Finding & Obstacles"])
+    tab1, tab2, tab3 = st.tabs(["Key Features", "Key Finding & Obstacles", "Data Extraction"])
 
     with tab1:
         st.markdown("""
@@ -48,7 +48,7 @@ def show_intro_page():
     with tab2:
         st.markdown("""
         #### Knowledge Extraction with Structured Data
-        - ✅ The Kaggle dataset provided a solid foundation for the movies' structured data, requiring only minor
+        - ✅ The **Kaggle dataset** provided a solid foundation for the movies' structured data, requiring only minor
           cleaning and manual additions (e.g. adding missing producers and the latest movie "No Time to Die").
           
         - ✅ The SPARQL queries used to retrieve James Bond actors’ Wikidata IDs, their biographical information,
@@ -60,10 +60,10 @@ def show_intro_page():
           was resolved by querying both `rdfs:label` and `skos:altLabel` in a case-insensitive way.
 
         #### Knowledge Extraction with Unstructured Data
-        - ✅ The James Bond Fandom Wiki served as the primary source for all unstructured data, providing information on characters, Bond girls, vehicles, and filming locations.
+        - ✅ The **James Bond Fandom Wiki** served as the primary source for all unstructured data, providing information on characters, Bond girls, vehicles, and filming locations.
 
         - 💡 **Exception:** 36 main villains were sourced from Wikipedia, as the Fandom Wiki lacked a 
-          section clearly designating characters as villains. In addition, by using Groq-LLM 75 more villain-characters could be identified.
+          section clearly designating characters as villains. In addition, by using Groq-LLM **69 more villain-characters** could be identified.
 
         - ⚠️ **Inconsistency:** SpaCy NER was used to extract location names from unstructured text. However, some
           duplicate location names (e.g., "San Francisco" and "San Francisco City") remain in the geocoded data due
@@ -96,3 +96,8 @@ def show_intro_page():
           `time:year` to an `xsd:integer`, the ontology became consistent and the reasoning behaved as expected.
 
         """)
+
+    with tab3:
+      st.image("data/Datenquellen_Übersicht.png",
+        width="stretch",
+        caption="Übersicht der Datenextraktion (own creation)")
