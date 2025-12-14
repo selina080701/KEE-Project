@@ -13,7 +13,7 @@ def show_intro_page():
     st.subheader("Dive into the world of 007 - Explore Movies, Actors & More")
 
     # ---- Tabs for Key Features and Key Findings ----
-    tab1, tab2, tab3 = st.tabs(["Key Features", "Key Finding & Obstacles", "Data Extraction"])
+    tab1, tab2, tab3, tab4 = st.tabs(["Key Features", "Key Finding & Obstacles", "Data Extraction", "Data Pipeline"])
 
     with tab1:
         st.markdown("""
@@ -98,6 +98,11 @@ def show_intro_page():
         """)
 
     with tab3:
-      st.image("data/Datenquellen_Übersicht.png",
+      st.image("data/Übersicht_Datenquellen.png",
         width="stretch",
-        caption="Übersicht der Datenextraktion (own creation)")
+        caption="Overview of Data Sources (own creation)")
+
+    with tab4:
+      st.image("data/Übersicht_DatenPipeline.png",
+        width="content",
+        caption="Overview of Data Pipeline (own creation)")
