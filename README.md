@@ -127,7 +127,9 @@ Die Anwendung öffnet sich automatisch im Browser unter `http://localhost:8501`.
 ```
 James_Bond_Universe/
 ├── app.py                      # Haupt-Streamlit-Anwendung
+├── README.md                   # Installationsanleitung
 ├── requirements.txt            # Python-Abhängigkeiten
+├── report/                     # Projektbericht
 ├── pages/                      # Streamlit-Seiten
 │   ├── intro_page.py
 │   ├── movie_page.py
