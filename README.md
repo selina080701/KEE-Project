@@ -84,6 +84,7 @@ Das Projekt ist auf GitHub als privates Repository verfügbar. Klonen Sie das Re
 
 ```bash
 git clone https://github.com/selina080701/KEE-Project.git
+cd KEE-Project
 ```
 
 ### 2) Virtuelle Umgebung erstellen
@@ -138,7 +139,11 @@ James_Bond_Universe/
 │   ├── rdf_page.py
 │   └── image_gallery_page.py
 ├── utils/                      # Hilfsfunktionen und Konfiguration
+├── data/ 
+    ├── jamesbond_raw.csv       # Kerndatensatz von Kaggle
+    ├── triple_store/           # Kompletter Knowledge-Datensatz, serialisiert in JSON/OWL/TTL
 ├── data_pipeline/              # Datenextraktions-Skripte
-├── ontologies/                 # RDF/OWL-Ontologie-Dateien
-└── archive/                    # Archivierte Skripte
+├── extract_knowledge/          # extrahierte Knowledge-Files 
+├── ontologies/                 # Skizzen zur RDF/OWL-Ontologie
+└── archive/                    # Archivierte Skripte (nicht mehr relevant)
 ```
