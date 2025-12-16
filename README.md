@@ -62,15 +62,16 @@ Das `LinkedMDB` Vokabular (Schema, Tripels etc.) ist in der [TriblyDB](https://t
 
 ## Mehrwert
 Eine übersichtliche Visualisierung mit Streamlit schaffen.
-* **Interaktive Karte:** Drehorte weltweit, Filter (Bond-Darsteller, Jahrzehnt, Film)
+* **Interaktive Karte:** Drehorte weltweit, Filter nach Filmtitel
 * **Netzwerkgraph:** Beziehungen zwischen Bond, Antagonisten, Liebhaberinnen, Fahrzeugen und Songs
-* **Zeitstrahl:** Ratings
+* **Wiederkehrende Charaktere:** Analyse ikonischer Charaktere der gesamten Filmreihe
 
 ---
 
 ## Installationsanleitung
 
 Dieser Abschnitt beschreibt, wie das Projekt lokal eingerichtet und ausgeführt werden kann.
+Alternativ kann die Streamlit-App auch unter https://james-bond-universe.streamlit.app öffentlich aufgerufen werden.
 
 ### Voraussetzungen
 
