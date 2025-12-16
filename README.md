@@ -74,7 +74,7 @@ Dieser Abschnitt beschreibt, wie das Projekt lokal eingerichtet und ausgeführt 
 
 ### Voraussetzungen
 
-- **Python 3.12 oder höher** muss auf Ihrem System installiert sein
+- **Python 3.11 oder höher** muss auf Ihrem System installiert sein
 - **Git** (optional, zum Klonen des Repositories)
 - Eine aktive Internetverbindung für die Installation der Abhängigkeiten
 
